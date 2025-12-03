@@ -1,14 +1,3 @@
-# Skills
-
-Skills are modular, self-contained packages that extend an AI agent's capabilities by providing specialized knowledge, workflows, and tools. Think of them as "onboarding guides" for specific domains or tasks—they transform the AI agent from a general-purpose agent into a specialized agent equipped with procedural knowledge that no model can fully possess.
-
-For more information, check out:
-
-- [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills)
-- [Equipping agents for the real world with Agent Skills](https://anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)
-
-<br />
-
 # About This Repository
 
 This repository is inspired by Anthropic's Claude skills, but enhanced via Bluebag to work accross any LLM.
@@ -22,6 +11,17 @@ This repository is inspired by Anthropic's Claude skills, but enhanced via Blueb
 To try out Bluebag:
 
 - [Visit the Bluebag Playground](https://www.bluebag.ai/sdk-test)
+
+# Skills
+
+Skills are modular, self-contained packages that extend an AI agent's capabilities by providing specialized knowledge, workflows, and tools. Think of them as "onboarding guides" for specific domains or tasks—they transform the AI agent from a general-purpose agent into a specialized agent equipped with procedural knowledge that no model can fully possess.
+
+For more information, check out:
+
+- [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills)
+- [Equipping agents for the real world with Agent Skills](https://anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)
+
+<br />
 
 The repo contains example skills that demonstrate what's possible with skills system. These examples range from creative applications (art, music, design) to technical tasks (testing web apps, MCP server generation) to enterprise workflows (communications, branding, etc.).
 
