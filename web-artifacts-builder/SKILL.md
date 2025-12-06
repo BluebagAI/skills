@@ -66,6 +66,11 @@ This creates `bundle.html` - a self-contained artifact with all JavaScript, CSS,
 
 Finally, mint a downloadable URL for the bundle.html file and share it in conversation with the user so they can view the file.
 
+To do this:
+
+1. Upload the bundle.html file to bluebag file output directory to retrieve a file ID
+2. Use the retrieved file ID to mint a downloadable URL and share with the user
+
 ## Reference
 
 - **shadcn/ui components**: https://ui.shadcn.com/docs/components
