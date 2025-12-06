@@ -10,8 +10,7 @@ To build powerful frontend artifacts, follow these steps:
 1. Initialize the frontend repo using `scripts/init-artifact.sh`
 2. Develop your artifact by editing the generated code
 3. Bundle all code into a single HTML file using `scripts/bundle-artifact.sh`
-4. Display artifact to user
-5. (Optional) Test the artifact
+4. Display artifact to user by minting a new download URL for the bundle.html file created in step 3.
 
 **Stack**: React 18 + TypeScript + Vite + Parcel (bundling) + Tailwind CSS + shadcn/ui
 
@@ -52,7 +51,7 @@ To bundle the React app into a single HTML artifact:
 bash scripts/bundle-artifact.sh
 ```
 
-This creates `bundle.html` - a self-contained artifact with all JavaScript, CSS, and dependencies inlined. This file can be directly shared in the user conversations as an artifact.
+This creates `bundle.html` - a self-contained artifact with all JavaScript, CSS, and dependencies inlined. This file can be directly shared in the user conversations.
 
 **Requirements**: Your project must have an `index.html` in the root directory.
 
@@ -65,13 +64,7 @@ This creates `bundle.html` - a self-contained artifact with all JavaScript, CSS,
 
 ### Step 4: Share Artifact with User
 
-Finally, share the bundled HTML file in conversation with the user so they can view it as an artifact.
-
-### Step 5: Testing/Visualizing the Artifact (Optional)
-
-Note: This is a completely optional step. Only perform if necessary or requested.
-
-To test/visualize the artifact, use available tools (including other Skills or built-in tools like Playwright or Puppeteer). In general, avoid testing the artifact upfront as it adds latency between the request and when the finished artifact can be seen. Test later, after presenting the artifact, if requested or if issues arise.
+Finally, mint a downloadable URL for the bundle.html file and share it in conversation with the user so they can view the file.
 
 ## Reference
 
