@@ -1,5 +1,5 @@
 ---
-name: generating-image-superprompts
+name: superimage-generator
 description: "WHAT: Transforms basic image prompts into model-optimized superprompts for AI image generation. WHEN: generating images, creating AI art, enhancing image prompts, working with Flux, Flux Kontext Max, Nano Banana, Midjourney, Ideogram, Recraft, Luma, Reve, Grok, GPT Image 1.5, or Seedream 4.5. KEYWORDS: superprompt, image prompt, generate image, AI art, enhance prompt, optimize prompt, photorealistic, portrait, product, selfie, photography, image generation."
 ---
 
@@ -155,30 +155,73 @@ When to use a different model:
 ```json
 {
   "prompt_type": "portrait",
-  "meta": { "quality_tier": "professional", "aspect_ratio": "9:16", "style": "photorealistic", "target_model": "flux" },
+  "meta": {
+    "quality_tier": "professional",
+    "aspect_ratio": "9:16",
+    "style": "photorealistic",
+    "target_model": "flux"
+  },
   "subject": {
     "description": "young woman mid-20s, honey blonde beach waves, confident smile",
-    "identity": { "age_range": "mid-20s", "type": "young woman", "distinguishing_features": ["honey blonde beach waves", "confident smile"] },
+    "identity": {
+      "age_range": "mid-20s",
+      "type": "young woman",
+      "distinguishing_features": ["honey blonde beach waves", "confident smile"]
+    },
     "physical_details": {
       "skin": { "tone": "light warm", "texture": "visible pores, natural" },
-      "hair": { "color": "honey blonde", "style": "beach waves, past shoulders" },
+      "hair": {
+        "color": "honey blonde",
+        "style": "beach waves, past shoulders"
+      },
       "face": { "expression": "confident smile", "gaze": "direct at camera" }
     },
     "expression_mood": "confident, relaxed"
   },
   "wardrobe": {
     "clothing": [
-      { "type": "tank top", "material": "cotton", "fit": "fitted", "color": "white" },
+      {
+        "type": "tank top",
+        "material": "cotton",
+        "fit": "fitted",
+        "color": "white"
+      },
       { "type": "denim shorts", "fit": "high-waisted", "details": "frayed hem" }
     ],
     "accessories": ["gold layered necklaces", "small hoop earrings"]
   },
-  "pose_action": { "position": "mirror selfie, phone at chest level", "posture": "slight hip tilt" },
-  "environment": { "location": "modern apartment bedroom", "background": ["natural light from window"], "atmosphere": "casual, warm" },
-  "lighting": { "type": "natural", "quality": "soft diffused", "effects": ["window light", "subtle shadows"] },
-  "camera_technical": { "device": "iPhone 15 Pro", "lens": "24mm wide", "aperture": "f/2.0" },
-  "realism_anchors": ["visible skin pores", "fabric texture", "natural window light"],
-  "negative_prompt": ["cartoon", "deformed", "blurry", "airbrushed", "watermark", "low quality"]
+  "pose_action": {
+    "position": "mirror selfie, phone at chest level",
+    "posture": "slight hip tilt"
+  },
+  "environment": {
+    "location": "modern apartment bedroom",
+    "background": ["natural light from window"],
+    "atmosphere": "casual, warm"
+  },
+  "lighting": {
+    "type": "natural",
+    "quality": "soft diffused",
+    "effects": ["window light", "subtle shadows"]
+  },
+  "camera_technical": {
+    "device": "iPhone 15 Pro",
+    "lens": "24mm wide",
+    "aperture": "f/2.0"
+  },
+  "realism_anchors": [
+    "visible skin pores",
+    "fabric texture",
+    "natural window light"
+  ],
+  "negative_prompt": [
+    "cartoon",
+    "deformed",
+    "blurry",
+    "airbrushed",
+    "watermark",
+    "low quality"
+  ]
 }
 ```
 
@@ -189,20 +232,45 @@ When to use a different model:
 ```json
 {
   "prompt_type": "product",
-  "meta": { "quality_tier": "professional", "aspect_ratio": "1:1", "style": "photorealistic", "target_model": "flux" },
+  "meta": {
+    "quality_tier": "professional",
+    "aspect_ratio": "1:1",
+    "style": "photorealistic",
+    "target_model": "flux"
+  },
   "subject": {
     "description": "vintage 1970s Polaroid camera, cream and brown body, rainbow stripe",
-    "physical_details": { "materials": ["plastic body", "metal accents"], "finish": "matte with age patina" }
+    "physical_details": {
+      "materials": ["plastic body", "metal accents"],
+      "finish": "matte with age patina"
+    }
   },
   "environment": {
     "location": "weathered wooden table surface",
     "background": ["soft out-of-focus bookshelf", "warm afternoon light"],
     "atmosphere": "nostalgic, cozy"
   },
-  "lighting": { "type": "golden-hour", "direction": "side lighting from window", "quality": "soft warm", "effects": ["warm highlights", "soft shadows"] },
+  "lighting": {
+    "type": "golden-hour",
+    "direction": "side lighting from window",
+    "quality": "soft warm",
+    "effects": ["warm highlights", "soft shadows"]
+  },
   "camera_technical": { "lens": "50mm macro", "aperture": "f/2.8" },
-  "realism_anchors": ["surface scratches", "dust particles", "leather texture", "metal patina"],
-  "negative_prompt": ["blurry", "low quality", "oversaturated", "artificial", "floating", "watermark"]
+  "realism_anchors": [
+    "surface scratches",
+    "dust particles",
+    "leather texture",
+    "metal patina"
+  ],
+  "negative_prompt": [
+    "blurry",
+    "low quality",
+    "oversaturated",
+    "artificial",
+    "floating",
+    "watermark"
+  ]
 }
 ```
 
@@ -227,9 +295,16 @@ Nano-banana uses its own flat structure — no `prompt_type` field needed.
     "bottom": "high-waisted denim shorts, frayed hem",
     "accessories": ["gold layered necklaces", "small hoop earrings"]
   },
-  "pose_action": { "description": "mirror selfie, holding smartphone at chest level, slight hip tilt" },
-  "scene": { "environment": "modern apartment bedroom, natural light from window" },
-  "lighting": { "type": "soft natural", "effects": ["diffused window light", "subtle shadows"] },
+  "pose_action": {
+    "description": "mirror selfie, holding smartphone at chest level, slight hip tilt"
+  },
+  "scene": {
+    "environment": "modern apartment bedroom, natural light from window"
+  },
+  "lighting": {
+    "type": "soft natural",
+    "effects": ["diffused window light", "subtle shadows"]
+  },
   "camera": {
     "technical": "iPhone 15 Pro, 24mm wide, f/2.0",
     "aspect_ratio": "9:16",
@@ -351,7 +426,10 @@ Add this block to your full superprompt:
       "details": "visible skin pores, natural texture"
     },
     "appearance": {
-      "skin": { "tone": "same as reference image", "texture": "natural, visible pores" },
+      "skin": {
+        "tone": "same as reference image",
+        "texture": "natural, visible pores"
+      },
       "expression": "confident smile",
       "gaze": "direct at camera"
     }
@@ -366,7 +444,10 @@ Add this block to your full superprompt:
     "environment": "modern gym, weight racks in background",
     "lighting": { "type": "overhead fluorescent", "quality": "bright, even" }
   },
-  "lighting": { "type": "gym fluorescent", "effects": "even illumination, subtle shadows" },
+  "lighting": {
+    "type": "gym fluorescent",
+    "effects": "even illumination, subtle shadows"
+  },
   "camera": {
     "technical": "iPhone 15 Pro, 24mm wide, f/1.8",
     "aspect_ratio": "9:16",
