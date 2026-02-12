@@ -1,0 +1,217 @@
+{
+  "name": "Iris Necklace Dark Portrait",
+  "description": "Candid close-up selfie portrait with nameplate necklace in dimly lit room, soft frontal lighting",
+  "input_prompt": "woman selfie portrait dark room with gold nameplate necklace",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "high_quality",
+      "aspect_ratio": "4:5",
+      "style": "candid_selfie_portrait",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "young woman early 20s with light brown to dirty blonde hair in messy casual bun, fair skin with natural texture",
+      "identity": {
+        "age_range": "early 20s",
+        "type": "young woman",
+        "distinguishing_features": [
+          "messy bun with wispy strands",
+          "light green/grey eyes",
+          "natural beauty"
+        ]
+      },
+      "physical_details": {
+        "skin": {
+          "tone": "fair",
+          "texture": "natural with slight rosy flush on cheeks"
+        },
+        "hair": {
+          "color": "light brown to dirty blonde",
+          "style": "messy casual bun/updo",
+          "details": "several loose wispy strands falling freely to frame face and eyes"
+        },
+        "face": {
+          "makeup": "minimal/natural look",
+          "details": "eyes: light green/grey, soft direct gaze at camera; lips: natural pink shade, closed mouth with subtle gentle smile",
+          "expression": "calm, poised"
+        }
+      },
+      "expression_mood": "candid, intimate, soft, approachable"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "black fitted tank top (camisole)",
+          "details": "thin spaghetti straps, visible ribbed fabric texture, scoop neckline"
+        }
+      ],
+      "accessories": [
+        "type: delicate gold chain necklace, details: cursive nameplate pendant reading 'Iris'"
+      ]
+    },
+    "pose_action": {
+      "position": "close-up selfie portrait, chest-up shot",
+      "camera_relation": "direct eye contact with camera",
+      "dynamic_elements": "angle: selfie angle, front-facing; aesthetic: candid, realistic, casual social media style"
+    },
+    "environment": {
+      "location": "dark dimly lit indoor room",
+      "background": [
+        "indistinct furniture shapes in deep shadow",
+        "low-key lighting environment"
+      ],
+      "atmosphere": "intimate, private, late-night mood"
+    },
+    "lighting": {
+      "type": "soft frontal lighting",
+      "quality": "highlights face and chest, creates contrast with dark background",
+      "shadows": "soft shadows under jawline and clavicle",
+      "style": "low-key with subject illumination",
+      "effects": [
+        "soft highlights",
+        "gentle shadow falloff"
+      ]
+    },
+    "camera_technical": {
+      "style": "candid selfie portrait",
+      "framing": "close-up, chest-up shot",
+      "focus": "soft focus overall, sharp on eyes",
+      "style_tags": [
+        "social media aesthetic",
+        "intimate portrait",
+        "low-key lighting"
+      ]
+    },
+    "realism_anchors": [
+      "natural skin texture",
+      "visible ribbed fabric texture on tank top",
+      "realistic gold necklace chain",
+      "readable cursive text on pendant",
+      "wispy hair strands catching light"
+    ],
+    "negative_prompt": [
+      "harsh lighting",
+      "studio setup",
+      "heavy makeup",
+      "glamour photography",
+      "cartoon",
+      "3d render",
+      "anime",
+      "blurry",
+      "low quality",
+      "overexposed",
+      "flat"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "candid selfie portrait close-up chest-up, young woman early 20s fair skin natural texture, light brown dirty blonde hair messy casual bun wispy strands framing face, light green grey eyes soft direct gaze, subtle gentle smile natural pink lips minimal makeup slight rosy cheeks, black fitted ribbed tank top spaghetti straps scoop neckline, delicate gold chain necklace cursive nameplate pendant reading 'Iris', dark dimly lit indoor room indistinct furniture deep shadow, soft frontal lighting highlighting face contrast with dark background, soft shadows under jawline and clavicle, selfie angle front-facing, casual social media aesthetic soft focus, 4:5",
+  "negative_prompt_flat": "harsh lighting, studio setup, heavy makeup, glamour, cartoon, 3d render, blurry, overexposed",
+  "color_palette": {
+    "primary": "black tank top",
+    "secondary": "fair skin tones, rosy cheeks",
+    "accent": "gold necklace",
+    "background": "deep shadows, dark room"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "candid selfie portrait, young woman fair skin messy bun wispy strands, light green grey eyes soft gaze gentle smile, black ribbed tank top spaghetti straps, delicate gold chain necklace cursive 'Iris' nameplate pendant, dark dimly lit room shadowy background, soft frontal lighting contrast with dark, selfie angle close-up chest-up, social media aesthetic soft focus, 4:5",
+      "negative_prompt": "harsh lighting, studio, heavy makeup, glamour, cartoon, 3d render, blurry"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Young woman, early 20s, fair skin with natural texture",
+          "hair": {
+            "color": "Light brown to dirty blonde",
+            "style": "Messy casual bun/updo",
+            "details": "Several loose wispy strands falling freely to frame face and eyes"
+          },
+          "face": {
+            "eyes": "Light green/grey, soft direct gaze at camera",
+            "lips": "Natural pink, closed mouth with subtle gentle smile",
+            "makeup": "Minimal/natural look, slight rosy flush on cheeks"
+          }
+        },
+        "wardrobe": {
+          "top": "Black fitted tank top (camisole), thin spaghetti straps, visible ribbed fabric texture, scoop neckline",
+          "jewelry": "Delicate gold chain necklace with cursive nameplate pendant reading 'Iris'"
+        },
+        "pose_action": {
+          "framing": "Close-up selfie portrait, chest-up shot",
+          "angle": "Selfie angle, front-facing",
+          "expression": "Candid, soft, direct eye contact"
+        },
+        "scene": {
+          "environment": "Dark, dimly lit indoor room",
+          "background": "Indistinct furniture shapes in deep shadow (low key)",
+          "atmosphere": "Intimate, private, late-night"
+        },
+        "lighting": {
+          "type": "Soft frontal lighting highlighting face and chest",
+          "contrast": "Subject lit against dark background",
+          "shadows": "Soft shadows under jawline and clavicle"
+        },
+        "camera": {
+          "style": "Candid selfie, realistic social media aesthetic",
+          "focus": "Soft overall, sharp on eyes",
+          "aspect_ratio": "4:5",
+          "negative_constraints": "no harsh lighting, no studio setup, no heavy makeup, no glamour"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "candid selfie portrait, woman messy bun wispy hair, green-grey eyes gentle smile, black ribbed tank top, gold nameplate necklace 'Iris', dark room soft frontal lighting, low-key intimate mood --ar 4:5 --style raw --v 6",
+      "notes": "Use --style raw for authentic candid selfie aesthetic"
+    },
+    "ideogram": {
+      "prompt": "Close-up selfie portrait of young woman with messy bun and wispy hair strands, light green-grey eyes, wearing black tank top and delicate gold necklace with cursive 'Iris' nameplate pendant, dimly lit room with soft frontal lighting, intimate candid mood",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "4:5"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Candid selfie portrait, woman with messy bun, black tank top, gold 'Iris' nameplate necklace, dark room, soft frontal lighting"
+    },
+    "luma": {
+      "prompt": "Intimate bedroom moment, woman holds phone for selfie in dimly lit room, soft light catches gold necklace and wispy hair strands, shadows play in the background, quiet late-night atmosphere",
+      "motion_notes": "Subtle phone adjustment, gentle breathing, soft light flicker"
+    },
+    "reve": {
+      "prompt": "Intimate portrait photography in the style of candid social media selfies, messy bun wispy strands, black tank top gold nameplate necklace, low-key lighting against dark room, natural authentic beauty",
+      "art_references": [
+        "Candid selfie portraits",
+        "Low-key intimate photography",
+        "Social media aesthetic"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Candid selfie of woman with messy bun and wispy hair, green-grey eyes, black tank top, gold chain necklace with 'Iris' nameplate, dark room background, soft frontal lighting, intimate mood"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A candid selfie portrait of a young woman in her early 20s with light brown to dirty blonde hair styled in a messy casual bun, with several wispy strands falling freely to frame her face and eyes. She has fair skin with a natural texture and a slight rosy flush on her cheeks. Her light green-grey eyes hold a soft direct gaze at the camera, and she has a subtle gentle smile with natural pink lips and minimal makeup. She wears a black fitted ribbed tank top with thin spaghetti straps and a scoop neckline. Around her neck is a delicate gold chain necklace with a cursive nameplate pendant that reads 'Iris'. The setting is a dimly lit indoor room with indistinct furniture shapes in deep shadow behind her. Soft frontal lighting illuminates her face and chest, creating contrast with the dark background and soft shadows under her jawline. The image has a candid social media aesthetic with soft focus. No watermark. No artificial smoothing. Realistic skin texture.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Young woman early 20s with messy bun hairstyle and wispy hair strands framing her face. Light green-grey eyes with soft direct gaze, subtle smile, fair skin with rosy cheeks. Black ribbed tank top with spaghetti straps, delicate gold chain necklace with cursive 'Iris' nameplate pendant. Dark dimly lit room background with soft frontal lighting. Candid selfie portrait, intimate mood, social media aesthetic. Not glamour photography, not studio lighting.",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A close-up selfie portrait of a young woman with light brown to dirty blonde hair in a messy casual bun, wispy strands framing her face. Light green-grey eyes with a soft direct gaze at camera, subtle gentle smile with natural pink lips, minimal makeup with slight rosy cheeks. She wears a black fitted ribbed tank top with spaghetti straps and a delicate gold chain necklace with a cursive nameplate pendant reading 'Iris'. Dark dimly lit room with indistinct furniture in shadow behind her. Soft frontal lighting highlights her face against the dark background. Candid social media selfie aesthetic with natural skin texture.",
+      "editing_prompt": "Change the nameplate text from 'Iris' to 'Luna' while keeping the necklace style, outfit, and lighting the same. Preserve the candid selfie aesthetic and soft expression.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed necklace description (cursive nameplate, specific text 'Iris'), fabric texture (ribbed)",
+    "2_realism_anchors: 'natural skin texture', 'ribbed fabric texture', 'readable cursive text', 'wispy hair catching light'",
+    "3_technical_camera: 'selfie angle', 'close-up chest-up', 'soft focus overall sharp on eyes'",
+    "4_negative_hygiene: prevents harsh lighting, studio setup, glamour look",
+    "5_spatial_consistency: clear framing (close-up, front-facing, chest-up)",
+    "6_lighting_storytelling: 'soft frontal against dark background' = intimate late-night mood",
+    "7_text_rendering: specific nameplate text 'Iris' in cursive script"
+  ]
+}

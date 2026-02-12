@@ -1,0 +1,164 @@
+{
+  "template_type": "BRAND_CONCEPT_OBJECT_EDITORIAL_V1",
+  "template_instructions": {
+    "replace_all_tokens": true,
+    "token_prefix": "REPLACE_ME_",
+    "fail_if_unreplaced_tokens_exist": true,
+    "output_one_final_prompt_only": true
+  },
+  "replacement_guide": {
+    "REPLACE_ME_BRAND_NAME": "Acme Design House",
+    "REPLACE_ME_PASTEL_BACKGROUND": "desaturated mint",
+    "REPLACE_ME_LOGO_STYLE": "small monochrome gray wordmark",
+    "REPLACE_ME_EDITORIAL_SEASON": "SS25"
+  },
+  "name": "Brand Concept Utility Object Editorial",
+  "description": "Magazine-style studio concept shot where AI invents a functional non-fashion object through a brand's material language",
+  "input_prompt": "REPLACE_ME_BRAND_NAME concept utility object editorial",
+  "target_model": "gpt-image-1.5",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "masterpiece",
+      "aspect_ratio": "4:5",
+      "style": "editorial",
+      "target_model": "gpt-image-1.5"
+    },
+    "concept": {
+      "brand_name": "REPLACE_ME_BRAND_NAME",
+      "object_rule": "Invent one unexpected functional object (not clothing, shoes, or bags)",
+      "object_categories_allowed": [
+        "home good",
+        "tech accessory",
+        "precision tool",
+        "sporting utility item"
+      ],
+      "design_brief": "Object must feel sculptural yet functional, with clear usability cues and premium construction"
+    },
+    "subject": {
+      "description": "single hero object conceptualized as a REPLACE_ME_BRAND_NAME design study, photographed as high-end glossy concept art editorial",
+      "physical_details": {
+        "materials": [
+          "patinated premium leather accents",
+          "brushed aerospace-grade titanium hardware",
+          "sculpted matte ceramic body sections",
+          "molded carbon fiber structural elements"
+        ],
+        "micro_detail_requirements": [
+          "visible precision stitching",
+          "microscopic material grain",
+          "laser-sharp engravings",
+          "controlled roughness contrast between materials"
+        ],
+        "finish": "hyper-realistic tactile surfaces, no plastic look"
+      }
+    },
+    "environment": {
+      "location": "cinematic studio cyclorama",
+      "background": [
+        "seamless REPLACE_ME_PASTEL_BACKGROUND cyclorama",
+        "impeccably clean, no clutter",
+        "no hard shadows on backdrop"
+      ],
+      "atmosphere": "luxury concept editorial, polished but minimal"
+    },
+    "lighting": {
+      "type": "studio",
+      "direction": "large soft key with subtle enveloping fill and precision rim lights",
+      "quality": "soft",
+      "effects": [
+        "hero detail highlights on edges and engravings",
+        "contour-separating rim light",
+        "creamy background bokeh with high material separation"
+      ]
+    },
+    "camera_technical": {
+      "device": "Phase One medium format",
+      "lens": "100mm macro",
+      "aperture": "f/2.8",
+      "resolution": "8k",
+      "style_tags": [
+        "extremely shallow depth of field",
+        "glossy concept editorial",
+        "macro hero-detail focus",
+        "cinematic studio realism"
+      ]
+    },
+    "layout_overlays": {
+      "bottom_right_logo": {
+        "content": "REPLACE_ME_BRAND_NAME",
+        "style": "REPLACE_ME_LOGO_STYLE",
+        "color": "monochrome gray",
+        "size_rule": "small and understated",
+        "placement": "bottom-right corner"
+      },
+      "bottom_left_caption": {
+        "content_template": "CONCEPT STUDY: [AI_OBJECT_NAME]. MATERIAL: [AI_MAIN_MATERIALS]. REPLACE_ME_EDITORIAL_SEASON.",
+        "font_style": "Manrope Regular-like",
+        "color": "monochrome gray",
+        "tracking": "tight",
+        "line_spacing": "balanced minimal",
+        "placement": "bottom-left corner"
+      }
+    },
+    "realism_anchors": [
+      "functional object geometry with plausible ergonomics",
+      "physically accurate metal anisotropy",
+      "ceramic roughness and edge wear variation",
+      "carbon fiber weave fidelity",
+      "engraving depth and micro-shadow precision",
+      "clean cyclorama gradient rolloff"
+    ],
+    "negative_prompt": [
+      "clothing item",
+      "shoe",
+      "bag",
+      "human model",
+      "extra objects clutter",
+      "toy-like proportions",
+      "flat lighting",
+      "text overflow",
+      "misplaced logo",
+      "watermark",
+      "cartoon",
+      "anime",
+      "blurry",
+      "low quality"
+    ],
+    "prompt_type": "product"
+  },
+  "flattened_prompt": "high-end glossy concept editorial photo for REPLACE_ME_BRAND_NAME, invent one unexpected functional utility object (not clothing/shoes/bags), sculptural yet functional form language, ultra-premium tactile materials: patinated leather, brushed titanium, matte ceramic, carbon fiber, visible stitching, micro-grain, precision engravings, shot on Phase One medium format with 100mm macro, f/2.8, extremely shallow depth of field, cinematic softbox + fill + rim lighting, seamless REPLACE_ME_PASTEL_BACKGROUND cyclorama, clean and shadow-free background, bottom-right small monochrome REPLACE_ME_BRAND_NAME logo, bottom-left Manrope-like gray caption: CONCEPT STUDY with object name and materials, REPLACE_ME_EDITORIAL_SEASON",
+  "negative_prompt_flat": "clothing, shoes, bag, human model, clutter, flat lighting, misplaced logo, watermark, cartoon, blurry",
+  "color_palette": {
+    "primary": "soft pastel neutral",
+    "secondary": "graphite, titanium silver, matte ceramic neutrals",
+    "accent": "subtle brand-led micro accents",
+    "contrast": "high local contrast on object details with soft global background"
+  },
+  "model_adaptations": {
+    "gpt-image-1.5": {
+      "prompt": "Create a high-end glossy concept art magazine editorial photograph for REPLACE_ME_BRAND_NAME. Invent one novel functional utility object (not clothing, shoes, or bags) that reflects the brand's heritage and material vocabulary. The object should feel sculptural yet genuinely usable. Use hyper-premium tactile materials such as patinated leather, brushed aerospace titanium, matte ceramic, and carbon fiber, with visible stitching, microscopic grain, precision engravings, and contrast-rich surface behavior. Shoot as if on Phase One medium format with a 100mm macro lens, extremely shallow depth of field, and creamy bokeh. Use sophisticated studio softbox lighting with gentle fill and precise rim lighting to reveal contours and textures. Place the object in a seamless ultra-light pastel cyclorama, perfectly clean and shadow-free. Add strict UI placement: bottom-right small monochrome gray REPLACE_ME_BRAND_NAME logo; bottom-left small monochrome gray caption in Manrope-Regular-like style with tight tracking: CONCEPT STUDY: [invented object name]. MATERIAL: [main materials]. REPLACE_ME_EDITORIAL_SEASON.",
+      "quality": "high",
+      "notes": "Best for text placement, structured editorial layout, and complex material reasoning"
+    },
+    "flux": {
+      "prompt": "glossy concept magazine editorial for REPLACE_ME_BRAND_NAME, invented functional utility object not fashion accessory, sculptural usable form, premium materials leather titanium ceramic carbon fiber with stitching and engravings, Phase One 100mm macro look, ultra shallow depth, softbox fill plus rim light, seamless light pastel cyclorama, bottom-right monochrome logo, bottom-left concept study caption, ultra-detailed",
+      "negative_prompt": "human model, clothing, bag, shoes, clutter, cartoon, blurry, watermark"
+    },
+    "ideogram": {
+      "prompt": "Luxury concept editorial product photo for REPLACE_ME_BRAND_NAME featuring one invented functional object in premium mixed materials. Clean pastel cyclorama studio. Include small monochrome logo bottom-right and minimalist caption bottom-left with concept study text.",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "4:5"
+      }
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: strict separation of concept, materials, camera, lighting, and overlay layout",
+    "2_realism_anchors: micro-texture, engravings, anisotropic highlights, and tactile material fidelity",
+    "3_technical_camera: explicit medium-format + macro spec for premium editorial look",
+    "4_negative_hygiene: excludes fashion items and clutter to preserve functional-object scope",
+    "5_spatial_consistency: strict bottom-left and bottom-right overlay placement constraints",
+    "6_brand_intelligence: autonomous object invention guided by brand heritage and material language",
+    "7_small_model_readability: REPLACE_ME tokens and fail-fast substitution rules"
+  ]
+}

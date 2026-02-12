@@ -1,0 +1,139 @@
+{
+  "name": "Black & White Window Portrait",
+  "description": "Dramatic B&W portrait with window shadow patterns - demonstrates text-to-structured transformation",
+  "input_prompt": "black and white portrait with window shadows",
+  "original_text_prompt": "A black-and-white aesthetic portrait of a stylish young woman wearing a dark coat and casual clothes, illuminated by dramatic window shadows cast on the wall. The mood is introspective and cinematic, with strong contrast between light and shadow. Black-and-white photography style, minimalistic background, soft natural light, contemplative expression, and artistic composition.",
+  "target_model": "nano-banana",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "ultra_photorealistic",
+      "aspect_ratio": "4:5",
+      "quality": "ultra_photorealistic",
+      "color_mode": "black_and_white",
+      "style": "fine art portrait, high contrast monochrome, film noir aesthetic",
+      "target_model": "nano-banana"
+    },
+    "subject": {
+      "description": "Stylish young woman in a dark coat with a contemplative expression, captured in dramatic black-and-white window-shadow portrait lighting.",
+      "body": {
+        "physique": "Slender-to-average build with elegant posture and relaxed presence.",
+        "anatomy": "Shoulders slightly turned near the window, natural stance with relaxed arms and hands in a gentle pose.",
+        "details": "Natural skin texture and visible coat weave emphasized by high-contrast monochrome lighting."
+      },
+      "face": "Contemplative, slightly melancholic expression with gaze looking away from camera; natural beauty with minimal makeup.",
+      "expression_mood": "artistic, thoughtful, quietly confident"
+    },
+    "wardrobe": {
+      "top": "Dark wool or cashmere coat, slightly oversized and draped elegantly with visible fabric weave in high-contrast light.",
+      "bottom": "Casual layered clothing in dark tones that read as deep grays in black-and-white.",
+      "accessories": []
+    },
+    "pose_action": {
+      "description": "Standing or seated near the window with relaxed but elegant body language, shoulders slightly turned.",
+      "posture": "Hands in a natural position, possibly one touching face or collar."
+    },
+    "scene": {
+      "environment": "Minimalist interior space near a large multi-pane window casting geometric shadows.",
+      "background": "Plain light-colored wall designed to catch crisp window shadow patterns.",
+      "atmosphere": "Quiet, intimate, gallery-like space."
+    },
+    "lighting": {
+      "type": "natural window light",
+      "quality": "soft but directional with high contrast",
+      "effects": [
+        "distinct geometric window shadow patterns across wall and subject",
+        "crisp shadow edges from window mullions",
+        "strong light-to-shadow separation"
+      ],
+      "shadows": "Crisp, patterned shadows from window frames."
+    },
+    "camera": {
+      "technical": "Medium format or full-frame camera, 85mm f/2, moderate depth of field with slight background softness, rich blacks and bright whites with subtle film grain.",
+      "aspect_ratio": "4:5",
+      "negative_constraints": "No color, no harsh artificial lighting, no busy backgrounds, no bright cheerful expressions, no heavy makeup.",
+      "lens": "85mm",
+      "style": "black-and-white fine art portrait"
+    },
+    "negative_prompt": [
+      "no color",
+      "no harsh artificial lighting",
+      "no busy backgrounds",
+      "no bright cheerful expressions",
+      "no heavy makeup"
+    ],
+    "mood_keywords": [
+      "introspective",
+      "cinematic",
+      "artistic",
+      "melancholic beauty",
+      "quiet drama"
+    ],
+    "negative_constraints": [
+      "no color",
+      "no harsh artificial lighting",
+      "no busy backgrounds",
+      "no bright cheerful expressions",
+      "no heavy makeup"
+    ]
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "masterpiece, fine art photography, black and white portrait, young woman in dark wool coat, contemplative expression looking away, dramatic window shadows cast geometric patterns on wall and face, high contrast monochrome, cinematic film noir lighting, minimalist background, soft natural window light, 85mm f/2, subtle film grain, 4:5 aspect ratio",
+      "negative_prompt": "color, colorful, saturated, busy background, smiling, heavy makeup, artificial lighting, low contrast, flat lighting"
+    },
+    "midjourney": {
+      "prompt": "black and white portrait of stylish young woman in dark coat, dramatic window shadows cast on wall creating geometric patterns, contemplative introspective expression, high contrast monochrome, cinematic lighting, minimalist background, fine art photography --ar 4:5 --style raw --v 6",
+      "notes": "Add --bw or emphasize monochrome in prompt"
+    },
+    "ideogram": {
+      "prompt": "Fine art black and white portrait of young woman in dark wool coat, dramatic window shadows creating geometric patterns on wall and face, contemplative expression, high contrast monochrome photography, minimalist background, cinematic film noir aesthetic",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "4:5"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Black and white portrait, stylish woman in dark coat, window shadows cast geometric patterns, contemplative expression, high contrast cinematic lighting, minimalist background"
+    },
+    "reve": {
+      "prompt": "Fine art monochrome portrait in the style of Irving Penn meets film noir, young woman in elegant dark coat, dramatic chiaroscuro window lighting, geometric shadow patterns, introspective gaze, high contrast black and white",
+      "art_references": ["Irving Penn", "Helmut Newton", "Film Noir cinematography"]
+    },
+    "grok-imagine": {
+      "prompt": "Dramatic black and white portrait of woman in dark coat with window shadows creating patterns on face and wall, contemplative expression, cinematic high contrast lighting"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A fine art black and white portrait of a stylish young woman in her mid-20s wearing a dark wool coat, slightly oversized and draped elegantly over casual dark-toned clothing. She stands near a window in a minimalist interior space with a plain light-colored wall. Her expression is contemplative and introspective, gazing away from the camera, lost in thought. Dramatic window shadows cast geometric patterns from window frame mullions across both the wall and her face and body. The lighting is natural window light, soft but directional, creating high contrast between lit areas and deep shadows. The image features rich blacks, bright whites, and a full tonal range with subtle film grain. Shot with an 85mm lens at f/2 on medium format, creating moderate depth of field with slight background softness. No color. No artificial lighting. Realistic fabric texture visible in coat weave.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Black and white fine art portrait of stylish young woman in dark wool coat, contemplative expression gazing away from camera, dramatic geometric window shadows cast on face and minimalist wall, high contrast monochrome cinematic lighting, soft natural window light, subtle film grain, 85mm portrait lens, 4:5 aspect ratio, not colorful, not flat lighting",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A fine art black and white portrait of a young woman in a dark wool coat standing in a minimalist interior. Dramatic window shadows create geometric patterns across her face and the light-colored wall behind her. Her expression is contemplative and introspective, looking away from camera. High contrast monochrome with rich blacks and bright whites. Natural window light creates strong directional shadows from window frame mullions. Subtle film grain adds organic texture. Shot at 85mm f/2 with slight background softness.",
+      "editing_prompt": "Convert the image to color while keeping the woman's pose, expression, and the geometric window shadow patterns the same. Preserve the contemplative mood and high contrast lighting.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Nested shadow characteristics with pattern/sharpness/coverage",
+    "2_realism_anchors: 'visible fabric weave', 'subtle film grain'",
+    "3_technical_camera: '85mm f/2', 'medium format', black_and_white_treatment details",
+    "4_negative_hygiene: 'no color', 'no busy backgrounds', 'no heavy makeup'",
+    "5_spatial_consistency: window off-frame, shadows fall across subject and wall",
+    "6_lighting_storytelling: window shadows = introspective, artistic mood",
+    "7_mood_keywords: explicit emotional direction"
+  ],
+  "transformation_notes": {
+    "original_was": "Simple text description",
+    "transformed_to": "Structured JSON with explicit technical and emotional parameters",
+    "key_extractions": [
+      "Identified implicit camera specs (85mm, f/2 for portrait)",
+      "Expanded 'window shadows' into detailed shadow_characteristics",
+      "Added B&W treatment parameters for tonal control"
+    ]
+  }
+}

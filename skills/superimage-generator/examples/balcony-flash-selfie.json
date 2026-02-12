@@ -1,0 +1,246 @@
+{
+  "name": "Balcony Flash Selfie Night",
+  "description": "Late night apartment balcony selfie with iPhone flash, cozy vibes, beer bottle prop",
+  "input_prompt": "woman taking flash selfie on apartment balcony at night with beer",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "ultra_photorealistic",
+      "aspect_ratio": "9:16",
+      "style": "raw_iphone_flash_selfie",
+      "target_model": "flux",
+      "camera": "iPhone 15 Pro Max front camera",
+      "flash": "front flash enabled"
+    },
+    "subject": {
+      "description": "young woman early 20s with blonde shoulder-length hair, beautiful genuine happy smile, slightly tipsy cozy vibes",
+      "identity": {
+        "age_range": "early 20s",
+        "type": "young woman",
+        "distinguishing_features": [
+          "blonde hair",
+          "genuine smile",
+          "relaxed happy expression"
+        ]
+      },
+      "physical_details": {
+        "body_type": "slim-thick with soft defined waist, rounded hips, naturally full chest",
+        "skin": {
+          "tone": "pale with warm undertone",
+          "texture": "natural with flash illumination, realistic shine",
+          "realism_markers": [
+            "flash highlights",
+            "natural skin texture"
+          ]
+        },
+        "hair": {
+          "color": "blonde",
+          "style": "shoulder length, slightly messy"
+        },
+        "face": {
+          "expression": "the most beautiful genuine smile, joyful and happy",
+          "makeup": "minimal natural, light gloss"
+        }
+      },
+      "expression_mood": "tipsy, cozy, happy, effortlessly relaxed"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "black knit sweater cardigan",
+          "material": "soft knit",
+          "fit": "slightly loose, draping naturally, buttoned",
+          "details": "no bra underneath"
+        },
+        {
+          "type": "dark yoga leggings",
+          "color": "dark tone",
+          "fit": "fitted, minimal and clean"
+        },
+        {
+          "type": "bare feet",
+          "details": "barefoot with white french nail polish"
+        }
+      ],
+      "accessories": []
+    },
+    "pose_action": {
+      "position": "sitting on outdoor sofa, knees pulled toward chest, cozy curled up",
+      "camera_relation": "arm-length selfie, slightly above eye level, bare feet to head framing",
+      "dynamic_elements": "phone hand holding for selfie, other hand loosely holding Carlsberg beer bottle"
+    },
+    "environment": {
+      "location": "cozy apartment balcony at night",
+      "background": [
+        "soft city lights blurred",
+        "modern outdoor sofa",
+        "night sky"
+      ],
+      "props": [
+        {
+          "item": "Carlsberg beer bottle",
+          "details": "visible label, held loosely in hand"
+        }
+      ],
+      "atmosphere": "late-night, intimate, warm"
+    },
+    "lighting": {
+      "type": "iPhone front flash",
+      "primary": "direct front flash illumination",
+      "secondary": "dim ambient city lights",
+      "effects": [
+        "bright illuminated face",
+        "soft shadows behind",
+        "natural skin shine",
+        "true iPhone flash aesthetic"
+      ],
+      "quality": "direct flash with soft ambient spill"
+    },
+    "camera_technical": {
+      "device": "iPhone 15 Pro Max front camera",
+      "lens": "24mm wide",
+      "flash": "front flash enabled",
+      "resolution": "8k",
+      "style_tags": [
+        "flash selfie",
+        "handheld casual",
+        "authentic social media"
+      ]
+    },
+    "realism_anchors": [
+      "iPhone flash look",
+      "natural skin shine from flash",
+      "soft shadows behind subject",
+      "no smoothing",
+      "authentic candid feel",
+      "visible beer bottle label"
+    ],
+    "negative_prompt": [
+      "studio lighting",
+      "professional photography",
+      "no flash look",
+      "smooth skin",
+      "airbrushed",
+      "exaggerated anatomy",
+      "cinematic lighting",
+      "cartoon",
+      "3d render",
+      "anime"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "ultra-photorealistic, raw iPhone flash selfie, iPhone 15 Pro Max front camera with flash, young woman early 20s blonde shoulder-length hair, most beautiful genuine happy smile, pale skin warm undertone natural shine from flash, black knit cardigan buttoned no bra dark yoga leggings barefoot white french nail polish, sitting on outdoor sofa knees pulled to chest cozy pose, holding Carlsberg beer bottle with visible label, apartment balcony at night soft blurred city lights, direct front flash bright face soft shadows behind, arm-length selfie slightly above eye level feet to head framing, late-night intimate tipsy happy vibes, 9:16 vertical",
+  "negative_prompt_flat": "studio lighting, professional photo, no flash, smooth skin, airbrushed, exaggerated anatomy, cinematic, cartoon, 3d render",
+  "color_palette": {
+    "primary": "pale warm skin tones",
+    "secondary": "black cardigan, dark leggings",
+    "accent": "Carlsberg green bottle",
+    "background": "soft city light bokeh"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "ultra-photorealistic, raw iPhone flash selfie, young woman early 20s blonde hair genuine happy smile, pale skin natural flash shine, black knit cardigan no bra dark leggings barefoot white french nails, sitting on outdoor sofa knees to chest holding Carlsberg beer, apartment balcony night blurred city lights, direct front flash bright face soft shadows, arm-length selfie above eye level, tipsy cozy happy vibes, 9:16",
+      "negative_prompt": "studio lighting, no flash, smooth skin, airbrushed, cinematic, cartoon, 3d render"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Young woman early 20s, slim-thick build, blonde shoulder-length hair",
+          "body": {
+            "type": "Slim-thick with soft defined waist, rounded hips, naturally full chest",
+            "skin": "Pale with warm undertone, natural texture with flash illumination shine"
+          },
+          "face": {
+            "expression": "Most beautiful genuine smile, joyful, slightly tipsy happiness",
+            "makeup": "Minimal natural, light gloss"
+          },
+          "hair": {
+            "color": "Blonde",
+            "style": "Shoulder length, slightly messy"
+          }
+        },
+        "wardrobe": {
+          "top": "Black knit sweater cardigan, soft, slightly loose, buttoned, no bra underneath",
+          "bottom": "Dark yoga leggings, fitted",
+          "feet": "Barefoot with white french nail polish, EU size 34.5"
+        },
+        "pose_action": {
+          "description": "Sitting on outdoor sofa, cozy curled position",
+          "posture": "Knees pulled toward chest, cozy intimate pose",
+          "arms": "Phone hand holding selfie, other hand loosely holding Carlsberg beer bottle"
+        },
+        "scene": {
+          "environment": "Cozy apartment balcony at night",
+          "background": "Soft blurred city lights, modern outdoor sofa, night sky",
+          "props": "Carlsberg beer bottle with visible label",
+          "atmosphere": "Late-night, intimate, warm, slightly tipsy"
+        },
+        "lighting": {
+          "type": "iPhone front flash as primary",
+          "secondary": "Dim ambient city lights",
+          "effects": "Bright illuminated face, soft shadows behind, natural skin shine, true flash look"
+        },
+        "camera": {
+          "technical": "iPhone 15 Pro Max front camera, 24mm wide, flash enabled",
+          "angle": "Slightly above eye level, arm-length",
+          "framing": "Bare feet to head",
+          "aspect_ratio": "9:16",
+          "negative_constraints": "no studio lighting, no airbrushing, no cinematic look, no smooth skin"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "raw iPhone flash selfie, young woman blonde hair genuine happy smile, black cardigan dark leggings barefoot, sitting cozy on balcony sofa holding beer bottle, night city lights blurred, direct flash illumination natural skin shine, tipsy happy intimate vibes --ar 9:16 --style raw --v 6",
+      "notes": "Use --style raw for authentic flash selfie look"
+    },
+    "ideogram": {
+      "prompt": "iPhone flash selfie of young blonde woman on apartment balcony at night, genuine happy smile, wearing black knit cardigan and dark leggings, sitting cozy with knees up holding Carlsberg beer, soft blurred city lights in background, direct flash illumination",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "9:16"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Flash selfie on balcony at night, blonde woman happy smile, black cardigan dark leggings, holding beer bottle, city lights background, iPhone flash look"
+    },
+    "luma": {
+      "prompt": "Night balcony scene, young woman takes flash selfie while holding beer, city lights twinkle in background, warm intimate atmosphere, slight movement as she adjusts pose",
+      "motion_notes": "Subtle selfie pose adjustment, city lights flickering in background, relaxed movement"
+    },
+    "reve": {
+      "prompt": "Authentic social media flash photography in the style of candid night selfies, young blonde woman on apartment balcony, cozy pose with beer bottle, iPhone flash illumination against city night backdrop",
+      "art_references": [
+        "Flash photography aesthetic",
+        "Social media candid style",
+        "Night selfie culture"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Flash selfie at night, blonde woman on apartment balcony, happy genuine smile, black cardigan dark leggings barefoot, holding beer bottle, cozy pose knees up, blurred city lights, iPhone flash look"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A young woman in her early 20s takes an iPhone flash selfie while sitting on an outdoor sofa on her apartment balcony at night. She has blonde shoulder-length slightly messy hair and the most beautiful genuine happy smile with a joyful, slightly tipsy expression. Her skin is pale with a warm undertone, showing natural shine from the flash illumination. She wears a black knit sweater cardigan that drapes loosely and is buttoned with no bra underneath, paired with dark yoga leggings. She is barefoot with white French nail polish. Her pose is cozy and curled up with knees pulled toward her chest. One hand holds the phone for the selfie while the other loosely holds a Carlsberg beer bottle with visible label. The background shows soft blurred city lights and the night sky. The direct front flash creates bright illumination on her face with soft shadows behind her. The framing captures from bare feet to head at arm-length, slightly above eye level. The atmosphere is late-night, intimate, and warmly tipsy. No watermark. No artificial smoothing. Realistic skin texture with authentic flash photography look.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Young woman early 20s taking iPhone flash selfie on apartment balcony at night, blonde shoulder-length messy hair, genuine happy smile joyful expression, pale skin warm undertone natural flash shine, black knit cardigan buttoned no bra dark yoga leggings barefoot white french nails, sitting cozy on outdoor sofa knees pulled to chest, holding Carlsberg beer bottle with visible label, soft blurred city lights background night sky, direct front flash bright face soft shadows behind, arm-length selfie above eye level feet to head framing, tipsy intimate late-night vibes, not studio lighting or airbrushed",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "Young woman early 20s takes flash selfie on apartment balcony at night. Blonde shoulder-length slightly messy hair, genuine happy smile, pale skin with warm undertone and natural shine from flash. Wearing black knit sweater cardigan buttoned loosely with no bra, dark yoga leggings, barefoot with white French nail polish. Sitting cozy on outdoor sofa with knees pulled to chest, one hand holds phone for selfie, other loosely holds Carlsberg beer bottle with visible label. Soft blurred city lights in background with night sky. Direct iPhone front flash illuminates face brightly with soft shadows behind. Arm-length selfie framing from feet to head, slightly above eye level. Late-night intimate happy atmosphere.",
+      "editing_prompt": "Change the drink from a Carlsberg beer bottle to a glass of red wine while keeping her cozy pose, happy expression, and the nighttime balcony setting with city lights the same. Preserve the flash selfie lighting.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed clothing with material/fit, specific beer brand, nail polish detail",
+    "2_realism_anchors: 'iPhone flash look', 'natural skin shine from flash', 'visible beer label'",
+    "3_technical_camera: 'iPhone 15 Pro Max', '24mm wide', 'front flash enabled'",
+    "4_negative_hygiene: excludes studio, cinematic, airbrushed aesthetics",
+    "5_spatial_consistency: 'arm-length selfie', 'above eye level', 'feet to head framing'",
+    "6_lighting_storytelling: 'front flash + city lights' = intimate late-night mood",
+    "7_authentic_props: specific brand (Carlsberg) adds realism"
+  ]
+}

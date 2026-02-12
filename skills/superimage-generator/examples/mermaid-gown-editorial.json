@@ -1,0 +1,238 @@
+{
+  "name": "Mermaid Gown Editorial Portrait",
+  "description": "High-end editorial fashion photograph of woman reclining in heavily embellished champagne mermaid gown with cinematic dual-tone lighting",
+  "input_prompt": "stunning woman in embellished champagne mermaid gown reclining gracefully editorial fashion",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "8k_ultra_high_resolution",
+      "aspect_ratio": "9:16",
+      "style": "high_end_editorial_fashion",
+      "target_model": "flux",
+      "realism_level": "photorealistic_ultra_realistic_details"
+    },
+    "subject": {
+      "description": "stunning woman with voluminous wavy raven black hair, glamorous matte makeup with smoky eyes",
+      "identity": {
+        "type": "woman",
+        "distinguishing_features": [
+          "voluminous raven hair",
+          "glamorous makeup",
+          "serene expression"
+        ],
+        "age_range": "adult"
+      },
+      "physical_details": {
+        "hair": {
+          "color": "raven black",
+          "details": "texture: wavy; volume: voluminous; length: long",
+          "style": "long styled hair"
+        },
+        "face": {
+          "expression": "serene, softly closed eyes",
+          "makeup": "finish: glamorous matte, eyes: smoky eye style"
+        },
+        "skin": {
+          "tone": "light to medium",
+          "texture": "natural skin texture"
+        }
+      },
+      "pose": {
+        "posture": "gracefully reclining",
+        "hand_position": "one hand touching her hair"
+      },
+      "expression_mood": "elegant, serene, editorial poise"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "mermaid gown",
+          "color": "champagne",
+          "details": "neckline: off-the-shoulder; bodice: style: corset-style midriff, material: mesh, structural_element: vertical boning; sleeves: adornment: delicate beaded fringe; embellishments: intensity: heavily embellished, style: intricate, materials: silver sequins, pearls, crystals"
+        }
+      ]
+    },
+    "pose_action": {
+      "position": "gracefully reclining on rustic daybed",
+      "camera_relation": "captive shot, full gown visible",
+      "posture": "elegant, serene",
+      "expression": "serene with softly closed eyes",
+      "action": "hand_details: one hand touching hair"
+    },
+    "environment": {
+      "location": "editorial studio set with rustic elements",
+      "foreground_prop": {
+        "item": "daybed (charpai)",
+        "materials": [
+          "rustic wood",
+          "woven jute"
+        ]
+      },
+      "background": [
+        "texture: dark vertical wooden slats"
+      ],
+      "atmosphere": "luxurious, cinematic, high-fashion"
+    },
+    "lighting": {
+      "style": "cinematic dual-tone",
+      "scheme": {
+        "tone_1": "moody teal",
+        "tone_2": "warm amber"
+      },
+      "quality": "dramatic, sculpting, high-end fashion lighting",
+      "effects": [
+        "color contrast",
+        "dramatic shadows",
+        "highlight on embellishments"
+      ],
+      "type": "studio fashion lighting"
+    },
+    "camera_technical": {
+      "resolution": "8k ultra-high-resolution",
+      "focus": "sharpness: sharp focus, focal_point: beadwork textures and embellishments",
+      "style_tags": [
+        "high-end editorial",
+        "fashion photography",
+        "captive shot",
+        "cinematic"
+      ]
+    },
+    "realism_anchors": [
+      "intricate beadwork texture visible",
+      "realistic fabric draping",
+      "authentic jewelry materials (sequins, pearls, crystals)",
+      "wood grain on daybed",
+      "skin texture under dramatic lighting"
+    ],
+    "negative_prompt": [
+      "casual clothing",
+      "daytime outdoor",
+      "flat lighting",
+      "overexposed",
+      "cartoon",
+      "3d render",
+      "anime",
+      "blurry",
+      "low quality",
+      "amateur photography"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "8k ultra-high-resolution high-end editorial fashion photograph, stunning woman with voluminous wavy raven black hair, glamorous matte makeup smoky eyes, serene expression softly closed eyes, one hand touching hair, gracefully reclining on rustic wood and woven jute daybed, champagne off-the-shoulder mermaid gown corset-style mesh bodice vertical boning, delicate beaded fringe sleeves, heavily embellished with intricate silver sequins pearls crystals, dark vertical wooden slats background, cinematic dual-tone lighting moody teal and warm amber, sharp focus on beadwork textures, luxurious captive shot, 9:16",
+  "negative_prompt_flat": "casual clothing, daytime outdoor, flat lighting, overexposed, cartoon, 3d render, anime, blurry, low quality",
+  "color_palette": {
+    "primary": "champagne gown",
+    "secondary": "silver sequins, pearls, crystals",
+    "accent": "moody teal lighting, warm amber highlights",
+    "background": "dark wood tones",
+    "skin": "warm undertones with dramatic lighting"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "8k editorial fashion photo, woman voluminous raven hair smoky eyes serene expression, reclining on rustic daybed wood jute, champagne mermaid gown off-shoulder corset bodice mesh boning, heavily embellished silver sequins pearls crystals beaded fringe, dark wooden slat background, cinematic dual-tone lighting teal and amber, sharp focus on beadwork, luxurious captive shot, 9:16",
+      "negative_prompt": "casual, flat lighting, overexposed, cartoon, 3d render, blurry, low quality"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Stunning woman with voluminous wavy raven black hair",
+          "face": {
+            "makeup": "Glamorous matte finish, smoky eyes",
+            "expression": "Serene, softly closed eyes"
+          },
+          "hair": {
+            "color": "Raven black",
+            "texture": "Wavy, voluminous, long"
+          },
+          "pose": {
+            "posture": "Gracefully reclining",
+            "hand": "One hand touching her hair"
+          }
+        },
+        "wardrobe": {
+          "gown": {
+            "type": "Mermaid silhouette",
+            "color": "Champagne",
+            "neckline": "Off-the-shoulder",
+            "bodice": "Corset-style midriff with mesh and vertical boning",
+            "sleeves": "Delicate beaded fringe adornment",
+            "embellishments": "Heavily embellished with intricate silver sequins, pearls, and crystals"
+          }
+        },
+        "scene": {
+          "prop": "Rustic daybed (charpai) made of wood and woven jute",
+          "background": "Dark vertical wooden slats",
+          "atmosphere": "Luxurious, cinematic, high-fashion"
+        },
+        "lighting": {
+          "style": "Cinematic dual-tone",
+          "tones": [
+            "Moody teal",
+            "Warm amber"
+          ],
+          "quality": "Dramatic, sculpting"
+        },
+        "camera": {
+          "technical": "8K ultra-high-resolution",
+          "focus": "Sharp focus on beadwork textures and embellishments",
+          "style": "High-end editorial fashion, captive shot",
+          "aspect_ratio": "9:16",
+          "negative_constraints": "no flat lighting, no casual, no cartoon, no blurry"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "high-end editorial fashion, woman raven hair smoky eyes reclining on rustic daybed, champagne mermaid gown sequins pearls crystals beaded fringe, dark wood background, cinematic teal and amber dual-tone lighting --ar 9:16 --style raw --v 6",
+      "notes": "Use --style raw for editorial fashion authenticity"
+    },
+    "ideogram": {
+      "prompt": "Editorial fashion photograph of stunning woman with voluminous raven hair reclining gracefully on rustic daybed, wearing heavily embellished champagne off-the-shoulder mermaid gown with silver sequins pearls and crystals, dark wooden slat background, dramatic cinematic teal and amber lighting",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "9:16"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Editorial fashion, woman reclining in champagne mermaid gown with beaded embellishments, rustic daybed, dark wood background, cinematic dual-tone teal amber lighting"
+    },
+    "luma": {
+      "prompt": "Cinematic fashion scene, elegant woman reclines on rustic daybed, her champagne gown catches light revealing intricate beadwork, teal and amber lighting shifts subtly, serene atmosphere of luxury",
+      "motion_notes": "Subtle light play on sequins and crystals, gentle breathing movement, hair settling"
+    },
+    "reve": {
+      "prompt": "High-end editorial fashion photography in the style of luxury magazine spreads, raven-haired woman in embellished champagne mermaid gown, rustic daybed prop, cinematic dual-tone teal and amber lighting, dramatic glamour",
+      "art_references": [
+        "Vogue editorial photography",
+        "High-fashion campaign imagery",
+        "Cinematic fashion portraits"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Editorial fashion photo of woman with raven hair reclining on rustic daybed, champagne mermaid gown heavily embellished with sequins pearls crystals, dark wood background, cinematic teal and amber lighting, serene expression"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A stunning woman with voluminous wavy raven black hair is gracefully reclining on a rustic daybed made of wood and woven jute. Her eyes are softly closed with a serene expression, one hand gently touching her hair. She wears an exquisite champagne off-the-shoulder mermaid gown with a corset-style mesh bodice featuring vertical boning. The gown is heavily embellished with intricate silver sequins, pearls, and crystals, with delicate beaded fringe adorning the sleeves. Her makeup is glamorous with a matte finish and smoky eye style. The background features dark vertical wooden slats. Dramatic cinematic dual-tone lighting bathes the scene in moody teal and warm amber tones, creating sculptural shadows that highlight the intricate beadwork. High-end editorial fashion photography, 8K resolution. No watermark. No artificial smoothing. Realistic texture on fabric and skin.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Stunning woman with voluminous raven black hair reclining gracefully on rustic wood and jute daybed. Champagne off-shoulder mermaid gown with corset bodice, heavily embellished with silver sequins, pearls and crystals, beaded fringe sleeves. Serene expression with closed eyes, glamorous smoky makeup. Dark wooden slat background with cinematic dual-tone lighting in teal and amber. High-end editorial fashion photography, sharp focus on beadwork textures. Not 3D render, not cartoon.",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A woman with voluminous wavy raven black hair reclines gracefully on a rustic daybed crafted from wood and woven jute. She wears a champagne off-the-shoulder mermaid gown with a corset-style mesh bodice and vertical boning. The gown features heavy embellishments of silver sequins, pearls, and crystals with delicate beaded fringe on the sleeves. Her expression is serene with softly closed eyes and glamorous matte smoky makeup. Dark vertical wooden slats form the background. Cinematic dual-tone lighting creates dramatic teal and warm amber tones. Editorial fashion photography with sharp focus on intricate beadwork details.",
+      "editing_prompt": "Change the lighting color scheme to cool blue and soft pink while keeping the gown, pose, and background the same. Preserve the intricate beadwork details and serene expression.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed gown construction (corset, boning, mesh, fringe), specific embellishment materials",
+    "2_realism_anchors: 'intricate beadwork texture', 'realistic fabric draping', 'wood grain', 'skin texture'",
+    "3_technical_camera: '8K', 'sharp focus on beadwork textures', 'captive shot'",
+    "4_negative_hygiene: prevents casual, amateur, flat lighting",
+    "5_spatial_consistency: clear reclining pose with hand position specified",
+    "6_lighting_storytelling: 'cinematic dual-tone teal and amber' = luxurious dramatic mood",
+    "7_material_specificity: exact embellishment materials (silver sequins, pearls, crystals)"
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "name": "Snow Forest Playful Portrait",
+  "description": "Playful winter portrait of woman laughing in snow with fluffy boots and winter accessories",
+  "input_prompt": "woman laughing in snowy forest wearing fluffy boots and winter outfit",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "high_resolution",
+      "aspect_ratio": "3:4",
+      "style": "iphone_mobile_photography",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "young woman with striking high-fashion yet approachable features, rich dark brown brunette hair, intense blue-gray almond-shaped eyes, fair porcelain skin with light natural freckles",
+      "identity": {
+        "age_range": "early 20s",
+        "type": "young woman",
+        "distinguishing_features": [
+          "striking blue-gray eyes",
+          "freckles",
+          "dark brunette hair",
+          "high-fashion features"
+        ]
+      },
+      "physical_details": {
+        "body_type": "athletic toned curvaceous hourglass, feminine athletic build",
+        "skin": {
+          "tone": "fair porcelain",
+          "texture": "smooth dewy glowing with realistic pores",
+          "details": "light natural freckles across nose and cheeks"
+        },
+        "hair": {
+          "color": "rich dark brown/brunette with warm and cool undertones, subtle highlights",
+          "style": "long, straight or slightly wavy"
+        },
+        "face": {
+          "details": "eyes: striking intense blue-gray almond-shaped, looking upward or squinting from laughter; eyebrows: thick prominent dark arched; nose: small straight; lips: full plump glossy, mouth open in laughter; structure: defined yet soft jawline, high cheekbones",
+          "expression": "laughing joyfully"
+        }
+      },
+      "expression_mood": "laughing joyfully, playful, energetic, winter fun"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "black sleeveless bodysuit",
+          "details": "white trim/piping along edges"
+        },
+        {
+          "type": "large white fluffy snow boots",
+          "style": "moon boots with laces"
+        },
+        {
+          "type": "bare legs",
+          "details": "bare from thigh to boot top"
+        }
+      ],
+      "accessories": [
+        "white fluffy faux-fur hat or earmuffs",
+        "white-rimmed sunglasses or goggles worn on face",
+        "white furry cuffs or gloves on wrists"
+      ]
+    },
+    "pose_action": {
+      "position": "sitting on snow, leaning back on hands, knees bent upwards",
+      "camera_relation": "eye-level or slightly angled downward, medium shot",
+      "dynamic_elements": "head thrown back in laughter, joyful expression"
+    },
+    "environment": {
+      "location": "snowy forest clearing",
+      "background": [
+        "dense forest of tall pine trees with dark trunks",
+        "snow on branches",
+        "wooden structure/cabin deck visible in background right among trees"
+      ],
+      "ground": "thick uneven layer of white snow with footprints and indentations",
+      "atmosphere": "playful winter fun, cold crisp air"
+    },
+    "lighting": {
+      "type": "natural daylight, overcast sky",
+      "quality": "soft diffused, no harsh shadows",
+      "effects": [
+        "even illumination",
+        "soft flattering light on skin"
+      ]
+    },
+    "camera_technical": {
+      "device": "iPhone mobile camera",
+      "lens": "standard wide lens",
+      "perspective": "eye-level, slightly angled downward",
+      "resolution": "high resolution capturing snow and fur textures",
+      "style_tags": [
+        "iPhone aesthetic",
+        "sharp focus on subject",
+        "candid playful"
+      ]
+    },
+    "color_palette": {
+      "dominant": "whites (snow, boots, accessories)",
+      "secondary": "dark greens and browns (trees)",
+      "accent": "black (bodysuit)",
+      "skin": "fair porcelain tones"
+    },
+    "realism_anchors": [
+      "visible snow texture",
+      "fluffy fur texture",
+      "skin pores visible",
+      "authentic winter environment",
+      "natural freckles",
+      "iPhone camera aesthetic"
+    ],
+    "negative_prompt": [
+      "studio lighting",
+      "professional photography setup",
+      "perfect posed look",
+      "fashion editorial",
+      "cartoon",
+      "3d render",
+      "anime",
+      "oversaturated",
+      "HDR"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "high-resolution iPhone mobile photography, young woman striking high-fashion features, rich dark brown brunette hair, intense blue-gray almond eyes, fair porcelain skin light freckles across nose and cheeks, full glossy lips mouth open laughing, athletic toned curvaceous hourglass figure, black sleeveless bodysuit white trim, white fluffy faux-fur hat, white-rimmed sunglasses, white furry wrist cuffs, large white fluffy moon boots, bare legs thigh to boot, sitting on snow leaning back on hands knees up head thrown back laughing, snowy forest clearing dense pine trees dark trunks snow on branches, thick white snow footprints visible, wooden cabin structure background, natural overcast daylight soft diffused no harsh shadows, eye-level iPhone shot sharp focus, playful energetic winter fun mood, 3:4 vertical",
+  "negative_prompt_flat": "studio lighting, professional setup, perfect posed, fashion editorial, cartoon, 3d render, anime, oversaturated, HDR",
+  "model_adaptations": {
+    "flux": {
+      "prompt": "high-resolution iPhone photo, young woman dark brunette hair blue-gray eyes freckles, laughing joyfully head back, fair porcelain skin athletic figure, black bodysuit white trim, white fluffy hat sunglasses wrist cuffs, large white fluffy moon boots, bare legs, sitting on snow leaning back knees up, snowy forest pine trees wooden cabin, overcast daylight soft diffused, eye-level iPhone aesthetic, playful winter energy, 3:4",
+      "negative_prompt": "studio lighting, professional setup, fashion editorial, cartoon, 3d render, oversaturated, HDR"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Young woman with striking high-fashion yet approachable features",
+          "body": {
+            "type": "Athletic toned curvaceous hourglass, feminine athletic build",
+            "chest": "Medium size, full and prominent",
+            "legs": "Fit and strong with natural curves, bare from thigh to boot"
+          },
+          "face": {
+            "eyes": "Striking intense blue-gray almond-shaped, squinting from laughter",
+            "eyebrows": "Thick prominent dark arched",
+            "lips": "Full plump glossy, mouth open in laughter",
+            "structure": "Defined soft jawline, high cheekbones",
+            "complexion": "Fair porcelain with light natural freckles across nose and cheeks"
+          },
+          "hair": {
+            "color": "Rich dark brown/brunette with warm and cool undertones",
+            "style": "Long, straight or slightly wavy"
+          },
+          "expression": "Laughing joyfully, head thrown back, mouth open"
+        },
+        "wardrobe": {
+          "bodysuit": "Black sleeveless with white trim/piping along edges",
+          "accessories": [
+            "White fluffy faux-fur hat or earmuffs",
+            "White-rimmed sunglasses/goggles on face",
+            "White furry cuffs on wrists"
+          ],
+          "footwear": "Large white fluffy moon boots with laces"
+        },
+        "pose_action": {
+          "description": "Sitting on snow, leaning back on hands, knees bent upwards",
+          "expression": "Head thrown back in joyful laughter"
+        },
+        "scene": {
+          "environment": "Snowy forest clearing",
+          "ground": "Thick uneven white snow with footprints and indentations",
+          "background": "Dense pine forest dark trunks, snow on branches, wooden cabin/deck visible",
+          "atmosphere": "Playful, energetic, winter fun"
+        },
+        "lighting": {
+          "type": "Natural daylight, overcast sky",
+          "quality": "Soft diffused, no harsh shadows, even illumination"
+        },
+        "camera": {
+          "technical": "iPhone mobile camera, standard wide lens",
+          "angle": "Eye-level slightly angled down",
+          "focus": "Sharp on subject, capturing snow and fur textures",
+          "aspect_ratio": "3:4",
+          "style": "iPhone aesthetic, candid playful",
+          "negative_constraints": "no studio lighting, no professional setup, no fashion editorial look"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "iPhone photo, young woman dark brunette hair blue eyes freckles, laughing joyfully in snow, black bodysuit white fluffy hat sunglasses moon boots, sitting on snow knees up, snowy forest pine trees cabin background, overcast soft daylight, playful winter energy --ar 3:4 --style raw --v 6",
+      "notes": "Use --style raw for authentic iPhone look"
+    },
+    "ideogram": {
+      "prompt": "Young woman laughing joyfully in snowy forest, dark brunette hair and blue-gray eyes, wearing black bodysuit with white fluffy hat, sunglasses, and large white moon boots, sitting on snow leaning back, pine trees and wooden cabin in background, soft overcast winter light",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "3:4"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Woman laughing in snowy forest, dark hair blue eyes, black bodysuit white fluffy accessories and moon boots, sitting on snow, pine trees cabin, soft winter light"
+    },
+    "luma": {
+      "prompt": "Snowy forest clearing, woman throws her head back laughing, fluffy white boots kick up snow, pine trees sway gently, soft flurries drift down, playful winter moment full of joy",
+      "motion_notes": "Head throwing back in laughter, snow being kicked up, gentle snowfall, tree branch movement"
+    },
+    "reve": {
+      "prompt": "Candid winter photography in the style of playful lifestyle content, young woman laughing in snow wearing contrasting black and white outfit, snowy forest setting, soft overcast light, joyful energetic mood",
+      "art_references": [
+        "Winter lifestyle photography",
+        "Playful candid portraits",
+        "Snow fashion editorial"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Woman laughing in snowy forest, dark brunette hair blue eyes freckles, black bodysuit white fluffy hat sunglasses moon boots, sitting on snow leaning back, pine trees and cabin, soft winter light, playful energy"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A striking young woman in her early twenties sits on thick white snow in a forest clearing, laughing joyfully with her head thrown back. She has rich dark brown brunette hair that falls long and slightly wavy, with intense blue-gray almond-shaped eyes squinting from genuine laughter. Her fair porcelain skin shows light natural freckles across her nose and cheeks, with a smooth dewy texture. She has an athletic, toned curvaceous figure with feminine curves. She wears a black sleeveless bodysuit with white trim piping along the edges, paired with a white fluffy faux-fur hat, white-rimmed sunglasses worn on her face, and white furry cuffs on her wrists. Large white fluffy moon boots with laces cover her feet, with her bare legs visible from thigh to boot top. She leans back on her hands with her knees bent upward in a playful pose. Dense pine trees with dark trunks and snow-covered branches surround the clearing, with a wooden cabin structure visible in the background. Natural overcast daylight provides soft, diffused illumination with no harsh shadows. The thick uneven snow shows footprints and indentations around her. No studio lighting. No fashion editorial look. Realistic snow and fur textures.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Young woman with dark brunette hair and blue-gray eyes laughing joyfully in snowy forest clearing, light freckles on fair skin, athletic figure in black bodysuit with white trim, white fluffy hat sunglasses and moon boots, sitting on snow leaning back on hands with knees up, pine trees with snow-covered branches and wooden cabin in background, natural overcast daylight with soft diffused lighting, iPhone photography aesthetic capturing playful winter energy, not overly posed or editorial",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A joyful young woman throws her head back in genuine laughter while sitting on snow in a forest clearing. Her dark brunette hair frames striking blue-gray eyes and natural freckles on fair porcelain skin. She wears a black sleeveless bodysuit with white trim, contrasting with white fluffy accessories - a faux-fur hat, sunglasses, wrist cuffs, and large moon boots. Her athletic figure is positioned playfully, leaning back on her hands with knees bent. Dense pine trees laden with snow surround the scene, with a wooden cabin visible in the background. Soft overcast winter light creates flattering, shadow-free illumination. Authentic candid moment capturing pure winter joy.",
+      "editing_prompt": "Add gently falling snowflakes throughout the scene while keeping the woman's laughing expression, pose, and winter outfit exactly the same. Preserve the soft overcast lighting and snowy forest background.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed facial features (eye shape, brow description), specific boot style (moon boots)",
+    "2_realism_anchors: 'visible snow texture', 'fluffy fur texture', 'skin pores', 'natural freckles'",
+    "3_technical_camera: 'iPhone mobile camera', 'standard wide lens', specified perspective",
+    "4_negative_hygiene: excludes fashion editorial and professional setup aesthetics",
+    "5_spatial_consistency: 'sitting on snow', 'leaning back on hands', 'knees bent upwards'",
+    "6_lighting_storytelling: 'overcast soft diffused' = flattering winter portrait mood",
+    "7_expression_capture: 'head thrown back in laughter' captures genuine joy"
+  ]
+}

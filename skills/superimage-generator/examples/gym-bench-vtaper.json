@@ -1,0 +1,256 @@
+{
+  "name": "Gym Bench V-Taper Mirror Selfie",
+  "description": "Athletic woman taking gym mirror selfie seated on bench with deep forward lean showing V-taper back definition",
+  "input_prompt": "athletic woman gym mirror selfie on bench showing back muscles",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "high_resolution",
+      "aspect_ratio": "9:16",
+      "style": "smartphone_mirror_selfie",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "single athletic young woman mid-20s with lean athletic frame, medium brown hair in low ponytail through dark baseball cap",
+      "identity": {
+        "age_range": "mid-20s",
+        "type": "young woman",
+        "distinguishing_features": [
+          "athletic lean build",
+          "V-taper back",
+          "visible lat definition"
+        ]
+      },
+      "physical_details": {
+        "body_type": "athletic, lean, slim waist, toned legs",
+        "skin": {
+          "tone": "light to light-medium",
+          "texture": "natural skin texture with subtle workout sheen",
+          "details": "visible_areas: full back, shoulders, upper arms, thighs, lower legs; lighting_effect: highlights on shoulder blades and lats with soft shadow line along spine"
+        },
+        "hair": {
+          "color": "medium brown",
+          "style": "low ponytail through dark baseball cap, slightly flattened from training"
+        },
+        "face": {
+          "expression": "quiet concentration, composed confidence",
+          "details": "eyes: focused, calm, looking down toward phone screen; mouth: neutral, soft"
+        }
+      },
+      "expression_mood": "disciplined, steady, focused"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "black long-sleeve open-back bodysuit/top",
+          "details": "thin crisscross straps, large open back exposing shoulder blades to lower back; effect: sleek sporty frame emphasizing back definition"
+        },
+        {
+          "type": "black athletic shorts",
+          "details": "white piping along hem"
+        }
+      ],
+      "accessories": [
+        "dark baseball cap",
+        "light gray sweatshirt tied around waist with sleeves knotted at hips",
+        "smartphone with triple-camera module held close to cheek/jawline"
+      ]
+    },
+    "pose_action": {
+      "position": "seated sideways on flat bench in front of wall mirror",
+      "camera_relation": "mirror reflection, slight side profile, three-quarter body vertical portrait",
+      "dynamic_elements": "V-taper back silhouette with visible lat and shoulder-blade lines; body_mechanics: bench_placement: padded flat bench runs left-to-right across frame, parallel to bottom edge, in lower third, hip_position: hips pushed slightly back, sitting near center of bench, torso_angle: deep forward hip-hinge, 45-60 degrees from vertical, chest: close to front thigh with small gap, shoulders: slightly in front of front knee in mirror view, subtly rolled back and down (scapula depressed), arm_support: forearm/elbow resting on front thigh, head: lowered with cap brim pointing down toward phone"
+    },
+    "environment": {
+      "location": "modern gym weight area with large wall mirror",
+      "background": [
+        "mirror wall with visible seams",
+        "flat bench spanning left-to-right (perfectly horizontal)",
+        "dumbbell rack or weight equipment visible in mirror",
+        "overhead fluorescent strip lights",
+        "rubber gym flooring"
+      ],
+      "wall_color": "cool gray and charcoal tones",
+      "atmosphere": "quiet, focused training moment"
+    },
+    "lighting": {
+      "type": "cool overhead gym lighting",
+      "quality": "controlled contrast to sculpt back muscles",
+      "effects": [
+        "even overhead light",
+        "soft reflections on metal equipment",
+        "highlights on shoulder blades and lats"
+      ]
+    },
+    "camera_technical": {
+      "device": "smartphone mirror selfie",
+      "style": "realistic social media photo",
+      "resolution": "crisp digital detail, subtle grain in darker areas",
+      "depth_of_field": "moderate, subject sharp, background slightly subdued",
+      "style_tags": [
+        "smartphone mirror selfie",
+        "athletic elegance",
+        "progress check aesthetic"
+      ]
+    },
+    "mirror_rules": {
+      "reflection_integrity": "mirror reflects same single subject, not a second person",
+      "text_handling": "any text readable in correct orientation, no mirrored letters"
+    },
+    "realism_anchors": [
+      "visible muscle definition on back",
+      "natural workout sheen on skin",
+      "realistic bench and gym equipment",
+      "single person only in entire image",
+      "anatomically correct V-taper silhouette"
+    ],
+    "negative_prompt": [
+      "two people",
+      "second person",
+      "duplicate person",
+      "clone",
+      "double reflection",
+      "upright posture",
+      "no forward lean",
+      "arm extended selfie",
+      "diagonal bench",
+      "bench rotated",
+      "bench vertical in frame",
+      "bad anatomy",
+      "extra fingers",
+      "extra arms",
+      "deformed hands",
+      "heavy smoothing",
+      "plastic skin",
+      "overexposed",
+      "oversaturated"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "smartphone gym mirror selfie, single athletic young woman mid-20s, lean athletic build V-taper back, medium brown hair low ponytail through dark baseball cap, focused calm expression looking at phone, black long-sleeve open-back top thin crisscross straps exposing full back shoulder blades lats, black shorts white piping, gray sweatshirt tied at waist, seated sideways on flat bench deep forward hip-hinge 45-60 degrees, chest close to thigh forearm on thigh, phone held close to cheek, visible lat and shoulder-blade definition shadow line along spine, modern gym wall mirror dumbbell rack overhead lights rubber floor, cool overhead lighting sculpting back muscles, crisp digital detail subtle grain, 9:16 vertical",
+  "negative_prompt_flat": "two people, duplicate person, upright posture, arm extended, diagonal bench, bad anatomy, extra limbs, plastic skin, overexposed",
+  "color_palette": {
+    "primary": "black athletic wear",
+    "secondary": "cool gray gym environment",
+    "accent": "white piping, light gray sweatshirt",
+    "skin": "light to light-medium with workout sheen"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "smartphone gym mirror selfie, single athletic woman mid-20s lean build V-taper back, brown hair ponytail through cap, focused expression, black open-back top crisscross straps exposing back shoulder blades lats, black shorts white piping gray sweatshirt tied at waist, seated sideways on horizontal flat bench deep forward lean 45-60 degrees, phone close to cheek, visible muscle definition shadow along spine, gym wall mirror dumbbell rack overhead lights, cool lighting sculpting back, crisp digital, 9:16",
+      "negative_prompt": "two people, duplicate, upright posture, arm extended, diagonal bench, bad anatomy, plastic skin"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Single athletic young woman mid-20s taking gym mirror selfie",
+          "constraint": "Exactly one person in entire image, mirror reflection is same person not second person",
+          "body": {
+            "type": "Athletic, lean frame",
+            "back": "Full V-taper with visible lat and shoulder-blade definition",
+            "waist": "Slim",
+            "legs": "Toned"
+          },
+          "skin": {
+            "tone": "Light to light-medium",
+            "texture": "Natural with subtle workout sheen",
+            "lighting_effect": "Highlights on shoulder blades and lats, soft shadow line along spine"
+          },
+          "hair": {
+            "color": "Medium brown",
+            "style": "Low ponytail through dark baseball cap"
+          },
+          "expression": "Quiet concentration, focused, calm, looking down at phone"
+        },
+        "wardrobe": {
+          "top": "Black long-sleeve open-back bodysuit with thin crisscross straps, large open back exposing shoulder blades to lower back",
+          "bottom": "Black athletic shorts with white piping",
+          "accessories": [
+            "Dark baseball cap",
+            "Light gray sweatshirt tied around waist"
+          ],
+          "device": "Smartphone with triple-camera module held close to cheek"
+        },
+        "pose_action": {
+          "position": "Seated sideways on flat bench in front of wall mirror",
+          "bench": "Padded flat bench runs perfectly horizontal left-to-right in lower third of frame",
+          "torso": "Deep forward hip-hinge, 45-60 degrees from vertical",
+          "chest": "Close to front thigh (small gap)",
+          "shoulders": "Slightly in front of front knee, rolled back and down",
+          "support": "Forearm/elbow resting on front thigh",
+          "head": "Lowered, cap brim pointing toward phone"
+        },
+        "scene": {
+          "environment": "Modern gym weight area with large wall mirror",
+          "background": "Mirror wall with seams, horizontal flat bench, dumbbell rack, overhead fluorescent lights, rubber flooring",
+          "atmosphere": "Quiet, focused training moment"
+        },
+        "lighting": {
+          "type": "Cool overhead gym lighting",
+          "quality": "Controlled contrast to sculpt back muscles",
+          "effects": "Highlights on shoulder blades and lats, soft reflections on equipment"
+        },
+        "camera": {
+          "technical": "Smartphone mirror selfie, crisp digital detail",
+          "framing": "Three-quarter body vertical portrait, slight side profile",
+          "aspect_ratio": "9:16",
+          "focus": "Sharp on subject, background slightly subdued",
+          "negative_constraints": "no two people, no duplicate reflection, no upright posture, no arm extended, no diagonal bench"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "smartphone gym mirror selfie, athletic woman V-taper back, seated on horizontal bench deep forward lean, black open-back top crisscross straps, visible lat shoulder-blade definition, cap ponytail, gym weight area wall mirror, cool overhead lighting --ar 9:16 --style raw --v 6",
+      "notes": "Use --style raw for authentic smartphone mirror selfie aesthetic"
+    },
+    "ideogram": {
+      "prompt": "Athletic young woman taking gym mirror selfie seated sideways on flat bench, deep forward lean showing V-taper back with visible muscle definition, wearing black open-back top with crisscross straps, dark cap with ponytail, modern gym with wall mirror and weights, cool overhead lighting",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "9:16"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Gym mirror selfie, athletic woman on bench showing V-taper back, black open-back top, deep forward lean, cool gym lighting, smartphone aesthetic"
+    },
+    "luma": {
+      "prompt": "Gym weight area, athletic woman takes a breath between sets, seated on bench, slowly adjusts her phone for a mirror selfie, overhead lights cast shadows that define her back muscles, quiet focused atmosphere",
+      "motion_notes": "Subtle breathing movement, slight phone adjustment, gym ambiance"
+    },
+    "reve": {
+      "prompt": "Fitness photography in the style of authentic gym progress shots, athletic woman mirror selfie on bench showing defined back, black athletic wear, cool overhead lighting, disciplined training aesthetic",
+      "art_references": [
+        "Gym progress photography",
+        "Athletic lifestyle content",
+        "Fitness mirror selfies"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Athletic woman gym mirror selfie seated on bench with deep forward lean, black open-back top showing V-taper back muscles, cap with ponytail, gym weight area with wall mirror, cool overhead lighting, smartphone photo style"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A single athletic young woman in her mid-twenties takes a gym mirror selfie. She has a lean athletic frame with a defined V-taper back, and medium brown hair pulled into a low ponytail through a dark baseball cap. Her expression shows quiet concentration as she looks down at her phone screen. She wears a black long-sleeve open-back top with thin crisscross straps that expose her full back from shoulder blades to lower back, paired with black athletic shorts featuring white piping along the hem. A light gray sweatshirt is tied around her waist with sleeves knotted at her hips. She sits sideways on a flat padded bench that runs horizontally across the frame, leaning forward in a deep hip-hinge at approximately 45-60 degrees from vertical, with her chest close to her front thigh. Her forearm rests on her thigh for support while she holds a smartphone with triple-camera module close to her cheek. The modern gym features a large wall mirror with visible seams, dumbbell racks, overhead fluorescent strip lights, and rubber flooring in cool gray and charcoal tones. Cool overhead lighting sculpts her back muscles with highlights on shoulder blades and lats, and a soft shadow line along her spine. Her skin shows a subtle workout sheen with natural texture. No second person. No duplicate reflection. No plastic skin. Anatomically correct single figure only.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Single athletic woman taking gym mirror selfie seated sideways on flat bench with deep forward lean showing V-taper back definition, black open-back top with crisscross straps exposing shoulder blades and lats, dark cap with ponytail, black shorts white piping, gray sweatshirt tied at waist, holding phone near face, modern gym wall mirror with dumbbell rack and overhead lights, cool lighting creating muscle definition shadows, smartphone photography aesthetic, one person only not duplicated in reflection",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A single athletic young woman captures a gym mirror selfie while seated on a flat bench. She leans forward in a deep hip-hinge, showcasing her defined V-taper back through a black open-back top with crisscross straps. Her medium brown hair is pulled through a dark baseball cap into a low ponytail. She wears black shorts with white piping and a gray sweatshirt tied at her waist. The modern gym features wall mirrors, dumbbell racks, and cool overhead lighting that sculpts her back muscles with highlights and shadows. Authentic smartphone photography with crisp digital detail. Exactly one person in the entire image.",
+      "editing_prompt": "Change the gym environment to have warm wooden accents and natural lighting from windows while keeping the woman's pose, athletic wear, and V-taper back definition exactly the same. Preserve the single-person composition and mirror selfie framing.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed pose mechanics (torso angle, shoulder position, bench placement), specific athletic wear details",
+    "2_realism_anchors: 'visible muscle definition', 'workout sheen', 'shadow line along spine', 'single person constraint'",
+    "3_technical_camera: 'smartphone mirror selfie', 'crisp digital detail', 'moderate depth of field'",
+    "4_negative_hygiene: extensive list preventing duplicate people, bad anatomy, incorrect posture",
+    "5_spatial_consistency: precise bench positioning 'horizontal left-to-right in lower third', exact torso angles",
+    "6_lighting_storytelling: 'cool overhead gym lighting' = focused training atmosphere",
+    "7_mirror_rules: explicit reflection integrity and single-subject constraint"
+  ]
+}

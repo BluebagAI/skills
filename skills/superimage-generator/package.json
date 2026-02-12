@@ -1,0 +1,12 @@
+{
+  "name": "superprompt-generator-skill",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Runtime dependencies for superprompt generator skill scripts",
+  "scripts": {
+    "validate": "node scripts/validate-prompt.js"
+  },
+  "dependencies": {
+    "zod": "^3.22.4"
+  }
+}

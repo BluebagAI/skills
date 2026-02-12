@@ -1,0 +1,269 @@
+{
+  "name": "Na'vi Beach Night iPhone Flash",
+  "description": "iPhone flash photo of Na'vi woman at beach at night, playful pose with arms up, wet bikini, tribal face paint",
+  "input_prompt": "navi woman beach night iphone flash photo playful pose bikini",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "photorealistic",
+      "aspect_ratio": "9:16",
+      "style": "raw_iphone_flash_photo",
+      "target_model": "flux",
+      "aesthetic": "casual snapshot, NOT portrait, NOT cinematic"
+    },
+    "subject": {
+      "description": "Na'vi female (real-world evolved humanoid), clearly adult, slim-curvy body with defined waist and soft feminine curves",
+      "identity": {
+        "type": "Na'vi woman (real-world evolved humanoid)",
+        "age_range": "adult",
+        "distinguishing_features": [
+          "muted realistic blue skin",
+          "vertical red tribal face paint",
+          "golden yellow eyes",
+          "long Na'vi tail"
+        ]
+      },
+      "physical_details": {
+        "skin": {
+          "texture": "real skin texture, visible pores",
+          "details": "color: muted realistic blue; state: wet, reflecting harsh flash light",
+          "tone": "muted realistic blue"
+        },
+        "face": {
+          "details": "structure: Na'vi facial proportions; paint: vertical red tribal paint line from forehead down face; eyes: color: golden yellow, expression: direct eye contact; mouth: kissy lips, blowing a soft kiss",
+          "expression": "playful kissy lips with direct eye contact"
+        },
+        "hair": {
+          "color": "dark",
+          "style": "long thin braids",
+          "details": "state: slightly messy, beach-worn"
+        },
+        "body": {
+          "details": "type: slim-curvy; waist: defined; hips: soft feminine curves; chest: naturally full; long Na'vi tail clearly visible behind legs, illuminated by flash"
+        }
+      },
+      "expression_mood": "playful, teasing, casual"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "black triangle bikini top",
+          "details": "state: wet; fabric: slightly sheer, semi-transparent when wet; effect: subtle natural outline visible through fabric, non-graphic"
+        },
+        {
+          "type": "black bikini bottom",
+          "fit": "normal beach fit",
+          "details": "state: wet"
+        }
+      ]
+    },
+    "pose_action": {
+      "camera_relation": "framing from upper thighs to head, about 3 meters distance",
+      "description": "playful standing pose with both arms raised, elbows bent outward, fists held close to cheeks",
+      "dynamic_elements": "shoulders: slightly lifted; torso: subtle twist emphasizing waist; hips: shifted slightly to one side; legs: one leg bearing weight, other relaxed; energy: playful, teasing, casual"
+    },
+    "environment": {
+      "location": "public beach at night",
+      "background": [
+        "dark sand",
+        "black ocean behind",
+        "faint silhouettes of people far in background",
+        "night sky with no visible stars"
+      ],
+      "time": "night",
+      "atmosphere": "dark, humid, real beach night"
+    },
+    "lighting": {
+      "type": "iPhone flash",
+      "effects": [
+        "harsh frontal flash",
+        "bright subject, dark background",
+        "strong shadow falloff",
+        "slight overexposure on wet skin"
+      ],
+      "quality": "harsh direct flash",
+      "direction": "direct on-camera flash"
+    },
+    "camera_technical": {
+      "device": "iPhone (normal photo mode)",
+      "lens": "24mm wide",
+      "pov": "another person casually taking the photo",
+      "angle": "eye-level",
+      "framing": "upper thighs to head",
+      "distance": "about 3 meters",
+      "imperfections": [
+        "iPhone noise",
+        "minor blur",
+        "imperfect centering",
+        "snapshot feel"
+      ],
+      "style_tags": [
+        "raw iPhone flash",
+        "casual snapshot",
+        "beach party photo"
+      ]
+    },
+    "realism_anchors": [
+      "visible skin pores on blue skin",
+      "wet skin reflecting flash",
+      "iPhone noise and imperfections",
+      "harsh flash lighting with dark falloff",
+      "Na'vi tail visible"
+    ],
+    "negative_prompt": [
+      "portrait mode",
+      "cinematic lighting",
+      "cgi",
+      "3d render",
+      "fantasy illustration",
+      "studio lighting",
+      "over-processed",
+      "anime",
+      "plastic skin"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "raw iPhone flash photo casual snapshot, Na'vi female adult slim-curvy body defined waist feminine curves, muted realistic blue skin visible pores wet reflecting flash, Na'vi facial proportions vertical red tribal paint line forehead to face, golden yellow eyes direct eye contact, kissy lips blowing soft kiss, long dark thin braids slightly messy beach-worn, long Na'vi tail visible behind legs illuminated by flash, black triangle bikini top wet slightly sheer, black bikini bottom wet, playful standing pose both arms raised elbows bent fists near cheeks, shoulders lifted subtle torso twist emphasizing waist, hips shifted one leg bearing weight, public beach at night dark sand black ocean silhouettes in background night sky, harsh frontal iPhone flash bright subject dark background strong shadow falloff slight overexposure on wet skin, 24mm wide eye-level upper thighs to head about 3 meters, iPhone noise minor blur imperfect centering snapshot feel, 9:16",
+  "negative_prompt_flat": "portrait mode, cinematic lighting, cgi, 3d render, fantasy illustration, studio lighting, over-processed, anime, plastic skin",
+  "color_palette": {
+    "primary": "muted realistic blue skin",
+    "secondary": "black bikini, dark braids",
+    "accent": "golden yellow eyes, red tribal paint",
+    "background": "dark beach, black ocean, night sky"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "raw iPhone flash photo snapshot, Na'vi female adult slim-curvy blue skin visible pores wet, Na'vi face vertical red tribal paint golden yellow eyes kissy lips, dark thin braids messy, long tail visible, black wet bikini slightly sheer, playful pose arms raised fists near cheeks shoulders lifted torso twist, beach at night dark sand black ocean, harsh frontal flash bright subject dark background, 24mm eye-level upper thighs to head, iPhone noise imperfect centering snapshot feel, 9:16",
+      "negative_prompt": "portrait mode, cinematic, cgi, 3d render, fantasy illustration, studio lighting, anime"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "species": "Na'vi (real-world evolved humanoid)",
+          "gender": "Female, clearly adult",
+          "body": {
+            "type": "Slim-curvy",
+            "waist": "Defined",
+            "hips": "Soft feminine curves",
+            "chest": "Naturally full"
+          },
+          "skin": {
+            "color": "Muted realistic blue",
+            "texture": "Real skin texture, visible pores",
+            "state": "Wet, reflecting harsh flash light"
+          },
+          "face": {
+            "structure": "Na'vi facial proportions",
+            "paint": "Vertical red tribal paint line from forehead down face",
+            "eyes": "Golden yellow, direct eye contact",
+            "mouth": "Kissy lips, blowing soft kiss"
+          },
+          "hair": {
+            "style": "Long thin braids",
+            "color": "Dark",
+            "state": "Slightly messy, beach-worn"
+          },
+          "tail": "Long Na'vi tail clearly visible behind legs, illuminated by flash"
+        },
+        "wardrobe": {
+          "top": "Black triangle bikini top, wet, slightly sheer/semi-transparent",
+          "bottom": "Black bikini bottom, wet, normal beach fit"
+        },
+        "pose_action": {
+          "description": "Playful standing pose, both arms raised, elbows bent outward, fists near cheeks",
+          "shoulders": "Slightly lifted",
+          "torso": "Subtle twist emphasizing waist",
+          "hips": "Shifted to one side",
+          "legs": "One leg bearing weight, other relaxed",
+          "energy": "Playful, teasing, casual"
+        },
+        "scene": {
+          "location": "Public beach at night",
+          "background": [
+            "Dark sand",
+            "Black ocean",
+            "Faint silhouettes far in background",
+            "Night sky no stars"
+          ],
+          "atmosphere": "Dark, humid, real beach night"
+        },
+        "lighting": {
+          "type": "iPhone flash, direct on-camera",
+          "effects": [
+            "Harsh frontal flash",
+            "Bright subject dark background",
+            "Strong shadow falloff",
+            "Slight overexposure on wet skin"
+          ]
+        },
+        "camera": {
+          "device": "iPhone normal photo mode",
+          "lens": "24mm wide",
+          "angle": "Eye-level, another person taking photo",
+          "framing": "Upper thighs to head, about 3 meters",
+          "imperfections": [
+            "iPhone noise",
+            "Minor blur",
+            "Imperfect centering",
+            "Snapshot feel"
+          ],
+          "aspect_ratio": "9:16",
+          "negative_constraints": "no portrait mode, no cinematic, no CGI, no studio lighting"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "iPhone flash photo, Na'vi woman blue skin golden eyes red tribal paint, wet black bikini, playful pose arms up at beach night, harsh flash dark background, snapshot aesthetic --ar 9:16 --style raw --v 6",
+      "notes": "Character may need refinement for Na'vi features"
+    },
+    "ideogram": {
+      "prompt": "Raw iPhone flash photo of Na'vi woman with muted blue skin and golden yellow eyes at beach at night, vertical red tribal face paint, long dark braids, wet black bikini, playful pose with arms raised and kissy lips, harsh flash lighting with dark beach background",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "9:16"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Na'vi woman blue skin golden eyes at night beach, iPhone flash photo, wet black bikini, playful pose arms up, harsh flash dark background"
+    },
+    "luma": {
+      "prompt": "Beach at night, Na'vi woman playfully poses as friend takes photo, iPhone flash illuminates her blue skin against dark ocean, tail sways behind her, casual party moment",
+      "motion_notes": "Playful arm movement, tail sway, flash moment capture"
+    },
+    "reve": {
+      "prompt": "Candid photography in the style of beach party snapshots, Na'vi character with blue skin and tribal paint, iPhone flash against dark beach night, playful wet bikini moment",
+      "art_references": [
+        "Beach party photography",
+        "iPhone flash aesthetic",
+        "Candid night photos"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "iPhone flash photo Na'vi woman with blue skin golden eyes red tribal face paint, wet black bikini, playful pose arms raised at night beach, harsh flash lighting dark ocean background, casual snapshot"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A raw iPhone flash photo of an adult Na'vi female with a slim-curvy body at a public beach at night. Her skin is a muted realistic blue with visible pores and real skin texture, wet and reflecting the harsh flash light. Her face has Na'vi facial proportions with a vertical red tribal paint line running from her forehead down her face. Her eyes are golden yellow with direct eye contact at the camera, and she has kissy lips blowing a soft kiss. Her long dark thin braids are slightly messy and beach-worn. Her long Na'vi tail is clearly visible behind her legs, illuminated by the flash. She wears a wet black triangle bikini top that is slightly sheer when wet, and wet black bikini bottoms. She stands in a playful pose with both arms raised, elbows bent outward, and fists held close to her cheeks. Her shoulders are slightly lifted with a subtle torso twist emphasizing her waist. The background shows dark sand, black ocean, and faint silhouettes of people far away under a night sky. Harsh frontal iPhone flash creates bright illumination on the subject with dark background falloff. The image has iPhone noise, minor blur, and imperfect centering typical of casual snapshots. No CGI. No fantasy illustration. Realistic skin texture with visible pores.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Na'vi female adult with muted realistic blue skin and visible pores, wet from swimming, at beach at night. Golden yellow eyes, vertical red tribal face paint, kissy lips expression, long dark messy braids. Long Na'vi tail visible behind legs. Wearing wet black triangle bikini. Playful pose with arms raised, fists near cheeks, subtle torso twist. Dark beach background with black ocean. iPhone flash photography, harsh frontal light with dark falloff, casual snapshot aesthetic. Not CGI, not 3D render, not fantasy illustration.",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "An adult Na'vi female with muted realistic blue skin stands at a beach at night in a playful pose with both arms raised and fists near her cheeks. Her skin is wet with visible pores reflecting harsh flash light. She has golden yellow eyes, a vertical red tribal paint line on her face, and kissy lips. Long dark thin braids fall messily around her shoulders. Her long Na'vi tail is visible behind her legs. She wears a wet black triangle bikini. The background shows dark sand and black ocean with faint silhouettes in the distance. iPhone flash creates harsh frontal lighting against the dark beach. Casual snapshot aesthetic with typical smartphone imperfections.",
+      "editing_prompt": "Change the tribal face paint color from red to blue while keeping the Na'vi features, pose, bikini, and beach setting the same. Preserve the iPhone flash lighting and casual snapshot feel.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed Na'vi features (skin color, facial structure, tail), specific tribal paint placement",
+    "2_realism_anchors: 'visible pores on blue skin', 'wet skin reflecting flash', 'iPhone noise and imperfections'",
+    "3_technical_camera: 'iPhone normal mode', '24mm wide', specific imperfections (noise, blur, imperfect centering)",
+    "4_negative_hygiene: prevents portrait mode, cinematic, CGI, fantasy illustration",
+    "5_spatial_consistency: precise pose (arms raised, fists near cheeks, torso twist, hip shift)",
+    "6_lighting_storytelling: 'harsh frontal flash with dark falloff' = casual beach party snapshot",
+    "7_character_specificity: Na'vi species with all identifying features (blue skin, golden eyes, tail, braids)"
+  ]
+}

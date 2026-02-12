@@ -1,0 +1,250 @@
+{
+  "name": "Monaco Rooftop Grand Prix View",
+  "description": "Candid lifestyle portrait at Monaco Grand Prix rooftop terrace with wine glass, luxury fashion",
+  "input_prompt": "woman sitting on rooftop terrace overlooking monaco grand prix with wine",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "high_quality",
+      "aspect_ratio": "4:5",
+      "style": "candid_lifestyle_photograph",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "young woman early 20s Caucasian with long voluminous tousled wavy blonde hair with lighter highlights",
+      "identity": {
+        "age_range": "early 20s",
+        "type": "young woman",
+        "ethnicity": "Caucasian",
+        "distinguishing_features": [
+          "voluminous wavy blonde hair",
+          "gentle expression",
+          "sophisticated style"
+        ]
+      },
+      "physical_details": {
+        "skin": {
+          "tone": "fair",
+          "texture": "natural, soft"
+        },
+        "hair": {
+          "color": "wavy blonde with lighter highlights",
+          "style": "long voluminous tousled, framing face"
+        },
+        "face": {
+          "expression": "gentle, calm, slight Mona Lisa smile",
+          "gaze": "looking thoughtfully off-camera right"
+        }
+      },
+      "expression_mood": "serene, sophisticated, contemplative"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "white structured corset-style top",
+          "details": "thin spaghetti straps, boning details visible"
+        },
+        {
+          "type": "high-waisted beige utility cargo pants",
+          "details": "large side pockets"
+        }
+      ],
+      "accessories": [
+        "small patterned Dior Saddle bag under right arm",
+        "dainty necklace",
+        "rings on left hand",
+        "painted white"
+      ]
+    },
+    "pose_action": {
+      "position": "sitting comfortably on black cushioned ledge, body angled slightly left",
+      "camera_relation": "medium shot, slightly low angle, deep depth of field",
+      "dynamic_elements": "hands: left hand holds stemmed glass of rosé by stem, right hand rests flat on ledge behind hip, gaze: looking thoughtfully off-camera to the right"
+    },
+    "environment": {
+      "location": "rooftop terrace overlooking Monaco Grand Prix Fairmont Hairpin turn, Monte Carlo",
+      "background": [
+        "dense hillside with multi-story buildings and hotels",
+        "prominent beige skyscraper",
+        "construction cranes",
+        "green trees",
+        "distant mountains",
+        "cloudy sky",
+        "racetrack with red/white kerbing and vehicles below"
+      ],
+      "props": [
+        {
+          "item": "glass of rosé wine",
+          "details": "stemmed glass held by stem"
+        }
+      ],
+      "atmosphere": "luxury, motorsport, European glamour"
+    },
+    "typography": {
+      "visible_text": [
+        "aramco",
+        "UBS",
+        "Heineken 0.0",
+        "MONTE-CARLO",
+        "CAFE DE PARIS"
+      ],
+      "location": "on racetrack advertising barriers"
+    },
+    "lighting": {
+      "type": "natural daylight, overcast afternoon",
+      "quality": "soft, diffused, flat, shadowless, slightly hazy",
+      "effects": [
+        "even illumination",
+        "muted tones"
+      ]
+    },
+    "camera_technical": {
+      "device": "professional camera",
+      "lens": "50mm",
+      "aperture": "f/5.6",
+      "resolution": "high quality",
+      "style_tags": [
+        "candid lifestyle",
+        "slightly low angle",
+        "deep depth of field",
+        "asymmetrical balance"
+      ]
+    },
+    "color_grading": {
+      "palette": "muted earthy overcast tones",
+      "contrast": "low-medium",
+      "saturation": "moderately desaturated"
+    },
+    "realism_anchors": [
+      "authentic Monaco Grand Prix location",
+      "visible sponsor signage",
+      "racetrack kerbing detail",
+      "natural overcast lighting",
+      "luxury fashion details"
+    ],
+    "negative_prompt": [
+      "studio lighting",
+      "harsh shadows",
+      "oversaturated colors",
+      "HDR look",
+      "cartoon",
+      "3d render",
+      "anime",
+      "perfect symmetry"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "candid lifestyle photograph, young woman early 20s Caucasian, long voluminous tousled wavy blonde hair lighter highlights, gentle calm expression slight smile looking off-camera right, white structured corset-style top spaghetti straps boning details, high-waisted beige utility cargo pants large pockets, Dior Saddle bag dainty necklace rings white nails, sitting on black cushioned ledge body angled left, left hand holding rosé wine glass by stem right hand on ledge, rooftop terrace overlooking Monaco Grand Prix Fairmont Hairpin, Monte Carlo hillside buildings hotels beige skyscraper cranes trees mountains cloudy sky, racetrack red white kerbing aramco UBS Heineken signs, natural overcast daylight soft diffused flat shadowless, slightly low angle medium shot deep depth of field, muted earthy desaturated tones, 4:5 portrait",
+  "negative_prompt_flat": "studio lighting, harsh shadows, oversaturated, HDR, cartoon, 3d render, anime, perfect symmetry",
+  "color_palette": {
+    "primary": "white corset, beige pants",
+    "secondary": "blonde hair, fair skin",
+    "accent": "rosé wine pink, Dior bag pattern",
+    "background": "muted building tones, grey sky, green trees"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "candid lifestyle photo, young woman wavy blonde hair, gentle expression looking off-camera, white corset top beige cargo pants, Dior Saddle bag necklace rings, sitting on ledge holding rosé glass, Monaco Grand Prix rooftop terrace Fairmont Hairpin, Monte Carlo hillside buildings racetrack aramco UBS signs, overcast daylight soft diffused, slightly low angle deep depth of field, muted desaturated tones, 4:5",
+      "negative_prompt": "studio lighting, harsh shadows, oversaturated, HDR, cartoon, 3d render"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Young woman early 20s Caucasian with long voluminous tousled wavy blonde hair",
+          "face": {
+            "expression": "Gentle, calm, slight Mona Lisa smile",
+            "gaze": "Looking thoughtfully off-camera to the right"
+          },
+          "hair": {
+            "color": "Wavy blonde with lighter highlights",
+            "style": "Long voluminous tousled, framing face"
+          }
+        },
+        "wardrobe": {
+          "top": "White structured corset-style top, thin spaghetti straps, boning details",
+          "bottom": "High-waisted beige utility cargo pants, large side pockets",
+          "accessories": [
+            "Small patterned Dior Saddle bag under right arm",
+            "Dainty necklace",
+            "Rings on left hand"
+          ],
+          "nails": "Painted white"
+        },
+        "pose_action": {
+          "description": "Sitting comfortably on black cushioned ledge, body angled slightly left",
+          "hands": "Left holds rosé glass by stem, right rests flat on ledge behind hip"
+        },
+        "scene": {
+          "environment": "Rooftop terrace overlooking Monaco Grand Prix Fairmont Hairpin, Monte Carlo",
+          "background": "Dense hillside, multi-story buildings and hotels, beige skyscraper, cranes, trees, mountains, cloudy sky, racetrack with red/white kerbing",
+          "visible_signage": "aramco, UBS, Heineken 0.0, MONTE-CARLO, CAFE DE PARIS on barriers"
+        },
+        "lighting": {
+          "type": "Natural daylight, overcast afternoon",
+          "quality": "Soft, diffused, flat, shadowless, slightly hazy"
+        },
+        "camera": {
+          "technical": "50mm lens, f/5.6, deep depth of field",
+          "angle": "Slightly low angle, medium shot",
+          "composition": "Asymmetrical balance",
+          "aspect_ratio": "4:5",
+          "color_grading": "Muted earthy overcast tones, low-medium contrast, moderately desaturated",
+          "negative_constraints": "no studio lighting, no harsh shadows, no oversaturated, no HDR"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "candid lifestyle photograph, woman wavy blonde hair white corset beige cargo pants, sitting on rooftop terrace holding wine glass, Monaco Grand Prix view Monte Carlo hillside, racetrack with sponsor signs, overcast diffused light, muted tones slightly desaturated --ar 4:5 --style raw --v 6",
+      "notes": "Use --style raw for authentic candid look"
+    },
+    "ideogram": {
+      "prompt": "Young blonde woman in white corset top and beige cargo pants sitting on rooftop terrace overlooking Monaco Grand Prix, holding glass of rosé, Fairmont Hairpin racetrack visible with sponsor banners, Monte Carlo hillside background, overcast natural lighting",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "4:5"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Monaco Grand Prix rooftop view, blonde woman in white corset holding wine, terrace overlooking racetrack, Monte Carlo hillside, overcast soft lighting"
+    },
+    "luma": {
+      "prompt": "Monaco Grand Prix rooftop terrace, elegant woman sips rosé while watching race below, cars zoom through Fairmont Hairpin creating distant engine sounds, soft overcast light, luxury European atmosphere",
+      "motion_notes": "Distant race cars moving on track, subtle wine swirl in glass, gentle hair movement"
+    },
+    "reve": {
+      "prompt": "Luxury lifestyle photography in the style of Monaco Grand Prix glamour, blonde woman on rooftop terrace with wine, white corset elegant fashion, Monte Carlo hillside backdrop, soft overcast European light",
+      "art_references": [
+        "Monaco lifestyle photography",
+        "Grand Prix glamour",
+        "European luxury fashion"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Blonde woman in white corset and beige pants sitting on Monaco rooftop terrace with wine glass, Grand Prix racetrack below with sponsor signs, Monte Carlo hillside view, overcast soft lighting, candid lifestyle vibes"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A young woman in her early twenties sits comfortably on a black cushioned ledge at a rooftop terrace overlooking the Monaco Grand Prix Fairmont Hairpin turn. She has long, voluminous tousled wavy blonde hair with lighter highlights framing her fair-skinned face. Her expression is gentle and contemplative with a slight Mona Lisa smile as she gazes thoughtfully off-camera to the right. She wears a white structured corset-style top with thin spaghetti straps and visible boning details, paired with high-waisted beige utility cargo pants featuring large side pockets. A small patterned Dior Saddle bag rests under her right arm, and she accessorizes with a dainty necklace, rings on her left hand, and white painted nails. Her left hand holds a stemmed glass of rose wine by the stem while her right hand rests flat on the ledge behind her hip. The Monte Carlo hillside with multi-story buildings, a prominent beige skyscraper, construction cranes, green trees, and distant mountains fills the background under a cloudy sky. The racetrack below shows red and white kerbing with sponsor signage including aramco, UBS, and Heineken. Natural overcast afternoon daylight creates soft, diffused, shadowless lighting with muted earthy tones. No harsh shadows. No oversaturated colors. Realistic fabric textures.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Young woman with long wavy blonde hair sitting on rooftop terrace overlooking Monaco Grand Prix, white corset top and beige cargo pants, holding rose wine glass, Dior Saddle bag, looking off-camera with gentle expression, Monte Carlo hillside with buildings and racetrack visible below, aramco UBS sponsor signs on barriers, natural overcast daylight with soft diffused lighting, 50mm candid lifestyle photography, muted desaturated color palette, not HDR or oversaturated",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A sophisticated young woman with voluminous wavy blonde hair sits on a rooftop terrace overlooking the Monaco Grand Prix. She wears a white structured corset top and high-waisted beige cargo pants, holding a glass of rose wine. Her gentle expression and slight smile convey serene contemplation as she gazes off-camera. The iconic Fairmont Hairpin racetrack curves below with sponsor signage, while Monte Carlo's hillside buildings and distant mountains create a stunning backdrop under overcast skies. Soft, diffused natural lighting with muted earthy tones. Candid lifestyle photography aesthetic.",
+      "editing_prompt": "Change the sky from overcast to golden hour sunset while keeping the woman's pose, outfit, and the Monaco Grand Prix setting exactly the same. Preserve the muted color palette and candid aesthetic.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed location (Monaco/Fairmont Hairpin), specific fashion brands (Dior), visible signage",
+    "2_realism_anchors: 'authentic Monaco location', 'sponsor signage', 'racetrack kerbing detail'",
+    "3_technical_camera: '50mm', 'f/5.6', 'deep depth of field', 'slightly low angle'",
+    "4_negative_hygiene: excludes oversaturated, HDR look common in travel photos",
+    "5_spatial_consistency: 'body angled left', 'looking off-camera right', clear hand positions",
+    "6_lighting_storytelling: 'overcast soft diffused' = sophisticated European mood",
+    "7_color_grading: muted earthy tones reinforce candid authenticity"
+  ]
+}

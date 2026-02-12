@@ -1,0 +1,296 @@
+{
+  "name": "Urban Streetwear Editorial Collage",
+  "description": "Multi-panel editorial poster-style collage with retro analog-digital fusion aesthetic featuring streetwear fashion",
+  "input_prompt": "editorial poster collage with multiple shots of woman in streetwear dress",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "high_resolution",
+      "aspect_ratio": "9:16",
+      "style": "editorial_poster_collage",
+      "target_model": "flux"
+    },
+    "composition": {
+      "type": "multi-panel collage",
+      "layout": "three-panel poster layout (top-left, top-right, bottom-right)",
+      "panels": [
+        {
+          "id": "frame_1_top_left",
+          "description": "reflective window shot; holding phone in front of face",
+          "shot_type": "reflective window shot",
+          "pose": "holding phone in front of face",
+          "overlays": [
+            "layered ghosting",
+            "architectural overlays",
+            "curvature distortion"
+          ]
+        },
+        {
+          "id": "frame_2_top_right",
+          "description": "close-range downward-angled ultra-wide portrait; leaning forward, hands in pockets, exaggerated pout; setting: cobblestone street",
+          "shot_type": "close-range downward-angled ultra-wide portrait",
+          "pose": "leaning forward, hands in pockets, exaggerated pout",
+          "setting": "cobblestone street",
+          "overlays": [
+            "lens perspective distortion",
+            "radiating cobblestones"
+          ]
+        },
+        {
+          "id": "frame_3_bottom_right",
+          "description": "intimate overhead selfie; holding a drink",
+          "shot_type": "intimate overhead selfie",
+          "lighting": "soft overcast",
+          "props": "holding a drink",
+          "overlays": [
+            "faint digital grid",
+            "minimal square facial-bounding graphic"
+          ]
+        }
+      ]
+    },
+    "subject": {
+      "description": "young woman in floor-length chocolate-brown streetwear-inspired dress with multiple poses across panels",
+      "identity": {
+        "age_range": "20s",
+        "type": "young woman",
+        "consistency": "same subject across all panels with identical outfit"
+      },
+      "physical_details": {
+        "hair": {
+          "style": "styled for editorial shoot"
+        },
+        "face": {
+          "expressions": [
+            "contemplative in window shot",
+            "exaggerated pout in street shot",
+            "relaxed in overhead selfie"
+          ]
+        }
+      }
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "floor-length streetwear-inspired dress",
+          "color": "chocolate brown",
+          "details": "blazer-style structured top, flowing skirt, plaid accents, asymmetrical hem, slit for movement, structured shoulders"
+        }
+      ],
+      "accessories": [
+        "oversized amber sunglasses",
+        "brown leather ankle boots",
+        "layered gold chains",
+        "optional wired earphones or smartwatch"
+      ]
+    },
+    "aesthetic_theme": {
+      "style": "retro analog-digital fusion",
+      "mood": "editorial poster aesthetic",
+      "color_palette": [
+        "warm ambers",
+        "washed neutrals",
+        "soft greys",
+        "muted browns"
+      ],
+      "textures": [
+        "reflective glass",
+        "wool plaid",
+        "polished leather",
+        "stone pavement"
+      ]
+    },
+    "ui_elements": {
+      "music_player": {
+        "style": "translucent iOS-style Apple Music mini-player",
+        "content": "Opalite by Taylor Swift, The Creator",
+        "features": [
+          "artwork",
+          "timeline",
+          "playback controls (no shadows)"
+        ]
+      },
+      "graphics": [
+        "subtle cursor-like frame lines",
+        "rectangular highlights"
+      ]
+    },
+    "environment": {
+      "location": "urban street / reflective window storefront / outdoor cafe/seating area",
+      "background": [
+        "cobblestone pavement",
+        "architectural facades",
+        "city textures",
+        "urban street",
+        "reflective window storefront",
+        "outdoor cafe/seating area"
+      ],
+      "atmosphere": "urban editorial, fashion-forward"
+    },
+    "lighting": {
+      "overall": "soft overcast with warm tones",
+      "per_panel": {
+        "window_shot": "reflective natural light with ghosting",
+        "street_shot": "even overcast",
+        "overhead_selfie": "soft diffused"
+      }
+    },
+    "camera_technical": {
+      "style": "editorial collage composition",
+      "variety": [
+        "ultra-wide distortion",
+        "standard portrait",
+        "overhead angle"
+      ],
+      "color_grading": "warm amber tones, washed neutrals, slightly desaturated",
+      "style_tags": [
+        "editorial poster",
+        "multi-panel",
+        "analog-digital fusion"
+      ]
+    },
+    "realism_anchors": [
+      "consistent outfit across all panels",
+      "realistic glass reflections and distortions",
+      "authentic street textures",
+      "believable UI elements"
+    ],
+    "negative_prompt": [
+      "stickers",
+      "extra subjects",
+      "wardrobe changes between panels",
+      "incorrect UI icons",
+      "neon color shifts",
+      "futuristic sci-fi elements",
+      "cartoon",
+      "anime",
+      "3d render"
+    ],
+    "prompt_type": "collage"
+  },
+  "flattened_prompt": "editorial poster-style multi-panel collage 9:16, young woman in floor-length chocolate-brown streetwear dress blazer-style top flowing skirt plaid accents structured shoulders, oversized amber sunglasses brown leather boots layered gold chains, three panels: top-left reflective window shot phone in front of face layered ghosting, top-right ultra-wide cobblestone street leaning forward hands in pockets exaggerated pout lens distortion, bottom-right intimate overhead selfie holding drink faint digital grid overlay, translucent iOS music player showing Opalite by Taylor Swift, warm ambers washed neutrals soft greys muted browns color palette, retro analog-digital fusion aesthetic",
+  "negative_prompt_flat": "stickers, extra subjects, wardrobe changes, incorrect UI, neon colors, sci-fi, cartoon, anime, 3d render",
+  "color_palette": {
+    "primary": "chocolate brown dress",
+    "secondary": "warm ambers, washed neutrals",
+    "accent": "gold jewelry, amber sunglasses",
+    "background": "soft greys, muted browns, stone textures"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "editorial poster multi-panel collage, woman in chocolate-brown floor-length streetwear dress blazer top plaid accents, amber sunglasses gold chains leather boots, three panels: window reflection with phone ghosting effect, ultra-wide cobblestone street pout, overhead selfie with drink digital grid overlay, iOS music player UI element, warm amber washed neutral color grading, analog-digital fusion, 9:16",
+      "negative_prompt": "stickers, extra subjects, wardrobe changes, neon colors, sci-fi, cartoon"
+    },
+    "nano-banana": {
+      "prompt": {
+        "composition": {
+          "type": "Editorial poster-style multi-panel collage",
+          "aspect_ratio": "9:16",
+          "panels": {
+            "top_left": {
+              "shot": "Reflective window shot",
+              "pose": "Holding phone in front of face",
+              "effects": "Layered ghosting, architectural overlays, curvature distortion"
+            },
+            "top_right": {
+              "shot": "Close-range downward ultra-wide portrait",
+              "setting": "Cobblestone street",
+              "pose": "Leaning forward, hands in pockets, exaggerated pout",
+              "effects": "Lens perspective distortion, radiating cobblestones"
+            },
+            "bottom_right": {
+              "shot": "Intimate overhead selfie",
+              "props": "Holding a drink",
+              "overlays": "Faint digital grid, minimal facial-bounding graphic"
+            }
+          }
+        },
+        "subject": {
+          "description": "Young woman, same across all panels",
+          "outfit_consistency": "Identical chocolate-brown dress in every panel"
+        },
+        "wardrobe": {
+          "dress": "Floor-length chocolate-brown streetwear-inspired dress, blazer-style structured top, flowing skirt, plaid accents, asymmetrical hem, slit, structured shoulders",
+          "accessories": [
+            "Oversized amber sunglasses",
+            "Brown leather ankle boots",
+            "Layered gold chains"
+          ]
+        },
+        "aesthetic": {
+          "style": "Retro analog-digital fusion",
+          "color_palette": [
+            "Warm ambers",
+            "Washed neutrals",
+            "Soft greys",
+            "Muted browns"
+          ],
+          "textures": [
+            "Reflective glass",
+            "Wool plaid",
+            "Polished leather",
+            "Stone pavement"
+          ]
+        },
+        "ui_elements": {
+          "music_player": "Translucent iOS-style Apple Music mini-player showing 'Opalite' by Taylor Swift",
+          "graphics": "Subtle cursor-like frame lines, rectangular highlights"
+        },
+        "negative_constraints": "no stickers, no extra subjects, no wardrobe changes, no neon, no sci-fi"
+      }
+    },
+    "midjourney": {
+      "prompt": "editorial poster multi-panel collage, woman chocolate brown streetwear dress, window reflection shot, ultra-wide street portrait, overhead selfie with drink, iOS music player overlay, warm amber muted tones, analog-digital fusion --ar 9:16 --style raw --v 6",
+      "notes": "Complex composition may need multiple generations"
+    },
+    "ideogram": {
+      "prompt": "Multi-panel editorial collage poster featuring young woman in chocolate brown floor-length streetwear dress with blazer top and plaid accents, three different poses: window reflection with phone, cobblestone street with pout, overhead selfie with drink, warm amber and neutral color palette, iOS music player UI overlay",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "9:16"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Editorial fashion collage, woman in brown streetwear dress, multiple panels with window reflection street and selfie shots, warm amber tones, digital UI overlays"
+    },
+    "luma": {
+      "prompt": "Editorial fashion montage comes alive, panels transition smoothly between window reflection shot, street pose, and overhead selfie, warm amber lighting shifts, digital UI elements flicker subtly, urban sophistication",
+      "motion_notes": "Smooth panel transitions, subtle reflection movement, UI element animations"
+    },
+    "reve": {
+      "prompt": "Editorial fashion photography in the style of multi-panel poster collage, streetwear dress across urban settings, retro analog-digital fusion aesthetic, warm amber washed neutral palette, iOS UI integration",
+      "art_references": [
+        "Editorial fashion collage",
+        "Analog-digital fusion photography",
+        "Urban streetwear campaigns"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Editorial poster collage with three panels of woman in chocolate brown streetwear dress: window reflection with phone, cobblestone street portrait, overhead selfie with drink, warm amber color grading, iOS music player overlay"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A multi-panel editorial poster-style collage featuring a young woman in a floor-length chocolate-brown streetwear-inspired dress with a blazer-style structured top, flowing skirt, plaid accents, asymmetrical hem, and structured shoulders. She wears oversized amber sunglasses, brown leather ankle boots, and layered gold chains. The same outfit appears consistently across three panels arranged in 9:16 vertical format. Top-left panel: A reflective window shot where she holds her phone in front of her face, with layered ghosting effects and architectural overlays creating curvature distortion. Top-right panel: A close-range downward-angled ultra-wide portrait on a cobblestone street, showing her leaning forward with hands in pockets and an exaggerated pout, lens distortion making the cobblestones radiate outward. Bottom-right panel: An intimate overhead selfie in soft overcast light as she holds a drink, with a faint digital grid and minimal square facial-bounding graphic overlay. A translucent iOS-style Apple Music mini-player shows 'Opalite' by Taylor Swift with artwork and playback controls. The color palette features warm ambers, washed neutrals, soft greys, and muted browns throughout. Textures include reflective glass, wool plaid, polished leather, and stone pavement. Retro analog-digital fusion aesthetic. No wardrobe changes between panels. No extra subjects. No neon colors.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Editorial poster multi-panel collage featuring young woman in chocolate brown floor-length streetwear dress with blazer top and plaid accents, amber sunglasses and gold chains, three panels showing window reflection with phone and ghosting effect, ultra-wide cobblestone street portrait with exaggerated pout, overhead selfie holding drink with digital grid overlay, iOS music player UI element, warm amber and washed neutral color grading, retro analog-digital fusion aesthetic, same outfit across all panels not changing wardrobe",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A striking editorial poster collage in 9:16 format featuring a young woman wearing a chocolate-brown floor-length streetwear dress with blazer-style structured top and plaid accents throughout three distinct panels. Top-left shows a reflective window shot with ghosting effects as she holds her phone. Top-right captures an ultra-wide cobblestone street portrait with exaggerated pout and lens distortion. Bottom-right presents an intimate overhead selfie with a drink and faint digital grid overlay. Oversized amber sunglasses and layered gold chains complete her look. A translucent iOS music player shows 'Opalite' by Taylor Swift. Warm amber and muted neutral color palette with retro analog-digital fusion aesthetic.",
+      "editing_prompt": "Change the color grading from warm amber tones to cool blue and silver tones while keeping the exact same three-panel layout, poses, chocolate brown dress, and iOS music player overlay. Preserve the editorial collage composition and retro aesthetic.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed per-panel composition with specific poses, effects, and settings",
+    "2_realism_anchors: 'consistent outfit across panels', 'realistic glass reflections', 'authentic street textures'",
+    "3_technical_camera: variety of angles and lens effects per panel (ultra-wide, overhead, standard)",
+    "4_negative_hygiene: prevents wardrobe changes, extra subjects, incorrect UI elements",
+    "5_spatial_consistency: clear panel layout (top-left, top-right, bottom-right)",
+    "6_lighting_storytelling: 'warm amber tones' = editorial fashion mood",
+    "7_ui_integration: specific iOS music player with song details adds authenticity"
+  ]
+}

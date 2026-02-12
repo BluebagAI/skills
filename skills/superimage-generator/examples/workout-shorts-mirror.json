@@ -1,0 +1,195 @@
+{
+  "name": "Workout Shorts Mirror Selfie",
+  "description": "Highly controlled mirror selfie with workout shorts and crop tee, precise pose and camera locks for identity replacement",
+  "input_prompt": "woman taking mirror selfie in crop tee and workout shorts minimal bedroom",
+  "target_model": "nano-banana",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "photoreal",
+      "aspect_ratio": "9:16",
+      "style": "identity_lock_mirror_selfie",
+      "target_model": "nano-banana",
+      "template_purpose": "identity replacement while preserving all scene parameters"
+    },
+    "subject": {
+      "description": "Young woman age 20-35 with medium-long light brown hair and blonde highlights, soft neutral expression, taking a mirror selfie in a minimal bedroom.",
+      "body": {
+        "physique": "Height 160cm with moderate hip curve and natural proportions.",
+        "anatomy": "Body angled with pelvis yaw 80 degrees, torso 65 degrees, head 55 degrees; weight distribution 80% left, 20% right; supporting left leg with right leg back and heel raised.",
+        "details": "Light to medium warm skin tone with realistic natural texture."
+      },
+      "face": "Soft neutral expression with gaze toward phone screen; face direction yaw right 55 degrees, pitch down 8 degrees.",
+      "hair": "Light brown hair with blonde highlights, below shoulders, natural styling.",
+      "skin": "Light to medium warm tone with realistic natural texture.",
+      "expression_mood": "casual, relaxed, neutral"
+    },
+    "wardrobe": {
+      "top": "Soft white crop t-shirt with short sleeves, hem above navel, horizontal stretch, natural wrinkles under bust and at side seams.",
+      "bottom": "High-waisted workout shorts in lilac with subtle stripes, 7cm inseam, 6cm waistband, fitted with stretch zones at glutes and outer hips.",
+      "accessories": []
+    },
+    "pose_action": {
+      "description": "Standing mirror selfie with body angled (pelvis yaw 80 degrees, torso 65 degrees, head 55 degrees), phone held in right hand at mirror position 0.38, 0.47.",
+      "posture": "Soft lumbar curve with upright thoracic posture; supporting left leg with knee 8 degrees and foot flat; rear right leg with knee 22 degrees, forefoot contact, heel elevated 2.5cm; right arm holding phone with elbow 90 degrees, left arm minimally visible; weight distribution 80% left, 20% right."
+    },
+    "scene": {
+      "environment": "Minimal bedroom with off-white smooth walls and dark wood floor with low reflectivity.",
+      "background": "White door, white baseboards (8cm), and a visible light switch on the wall.",
+      "location": "Minimal bedroom.",
+      "atmosphere": "Clean, minimal, low clutter."
+    },
+    "mirror_geometry": {
+      "alignment": "parallel to subject",
+      "distance_m": 0.6,
+      "dimensions": "0.9m x 2.1m"
+    },
+    "lighting": {
+      "type": "soft daylight from elevation 35 degrees, azimuth -45 degrees",
+      "quality": "soft shadows",
+      "effects": ["midtones dominant", "no clipping", "5000K color temperature", "ambient ratio 0.4"]
+    },
+    "camera": {
+      "technical": "Smartphone camera, 26mm full-frame equivalent, distance 1.2m, height 1.45m, pitch down -2 degrees, 1536x2732 resolution, mirror selfie with identity lock and minimal variation.",
+      "aspect_ratio": "9:16",
+      "negative_constraints": "No pose change, no camera change, no environment change, no extra objects, no body morph, no filters, no cartoon, no 3d render, no airbrushed texture.",
+      "lens": "26mm full-frame equivalent",
+      "resolution": "1536x2732",
+      "style": "mirror selfie"
+    },
+    "composition_anchors": {
+      "head_xy": [0.62, 0.18],
+      "hip_xy": [0.63, 0.55],
+      "feet_xy": [[0.59, 0.93], [0.52, 0.96]],
+      "negative_space": {
+        "left": 0.32,
+        "right": 0.18
+      }
+    },
+    "realism_anchors": [
+      "natural fabric wrinkles",
+      "realistic skin texture",
+      "accurate mirror reflection",
+      "proper weight distribution in pose",
+      "consistent lighting shadows"
+    ],
+    "negative_prompt": [
+      "pose change",
+      "camera change",
+      "environment change",
+      "extra objects",
+      "body morph",
+      "filters",
+      "cartoon",
+      "3d render",
+      "airbrushed"
+    ]
+  },
+  "flattened_prompt": "photorealistic mirror selfie, young woman 20-35 light brown hair blonde highlights, soft neutral expression looking at phone, soft white crop tee short sleeves above navel with natural wrinkles, lilac high-waisted workout shorts with subtle stripes 7cm inseam, standing pose body angled pelvis 80 degrees torso 65 head 55, right hand holding phone left leg supporting right leg back heel raised, minimal bedroom off-white walls dark wood floor white door baseboards, soft daylight from upper left soft shadows 5000K, smartphone 26mm at 1.2m distance 1.45m height, subject fill 80% of frame, 9:16 vertical",
+  "negative_prompt_flat": "pose change, camera change, environment change, extra objects, body morph, filters, cartoon, 3d render, airbrushed",
+  "color_palette": {
+    "primary": "soft white crop tee",
+    "secondary": "lilac workout shorts",
+    "accent": "light brown hair with highlights",
+    "background": "off-white walls, dark wood floor"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "photorealistic mirror selfie, young woman light brown hair blonde highlights, soft neutral expression, white crop tee above navel lilac workout shorts high-waisted, standing angled pose right hand holding phone, minimal bedroom off-white walls dark wood floor, soft daylight upper left soft shadows, smartphone 26mm mirror reflection, 9:16",
+      "negative_prompt": "pose change, environment change, body morph, filters, cartoon, 3d render, airbrushed"
+    },
+    "nano-banana": {
+      "prompt": {
+        "identity_lock": {
+          "replace_identity_only": true,
+          "preserve_body_proportions": true,
+          "preserve_skin_tone_range": true,
+          "hair_length": "medium-long",
+          "hair_color": "light brown with blonde highlights",
+          "age_band": "20-35"
+        },
+        "subject": {
+          "face_direction": "Yaw right 55°, pitch down 8°, roll 0°",
+          "expression": "Soft neutral",
+          "gaze": "Toward phone screen"
+        },
+        "pose_lock": {
+          "global": "Pelvis yaw 80°, torso yaw 65°, head yaw 55°",
+          "spine": "Soft lumbar curve, upright thoracic",
+          "legs": {
+            "supporting_left": "Knee 8°, foot flat",
+            "rear_right": "Knee 22°, forefoot contact, heel elevated 2.5cm"
+          },
+          "weight_distribution": "80% left, 20% right"
+        },
+        "clothing_lock": {
+          "top": "Soft white crop tee, short sleeves, hem above navel, horizontal stretch, wrinkles under bust and side seams",
+          "bottom": "Lilac workout shorts with subtle stripes, high waist 6cm band, 7cm inseam, stretch at glutes and outer hips"
+        },
+        "environment_lock": {
+          "room": "Minimal bedroom, off-white smooth walls, dark wood floor low reflectivity",
+          "fixtures": "White door, white baseboards 8cm, light switch at 0.22, 0.38"
+        },
+        "camera_lock": {
+          "lens": "26mm full frame equivalent",
+          "distance": "1.2m, height 1.45m, pitch down -2°",
+          "mirror": "Parallel plane, 0.6m distance, 0.9x2.1m dimensions",
+          "aspect_ratio": "9:16"
+        },
+        "lighting_lock": {
+          "type": "Soft daylight, elevation 35°, azimuth -45°",
+          "color_temp": "5000K",
+          "shadows": "Soft, ambient ratio 0.4"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "photorealistic mirror selfie, young woman light brown hair, soft expression, white crop tee lilac workout shorts, angled standing pose phone in hand, minimal bedroom white walls dark floor, soft daylight natural shadows --ar 9:16 --style raw --v 6",
+      "notes": "Use --style raw for authentic mirror selfie look"
+    },
+    "ideogram": {
+      "prompt": "Young woman taking mirror selfie in minimal bedroom, light brown hair with highlights, wearing white crop tee and lilac high-waisted workout shorts, angled standing pose holding phone, off-white walls and dark wood floor, soft natural daylight",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "9:16"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Mirror selfie, woman in white crop tee lilac shorts, minimal bedroom, soft daylight, angled pose holding phone"
+    },
+    "luma": {
+      "prompt": "Minimal bedroom mirror selfie moment, woman adjusts pose slightly while checking phone screen, soft daylight filters through, subtle movement as she finds the right angle",
+      "motion_notes": "Subtle pose adjustment, slight phone tilt, natural breathing movement"
+    },
+    "reve": {
+      "prompt": "Clean minimal mirror selfie photography in the style of fitness lifestyle content, young woman in crop tee and workout shorts, soft natural lighting in minimal bedroom, controlled composition",
+      "art_references": ["Fitness lifestyle photography", "Minimal interior aesthetics", "Controlled pose photography"]
+    },
+    "grok-imagine": {
+      "prompt": "Mirror selfie in minimal bedroom, woman in white crop tee and lilac workout shorts, light brown hair, angled pose holding phone, off-white walls dark wood floor, soft natural light"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A young woman aged 20-35 takes a mirror selfie in a minimal bedroom. She has medium-long light brown hair with blonde highlights and a soft neutral expression, looking toward her phone screen. She wears a soft white crop t-shirt with short sleeves that ends above her navel, showing natural horizontal stretch and wrinkles under the bust and at side seams. Her high-waisted lilac workout shorts with subtle stripes have a 6cm waistband and 7cm inseam, fitting snugly with stretch zones at the glutes and outer hips. Her body is angled with pelvis at 80 degrees, torso at 65 degrees, and head at 55 degrees relative to the mirror. Her left leg supports most weight with knee slightly bent, while her right leg is back with heel elevated. Her right hand holds the phone at elbow 90 degrees. The minimal bedroom has off-white smooth walls, dark wood floor with low reflectivity, white door, 8cm white baseboards, and a visible light switch. Soft daylight from upper left at 35 degree elevation creates soft shadows at 5000K color temperature. The mirror is 0.6m away, and she fills about 80% of the vertical frame. No watermark. No artificial smoothing. Realistic fabric wrinkles and natural skin texture.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Young woman 20-35 taking mirror selfie in minimal bedroom, medium-long light brown hair blonde highlights, soft neutral expression looking at phone, soft white crop tee short sleeves hem above navel with natural fabric wrinkles, lilac high-waisted workout shorts subtle stripes fitted with stretch, standing angled pose pelvis 80 degrees torso 65 degrees head turned, right hand holding phone left leg supporting weight, off-white smooth walls dark wood floor white door baseboards, soft daylight upper left 5000K soft shadows, smartphone 26mm mirror reflection perspective, controlled fitness lifestyle photography, not airbrushed or cartoon",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "Young woman 20-35 takes mirror selfie in minimal bedroom. Medium-long light brown hair with blonde highlights, soft neutral expression looking at phone screen. Wearing soft white crop tee with short sleeves ending above navel showing natural wrinkles, and lilac high-waisted workout shorts with subtle stripes. Body angled with pelvis at 80 degrees, torso at 65 degrees, head turned at 55 degrees. Left leg supporting with slight knee bend, right leg back with heel elevated. Right hand holds phone at 90 degree elbow. Minimal bedroom with off-white smooth walls, dark wood floor, white door and baseboards. Soft daylight from upper left creates gentle shadows. Mirror reflection at 0.6m distance. Subject fills 80% of vertical frame.",
+      "editing_prompt": "Change the shorts from lilac to black while keeping the same high-waisted style and fit. Preserve her pose, the white crop tee, minimal bedroom setting, and soft daylight lighting.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Extremely detailed pose angles in degrees, fabric details, room fixtures",
+    "2_realism_anchors: 'natural fabric wrinkles', 'proper weight distribution', 'consistent shadows'",
+    "3_technical_camera: precise lens/distance/height/tilt specifications, composition anchors",
+    "4_negative_hygiene: prohibitions list for pose/camera/environment changes",
+    "5_spatial_consistency: exact position coordinates, mirror geometry, body angles",
+    "6_lighting_storytelling: 'soft daylight 5000K' = clean fitness lifestyle mood",
+    "7_identity_lock: template designed for face-only replacement while preserving everything else"
+  ]
+}

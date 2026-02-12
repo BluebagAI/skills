@@ -1,0 +1,274 @@
+{
+  "name": "Café Sideways Selfie Thigh Focus",
+  "description": "Asian-European mix woman taking selfie in aesthetic café, cream ribbed tank top and grey pleated mini skirt, sitting sideways with thigh prominent in frame, late afternoon window light, Instagram explore page energy",
+  "input_prompt": "asian european woman cafe selfie cream tank top grey pleated skirt sitting sideways thigh focus window light instagram",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "iphone_social_realism",
+      "aspect_ratio": "4:5",
+      "style": "cafe_lifestyle_selfie",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "young Asian-European mix woman taking selfie in aesthetic café, soft seductive calm expression, sitting sideways with thigh prominently visible in frame",
+      "identity": {
+        "age_range": "early 20s",
+        "type": "woman",
+        "ethnicity": "Asian-European mix",
+        "distinguishing_features": [
+          "half-lidded eyes",
+          "full glossy lips",
+          "dark blonde loose hair"
+        ]
+      },
+      "physical_details": {
+        "skin": {
+          "tone": "light warm beige",
+          "texture": "real pores, no blur, slight warmth from daylight"
+        },
+        "hair": {
+          "color": "dark blonde",
+          "style": "loose, slightly messy",
+          "details": "a few strands falling across chest and shoulder; length: long"
+        },
+        "face": {
+          "expression": "soft seductive calm, relaxed confidence",
+          "makeup": "minimal, skin-focused, natural blush",
+          "details": "eyes: state: half-lidded, direction: looking directly into camera; brows: natural, relaxed; lips: shape: full, state: slightly parted, finish: clear gloss"
+        },
+        "body": {
+          "details": "type: soft curvy instagram model aesthetic; waist: small and tight; hips: round and feminine; chest: medium-full, natural; legs: thick smooth thighs; posture: relaxed but aware of body"
+        }
+      },
+      "expression_mood": "soft seductive calm, confident, intimate public moment"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "thin ribbed tank top",
+          "color": "cream",
+          "fit": "tight, no bra underneath",
+          "details": "slightly stretched over chest"
+        },
+        {
+          "type": "micro pleated skirt",
+          "color": "soft grey",
+          "fit": "sits high on hips",
+          "details": "fabric folds visible, riding slightly due to sitting position"
+        }
+      ]
+    },
+    "pose_action": {
+      "position": "sitting sideways on café chair",
+      "camera_relation": "selfie from arm's length, mid-thigh to head framing",
+      "dynamic_elements": "hips: angled toward camera; legs: arrangement: one leg bent slightly, thigh closest to camera, effect: thigh visually dominant in frame; upper_body: torso: slight lean back, shoulders: relaxed; arms: phone_hand: holding phone above face, free_hand: resting on thigh"
+    },
+    "environment": {
+      "location": "small aesthetic city café",
+      "country_feel": "southern European",
+      "interior": [
+        "wooden round table",
+        "simple ceramic coffee cup",
+        "large window with soft daylight",
+        "street reflections on glass"
+      ],
+      "background": [
+        "blurred people in background",
+        "window reflections with street movement barely visible",
+        "half-finished coffee on table",
+        "phone shadow on table"
+      ],
+      "time": "late afternoon",
+      "atmosphere": "quiet café tension, intimate public moment"
+    },
+    "lighting": {
+      "type": "natural window light",
+      "direction": "side-lit",
+      "color_temperature": "neutral-warm daylight",
+      "intensity": "medium soft",
+      "effects": [
+        "soft highlight on cheekbones",
+        "gentle shadow under chest",
+        "natural depth on waist curve",
+        "skin glow without shine"
+      ],
+      "quality": "soft, side-lit window daylight"
+    },
+    "camera_technical": {
+      "device": "iPhone 15 Pro Max",
+      "lens": "26mm wide",
+      "pov": "phone is the camera (selfie perspective)",
+      "angle": "slightly high selfie angle",
+      "distance": "arm's length",
+      "framing": "mid-thigh to head, casual imperfect crop",
+      "motion": "very slight hand shake realism",
+      "style": "raw iphone photo, no beauty filter, subtle grain, social media realism",
+      "compression": "light jpeg compression like real Instagram upload"
+    },
+    "the_vibe": {
+      "energy": "instagram explore page energy",
+      "mood": "soft femininity with subtle tension",
+      "aesthetic": "looks accidental but intentional, public but intimate",
+      "authenticity": "real girl, not AI-looking",
+      "story": "quiet café moment, aware of being photographed"
+    },
+    "realism_anchors": [
+      "thigh dominant in frame",
+      "ribbed tank fabric texture",
+      "pleated skirt folds",
+      "window light side-lighting",
+      "café background blur"
+    ],
+    "negative_prompt": [
+      "beauty filter",
+      "skin smoothing",
+      "airbrushed",
+      "studio lighting",
+      "perfect posture",
+      "anime",
+      "illustration",
+      "3d render",
+      "professional photoshoot",
+      "heavy makeup"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "raw iPhone café selfie 4:5, young Asian-European mix woman early 20s light warm beige skin real pores, dark blonde long loose slightly messy hair strands across shoulder, half-lidded eyes looking at camera soft seductive calm expression, full lips slightly parted clear gloss, minimal natural makeup subtle blush, soft curvy figure small tight waist round hips medium-full natural chest thick smooth thighs, cream thin ribbed tank top tight no bra stretched over chest, soft grey micro pleated skirt high on hips fabric folds riding up from sitting, sitting sideways on café chair hips angled thigh closest to camera visually dominant, slight lean back relaxed shoulders phone above face free hand on thigh, small aesthetic southern European café wooden table ceramic cup large window street reflections, blurred background people window reflections half-finished coffee, late afternoon natural window light side-lit neutral-warm, soft cheekbone highlights gentle shadow under chest skin glow, arm's length slightly high angle mid-thigh to head casual crop slight handshake grain jpeg compression, instagram explore page energy intimate public moment",
+  "negative_prompt_flat": "beauty filter, skin smoothing, airbrushed, studio lighting, perfect posture, anime, illustration, professional photoshoot",
+  "color_palette": {
+    "primary": "cream tank top, soft grey skirt",
+    "secondary": "dark blonde hair, warm skin tones",
+    "accent": "wooden table, ceramic cup",
+    "lighting": "neutral-warm daylight through window"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "raw iPhone café selfie, Asian-European woman early 20s light warm skin real pores, dark blonde loose hair, half-lidded eyes soft seductive calm full lips gloss, soft curvy small waist round hips thick thighs, cream ribbed tank tight stretched no bra, grey pleated mini skirt high waist riding up, sitting sideways hips angled THIGH DOMINANT in frame, aesthetic café wooden table window light side-lit, background blur street reflections half-finished coffee, arm's length selfie angle mid-thigh to head casual crop grain, instagram explore energy intimate public, 4:5",
+      "negative_prompt": "beauty filter, skin smoothing, airbrushed, studio lighting, anime, professional photoshoot"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Young Asian-European mix woman early 20s",
+          "skin": {
+            "tone": "Light warm beige",
+            "texture": "Real pores, no blur, slight warmth from daylight"
+          },
+          "hair": {
+            "color": "Dark blonde",
+            "style": "Long, loose, slightly messy, strands across shoulder"
+          },
+          "face": {
+            "expression": "Soft seductive calm, relaxed confidence",
+            "eyes": "Half-lidded, looking directly at camera",
+            "lips": "Full, slightly parted, clear gloss",
+            "makeup": "Minimal, skin-focused, natural blush"
+          },
+          "body": {
+            "type": "Soft curvy instagram model",
+            "waist": "Small and tight",
+            "hips": "Round and feminine",
+            "chest": "Medium-full, natural",
+            "legs": "Thick smooth thighs"
+          }
+        },
+        "wardrobe": {
+          "top": "Cream thin ribbed tank top, tight, no bra, stretched over chest",
+          "bottom": "Soft grey micro pleated skirt, high on hips, fabric folds visible, riding up"
+        },
+        "pose_action": {
+          "position": "Sitting sideways on café chair",
+          "hips": "Angled toward camera",
+          "legs": "Thigh closest to camera, visually dominant in frame",
+          "upper_body": "Slight lean back, relaxed shoulders",
+          "arms": {
+            "phone_hand": "Holding phone above face",
+            "free_hand": "Resting on thigh"
+          },
+          "framing": "Mid-thigh to head"
+        },
+        "scene": {
+          "environment": "Small aesthetic southern European city café",
+          "background": [
+            "Wooden round table",
+            "Ceramic coffee cup",
+            "Large window with daylight",
+            "Blurred people",
+            "Street reflections"
+          ],
+          "time": "Late afternoon",
+          "atmosphere": "Quiet café tension, intimate public moment"
+        },
+        "lighting": {
+          "type": "Natural window light, side-lit",
+          "temperature": "Neutral-warm daylight",
+          "effects": "Soft cheekbone highlights, gentle chest shadow, skin glow"
+        },
+        "camera": {
+          "device": "iPhone 15 Pro Max, 26mm wide",
+          "style": "Raw iphone photo, no beauty filter, subtle grain",
+          "angle": "Slightly high selfie angle, arm's length",
+          "framing": "Mid-thigh to head, casual imperfect crop",
+          "texture": "Light jpeg compression",
+          "aspect_ratio": "4:5",
+          "negative_constraints": "no beauty filter, no skin smoothing, no studio lighting"
+        },
+        "mood": "Instagram explore page energy, intimate public, soft seductive"
+      }
+    },
+    "midjourney": {
+      "prompt": "café selfie, asian-european woman cream tank top grey pleated skirt, sitting sideways thigh prominent, aesthetic café window light side-lit, half-lidded soft expression, raw iphone social media realism grain --ar 4:5 --style raw --v 6",
+      "notes": "Use --style raw for authentic social media snapshot"
+    },
+    "ideogram": {
+      "prompt": "Young Asian-European woman taking iPhone selfie in aesthetic café, sitting sideways with thigh prominent in frame, wearing cream ribbed tank top and grey pleated mini skirt, soft seductive expression half-lidded eyes, large window with side lighting, late afternoon, raw social media photo style",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "4:5"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Café selfie, asian woman cream tank grey skirt, sitting sideways thigh focus, window light, soft expression, raw iphone aesthetic"
+    },
+    "luma": {
+      "prompt": "Aesthetic city café afternoon, woman shifts in her seat and raises phone for selfie, window light plays across her face, quiet intimate public moment, people pass by outside",
+      "motion_notes": "Subtle pose adjustment, phone raise, background café movement"
+    },
+    "reve": {
+      "prompt": "Lifestyle photography in the style of instagram explore page aesthetics, Asian-European woman in café cream tank grey skirt, sitting sideways thigh focus, natural window light, intimate public moment, raw smartphone realism",
+      "art_references": [
+        "Instagram lifestyle photography",
+        "Café candid moments",
+        "Natural light portraits"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Young Asian-European woman taking selfie in aesthetic café, sitting sideways with thigh prominent in frame, cream ribbed tank top grey pleated skirt, soft seductive half-lidded expression, large window with natural side lighting, late afternoon, raw iPhone photo style with subtle grain"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A young Asian-European mix woman in her early 20s takes a selfie while sitting sideways on a café chair. She has dark blonde long loose hair with a few strands falling across her shoulder, half-lidded eyes with a soft seductive calm expression, and full lips slightly parted with clear gloss. Her light warm beige skin has real pores and natural texture. She wears a cream thin ribbed tank top that is tight and slightly stretched over her chest, and a soft grey micro pleated skirt sitting high on her hips with fabric folds visible. Her thigh is prominently visible and dominant in the foreground of the frame. One hand holds the phone above her face while the other rests on her thigh. The setting is a small aesthetic southern European café with a wooden round table, ceramic coffee cup, and large window providing natural side lighting. Late afternoon neutral-warm daylight creates soft highlights on her cheekbones and a gentle shadow under her chest. Blurred people and street reflections visible in background. Raw iPhone photo aesthetic with subtle grain and light jpeg compression. No beauty filter. No skin smoothing. Real texture preserved.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Young Asian-European woman taking iPhone selfie in aesthetic café, sitting sideways with thigh prominent in frame, dark blonde loose hair with strands on shoulder, half-lidded soft seductive expression glossy lips, cream ribbed tank top tight on chest, grey pleated mini skirt riding up, soft curvy figure with small waist and round hips, wooden table ceramic cup large window with natural side lighting, late afternoon warm daylight, raw smartphone photography with real skin pores subtle grain, not beauty filtered or airbrushed",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A young Asian-European mix woman takes an iPhone selfie in an aesthetic southern European café. She sits sideways with her thigh prominently visible in the frame foreground. She has dark blonde long loose hair, half-lidded eyes with soft seductive expression, full glossy lips slightly parted. She wears a cream thin ribbed tank top and soft grey micro pleated skirt sitting high on hips. Natural window light from the side creates soft cheekbone highlights and gentle shadows. Wooden table with ceramic coffee cup visible, blurred café background with street reflections. Raw iPhone photo quality with subtle grain and natural skin texture.",
+      "editing_prompt": "Change the tank top color from cream to black while keeping the same ribbed texture and fit. Preserve the thigh-dominant composition, café setting, and her soft seductive expression exactly.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed outfit (thin ribbed, stretched, riding up), precise pose mechanics (thigh dominant), specific café elements",
+    "2_realism_anchors: 'thigh dominant in frame', 'ribbed tank texture', 'pleated folds', 'window side-lighting'",
+    "3_technical_camera: 'iPhone 15 Pro Max 26mm', 'jpeg compression', 'slight handshake', 'casual crop'",
+    "4_negative_hygiene: prevents beauty filter, skin smoothing, studio lighting, professional photoshoot",
+    "5_spatial_consistency: clear sideways pose with thigh prominence and arm positions",
+    "6_lighting_storytelling: 'natural window light side-lit' = intimate café afternoon mood",
+    "7_social_aesthetic: specific 'instagram explore page energy' and 'looks accidental but intentional'"
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "name": "Asian Bar Candid Dreamy Portrait",
+  "description": "East Asian woman in cozy bar with beer, navy polka dot top, wispy bangs, dreamy low-resolution smartphone candid with gentle blur",
+  "input_prompt": "asian woman bar candid beer navy polka dot top bangs dreamy blur low res",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "dreamy_low_resolution",
+      "aspect_ratio": "4:5",
+      "style": "candid_social_snapshot",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "candid innocent-looking young East Asian woman softly smiling while looking off to the left, captured in dreamy low-resolution smartphone photo",
+      "identity": {
+        "age_range": "early 20s",
+        "type": "young East Asian woman",
+        "distinguishing_features": [
+          "wispy bangs",
+          "short bob",
+          "innocent natural look"
+        ]
+      },
+      "physical_details": {
+        "skin": {
+          "tone": "light warm tone",
+          "texture": "smooth natural with realistic pores, slight glow"
+        },
+        "hair": {
+          "color": "black",
+          "style": "short to medium bob, slightly tousled with wispy bangs falling across forehead",
+          "details": "effect: slightly damp piecey texture with soft shine"
+        },
+        "face": {
+          "expression": "slight open-lip smile showing hint of teeth, warm shy",
+          "makeup": "minimal natural, light base, subtle blush, soft natural brows, no heavy eyeliner",
+          "details": "eyes: soft and attentive, looking off-camera to left"
+        },
+        "body": {
+          "frame": "slim, delicate shoulders",
+          "details": "visible: upper chest, neck, shoulders, arms"
+        }
+      },
+      "expression_mood": "bright, pure, friendly, candid, quietly happy"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "spaghetti-strap camisole or slip-style top",
+          "color": "navy",
+          "details": "tiny white micro polka dots, deep V neckline, thin straps; effect: simple, youthful, breathable summer look"
+        }
+      ]
+    },
+    "pose_action": {
+      "position": "seated, relaxed",
+      "camera_relation": "slightly above eye-level, close conversational angle",
+      "posture": "upper body angled slightly toward camera, head turned left",
+      "description": "casual candid posture with shoulders slightly forward"
+    },
+    "environment": {
+      "location": "cozy small bar or casual restaurant interior",
+      "background": [
+        "warm brown wooden panel wall",
+        "blue-bordered photos or posters pinned on wall",
+        "green doorframe or wall edge on right",
+        "partial friends at edges of frame (cropped shoulders) adding candid group context"
+      ],
+      "atmosphere": "warm, intimate, slightly nostalgic summer-night hangout",
+      "props": [
+        {
+          "item": "clear glass beer mug with golden beer and layer of foam",
+          "details": "held: in right hand near lower right of frame"
+        }
+      ]
+    },
+    "lighting": {
+      "type": "warm indoor ambient light",
+      "quality": "soft shadows, no harsh flash",
+      "effects": [
+        "soft highlights on cheekbones and nose",
+        "gentle sheen without harsh contrast",
+        "background slightly dimmer"
+      ]
+    },
+    "camera_technical": {
+      "style": "smartphone candid social media photo, lightly compressed, dreamy soft-focus",
+      "angle": "slightly above eye-level, close conversational",
+      "shot_type": "portrait medium close-up (chest-up), subject centered slightly right",
+      "texture": "soft blur, low clarity, mild motion/handheld softness, subtle bloom on highlights, fine noise and compression artifacts",
+      "depth_of_field": "moderate shallow feel, subject clearer than background but still gently soft"
+    },
+    "the_vibe": {
+      "energy": "soft, youthful, unposed",
+      "mood": "sweet and relaxed",
+      "aesthetic": "realistic social snapshot with dreamy blur",
+      "authenticity": "high, like a friend's candid photo",
+      "intimacy": "close and conversational, caught mid-laughter",
+      "story": "casual drink with friends, turning to listen and smile at someone nearby"
+    },
+    "realism_anchors": [
+      "low-resolution dreamy blur",
+      "fine noise and compression",
+      "wispy bangs piecey texture",
+      "beer foam detail",
+      "wooden wall panels"
+    ],
+    "negative_prompt": [
+      "over-sharpening",
+      "ultra HD",
+      "skin smoothing",
+      "heavy glam makeup",
+      "studio lighting",
+      "high-fashion editorial",
+      "exaggerated cleavage",
+      "anime",
+      "illustration",
+      "text overlays",
+      "watermarks",
+      "plastic skin"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "candid smartphone social snapshot 4:5, young East Asian woman early 20s light warm skin tone, black short bob wispy bangs falling across forehead slightly damp piecey texture, soft attentive eyes looking off-camera left, slight open-lip smile showing teeth warm shy, minimal natural makeup subtle blush soft brows, slim delicate shoulders, navy spaghetti-strap camisole tiny white micro polka dots deep V neckline thin straps, seated relaxed upper body angled toward camera head turned left, holding clear glass beer mug golden beer foam layer in right hand, cozy small bar warm brown wooden panel wall blue-bordered photos green doorframe, cropped friends at edges, warm indoor ambient light soft shadows gentle highlights, DREAMY LOW-RESOLUTION soft blur low clarity mild handheld softness subtle bloom fine noise compression artifacts, slightly above eye-level close conversational angle, sweet relaxed summer-night memory mood",
+  "negative_prompt_flat": "over-sharpening, ultra HD, skin smoothing, heavy glam makeup, studio lighting, high-fashion, anime, illustration, plastic skin",
+  "color_palette": {
+    "primary": "navy polka dot top, black hair",
+    "secondary": "warm wood panels, golden beer",
+    "accent": "white polka dots, blue photo frames, green doorframe",
+    "skin": "light warm tones with gentle glow"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "candid smartphone snapshot DREAMY LOW-RES, East Asian woman early 20s black bob wispy bangs piecey, looking off-camera left slight smile teeth, minimal natural makeup subtle blush, navy spaghetti-strap top tiny white polka dots V neckline, holding beer mug foam, cozy bar warm wood panels blue-bordered photos green frame, cropped friends edges, warm ambient light soft shadows, soft blur low clarity handheld softness bloom noise compression, above eye-level conversational angle, sweet relaxed summer-night mood, 4:5",
+      "negative_prompt": "over-sharpening, ultra HD, skin smoothing, glam makeup, studio lighting, anime, plastic skin"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Candid innocent-looking young East Asian woman, early 20s",
+          "skin": {
+            "tone": "Light warm tone",
+            "texture": "Smooth natural with realistic pores, slight glow"
+          },
+          "hair": {
+            "color": "Black",
+            "style": "Short to medium bob, slightly tousled, wispy bangs across forehead",
+            "texture": "Slightly damp, piecey with soft shine"
+          },
+          "face": {
+            "expression": "Slight open-lip smile showing hint of teeth, warm shy",
+            "eyes": "Soft attentive, looking off-camera to left",
+            "makeup": "Minimal natural, light base, subtle blush, soft brows, no heavy eyeliner"
+          },
+          "body": "Slim, delicate shoulders"
+        },
+        "wardrobe": {
+          "top": "Navy spaghetti-strap camisole/slip-style, tiny white micro polka dots, deep V neckline, thin straps"
+        },
+        "pose_action": {
+          "position": "Seated, relaxed",
+          "posture": "Upper body angled toward camera, head turned left, shoulders forward",
+          "prop": "Clear glass beer mug with golden beer and foam in right hand"
+        },
+        "scene": {
+          "environment": "Cozy small bar or casual restaurant",
+          "background": [
+            "Warm brown wooden panel wall",
+            "Blue-bordered photos on wall",
+            "Green doorframe on right",
+            "Partial friends cropped at edges"
+          ],
+          "atmosphere": "Warm, intimate, nostalgic summer-night hangout"
+        },
+        "lighting": {
+          "type": "Warm indoor ambient light",
+          "quality": "Soft shadows, no harsh flash",
+          "effects": "Soft highlights on cheekbones, gentle sheen, background slightly dimmer"
+        },
+        "camera": {
+          "style": "Smartphone candid social media, dreamy soft-focus",
+          "angle": "Slightly above eye-level, close conversational",
+          "shot_type": "Portrait medium close-up (chest-up)",
+          "texture": "Soft blur, LOW CLARITY, handheld softness, bloom on highlights, fine noise and compression",
+          "aspect_ratio": "4:5",
+          "negative_constraints": "no over-sharpening, no ultra HD, no skin smoothing, no studio lighting"
+        },
+        "mood": "Soft, youthful, sweet, relaxed, like a friend's candid photo"
+      }
+    },
+    "midjourney": {
+      "prompt": "candid bar photo, East Asian woman black bob wispy bangs, shy smile looking away, navy polka dot top, holding beer, cozy bar wooden walls, warm ambient light, DREAMY SOFT BLUR low resolution noise compression --ar 4:5 --style raw --v 6",
+      "notes": "Emphasize low-res dreamy quality"
+    },
+    "ideogram": {
+      "prompt": "Candid smartphone photo of young East Asian woman in cozy bar, black bob with wispy bangs, shy smile looking to the side, wearing navy polka dot spaghetti strap top, holding beer mug with foam, warm wooden wall background, dreamy soft blur low resolution aesthetic",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "4:5"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Candid bar photo, Asian woman bob bangs shy smile, navy polka dot top, beer mug, wooden walls, dreamy soft blur low-res aesthetic"
+    },
+    "luma": {
+      "prompt": "Cozy bar scene, young woman turns and smiles at someone off-camera, warm amber light glows on her face, friends laugh nearby, intimate summer night hangout",
+      "motion_notes": "Head turn and smile, ambient bar sounds, gentle movement"
+    },
+    "reve": {
+      "prompt": "Candid social photography in the style of dreamy low-resolution memories, East Asian woman in bar with friends, navy polka dot top beer mug, warm wood panels, soft blur nostalgic summer-night aesthetic",
+      "art_references": [
+        "Candid friend photos",
+        "Dreamy low-res memories",
+        "Bar hangout snapshots"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Candid photo of East Asian woman with black bob and wispy bangs in cozy bar, shy smile looking to side, navy polka dot spaghetti strap top, holding beer mug, warm wooden wall background, dreamy soft blur low-resolution smartphone aesthetic"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A candid smartphone photo captures a young East Asian woman in her early 20s at a cozy bar. She has light warm skin tone with smooth natural texture and a slight glow. Her black hair is styled in a short to medium bob, slightly tousled with wispy bangs falling across her forehead, with a slightly damp piecey texture and soft shine. Her soft attentive eyes look off-camera to the left, with a slight open-lip smile showing a hint of teeth, warm and shy expression. She wears minimal natural makeup with light base, subtle blush, and soft natural brows. She has a slim frame with delicate shoulders, wearing a navy spaghetti-strap camisole with tiny white micro polka dots and a deep V neckline. She holds a clear glass beer mug with golden beer and a layer of foam in her right hand. The background shows warm brown wooden panel walls with blue-bordered photos pinned up, a green doorframe on the right, and partial friends cropped at the edges of the frame adding candid context. Warm indoor ambient lighting creates soft shadows and gentle highlights on her cheekbones. The image has intentional dreamy low-resolution quality with soft blur, low clarity, mild handheld softness, subtle bloom on highlights, and fine noise and compression artifacts. No watermark. No over-sharpening. No skin smoothing.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Candid photo of young East Asian woman early 20s with black bob and wispy bangs in cozy bar, shy smile looking off-camera to left, wearing navy spaghetti-strap top with tiny white polka dots, holding beer mug with foam, warm brown wooden panel wall background with blue-bordered photos, warm ambient indoor lighting with soft shadows, dreamy low-resolution smartphone aesthetic with soft blur fine noise and compression artifacts, intimate summer night candid moment, not over-sharpened or heavily processed",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "Candid smartphone photo of young East Asian woman in her early 20s at a cozy bar. Black hair in short bob with wispy bangs falling across forehead, slightly piecey texture. Light warm skin with natural glow, minimal makeup with subtle blush. Shy warm smile with hint of teeth showing, soft eyes looking off-camera to the left. Slim frame with delicate shoulders, wearing navy spaghetti-strap camisole with tiny white micro polka dots and V neckline. Holding clear glass beer mug with golden beer and foam layer. Cozy bar interior with warm brown wooden panel walls, blue-bordered photos, green doorframe. Partial friends visible at frame edges. Warm ambient indoor lighting with soft shadows. Intentionally dreamy low-resolution aesthetic with soft blur, handheld softness, subtle bloom, fine noise and compression artifacts.",
+      "editing_prompt": "Change the navy polka dot top to a solid burgundy color while keeping the wispy bangs and beer mug the same. Preserve the dreamy low-resolution quality and warm bar atmosphere.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed hair texture (piecey, damp), specific top pattern (tiny white micro polka dots), background elements",
+    "2_realism_anchors: 'low-resolution dreamy blur', 'fine noise and compression', 'wispy bangs', 'beer foam detail'",
+    "3_technical_camera: 'smartphone candid', 'soft blur low clarity', 'handheld softness', 'compression artifacts'",
+    "4_negative_hygiene: prevents over-sharpening, ultra HD, skin smoothing, studio lighting",
+    "5_spatial_consistency: clear seated pose with head direction and camera angle",
+    "6_lighting_storytelling: 'warm indoor ambient' = intimate nostalgic bar mood",
+    "7_quality_intentionality: explicitly low-resolution dreamy quality as aesthetic choice"
+  ]
+}

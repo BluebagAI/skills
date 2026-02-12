@@ -1,0 +1,123 @@
+{
+  "name": "Coquette Bedroom Mirror Selfie",
+  "description": "Lana Del Rey-inspired bedroom aesthetic with detailed room decor and soft coquette styling",
+  "input_prompt": "coquette bedroom mirror selfie",
+  "target_model": "nano-banana",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "ultra_photorealistic",
+      "aspect_ratio": "3:4",
+      "quality": "ultra_photorealistic",
+      "device": "iPhone_15_Pro_Max",
+      "style": "natural_phone_snapshot",
+      "aesthetic": "coquette, soft feminine, Lana Del Rey inspired",
+      "target_model": "nano-banana"
+    },
+    "subject": {
+      "description": "Young woman in her early 20s with jet black hair in a braided crown and pink ribbon bows, hazel-green eyes, and a soft neutral coquette expression taking a mirror selfie.",
+      "body": {
+        "physique": "Natural youthful proportions with a relaxed, everyday build.",
+        "anatomy": "Mirror selfie posture with slight forward lean, subtle head tilt, right arm holding the phone, and left arm resting or lightly touching furniture.",
+        "details": "Natural skin texture with visible pores and imperfections, micro-shadows, no blur or smoothing."
+      },
+      "face": "Soft neutral expression with gentle coquette vibe, hazel-green eyes, matte finish, light pink blush, soft pink eyeshadow, thin black eyeliner, defined lashes, matte dusty pink lips.",
+      "hair": "Jet black hair, long past chest, smooth with soft waves, full straight lightly piecey bangs, braided crown, long face-framing waves, lilac-pink ribbon bows on both sides.",
+      "skin": "Natural skin texture with visible pores and imperfections, no beautify or smoothing.",
+      "expression_mood": "soft neutral with gentle coquette vibe"
+    },
+    "wardrobe": {
+      "top": "Lime green cropped ribbed cardigan with thin vertical teal stripes, tight fit, single center clasp, deep V but fully covered, long sleeves with slight flare, layered over a white fitted ribbed tank top that fully covers the chest.",
+      "bottom": "Low-rise black denim jeans with contrast stitching, silver button, and belt loops.",
+      "accessories": ["minimalist silver chain necklace with tiny pendant", "pastel pink coquette manicure"]
+    },
+    "pose_action": {
+      "description": "Mirror selfie with slight downward diagonal camera angle, very subtle head tilt, leaning forward slightly, right hand holding an iPhone 15 Pro Max in a green 3D frog case, left arm resting or lightly touching furniture.",
+      "posture": "Relaxed, soft coquette posture with gentle forward lean and casual arm placement."
+    },
+    "scene": {
+      "environment": "Cozy coquette bedroom with Lana Del Rey-inspired decor and soft evening vibe.",
+      "background": "Soft gray-beige walls with Lana Del Rey posters, album-cover collage, black-and-white artistic portraits, and small decorative prints, plus green vine garlands with pink roses. Light pink bed with matching pillows and plushies (small brown dog, white bear with pink accents, ribbed pink bunny).",
+      "location": "Bedroom interior.",
+      "atmosphere": "Dreamy, soft feminine, coquette atmosphere.",
+      "props": ["pastel handbag", "small accessory clutter"]
+    },
+    "lighting": {
+      "type": "soft_indoor_front_light",
+      "quality": "very soft",
+      "effects": ["natural even skin tone", "very soft shadows", "no reflections on face or clothing"],
+      "shadows": "very soft"
+    },
+    "camera": {
+      "technical": "iPhone 15 Pro Max mirror selfie, natural phone snapshot with light natural grain, soft ISO noise, medium-high sharpness to show real texture, no beautify.",
+      "aspect_ratio": "3:4",
+      "negative_constraints": "No beautify filter, no smooth skin, no perfect symmetry, no studio lighting, no professional photography look.",
+      "style": "natural phone snapshot"
+    },
+    "realism_anchors": [
+      "visible skin pores",
+      "imperfections visible",
+      "micro-shadows on skin",
+      "light natural grain",
+      "soft ISO noise"
+    ],
+    "negative_prompt": [
+      "no beautify filter",
+      "no smooth skin",
+      "no perfect symmetry",
+      "no studio lighting",
+      "no professional photography look"
+    ],
+    "mood_keywords": ["coquette", "soft feminine", "Lana Del Rey inspired", "dreamy"]
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "masterpiece, ultra-realistic, 8k, raw iPhone snapshot, young woman early 20s mirror selfie in cozy bedroom, jet black hair with braided crown pink ribbon bows full bangs, soft neutral expression dusty pink lips light pink blush, lime green cropped ribbed cardigan with teal stripes over white tank top, low rise black jeans, green 3D frog phone case, bedroom walls with Lana Del Rey posters green vines pink roses, pink bedding with plushies brown dog white bear pink bunny, soft indoor lighting natural skin texture visible pores, 3:4 aspect ratio",
+      "negative_prompt": "beautify filter, smooth skin, studio lighting, professional photo, perfect symmetry, cartoon, anime, 3d render"
+    },
+    "midjourney": {
+      "prompt": "cozy bedroom mirror selfie, young woman with jet black hair braided crown pink ribbon bows, lime green striped cardigan over white tank, low rise black jeans, green frog phone case, Lana Del Rey posters on walls, pink bedding cute plushies, soft natural lighting, iPhone snapshot aesthetic --ar 3:4 --style raw --v 6",
+      "notes": "Use --style raw for authentic phone photo look"
+    },
+    "ideogram": {
+      "prompt": "iPhone mirror selfie in cozy coquette bedroom, young woman with jet black hair braided crown with pink ribbons and full bangs, lime green striped cropped cardigan, low rise black jeans, cute green frog phone case, bedroom decorated with Lana Del Rey posters, pink bedding with plushies, soft feminine aesthetic",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "3:4"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Mirror selfie in dreamy bedroom, young woman with black hair braided crown pink bows, green striped cardigan, frog phone case, Lana Del Rey posters on walls, pink aesthetic room with plushies"
+    },
+    "reve": {
+      "prompt": "Coquette aesthetic mirror selfie in the style of 2020s soft feminine internet culture, young woman with jet black hair pink ribbons, lime green cardigan, dreamy bedroom with Lana Del Rey posters and pink decor, soft romantic lighting",
+      "art_references": ["Coquette aesthetic", "Lana Del Rey album artwork", "Soft feminine internet culture"]
+    },
+    "grok-imagine": {
+      "prompt": "Cozy bedroom mirror selfie, girl with black hair pink ribbon bows, lime green cardigan, frog phone case, Lana Del Rey posters on walls, pink bedding and cute plushies, soft coquette vibes"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A young woman in her early 20s taking a mirror selfie in her cozy coquette-style bedroom. She has jet black hair styled in a braided crown with lilac-pink ribbon bows on each side, and full straight bangs framing her face. Her expression is soft and neutral with a gentle coquette vibe. She wears a lime green cropped ribbed cardigan with thin teal stripes over a white fitted tank top, paired with low-rise black denim jeans. She holds an iPhone in a playful green 3D frog case with raised frog eyes. The bedroom walls are decorated with Lana Del Rey posters and album art, green vine garlands with pink roses. A pink bed with matching pillows and cute plushies including a brown dog, white bear, and pink bunny is visible. Soft indoor front lighting creates an even, dreamy atmosphere. Shot on iPhone 15 Pro Max. No watermark. No artificial smoothing. Realistic skin texture with visible pores.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Young woman early 20s taking mirror selfie in cozy bedroom, jet black hair with braided crown and pink ribbon bows, full bangs, soft neutral expression, lime green striped cropped cardigan over white tank top, low-rise black jeans, green frog phone case, bedroom decorated with Lana Del Rey posters and pink rose garlands, pink bedding with cute plushies, soft indoor lighting, iPhone snapshot aesthetic, natural skin texture visible pores, dreamy coquette atmosphere, not cartoon-like",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A young woman in her early 20s captures a mirror selfie in her dreamy coquette bedroom. She has jet black hair styled with a braided crown adorned with lilac-pink ribbon bows and full straight bangs. Her makeup is soft with light pink blush and dusty pink matte lips. She wears a lime green cropped ribbed cardigan with thin teal stripes over a white fitted tank top, and low-rise black denim jeans. She holds her iPhone in a cute green 3D frog case. The cozy bedroom features Lana Del Rey posters, green vines with pink roses on the walls, and a pink bed with matching plushies. Soft indoor lighting creates an even, natural glow with visible skin texture and pores.",
+      "editing_prompt": "Change the cardigan color to lavender purple while keeping the same striped pattern and cropped fit. Preserve the ribbon bows, bedroom decor, and overall coquette aesthetic.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Extremely deep nesting - hair.accessories, phone.case.details, walls.decor.posters",
+    "2_realism_anchors: 'pores_visible', 'imperfections_visible', 'soft_iso_noise'",
+    "3_technical_camera: 'iPhone_15_Pro_Max', camera_artifacts with grain/noise/sharpness",
+    "4_negative_hygiene: 'no_beautify', 'no smooth skin', 'no professional photography look'",
+    "5_spatial_consistency: mirror_selfie with specific angles and arm positions",
+    "6_lighting_storytelling: soft_indoor_front_light for dreamy coquette mood",
+    "7_environmental_storytelling: room decor tells story (Lana Del Rey fan, coquette aesthetic)"
+  ]
+}

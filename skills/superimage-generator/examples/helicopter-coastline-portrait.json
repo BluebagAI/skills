@@ -1,0 +1,237 @@
+{
+  "name": "Helicopter Coastline Portrait",
+  "description": "Woman with aviation headset in helicopter flying over coastline, head resting on hand, calm contemplative expression",
+  "input_prompt": "woman in helicopter with headset flying over coastline blonde hair freckles",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "high_quality",
+      "aspect_ratio": "9:16",
+      "style": "lifestyle_photography",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "woman with long straight blonde hair, light skin tone with freckles, light-colored eyes, wearing aviation headset",
+      "identity": {
+        "type": "woman",
+        "distinguishing_features": [
+          "blonde hair",
+          "freckles",
+          "light eyes"
+        ],
+        "age_range": "adult"
+      },
+      "physical_details": {
+        "skin": {
+          "tone": "light",
+          "details": "features: visible freckles",
+          "texture": "natural skin with visible freckles"
+        },
+        "hair": {
+          "color": "blonde",
+          "style": "straight, center-parted",
+          "details": "length: long"
+        },
+        "face": {
+          "expression": "neutral to contemplative, calm and reflective",
+          "gaze": "facing camera",
+          "features": "light-colored eyes"
+        }
+      },
+      "pose": {
+        "position": "seated inside helicopter",
+        "action": "head resting on hand, facing camera"
+      },
+      "expression_mood": "neutral to contemplative, calm and reflective"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "long-sleeve shirt",
+          "color": "black"
+        },
+        {
+          "type": "pants",
+          "color": "black"
+        }
+      ],
+      "accessories": [
+        "type: over-ear aviation headset, color: black, worn: true"
+      ]
+    },
+    "pose_action": {
+      "position": "seated inside helicopter passenger area",
+      "camera_relation": "medium close-up, eye-level, portrait orientation",
+      "gaze": "facing camera",
+      "expression": "neutral to contemplative",
+      "description": "head resting on hand"
+    },
+    "environment": {
+      "location": "inside a helicopter",
+      "altitude_context": "flying over coastal area",
+      "background": [
+        "landscape: coastline with ocean and shoreline town visible through window",
+        "weather: clear to lightly cloudy"
+      ],
+      "objects": [
+        {
+          "type": "seat cushion",
+          "color": "tan",
+          "material": "fabric"
+        }
+      ],
+      "atmosphere": "aerial transport, adventure travel"
+    },
+    "lighting": {
+      "type": "natural daylight",
+      "quality": "bright, even illumination from windows",
+      "effects": [
+        "natural skin illumination",
+        "window light creating depth"
+      ]
+    },
+    "camera_technical": {
+      "angle": "eye-level",
+      "framing": "medium close-up",
+      "orientation": "portrait",
+      "style_tags": [
+        "lifestyle photography",
+        "travel content",
+        "aerial adventure"
+      ]
+    },
+    "realism_anchors": [
+      "visible freckles on skin",
+      "realistic aviation headset",
+      "authentic helicopter interior",
+      "coastline visible through window",
+      "natural daylight"
+    ],
+    "negative_prompt": [
+      "indoor studio",
+      "artificial background",
+      "green screen",
+      "composite image",
+      "cartoon",
+      "3d render",
+      "anime",
+      "blurry",
+      "low quality"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "lifestyle photography portrait, woman with long straight blonde hair center-parted light skin visible freckles light-colored eyes, neutral contemplative expression calm reflective, head resting on hand, wearing black over-ear aviation headset black long-sleeve shirt black pants, seated inside helicopter passenger seat, tan fabric seat cushion, flying over coastal area coastline with ocean and shoreline town visible through window, clear to lightly cloudy weather, natural daylight bright even illumination, eye-level medium close-up portrait orientation, aerial transport adventure travel mood, 9:16",
+  "negative_prompt_flat": "indoor studio, artificial background, green screen, composite, cartoon, 3d render, blurry",
+  "color_palette": {
+    "primary": "black clothing and headset",
+    "secondary": "blonde hair, light skin with freckles",
+    "accent": "tan seat, blue ocean and sky through window",
+    "background": "coastal landscape, ocean blues, town colors"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "lifestyle photography, woman long straight blonde hair freckles light eyes, contemplative expression head resting on hand, black aviation headset black shirt pants, seated in helicopter passenger seat tan cushion, flying over coastline ocean shoreline town visible through window, clear weather natural daylight, eye-level medium close-up portrait, aerial adventure mood, 9:16",
+      "negative_prompt": "indoor studio, green screen, composite, cartoon, 3d render, blurry"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Woman with long straight blonde hair, light skin with freckles, light-colored eyes",
+          "hair": {
+            "color": "Blonde",
+            "length": "Long",
+            "style": "Straight, center-parted"
+          },
+          "skin": {
+            "tone": "Light",
+            "features": "Visible freckles"
+          },
+          "pose": {
+            "position": "Seated inside helicopter",
+            "action": "Head resting on hand, facing camera"
+          },
+          "expression": "Neutral to contemplative, calm and reflective"
+        },
+        "wardrobe": {
+          "top": "Black long-sleeve shirt",
+          "bottom": "Black pants",
+          "accessories": [
+            "Black over-ear aviation headset worn"
+          ]
+        },
+        "scene": {
+          "environment": "Inside helicopter, flying over coastal area",
+          "background": "Coastline with ocean and shoreline town visible through window",
+          "weather": "Clear to lightly cloudy",
+          "objects": "Tan fabric seat cushion"
+        },
+        "lighting": {
+          "type": "Natural daylight",
+          "quality": "Bright, even illumination from windows"
+        },
+        "camera": {
+          "angle": "Eye-level",
+          "framing": "Medium close-up",
+          "orientation": "Portrait",
+          "style": "Lifestyle photography, travel content",
+          "aspect_ratio": "9:16",
+          "negative_constraints": "no studio, no green screen, no artificial background"
+        },
+        "mood": "Calm, reflective, aerial adventure"
+      }
+    },
+    "midjourney": {
+      "prompt": "lifestyle portrait, woman blonde hair freckles, aviation headset, head on hand contemplative, inside helicopter over coastline, ocean town visible through window, natural daylight --ar 9:16 --style raw --v 6",
+      "notes": "Use --style raw for authentic travel photography feel"
+    },
+    "ideogram": {
+      "prompt": "Woman with long blonde hair and freckles wearing black aviation headset inside helicopter, head resting on hand with contemplative expression, coastline with ocean and town visible through window behind her, natural daylight, lifestyle travel photography",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "9:16"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Woman with aviation headset in helicopter, blonde hair freckles, head on hand, coastline visible through window, natural daylight"
+    },
+    "luma": {
+      "prompt": "Helicopter flight over coastline, woman gazes calmly out window with headset on, coastal town and ocean drift past below, gentle aircraft vibration, serene aerial adventure",
+      "motion_notes": "Subtle head movement, coastline scrolling past window, gentle helicopter vibration"
+    },
+    "reve": {
+      "prompt": "Travel adventure photography in the style of aerial lifestyle content, woman with aviation headset in helicopter over coastline, blonde hair freckles, contemplative mood, natural daylight through windows",
+      "art_references": [
+        "Adventure travel photography",
+        "Aerial lifestyle content",
+        "Helicopter tour imagery"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Woman with long blonde hair and freckles in helicopter wearing black aviation headset, head resting on hand, contemplative expression, coastline with ocean and town visible through window, natural daylight, lifestyle travel photo"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A woman with long straight blonde hair, center-parted, sits inside a helicopter passenger seat with her head resting on her hand, facing the camera. She has light skin with visible freckles and light-colored eyes. Her expression is neutral to contemplative, calm and reflective. She wears a black long-sleeve shirt, black pants, and a black over-ear aviation headset. The helicopter has a tan fabric seat cushion. Through the window behind her, a coastline with ocean and a shoreline town is visible under clear to lightly cloudy weather. Natural daylight provides bright, even illumination from the windows. The image is a medium close-up portrait orientation shot at eye-level, capturing the aerial transport adventure travel atmosphere. No watermark. No artificial smoothing. Realistic texture with natural freckle detail.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Woman with long blonde hair and freckles seated in helicopter wearing black aviation headset, head resting on hand with contemplative expression, black clothing, coastline with ocean and town visible through window, tan seat cushion, natural daylight from windows, lifestyle travel photography, aerial adventure mood, realistic skin texture with visible freckles, not artificial or composite-looking",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A woman with long straight blonde hair and visible freckles sits inside a helicopter, wearing a black over-ear aviation headset and black clothing. Her head rests on her hand as she gazes at the camera with a calm, contemplative expression. Through the helicopter window behind her, a scenic coastline with ocean and a shoreline town is visible. Natural daylight streams through the windows, providing bright even illumination. The scene captures an aerial adventure travel atmosphere.",
+      "editing_prompt": "Change the headset color to white while keeping the blonde hair, freckles, helicopter interior, and coastline background the same. Preserve the contemplative expression and natural daylight.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Specific headset details (black, over-ear, aviation), exact clothing colors, background elements (coastline, ocean, shoreline town)",
+    "2_realism_anchors: 'visible freckles', 'realistic aviation headset', 'authentic helicopter interior', 'coastline through window'",
+    "3_technical_camera: 'eye-level', 'medium close-up', 'portrait orientation', 'lifestyle photography'",
+    "4_negative_hygiene: prevents studio, green screen, composite images",
+    "5_spatial_consistency: clear seated position with head resting on hand",
+    "6_lighting_storytelling: 'natural daylight from windows' = authentic aerial travel mood",
+    "7_environmental_context: altitude context and visible landscape adds authenticity"
+  ]
+}

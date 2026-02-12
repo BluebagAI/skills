@@ -1,0 +1,262 @@
+{
+  "name": "Editorial Beauty Portrait",
+  "description": "High-end beauty/fashion portrait with lifestyle elements and low-angle composition",
+  "input_prompt": "a stylish woman sipping coffee",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "masterpiece",
+      "aspect_ratio": "9:16",
+      "style": "editorial",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "young woman with effortless chic appearance, clean girl aesthetic, minimalist elegance",
+      "identity": {
+        "age_range": "early-to-mid 20s",
+        "type": "young woman",
+        "distinguishing_features": [
+          "micro-braids framing face",
+          "clean girl makeup",
+          "natural beauty"
+        ]
+      },
+      "physical_details": {
+        "skin": {
+          "tone": "natural with soft sun-kissed glow",
+          "texture": "ultra-realistic with visible pores, subtle freckles, natural moisture",
+          "realism_markers": [
+            "no airbrushing",
+            "authentic skin texture",
+            "subtle imperfections"
+          ]
+        },
+        "hair": {
+          "color": "light brown",
+          "style": "long silky cascading down shoulders",
+          "details": "two thin intricate micro-braids framing face, stray strands catching sunlight"
+        },
+        "face": {
+          "features": "soft features, groomed feathered eyebrows",
+          "expression": "confident, relaxed, nonchalant",
+          "gaze": "hidden behind sunglasses, looking down slightly"
+        }
+      },
+      "expression_mood": "effortlessly cool, confident, relaxed"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "summer top",
+          "color": "neutral tones",
+          "material": "light breathable fabric",
+          "fit": "relaxed chic"
+        }
+      ],
+      "accessories": [
+        "premium black acetate rectangular sunglasses with glossy finish reflecting outdoor sky",
+        "18k thin gold hoop earrings with polished texture",
+        "Y2K style beaded necklace with alternating white freshwater pearls and vibrant yellow smiley-face acrylic beads"
+      ],
+      "text_elements": null
+    },
+    "pose_action": {
+      "position": "holding plastic cup and sipping iced latte through thin black straw",
+      "camera_relation": "low-angle shot from below (worm's eye view), extreme close-up",
+      "dynamic_elements": "hand gently gripping transparent cup, displaying realistic skin folds and nail detail"
+    },
+    "environment": {
+      "location": "bright outdoor sun-drenched terrace or cafe",
+      "background": [
+        "cream-colored canvas patio umbrella spanning upper frame",
+        "out-of-focus distant sky"
+      ],
+      "props": [
+        {
+          "item": "iced coffee latte",
+          "details": "swirling milk and espresso layers in transparent plastic cup",
+          "physics": "cylindrical ice cubes floating, realistic condensation droplets on outer surface"
+        }
+      ],
+      "atmosphere": "bright, airy, luxurious casual"
+    },
+    "lighting": {
+      "type": "natural",
+      "direction": "hard direct sunlight from above, softened by overhead shade",
+      "quality": "mixed",
+      "effects": [
+        "sharp highlights",
+        "natural bounce light on jawline",
+        "creamy bokeh"
+      ]
+    },
+    "camera_technical": {
+      "device": "professional camera",
+      "lens": "35mm",
+      "aperture": "f/1.8",
+      "resolution": "8k",
+      "style_tags": [
+        "shallow depth of field",
+        "creamy bokeh",
+        "ray-traced reflections",
+        "HDR"
+      ]
+    },
+    "realism_anchors": [
+      "ultra-realistic skin with visible pores",
+      "natural moisture on skin",
+      "subsurface scattering for skin",
+      "ray-traced reflections on sunglasses",
+      "realistic condensation on cup",
+      "authentic jewelry textures",
+      "natural fabric draping"
+    ],
+    "negative_prompt": [
+      "cartoon",
+      "3d",
+      "anime",
+      "sketches",
+      "worst quality",
+      "low quality",
+      "normal quality",
+      "deformed",
+      "distorted",
+      "disfigured",
+      "poorly drawn",
+      "bad anatomy",
+      "wrong anatomy",
+      "extra limb",
+      "missing limb",
+      "floating limbs",
+      "mutated hands and fingers",
+      "disconnected limbs",
+      "mutation",
+      "mutated",
+      "ugly",
+      "disgusting",
+      "blurry",
+      "amputation",
+      "watermark",
+      "text",
+      "signature"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "masterpiece, ultra-realistic, editorial beauty photography, 8k uhd, young woman with effortless chic appearance, clean girl aesthetic, ultra-realistic skin with visible pores subtle freckles natural moisture, soft sun-kissed glow, long silky light-brown hair with two thin micro-braids framing face, stray strands catching sunlight, minimalist clean girl makeup nude lip gloss perfectly groomed feathered eyebrows, premium black acetate rectangular sunglasses reflecting sky, 18k thin gold hoop earrings, Y2K beaded necklace with pearls and yellow smiley beads, holding transparent plastic cup sipping iced latte through black straw, swirling milk espresso layers cylindrical ice cubes realistic condensation droplets, low-angle extreme close-up shot, bright outdoor sun-drenched cafe terrace, cream canvas patio umbrella overhead, hard direct sunlight with bounce light on jawline, shot on 35mm lens f/1.8 shallow depth of field creamy bokeh, ray-traced reflections subsurface scattering HDR, warm beige creamy whites deep blacks sun-drenched golden tones",
+  "negative_prompt_flat": "cartoon, 3d, anime, sketches, worst quality, low quality, deformed, distorted, disfigured, poorly drawn, bad anatomy, extra limb, missing limb, floating limbs, mutated hands, disconnected limbs, ugly, blurry, watermark, text, signature",
+  "color_palette": {
+    "primary": "warm beige",
+    "secondary": "creamy whites",
+    "accent": "sun-drenched golden tones",
+    "contrast": "deep blacks"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "masterpiece, ultra-realistic, editorial beauty photography, 8k uhd, young woman effortless chic clean girl aesthetic, ultra-realistic skin visible pores subtle freckles natural moisture, soft sun-kissed glow, long silky light-brown hair two thin micro-braids framing face stray strands catching sunlight, minimalist makeup groomed feathered eyebrows, premium black acetate rectangular sunglasses reflecting sky, 18k thin gold hoop earrings, Y2K beaded necklace pearls yellow smiley beads, holding transparent cup sipping iced latte through black straw swirling milk espresso layers ice cubes condensation droplets, low-angle extreme close-up worm's eye view, bright outdoor sun-drenched cafe terrace cream canvas patio umbrella, hard direct sunlight bounce light on jawline, 35mm f/1.8 shallow depth of field creamy bokeh, 9:16 vertical",
+      "negative_prompt": "cartoon, 3d, anime, deformed, bad anatomy, extra limb, mutated hands, blurry, watermark, plastic skin, airbrushed"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Young woman early-to-mid 20s with effortless chic appearance, clean girl aesthetic, minimalist elegance",
+          "body": {
+            "skin": "Natural with soft sun-kissed glow, ultra-realistic with visible pores, subtle freckles, natural moisture, no airbrushing"
+          },
+          "face": {
+            "features": "Soft features, groomed feathered eyebrows",
+            "expression": "Confident, relaxed, nonchalant",
+            "gaze": "Hidden behind sunglasses, looking down slightly",
+            "makeup": "Minimalist clean girl makeup, nude lip gloss"
+          },
+          "hair": {
+            "color": "Light brown",
+            "style": "Long silky cascading down shoulders",
+            "details": "Two thin intricate micro-braids framing face, stray strands catching sunlight"
+          }
+        },
+        "wardrobe": {
+          "top": "Summer top in neutral tones, light breathable fabric, relaxed chic fit",
+          "accessories": [
+            "Premium black acetate rectangular sunglasses with glossy finish reflecting outdoor sky",
+            "18k thin gold hoop earrings with polished texture",
+            "Y2K style beaded necklace with white freshwater pearls and yellow smiley-face acrylic beads"
+          ]
+        },
+        "pose_action": {
+          "description": "Holding plastic cup and sipping iced latte through thin black straw",
+          "posture": "Hand gently gripping transparent cup, realistic skin folds and nail detail visible"
+        },
+        "scene": {
+          "environment": "Bright outdoor sun-drenched terrace or cafe",
+          "background": "Cream-colored canvas patio umbrella spanning upper frame, out-of-focus distant sky",
+          "props": {
+            "coffee": "Iced latte in transparent plastic cup, swirling milk and espresso layers, cylindrical ice cubes floating, realistic condensation droplets"
+          }
+        },
+        "lighting": {
+          "type": "Natural, hard direct sunlight from above softened by overhead shade",
+          "effects": "Sharp highlights, natural bounce light on jawline, creamy bokeh in background"
+        },
+        "camera": {
+          "technical": "Shot on 35mm lens f/1.8, 8k resolution, shallow depth of field",
+          "angle": "Low-angle shot from below (worm's eye view), extreme close-up",
+          "aspect_ratio": "9:16",
+          "negative_constraints": "no cartoon, no 3d render, no deformed anatomy, no plastic skin, no watermarks"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "editorial beauty portrait, young woman sipping iced latte through straw, clean girl aesthetic, micro-braids framing face, black rectangular sunglasses reflecting sky, gold hoop earrings, Y2K pearl and smiley bead necklace, low-angle close-up worm's eye view, sun-drenched cafe terrace cream umbrella overhead, shallow depth of field creamy bokeh, ultra-realistic skin texture --ar 9:16 --style raw --v 6",
+      "notes": "Use --style raw for editorial realism"
+    },
+    "ideogram": {
+      "prompt": "Editorial beauty portrait of stylish young woman sipping iced latte at outdoor cafe, clean girl aesthetic with micro-braids, black rectangular sunglasses, gold hoop earrings, Y2K beaded necklace with pearls and smiley faces, low-angle close-up shot, cream patio umbrella overhead, soft sunlight with creamy bokeh background",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "9:16"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Editorial beauty portrait, young woman sipping iced coffee, clean girl aesthetic, micro-braids framing face, black sunglasses gold earrings beaded necklace, low-angle close-up, outdoor cafe terrace, soft sunlight creamy bokeh"
+    },
+    "luma": {
+      "prompt": "Sun-drenched cafe terrace, stylish young woman slowly sips iced latte through straw, micro-braids catch sunlight, black sunglasses reflect sky, ice cubes clink gently in cup, cream umbrella filters warm light above",
+      "motion_notes": "Subtle sipping motion, ice cubes moving in cup, hair strands moving in breeze"
+    },
+    "reve": {
+      "prompt": "Editorial beauty photography in the style of high-end lifestyle magazines, young woman with clean girl aesthetic sipping iced latte, micro-braids and black sunglasses, Y2K jewelry, low-angle close-up at sun-drenched cafe, warm golden hour tones with creamy bokeh",
+      "art_references": [
+        "Vogue lifestyle editorials",
+        "Clean girl aesthetic",
+        "Y2K fashion revival"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Stylish young woman sipping iced latte at sunny outdoor cafe, clean girl aesthetic with micro-braids, black sunglasses gold earrings, low-angle close-up shot, cream umbrella overhead, soft bokeh background, editorial beauty vibes"
+    },
+    "gpt-image-1.5": {
+      "prompt": "An editorial beauty portrait of a young woman in her early-to-mid 20s with effortless chic style and clean girl aesthetic. She has long silky light brown hair with two thin intricate micro-braids framing her face, and stray strands catching the sunlight. She wears premium black acetate rectangular sunglasses with a glossy finish reflecting the outdoor sky, 18k thin gold hoop earrings with polished texture, and a Y2K style beaded necklace with alternating white freshwater pearls and vibrant yellow smiley-face acrylic beads. She sips an iced latte through a thin black straw from a transparent plastic cup showing swirling milk and espresso layers with cylindrical ice cubes and realistic condensation droplets. Shot from a low angle (worm's eye view) as an extreme close-up at a bright sun-drenched cafe terrace with a cream canvas patio umbrella overhead. Hard direct sunlight creates sharp highlights with natural bounce light on her jawline. Shot on 35mm lens at f/1.8 with shallow depth of field and creamy bokeh. No watermark. No artificial smoothing. Ultra-realistic skin with visible pores and natural moisture.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Young woman early 20s sipping iced latte through straw at sunny outdoor cafe, clean girl aesthetic effortless chic, long silky light brown hair with micro-braids framing face, black acetate rectangular sunglasses reflecting sky, gold hoop earrings, Y2K beaded necklace with pearls and yellow smiley beads, transparent cup with swirling coffee layers and condensation, low-angle extreme close-up worm's eye view, cream patio umbrella overhead, hard sunlight with bounce light on jawline, 35mm f/1.8 shallow depth of field creamy bokeh, ultra-realistic skin visible pores natural moisture, not over-processed",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "An editorial beauty portrait captured from a low worm's eye angle of a stylish young woman sipping an iced latte at a sun-drenched outdoor cafe terrace. She has long silky light brown hair with two thin micro-braids framing her face and stray strands catching sunlight. She wears premium black acetate rectangular sunglasses reflecting the sky, 18k thin gold hoop earrings, and a Y2K beaded necklace with white pearls and yellow smiley-face beads. She holds a transparent plastic cup showing swirling milk and espresso layers with ice cubes and condensation droplets. A cream canvas patio umbrella spans the upper frame. Hard direct sunlight creates sharp highlights with natural bounce light on her jawline. Ultra-realistic skin with visible pores, subtle freckles, and natural moisture. Shallow depth of field with creamy bokeh.",
+      "editing_prompt": "Change the sunglasses from black rectangular to tortoiseshell round frames while keeping the same glossy finish and sky reflection. Preserve the jewelry, coffee cup, pose, and cafe setting.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Deeply nested props with item/details/physics for coffee cup",
+    "2_realism_anchors: 'visible pores', 'subsurface scattering', 'realistic condensation'",
+    "3_technical_camera: '35mm', 'f/1.8', 'shallow depth of field', 'ray-traced reflections'",
+    "4_negative_hygiene: comprehensive quality and anatomy exclusions",
+    "5_spatial_consistency: 'low-angle worm's eye view', 'extreme close-up'",
+    "6_lighting_storytelling: 'hard direct sunlight softened by shade' = luxurious casual mood",
+    "7_color_palette: explicit primary/secondary/accent/contrast color definitions"
+  ]
+}

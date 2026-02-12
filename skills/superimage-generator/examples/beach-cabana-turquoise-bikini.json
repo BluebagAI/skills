@@ -1,0 +1,267 @@
+{
+  "name": "Beach Cabana Turquoise Bikini Mirror Selfie",
+  "description": "Raw smartphone mirror selfie in luxury beach cabana with turquoise crochet bikini, platinum blonde hair, visible skin texture and ISO noise",
+  "input_prompt": "beach cabana mirror selfie turquoise crochet bikini blonde hair raw smartphone photo",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "high_resolution",
+      "aspect_ratio": "2:3",
+      "style": "raw_lifestyle_travel_influencer",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "beautiful young woman early 20s with long wavy salt-textured platinum blonde hair and piercing bright blue eyes",
+      "identity": {
+        "age_range": "early 20s",
+        "type": "young woman",
+        "distinguishing_features": [
+          "platinum blonde hair",
+          "piercing blue eyes",
+          "tanned skin"
+        ]
+      },
+      "physical_details": {
+        "skin": {
+          "tone": "tanned",
+          "texture": "skin glowing with sunscreen oil, visible pores, fine vellus hair (peach fuzz) on arms and face",
+          "details": "water droplets on skin"
+        },
+        "hair": {
+          "color": "platinum blonde",
+          "style": "long wavy, salt-textured from beach",
+          "details": "state: natural beach hair"
+        },
+        "face": {
+          "expression": "playful pout",
+          "details": "eyes: piercing bright blue"
+        }
+      },
+      "expression_mood": "playful, confident, travel influencer vibe"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "crochet bikini",
+          "color": "vibrant turquoise",
+          "texture": "knitted crochet texture"
+        },
+        {
+          "type": "sheer white sarong",
+          "details": "tied at waist, translucent texture"
+        }
+      ],
+      "accessories": [
+        "sunglasses perched on head",
+        "smartphone with cute case held in hand"
+      ]
+    },
+    "pose_action": {
+      "position": "standing in front of full-length rustic driftwood mirror",
+      "camera_relation": "mirror reflection selfie",
+      "description": "popping one hip to accentuate curves, playful pout",
+      "action": "action: holding smartphone for mirror selfie"
+    },
+    "environment": {
+      "location": "luxury beach cabana",
+      "mirror": {
+        "type": "full-length rustic driftwood frame mirror"
+      },
+      "background": [
+        "reflection of blue ocean visible in mirror",
+        "white sand visible",
+        "tropical plant leaves",
+        "bright sunlight beams"
+      ],
+      "background_sharpness": "SHARP DETAILS ON BACKGROUND - deep depth of field (f/11)",
+      "atmosphere": "luxury beach resort, travel influencer setting"
+    },
+    "lighting": {
+      "type": "bright natural golden sunlight",
+      "quality": "direct sun, high contrast",
+      "effects": [
+        "specular highlights on oily skin",
+        "specular highlights on water droplets",
+        "sharp sunny shadows"
+      ],
+      "white_balance": "warm golden"
+    },
+    "camera_technical": {
+      "device": "smartphone camera",
+      "lens": "24mm lens",
+      "settings": {
+        "aperture": "f/11 (deep depth of field)",
+        "shutter": "1/500s",
+        "iso": "ISO 100 but with visible noise"
+      },
+      "imperfections": [
+        "visible ISO noise",
+        "slight film grain",
+        "chromatic aberration",
+        "raw capture feel"
+      ],
+      "focus": "sharp throughout, deep DOF, sharp background",
+      "style_tags": [
+        "raw smartphone photo",
+        "unfiltered reality",
+        "travel influencer"
+      ]
+    },
+    "texture_layer": {
+      "skin_physics": "tanned skin with sunscreen oil glow, visible pores, fine vellus hair, water droplets",
+      "fabric_physics": "knitted texture of turquoise crochet bikini, translucent texture of sheer sarong",
+      "environment_physics": "rough texture of driftwood mirror frame"
+    },
+    "realism_anchors": [
+      "visible pores and peach fuzz on skin",
+      "sunscreen oil glow",
+      "water droplets",
+      "ISO noise and film grain",
+      "salt-textured hair",
+      "crochet knit texture visible"
+    ],
+    "negative_prompt": [
+      "bokeh",
+      "shallow depth of field",
+      "blurry background",
+      "studio lighting",
+      "artificial light",
+      "over-processed",
+      "heavy filters",
+      "plastic skin",
+      "airbrushed",
+      "cartoon",
+      "3d render"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "raw smartphone mirror selfie f/11 deep depth of field, slight ISO noise and film grain, beautiful young woman early 20s long wavy salt-textured platinum blonde hair piercing bright blue eyes, tanned skin glowing with sunscreen oil water droplets visible pores vellus hair texture, playful pout, standing in luxury beach cabana in front of full-length rustic driftwood mirror popping one hip, vibrant turquoise crochet bikini knitted texture, sheer white sarong tied at waist, sunglasses on head smartphone with cute case, SHARP BACKGROUND reflection of blue ocean white sand tropical plant clearly visible no bokeh, bright natural golden sunlight specular highlights on oily skin, unfiltered reality aesthetic, 2:3",
+  "negative_prompt_flat": "bokeh, shallow DOF, blurry background, studio lighting, over-processed, heavy filters, plastic skin, airbrushed, cartoon",
+  "color_palette": {
+    "primary": "tanned skin, turquoise bikini",
+    "secondary": "platinum blonde hair, white sarong",
+    "accent": "bright blue eyes, blue ocean reflection",
+    "background": "driftwood brown, ocean blue, white sand, green tropical plants"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "raw smartphone mirror selfie f/11 ISO noise film grain, woman early 20s platinum blonde wavy salt-textured hair piercing blue eyes, tanned skin sunscreen oil glow water droplets visible pores, playful pout popping hip, beach cabana rustic driftwood mirror, turquoise crochet bikini sheer white sarong sunglasses on head holding phone, SHARP BACKGROUND ocean white sand tropical plant no bokeh, bright golden sunlight specular highlights, unfiltered reality, 2:3",
+      "negative_prompt": "bokeh, blurry background, studio lighting, over-processed, plastic skin, cartoon"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Beautiful young woman early 20s",
+          "skin": {
+            "tone": "Tanned",
+            "texture": "Glowing with sunscreen oil, visible pores, fine vellus hair (peach fuzz)",
+            "details": "Water droplets on skin"
+          },
+          "hair": {
+            "color": "Platinum blonde",
+            "style": "Long wavy, salt-textured from beach"
+          },
+          "face": {
+            "eyes": "Piercing bright blue",
+            "expression": "Playful pout"
+          }
+        },
+        "wardrobe": {
+          "bikini": "Vibrant turquoise crochet bikini, knitted texture",
+          "sarong": "Sheer white sarong tied at waist, translucent",
+          "accessories": [
+            "Sunglasses perched on head",
+            "Smartphone with cute case"
+          ]
+        },
+        "pose_action": {
+          "position": "Standing in front of full-length rustic driftwood mirror",
+          "pose": "Popping one hip to accentuate curves",
+          "action": "Mirror selfie with smartphone"
+        },
+        "scene": {
+          "environment": "Luxury beach cabana",
+          "mirror": "Full-length rustic driftwood frame",
+          "background": "Sharp: Blue ocean reflection, white sand, tropical plant leaves visible",
+          "atmosphere": "Travel influencer, luxury beach"
+        },
+        "lighting": {
+          "type": "Bright natural golden sunlight",
+          "quality": "Direct sun, high contrast",
+          "effects": "Specular highlights on oily skin and water droplets, sharp shadows"
+        },
+        "camera": {
+          "device": "Smartphone, 24mm lens",
+          "settings": "f/11 deep DOF, 1/500s, ISO 100",
+          "imperfections": [
+            "Visible ISO noise",
+            "Slight film grain",
+            "Chromatic aberration"
+          ],
+          "focus": "Sharp throughout, SHARP BACKGROUND no bokeh",
+          "aspect_ratio": "2:3",
+          "style": "Raw unfiltered reality aesthetic",
+          "negative_constraints": "no bokeh, no blurry background, no studio lighting, no over-processed"
+        },
+        "texture_detail": {
+          "skin": "Sunscreen oil glow, visible pores, vellus hair",
+          "fabric": "Crochet knit texture, sheer sarong translucency",
+          "environment": "Driftwood rough texture"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "raw smartphone mirror selfie, woman platinum blonde hair blue eyes, tanned skin sunscreen glow water droplets, turquoise crochet bikini white sarong, beach cabana driftwood mirror, sharp background ocean sand tropical plants, golden sunlight, ISO noise film grain --ar 2:3 --style raw --v 6",
+      "notes": "Use --style raw for authentic unprocessed look"
+    },
+    "ideogram": {
+      "prompt": "Raw smartphone mirror selfie in luxury beach cabana, young woman with platinum blonde wavy hair and blue eyes, tanned skin with sunscreen glow and water droplets, wearing turquoise crochet bikini and white sarong, rustic driftwood frame mirror, sharp background showing ocean and tropical plants, bright golden sunlight",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "2:3"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Beach cabana mirror selfie, platinum blonde woman turquoise crochet bikini, tanned skin water droplets, driftwood mirror, sharp ocean background, golden sunlight"
+    },
+    "luma": {
+      "prompt": "Luxury beach cabana, woman takes mirror selfie, sunlight streams through creating golden glow on tanned skin, ocean and palm trees visible in reflection, tropical paradise moment",
+      "motion_notes": "Subtle pose adjustment, sunlight rays moving, palm leaves swaying in reflection"
+    },
+    "reve": {
+      "prompt": "Travel influencer photography in the style of raw unfiltered beach content, platinum blonde woman in turquoise crochet bikini, beach cabana driftwood mirror selfie, golden sunlight on tanned skin, luxury tropical aesthetic",
+      "art_references": [
+        "Travel influencer content",
+        "Beach lifestyle photography",
+        "Unfiltered reality aesthetic"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Beach cabana mirror selfie, woman with platinum blonde hair and blue eyes, tanned skin with sunscreen glow, turquoise crochet bikini white sarong, rustic driftwood mirror, sharp ocean and tropical plant background, bright golden sunlight, raw smartphone photo"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A beautiful young woman in her early 20s takes a mirror selfie in a luxury beach cabana. She has long wavy salt-textured platinum blonde hair and piercing bright blue eyes, with tanned skin glowing from sunscreen oil, visible pores, fine vellus hair (peach fuzz) on her arms and face, and water droplets on her skin. She has a playful pout expression. She wears a vibrant turquoise crochet bikini with visible knitted texture and a sheer white sarong tied at her waist. Sunglasses are perched on her head and she holds a smartphone with a cute case. She stands in front of a full-length rustic driftwood frame mirror, popping one hip to accentuate her curves. The background shows a sharp reflection of blue ocean, white sand, and tropical plant leaves with no bokeh blur. Bright natural golden sunlight creates specular highlights on her oily skin and water droplets, with sharp sunny shadows. The image has a raw smartphone photo aesthetic with visible ISO noise and slight film grain. No watermark. No artificial smoothing. Realistic texture throughout.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Young woman with platinum blonde wavy hair and blue eyes taking mirror selfie in beach cabana, tanned skin with sunscreen glow and water droplets, wearing turquoise crochet bikini and white sarong, rustic driftwood frame mirror, sharp background showing ocean sand and tropical plants, bright golden sunlight with specular highlights, raw unfiltered travel influencer aesthetic, natural skin texture with visible pores, not over-processed or heavily filtered",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A young woman with long wavy platinum blonde hair and piercing blue eyes takes a mirror selfie in a luxury beach cabana. She has tanned skin with a sunscreen oil glow and water droplets, wearing a vibrant turquoise crochet bikini with a sheer white sarong tied at her waist. She stands in front of a full-length rustic driftwood frame mirror, popping one hip playfully. The background shows a sharp, in-focus view of blue ocean, white sand, and tropical plant leaves. Bright golden sunlight creates warm specular highlights on her skin. The aesthetic is raw and unfiltered like a travel influencer photo.",
+      "editing_prompt": "Change the bikini to coral pink while keeping the beach cabana setting, mirror, platinum blonde hair, and golden sunlight the same. Preserve the tanned skin with sunscreen glow.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed texture descriptions (crochet knit, driftwood rough, sheer sarong translucent), specific skin details (oil glow, vellus hair)",
+    "2_realism_anchors: 'visible pores and peach fuzz', 'sunscreen oil glow', 'water droplets', 'ISO noise and film grain', 'salt-textured hair'",
+    "3_technical_camera: 'f/11 deep DOF', 'ISO noise', 'film grain', 'chromatic aberration', 'sharp background'",
+    "4_negative_hygiene: prevents bokeh, blurry background, over-processed, plastic skin",
+    "5_spatial_consistency: clear mirror selfie pose with hip pop",
+    "6_lighting_storytelling: 'bright golden sunlight' = luxury beach vacation mood",
+    "7_background_sharpness: explicit SHARP BACKGROUND instruction with f/11 DOF"
+  ]
+}

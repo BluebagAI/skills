@@ -1,0 +1,259 @@
+{
+  "name": "Venetian Blinds Athletic Portrait",
+  "description": "Athletic woman with defined abs and arm tattoos sitting on floor, hard sunlight through blinds creating striped shadows, low angle smartphone aesthetic",
+  "input_prompt": "athletic woman abs tattoos sitting floor venetian blinds shadow stripes low angle",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "high_resolution",
+      "aspect_ratio": "9:16",
+      "style": "fitness_influencer_smartphone",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "stunning fit Caucasian woman with toned athletic physique, defined abs and strong thighs, sitting on carpeted floor",
+      "identity": {
+        "age_range": "mid-20s",
+        "type": "woman",
+        "distinguishing_features": [
+          "defined abs",
+          "arm tattoos",
+          "athletic build",
+          "dirty blonde wavy hair"
+        ]
+      },
+      "physical_details": {
+        "body": {
+          "frame": "athletic and hourglass",
+          "details": "waist: highly defined abdominal muscles, lean midriff; chest: slender torso; legs: thick powerful thighs with soft skin texture"
+        },
+        "skin": {
+          "tone": "sun-kissed tan",
+          "texture": "realistic pores, subtle sweat sheen",
+          "details": "tattoos: large intricate floral tattoos covering entire right arm and shoulder; visible_areas: stomach, legs, shoulders"
+        },
+        "hair": {
+          "color": "dirty blonde",
+          "style": "long, wavy, slightly messy lived-in hair",
+          "details": "effect: backlit strands with natural shine"
+        },
+        "face": {
+          "expression": "intimate and self-assured, relaxed and captivating",
+          "makeup": "natural no-makeup look, subtle lip gloss, soft eyebrows",
+          "details": "eyes: looking directly at camera, confident; mouth: slightly parted, soft and natural"
+        }
+      },
+      "expression_mood": "powerful, feminine, sultry yet casual"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "ribbed crop tank top",
+          "color": "muted grey-blue",
+          "details": "thin straps, one strap sliding off shoulder, soft fabric texture"
+        }
+      ],
+      "accessories": [
+        "small silver belly button piercing",
+        "subtle nose stud"
+      ]
+    },
+    "pose_action": {
+      "position": "seated on floor",
+      "camera_relation": "low-angle perspective focusing on midsection and thighs",
+      "posture": "leaning back slightly on one hand",
+      "dynamic_elements": "aesthetic: fitness influencer daily life moment"
+    },
+    "environment": {
+      "location": "minimalist indoor room",
+      "background": [
+        "off-white wall",
+        "beige carpet",
+        "window with white Venetian blinds",
+        "laptop partially visible on floor to left"
+      ],
+      "atmosphere": "warm, private, sun-drenched"
+    },
+    "lighting": {
+      "type": "hard sunlight through Venetian blinds",
+      "quality": "high-contrast linear shadows",
+      "effects": [
+        "dramatic striped shadows from blinds casting across body",
+        "directional natural light",
+        "backlit hair strands"
+      ]
+    },
+    "camera_technical": {
+      "style": "high-end smartphone photography, social media aesthetic",
+      "angle": "low angle, looking up",
+      "shot_type": "medium close-up focusing on torso and thighs",
+      "texture": "sharp focus on skin texture, natural grain, cinematic lighting",
+      "depth_of_field": "shallow, soft focus on far background",
+      "style_tags": [
+        "fitness influencer",
+        "golden hour glow",
+        "raw unedited look"
+      ]
+    },
+    "the_vibe": {
+      "energy": "powerful and feminine",
+      "mood": "sultry yet casual",
+      "aesthetic": "fitness influencer daily life, golden hour glow",
+      "authenticity": "raw and unedited look",
+      "intimacy": "personal bedroom setting",
+      "story": "quiet moment of self-appreciation after workout"
+    },
+    "realism_anchors": [
+      "striped blind shadows on skin",
+      "defined abdominal muscles",
+      "full arm tattoo detail",
+      "realistic skin pores and sheen",
+      "low angle perspective"
+    ],
+    "negative_prompt": [
+      "over-smoothed skin",
+      "cartoonish proportions",
+      "messy background",
+      "cluttered room",
+      "extra limbs",
+      "deformed tattoos",
+      "blurry face",
+      "bad anatomy",
+      "plastic skin",
+      "low resolution"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "high-end smartphone fitness portrait 9:16, stunning fit Caucasian woman mid-20s toned athletic physique, defined abs lean midriff thick powerful thighs, sun-kissed tan skin realistic pores subtle sweat sheen, large intricate floral tattoos right arm and shoulder, dirty blonde long wavy lived-in hair backlit shine, intimate self-assured expression looking at camera slightly parted mouth, natural no-makeup look subtle lip gloss, muted grey-blue ribbed crop tank thin straps one sliding off shoulder, small silver belly button piercing nose stud, seated on floor leaning back on one hand, minimalist room off-white wall beige carpet window with white Venetian blinds laptop on floor, HARD SUNLIGHT through blinds creating dramatic striped shadows across body, low angle looking up focusing on torso thighs, sharp skin texture natural grain shallow DOF, raw unedited fitness influencer aesthetic",
+  "negative_prompt_flat": "over-smoothed skin, cartoonish, messy background, extra limbs, deformed tattoos, blurry face, bad anatomy, plastic skin",
+  "color_palette": {
+    "primary": "sun-kissed tan skin, muted grey-blue top",
+    "secondary": "dirty blonde hair, beige carpet",
+    "accent": "silver piercings, tattoo colors",
+    "lighting": "warm golden sunlight, shadow stripes"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "smartphone fitness portrait, fit woman mid-20s defined abs thick thighs, sun-kissed tan skin pores sweat sheen, large floral arm shoulder tattoos, dirty blonde wavy hair backlit, confident gaze slightly parted mouth natural makeup, muted grey-blue ribbed crop tank strap sliding off, belly piercing nose stud, seated on floor leaning back, minimalist room beige carpet white Venetian blinds, HARD SUNLIGHT through blinds dramatic striped shadows on body, low angle torso focus, sharp skin texture shallow DOF, raw fitness influencer aesthetic, 9:16",
+      "negative_prompt": "over-smoothed skin, cartoonish, messy background, extra limbs, deformed tattoos, plastic skin"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Stunning fit Caucasian woman mid-20s, toned athletic physique",
+          "body": {
+            "frame": "Athletic and hourglass",
+            "waist": "Highly defined abdominal muscles, lean midriff",
+            "chest": "Slender torso",
+            "legs": "Thick powerful thighs with soft skin texture"
+          },
+          "skin": {
+            "tone": "Sun-kissed tan",
+            "texture": "Realistic pores, subtle sweat sheen",
+            "tattoos": "Large intricate floral tattoos covering entire right arm and shoulder",
+            "lighting_effect": "Dramatic striped shadows from blinds"
+          },
+          "hair": {
+            "color": "Dirty blonde",
+            "style": "Long, wavy, slightly messy lived-in",
+            "effect": "Backlit strands with natural shine"
+          },
+          "face": {
+            "expression": "Intimate and self-assured, relaxed captivating",
+            "eyes": "Looking directly at camera, confident",
+            "mouth": "Slightly parted, soft natural",
+            "makeup": "Natural no-makeup look, subtle lip gloss"
+          }
+        },
+        "wardrobe": {
+          "top": "Muted grey-blue ribbed crop tank, thin straps, one sliding off shoulder",
+          "accessories": [
+            "Small silver belly button piercing",
+            "Subtle nose stud"
+          ]
+        },
+        "pose_action": {
+          "position": "Seated on carpeted floor",
+          "posture": "Leaning back slightly on one hand",
+          "camera_angle": "Low angle looking up, focusing on torso and thighs"
+        },
+        "scene": {
+          "environment": "Minimalist indoor room",
+          "background": [
+            "Off-white wall",
+            "Beige carpet",
+            "Window with white Venetian blinds",
+            "Laptop on floor"
+          ],
+          "atmosphere": "Warm, private, sun-drenched"
+        },
+        "lighting": {
+          "type": "Hard sunlight through Venetian blinds",
+          "effect": "High-contrast linear shadows, dramatic stripes across body",
+          "hair": "Backlit strands"
+        },
+        "camera": {
+          "style": "High-end smartphone, social media aesthetic",
+          "angle": "Low angle looking up",
+          "focus": "Sharp on skin texture, natural grain",
+          "depth_of_field": "Shallow, soft background",
+          "aspect_ratio": "9:16",
+          "negative_constraints": "no over-smoothed skin, no cartoonish proportions, no messy background"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "fitness portrait, athletic woman defined abs arm tattoos, sitting on floor, hard sunlight through venetian blinds creating striped shadows, low angle smartphone aesthetic --ar 9:16 --style raw --v 6",
+      "notes": "Use --style raw for authentic unedited fitness aesthetic"
+    },
+    "ideogram": {
+      "prompt": "Athletic woman with defined abs and floral arm tattoos sitting on carpeted floor, wearing muted grey-blue crop tank top, hard sunlight through Venetian blinds creating dramatic striped shadow pattern across body, low angle smartphone perspective, minimalist room",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "9:16"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Fitness portrait, athletic woman abs tattoos sitting floor, Venetian blinds striped shadows, low angle, warm sunlight"
+    },
+    "luma": {
+      "prompt": "Sunlit bedroom, athletic woman relaxes on floor after workout, hard light through blinds creates moving shadow stripes across her body, dust particles float in sunbeams, intimate quiet moment",
+      "motion_notes": "Subtle breathing movement, shadow stripes slowly shifting, dust particles floating"
+    },
+    "reve": {
+      "prompt": "Fitness lifestyle photography in the style of golden hour bedroom portraits, athletic woman with abs and tattoos, dramatic Venetian blind shadows, low angle smartphone aesthetic, intimate self-appreciation moment",
+      "art_references": [
+        "Fitness influencer photography",
+        "Golden hour portraits",
+        "Dramatic shadow photography"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Athletic woman with defined abs and floral arm tattoos sitting on floor, grey-blue crop tank top, hard sunlight through Venetian blinds creating striped shadows on body, low angle smartphone perspective, warm minimalist room"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A stunning fit Caucasian woman in her mid-20s with a toned athletic physique sits on a carpeted floor. She has highly defined abdominal muscles, thick powerful thighs, and sun-kissed tan skin with realistic pores and a subtle sweat sheen. Large intricate floral tattoos cover her entire right arm and shoulder. Her dirty blonde hair is long, wavy, and slightly messy with backlit strands showing natural shine. Her expression is intimate and self-assured, relaxed and captivating, with confident eyes looking directly at camera and slightly parted lips. She wears a muted grey-blue ribbed crop tank top with thin straps, one strap sliding off her shoulder. A small silver belly button piercing and subtle nose stud are visible. She leans back slightly on one hand in a minimalist room with off-white walls, beige carpet, and white Venetian blinds. Hard sunlight streams through the blinds creating dramatic striped shadows across her body. Low angle perspective focusing on midsection and thighs. No watermark. No artificial smoothing. Realistic texture.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Athletic fit woman mid-20s with defined abs and large floral arm tattoos sitting on floor, dirty blonde wavy hair backlit, wearing muted grey-blue ribbed crop tank with strap sliding off shoulder, sun-kissed tan skin with subtle sweat sheen, confident intimate expression looking at camera, minimalist room with beige carpet and white Venetian blinds, hard sunlight through blinds creating dramatic striped shadow pattern across body, low angle smartphone photography perspective, photorealistic fitness portrait, not over-smoothed or cartoonish",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "Athletic woman with toned physique and defined abs sitting on carpeted floor in minimalist room. She has sun-kissed tan skin with realistic texture, large intricate floral tattoos on right arm and shoulder, dirty blonde wavy hair with backlit shine. Wearing muted grey-blue ribbed crop tank top with thin straps, one sliding off shoulder. Small belly button piercing visible. Her expression is confident and intimate, looking directly at camera. Hard sunlight streams through white Venetian blinds creating dramatic striped shadows across her body. Low angle smartphone perspective focusing on torso and thighs. Warm private atmosphere with beige carpet and off-white walls.",
+      "editing_prompt": "Change the crop tank top from grey-blue to black while keeping the tattoos and body position the same. Preserve the Venetian blind shadow pattern and low angle perspective.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed body description (abs, thighs), specific tattoo coverage, exact clothing details",
+    "2_realism_anchors: 'striped blind shadows', 'defined abs', 'full arm tattoo', 'realistic pores and sheen'",
+    "3_technical_camera: 'low angle looking up', 'smartphone aesthetic', 'sharp skin texture', 'shallow DOF'",
+    "4_negative_hygiene: prevents over-smoothed skin, cartoonish proportions, messy background",
+    "5_spatial_consistency: clear seated pose with camera angle specified",
+    "6_lighting_storytelling: 'hard sunlight through Venetian blinds' = dramatic intimate fitness mood",
+    "7_shadow_pattern: specific blind shadow stripes as key visual element"
+  ]
+}

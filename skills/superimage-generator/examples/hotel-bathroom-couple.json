@@ -1,0 +1,299 @@
+{
+  "name": "Hotel Bathroom Couple Mirror Selfie",
+  "description": "Couple mirror selfie in modern hotel bathroom, both in towels, intimate casual moment",
+  "input_prompt": "couple taking mirror selfie in hotel bathroom wearing towels",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "ultra_photorealistic",
+      "aspect_ratio": "3:4",
+      "style": "iphone_photography",
+      "target_model": "flux",
+      "realism_level": "indistinguishable_from_reality"
+    },
+    "subjects": [
+      {
+        "role": "female_subject",
+        "position": "left side of frame",
+        "description": "woman mid-20s with short blonde bob, slim build, relaxed neutral expression",
+        "physical_details": {
+          "skin": {
+            "texture": "smooth realistic with visible pores",
+            "realism_markers": [
+              "natural texture",
+              "no airbrushing"
+            ]
+          },
+          "hair": {
+            "color": "blonde",
+            "style": "short bob, natural styling"
+          },
+          "face": {
+            "expression": "relaxed, neutral, slightly posed"
+          }
+        },
+        "wardrobe": {
+          "outfit": "white bath towel wrapped around body",
+          "accessories": [
+            "silver cross necklace"
+          ]
+        },
+        "action": "holding smartphone taking mirror selfie",
+        "phone": {
+          "type": "modern smartphone",
+          "color": "dark blue",
+          "reflection_accuracy": "true to life"
+        }
+      },
+      {
+        "role": "male_subject",
+        "position": "right side of frame",
+        "description": "man late-20s with athletic muscular build, full dark beard, shaved head",
+        "physical_details": {
+          "skin": {
+            "texture": "highly detailed with natural highlights",
+            "realism_markers": [
+              "muscle definition",
+              "natural skin texture"
+            ]
+          },
+          "facial_hair": "full dark beard",
+          "hair": {
+            "style": "shaved head"
+          },
+          "face": {
+            "expression": "focused, casual"
+          }
+        },
+        "wardrobe": {
+          "outfit": "white bath towel wrapped around waist",
+          "accessories": [
+            "gold chain necklace"
+          ]
+        },
+        "action": "brushing beard with wooden beard comb"
+      }
+    ],
+    "environment": {
+      "location": "modern hotel bathroom",
+      "background": [
+        "large rectangular wall-mounted mirror",
+        "beige fabric shower curtains",
+        "light stone bathroom counter"
+      ],
+      "props": [
+        {
+          "item": "wooden beard comb",
+          "held_by": "male subject"
+        }
+      ],
+      "atmosphere": "intimate, casual, real-life moment"
+    },
+    "lighting": {
+      "type": "warm overhead bathroom lighting",
+      "quality": "soft but realistic, evenly diffused",
+      "effects": [
+        "natural specular highlights on skin",
+        "no plastic shine",
+        "subtle physically accurate shadows"
+      ]
+    },
+    "camera_technical": {
+      "device": "iPhone",
+      "lens": "standard wide lens 26mm equivalent",
+      "resolution": "high quality",
+      "style_tags": [
+        "natural smartphone depth",
+        "sharp on subjects",
+        "realistic micro-blur in background"
+      ]
+    },
+    "composition": {
+      "shot_type": "mirror selfie",
+      "framing": "medium-wide",
+      "crop": "vertical",
+      "camera_height": "eye level",
+      "perspective": "straight-on reflection",
+      "symmetry": "natural, slightly imperfect"
+    },
+    "realism_anchors": [
+      "visible skin pores",
+      "fine lines and natural imperfections",
+      "realistic towel fibers and folds",
+      "accurate mirror reflections no distortion",
+      "natural specular highlights"
+    ],
+    "negative_prompt": [
+      "over-smoothing skin",
+      "plastic skin",
+      "AI uncanny face",
+      "exaggerated muscles",
+      "over-sharpening",
+      "cinematic lighting",
+      "fashion editorial look",
+      "studio lighting",
+      "blurred facial details",
+      "fake reflections"
+    ],
+    "prompt_type": "portrait",
+    "subject": {
+      "description": "couple in white towels taking a mirror selfie in a modern hotel bathroom",
+      "identity": {
+        "age_range": "mid-20s to late-20s",
+        "type": "couple",
+        "distinguishing_features": [
+          "woman with short blonde bob",
+          "man with full dark beard and shaved head",
+          "intimate casual mirror selfie"
+        ]
+      },
+      "physical_details": {
+        "hair": {
+          "color": "blonde",
+          "style": "short bob, natural styling"
+        },
+        "skin": {
+          "tone": "light to medium",
+          "texture": "realistic skin texture with visible pores"
+        },
+        "face": {
+          "expression": "relaxed, neutral, slightly posed"
+        }
+      },
+      "expression_mood": "intimate, casual, relaxed"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "white bath towel wrapped around body",
+          "details": "female subject"
+        },
+        {
+          "type": "white bath towel wrapped around waist",
+          "details": "male subject"
+        }
+      ],
+      "accessories": [
+        "silver cross necklace",
+        "gold chain necklace",
+        "dark blue smartphone (mirror selfie)"
+      ]
+    },
+    "pose_action": {
+      "position": "standing side-by-side in front of bathroom mirror",
+      "description": "woman holds smartphone for mirror selfie while man grooms beard with wooden comb",
+      "dynamic_elements": "female subject angled slightly toward mirror; male subject brushing beard; both relaxed posture"
+    }
+  },
+  "flattened_prompt": "ultra-photorealistic mirror selfie, modern hotel bathroom, couple in white bath towels, woman left side mid-20s short blonde bob slim build silver cross necklace holding dark blue smartphone, man right side late-20s athletic muscular shaved head full dark beard gold chain brushing beard with wooden comb, large wall mirror beige shower curtains light stone counter, warm overhead bathroom lighting soft diffused natural specular highlights, iPhone photography 26mm standard wide lens, medium-wide framing straight-on reflection, visible skin pores natural imperfections realistic towel fibers, intimate casual real-life moment, 3:4 vertical",
+  "negative_prompt_flat": "over-smoothing skin, plastic skin, AI uncanny face, exaggerated muscles, cinematic lighting, studio lighting, fashion editorial, fake reflections",
+  "color_palette": {
+    "primary": "white towels, natural skin tones",
+    "secondary": "beige curtains, light stone",
+    "accent": "silver and gold jewelry",
+    "lighting": "warm bathroom tones"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "ultra-photorealistic hotel bathroom mirror selfie, couple in white towels, woman left short blonde bob slim silver necklace holding dark blue phone, man right athletic shaved head dark beard gold chain brushing beard with wood comb, wall mirror beige curtains stone counter, warm overhead lighting soft diffused natural highlights, iPhone 26mm, visible skin pores natural texture realistic towel fibers, intimate casual moment, 3:4",
+      "negative_prompt": "over-smoothing, plastic skin, AI face, exaggerated muscles, cinematic lighting, studio lighting, fake reflections"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subjects": [
+          {
+            "role": "Female subject - left side",
+            "description": "Woman mid-20s, slim build, short blonde bob natural styling",
+            "skin": "Smooth realistic with visible pores, no airbrushing",
+            "expression": "Relaxed, neutral, slightly posed",
+            "wardrobe": "White bath towel wrapped around body, silver cross necklace",
+            "action": "Holding dark blue smartphone taking mirror selfie"
+          },
+          {
+            "role": "Male subject - right side",
+            "description": "Man late-20s, athletic muscular build, shaved head, full dark beard",
+            "skin": "Highly detailed with natural highlights, muscle definition visible",
+            "expression": "Focused, casual",
+            "wardrobe": "White bath towel wrapped around waist, gold chain necklace",
+            "action": "Brushing beard with wooden beard comb"
+          }
+        ],
+        "scene": {
+          "environment": "Modern hotel bathroom",
+          "mirror": "Large rectangular wall-mounted",
+          "background": "Beige fabric shower curtains, light stone counter",
+          "atmosphere": "Intimate, casual, real-life moment"
+        },
+        "lighting": {
+          "type": "Warm overhead bathroom lighting, evenly diffused",
+          "effects": "Natural specular highlights, no plastic shine, subtle accurate shadows"
+        },
+        "camera": {
+          "technical": "iPhone photography, 26mm standard wide lens",
+          "framing": "Medium-wide, straight-on mirror reflection",
+          "focus": "Sharp on subjects, realistic micro-blur in background",
+          "aspect_ratio": "3:4",
+          "negative_constraints": "no over-smoothing, no plastic skin, no AI face, no cinematic lighting, no fake reflections"
+        },
+        "texture_detail": {
+          "skin": "Visible pores, fine lines, natural imperfections",
+          "fabric": "Realistic towel fibers and folds",
+          "mirror": "Accurate reflections, no distortion"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "ultra-realistic hotel bathroom mirror selfie, couple in white towels, woman blonde bob holding phone, man athletic shaved head beard brushing with comb, warm bathroom lighting, natural skin texture visible pores, iPhone photo aesthetic --ar 3:4 --style raw --v 6",
+      "notes": "Use --style raw for authentic unprocessed look"
+    },
+    "ideogram": {
+      "prompt": "Couple taking mirror selfie in modern hotel bathroom, both wearing white bath towels, woman with short blonde bob holding phone on left, athletic man with beard brushing with comb on right, warm bathroom lighting, realistic skin texture",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "3:4"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Hotel bathroom mirror selfie, couple in white towels, blonde woman with phone, bearded man with comb, warm lighting, natural skin texture"
+    },
+    "luma": {
+      "prompt": "Hotel bathroom moment, woman takes mirror selfie while man grooms his beard beside her, warm overhead light, steam wisps from recent shower, intimate morning routine",
+      "motion_notes": "Subtle beard brushing motion, slight phone adjustment, natural breathing"
+    },
+    "reve": {
+      "prompt": "Authentic couple photography in the style of real-life intimate moments, hotel bathroom mirror selfie, matching white towels, warm soft lighting, natural unretouched skin texture",
+      "art_references": [
+        "Candid couple photography",
+        "Real-life intimate moments",
+        "Natural beauty photography"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Couple mirror selfie in hotel bathroom, white towels, blonde woman holding phone, bearded man brushing beard with comb, warm bathroom lighting, natural realistic look"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A couple takes a mirror selfie in a modern hotel bathroom, both wearing white bath towels. On the left stands a slim woman in her mid-twenties with a short blonde bob, holding a dark blue smartphone to capture the reflection. She wears a silver cross necklace and has a relaxed, slightly posed expression. On the right stands an athletic, muscular man in his late twenties with a shaved head and full dark beard, wearing a gold chain necklace. He casually brushes his beard with a wooden comb. The large rectangular wall-mounted mirror reflects beige fabric shower curtains and a light stone bathroom counter behind them. Warm overhead bathroom lighting creates soft, evenly diffused illumination with natural specular highlights on their skin. The image has authentic iPhone photography quality with visible skin pores and natural imperfections. No over-smoothing. No plastic skin. Realistic towel fibers and folds visible.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Couple taking mirror selfie in modern hotel bathroom wearing white bath towels, woman left side short blonde bob holding dark blue phone, athletic man right side shaved head full beard gold chain brushing beard with wooden comb, large wall mirror, beige shower curtains, warm overhead bathroom lighting, iPhone photography aesthetic with natural skin texture and visible pores, intimate casual moment, not overly retouched or airbrushed",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A couple captures an intimate mirror selfie moment in a modern hotel bathroom. The woman on the left has a short blonde bob and holds a dark blue smartphone, wearing a white bath towel and silver cross necklace. The athletic man on the right has a shaved head and full dark beard, wearing a white towel around his waist and a gold chain, brushing his beard with a wooden comb. Warm overhead bathroom lighting illuminates the scene with natural skin texture visible. Beige shower curtains and light stone counter in the background. Authentic iPhone photography quality.",
+      "editing_prompt": "Add steam in the background from a recent shower while keeping the couple, their poses, and the warm bathroom lighting the same. Preserve the natural skin texture and towel details.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Two subjects with detailed individual descriptions, accessories, actions",
+    "2_realism_anchors: 'visible pores', 'towel fibers', 'accurate reflections', 'natural imperfections'",
+    "3_technical_camera: 'iPhone', '26mm', 'natural smartphone depth'",
+    "4_negative_hygiene: extensive list preventing AI artifacts and over-processing",
+    "5_spatial_consistency: clear left/right positioning, straight-on reflection",
+    "6_lighting_storytelling: 'warm bathroom lighting' = intimate morning routine mood",
+    "7_multi_subject_coordination: two subjects with individual actions and styling"
+  ]
+}

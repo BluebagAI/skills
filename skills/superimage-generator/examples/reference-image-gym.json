@@ -1,0 +1,216 @@
+{
+  "name": "Reference Image - Gym Selfie",
+  "description": "Face/identity preservation using uploaded reference image",
+  "input_prompt": "gym selfie",
+  "has_reference_image": true,
+  "target_model": "flux-ip-adapter",
+  "superprompt": {
+    "reference": {
+      "face_identity": "use uploaded reference image",
+      "identity_lock": true,
+      "face_accuracy": "100% identical to reference — same facial structure, proportions, skin texture, expression, and details"
+    },
+
+    "subject": {
+      "type": "young woman",
+      "appearance": {
+        "hair": {
+          "color": "dark brown",
+          "style": "long wavy hair with a half-up messy bun, loose strands framing the face"
+        },
+        "skin": {
+          "tone": "same as reference image",
+          "texture": "natural, realistic"
+        },
+        "expression": "calm, composed, slightly focused",
+        "gaze": "looking at phone screen"
+      },
+      "pose": {
+        "stance": "standing with one leg slightly forward",
+        "hands": {
+          "right": "holding a purple smartphone for a mirror selfie",
+          "left": "holding a transparent water bottle with blue liquid"
+        }
+      }
+    },
+
+    "wardrobe": {
+      "top": {
+        "primary": "fitted short-sleeve white t-shirt",
+        "layer": "white long-sleeve shirt tied around the waist"
+      },
+      "bottom": {
+        "type": "high-waisted athletic leggings",
+        "color": "navy blue"
+      },
+      "footwear": {
+        "shoes": "white athletic sneakers",
+        "socks": "white crew socks"
+      }
+    },
+
+    "environment": {
+      "location": "modern indoor gym",
+      "features": [
+        "large wall mirrors",
+        "treadmills",
+        "weight machines",
+        "rubber gym flooring",
+        "exercise mats on the floor"
+      ],
+      "reflection": "mirror seam visible vertically in frame"
+    },
+
+    "lighting": {
+      "type": "bright overhead fluorescent gym lighting",
+      "quality": "even, neutral illumination with minimal shadows"
+    },
+
+    "composition": {
+      "shot_type": "full-body mirror selfie",
+      "camera_angle": "eye-level",
+      "framing": "centered subject",
+      "style": "casual fitness lifestyle photograph"
+    },
+
+    "image_style": {
+      "realism": "highly photorealistic",
+      "detail": "sharp clothing textures and clear gym background",
+      "mood": "clean, modern, casual",
+      "resolution": "high resolution"
+    }
+  },
+  "alternate_scenarios": [
+    {
+      "name": "Coffee Shop Reference",
+      "description": "Same person in different environment",
+      "superprompt": {
+        "reference": {
+          "face_identity": "use uploaded reference image",
+          "identity_lock": true,
+          "face_accuracy": "100% identical to reference"
+        },
+        "subject": {
+          "type": "young woman",
+          "appearance": {
+            "skin": { "tone": "same as reference image" },
+            "expression": "warm smile, relaxed",
+            "gaze": "looking at camera"
+          },
+          "pose": {
+            "stance": "seated at table",
+            "hands": { "both": "holding ceramic coffee mug" }
+          }
+        },
+        "wardrobe": {
+          "top": "cream knit sweater, oversized fit",
+          "accessories": "small gold hoop earrings"
+        },
+        "environment": {
+          "location": "cozy coffee shop",
+          "features": ["wooden table", "warm ambient lighting", "plants in background", "exposed brick wall"],
+          "atmosphere": "morning light through window"
+        },
+        "lighting": {
+          "type": "soft natural daylight from side window",
+          "quality": "warm, diffused, golden tones"
+        },
+        "composition": {
+          "shot_type": "upper body portrait",
+          "camera_angle": "slightly above eye level",
+          "framing": "rule of thirds, subject left",
+          "style": "lifestyle photography"
+        },
+        "image_style": {
+          "realism": "photorealistic",
+          "mood": "warm, inviting, authentic"
+        }
+      }
+    },
+    {
+      "name": "Professional Headshot Reference",
+      "description": "Same person for corporate/LinkedIn",
+      "superprompt": {
+        "reference": {
+          "face_identity": "use uploaded reference image",
+          "identity_lock": true,
+          "face_accuracy": "100% identical to reference — preserve all facial features exactly"
+        },
+        "subject": {
+          "type": "young professional woman",
+          "appearance": {
+            "skin": { "tone": "same as reference image", "texture": "natural with subtle professional touch-up" },
+            "hair": { "style": "neatly styled, professional" },
+            "expression": "confident, approachable smile",
+            "gaze": "direct eye contact with camera"
+          },
+          "pose": {
+            "stance": "shoulders slightly angled",
+            "hands": "not visible in frame"
+          }
+        },
+        "wardrobe": {
+          "top": "navy blue blazer over white blouse",
+          "accessories": "minimal jewelry, small stud earrings"
+        },
+        "environment": {
+          "location": "neutral studio backdrop",
+          "features": ["soft grey gradient background"],
+          "atmosphere": "professional, clean"
+        },
+        "lighting": {
+          "type": "professional studio lighting",
+          "quality": "soft key light with fill, subtle rim light for separation"
+        },
+        "composition": {
+          "shot_type": "headshot, shoulders up",
+          "camera_angle": "eye level",
+          "framing": "centered, adequate headroom",
+          "style": "corporate headshot photography"
+        },
+        "image_style": {
+          "realism": "photorealistic with professional polish",
+          "detail": "sharp focus on face, smooth background",
+          "mood": "professional, trustworthy, confident"
+        }
+      }
+    }
+  ],
+  "reference_image_best_practices": {
+    "always_include": [
+      "reference.face_identity: 'use uploaded reference image'",
+      "reference.identity_lock: true",
+      "reference.face_accuracy with specificity",
+      "subject.appearance.skin.tone: 'same as reference image'"
+    ],
+    "model_specific_flags": {
+      "flux_ip_adapter": "Use with IP-Adapter for best face preservation",
+      "midjourney": "Add --cref [image_url] --cw 100 for character reference",
+      "stable_diffusion": "Use with InstantID or IP-Adapter-FaceID"
+    },
+    "common_mistakes": [
+      "Forgetting identity_lock causes face drift",
+      "Not specifying skin tone match leads to inconsistent skin",
+      "Vague face_accuracy results in approximate likeness"
+    ]
+  },
+  "model_adaptations": {
+    "grok-imagine": {
+      "prompt": "Full-body gym mirror selfie, young woman with dark brown wavy hair in half-up messy bun, white fitted t-shirt with white long-sleeve tied around waist, navy blue high-waisted athletic leggings, white sneakers, holding purple phone and blue water bottle, modern gym with treadmills and mirrors"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A young woman takes a full-body mirror selfie in a modern indoor gym. Her face is 100% identical to the uploaded reference image with the same facial structure, proportions, skin texture, expression, and details. She has dark brown long wavy hair styled in a half-up messy bun with loose strands framing her face. She wears a fitted short-sleeve white t-shirt with a white long-sleeve shirt tied around her waist, high-waisted navy blue athletic leggings, white athletic sneakers with white crew socks. She stands with one leg slightly forward, right hand holding a purple smartphone for the selfie, left hand holding a transparent water bottle with blue liquid. Her expression is calm, composed, and slightly focused, eyes looking at the phone screen. The gym features large wall mirrors with a visible vertical seam, treadmills, weight machines, rubber gym flooring, and exercise mats. Bright overhead fluorescent lighting provides even neutral illumination with minimal shadows. Highly photorealistic with sharp clothing textures and clear gym background. No watermark. No artificial smoothing. Realistic texture.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Young woman taking full-body gym mirror selfie, face identical to reference image, dark brown wavy hair half-up messy bun loose strands, white fitted t-shirt white long-sleeve tied at waist, navy blue high-waisted athletic leggings, white sneakers white socks, holding purple smartphone and blue water bottle, modern gym large mirrors treadmills weight machines rubber flooring, bright overhead fluorescent lighting, photorealistic casual fitness style, not cartoon-like, not airbrushed",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A young woman takes a full-body mirror selfie in a modern indoor gym. Her face matches the uploaded reference image exactly with identical facial structure and features. She has dark brown long wavy hair in a half-up messy bun with loose strands. She wears a fitted white t-shirt with a white long-sleeve tied at her waist, navy blue high-waisted athletic leggings, white sneakers and socks. She holds a purple smartphone in her right hand and a blue water bottle in her left. Large gym mirrors show a vertical seam. Treadmills and weight machines in background. Bright fluorescent overhead lighting with even illumination.",
+      "editing_prompt": "Change the leggings color from navy blue to black while keeping the woman's face, pose, and all other clothing the same. Preserve the gym setting, mirror reflection, and lighting.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  }
+}

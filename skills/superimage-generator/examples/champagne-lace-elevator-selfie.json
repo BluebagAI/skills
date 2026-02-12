@@ -1,0 +1,268 @@
+{
+  "name": "Champagne Lace Elevator Mirror Selfie",
+  "description": "Elegant woman in champagne lace fitted dress taking mirror selfie in stainless-steel elevator, red handbag, red lipstick, older Android phone aesthetic",
+  "input_prompt": "woman elevator mirror selfie champagne lace dress red handbag lipstick stainless steel",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "older_android_camera",
+      "aspect_ratio": "3:4",
+      "style": "elevator_mirror_selfie",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "elegant adult woman taking full-body mirror selfie in stainless-steel elevator, poised and confident with slight side profile",
+      "identity": {
+        "age_range": "late 20s to mid 30s",
+        "type": "woman",
+        "distinguishing_features": [
+          "red lipstick",
+          "shoulder-length waves",
+          "elegant poise"
+        ]
+      },
+      "physical_details": {
+        "skin": {
+          "tone": "light to light-medium warm undertone",
+          "texture": "smooth with realistic pores"
+        },
+        "hair": {
+          "color": "dark brown to black",
+          "style": "shoulder-length loose waves with volume, side-parted",
+          "details": "effect: soft sheen, slightly tousled but styled"
+        },
+        "face": {
+          "expression": "focused and composed, cool confident slightly aloof",
+          "makeup": "clean base, defined brows, bold red lipstick",
+          "details": "eyes: looking toward phone screen in mirror, calm self-assured; mouth: closed, neutral with confident edge"
+        },
+        "body": {
+          "frame": "slim with feminine curves",
+          "details": "waist: defined; legs: long-looking due to heels and pose"
+        }
+      },
+      "expression_mood": "polished, poised, cool confidence, ready-to-go-out"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "lace fitted sleeveless top with deep V neckline",
+          "color": "champagne/ivory",
+          "details": "lace overlay with delicate floral pattern, semi-sheer texture at neckline"
+        },
+        {
+          "type": "matching fitted lace skirt to below knee (or continuous dress silhouette)",
+          "color": "champagne/ivory",
+          "details": "lace pattern continues, body-hugging cut, slight wrinkles from movement; effect: elegant polished evening look"
+        },
+        {
+          "type": "nude pointed-toe high heels"
+        }
+      ],
+      "accessories": [
+        "gold earrings",
+        "gold bangle bracelet",
+        "light-colored bangle on other wrist",
+        "early-generation Android smartphone with dark patterned case",
+        "held in one hand",
+        "deep red glossy handbag held down at side"
+      ]
+    },
+    "pose_action": {
+      "position": "standing full-body in front of elevator mirror",
+      "camera_relation": "full-body vertical portrait, subject centered slightly right",
+      "posture": "weight on one leg, other leg slightly forward, hips subtly angled",
+      "action": "action: phone raised near face for mirror selfie, head turned slightly to side"
+    },
+    "environment": {
+      "location": "stainless-steel elevator interior",
+      "background": [
+        "brushed silver metal walls",
+        "tall black elevator control panel with many buttons on left",
+        "small instruction/safety sign on right wall",
+        "strong mirror reflections and metallic seams"
+      ],
+      "atmosphere": "clean, modern, slightly glossy and reflective"
+    },
+    "lighting": {
+      "type": "overhead elevator lighting",
+      "quality": "even, warm-neutral tone",
+      "effects": [
+        "pronounced reflections on metal",
+        "indoor specular highlights"
+      ]
+    },
+    "camera_technical": {
+      "device": "early-generation Android smartphone",
+      "style": "social media candid realism, older phone aesthetic",
+      "angle": "eye-level mirror reflection with slight wide-angle distortion",
+      "shot_type": "full-body vertical portrait",
+      "quality": "texture: slight noise, mild compression, bit of oversharpening typical of older phone cameras, imperfections: older Android camera characteristics",
+      "depth_of_field": "deep focus, most of scene sharp"
+    },
+    "mirror_rules": {
+      "text_handling": "all readable text and symbols appear correct and forward (not reversed)",
+      "reflection_integrity": "show phone and reflection naturally, no mirrored artifacts",
+      "signage": "ignore real-world mirror inversion physics, keep signage and UI text oriented normally"
+    },
+    "the_vibe": {
+      "energy": "polished and poised",
+      "mood": "cool confidence, ready-to-go-out",
+      "aesthetic": "urban elegant, realistic mirror selfie",
+      "authenticity": "unedited social photo feeling with older-phone imperfections",
+      "story": "quick outfit check and confident snapshot on the way out"
+    },
+    "realism_anchors": [
+      "stainless steel reflections",
+      "elevator button panel detail",
+      "older Android camera noise and oversharpening",
+      "lace fabric texture",
+      "red handbag gloss"
+    ],
+    "negative_prompt": [
+      "anime",
+      "cartoon",
+      "oil painting",
+      "overly smooth skin",
+      "heavy retouching",
+      "cinematic lighting",
+      "strong vignette",
+      "extreme bokeh",
+      "extra fingers",
+      "deformed hands",
+      "warped phone",
+      "blurry face",
+      "reversed text",
+      "random watermark",
+      "brand logos"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "older Android phone elevator mirror selfie 3:4, elegant woman late 20s to mid 30s light warm skin, dark brown shoulder-length loose waves side-parted soft sheen, focused composed expression bold red lipstick defined brows, slim feminine curves defined waist, champagne ivory lace fitted dress deep V neckline delicate floral pattern semi-sheer body-hugging slight wrinkles, nude pointed-toe high heels, gold earrings bangle bracelet, early Android smartphone dark patterned case, deep red glossy handbag at side, standing full-body weight on one leg hips angled phone raised near face head turned slightly, stainless-steel elevator interior brushed silver walls tall black button panel on left safety sign right mirror reflections metallic seams, even overhead elevator lighting warm-neutral reflections on metal, slight noise mild compression oversharpening older phone aesthetic deep focus, text appears correct not reversed, cool confident ready-to-go-out mood",
+  "negative_prompt_flat": "anime, cartoon, overly smooth skin, cinematic lighting, extreme bokeh, extra fingers, warped phone, reversed text, watermark",
+  "color_palette": {
+    "primary": "champagne/ivory lace dress",
+    "secondary": "stainless steel, brushed silver",
+    "accent": "deep red handbag, bold red lipstick, gold jewelry",
+    "skin": "light warm undertone"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "older Android elevator mirror selfie, elegant woman late 20s dark wavy hair red lipstick, champagne ivory lace fitted dress V neckline floral pattern semi-sheer, nude heels gold jewelry, deep red glossy handbag, Android phone dark case, standing full-body weight shifted hips angled head turned, stainless-steel elevator brushed silver walls black button panel safety sign, overhead lighting metal reflections, slight noise oversharpening older phone aesthetic deep focus, text not reversed, cool confident mood, 3:4",
+      "negative_prompt": "anime, cartoon, smooth skin, cinematic lighting, bokeh, extra fingers, warped phone, reversed text, watermark"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Elegant adult woman late 20s to mid 30s",
+          "skin": {
+            "tone": "Light to light-medium warm undertone",
+            "texture": "Smooth with realistic pores"
+          },
+          "hair": {
+            "color": "Dark brown to black",
+            "style": "Shoulder-length loose waves, side-parted, soft sheen"
+          },
+          "face": {
+            "expression": "Focused, composed, cool confident",
+            "eyes": "Looking toward phone screen in mirror",
+            "makeup": "Clean base, defined brows, bold red lipstick"
+          },
+          "body": "Slim with feminine curves, defined waist"
+        },
+        "wardrobe": {
+          "dress": "Champagne/ivory lace fitted, deep V neckline, delicate floral pattern, semi-sheer, body-hugging, slight wrinkles",
+          "shoes": "Nude pointed-toe high heels",
+          "accessories": [
+            "Gold earrings",
+            "Gold bangle bracelet",
+            "Light-colored bangle"
+          ],
+          "device": "Early-generation Android smartphone, dark patterned case",
+          "prop": "Deep red glossy handbag held at side"
+        },
+        "pose_action": {
+          "position": "Standing full-body in front of elevator mirror",
+          "posture": "Weight on one leg, other forward, hips angled",
+          "action": "Phone raised near face for selfie, head turned slightly to side"
+        },
+        "scene": {
+          "environment": "Stainless-steel elevator interior",
+          "background": [
+            "Brushed silver metal walls",
+            "Tall black elevator control panel with buttons",
+            "Safety sign on right",
+            "Mirror reflections and metallic seams"
+          ],
+          "atmosphere": "Clean, modern, glossy"
+        },
+        "lighting": {
+          "type": "Overhead elevator lighting, even, warm-neutral",
+          "effects": "Pronounced reflections on metal, specular highlights"
+        },
+        "camera": {
+          "device": "Early Android smartphone, older camera aesthetic",
+          "angle": "Eye-level mirror reflection, slight wide-angle",
+          "quality": "Slight noise, mild compression, oversharpening, deep focus",
+          "aspect_ratio": "3:4",
+          "mirror_rules": "Text appears correct not reversed, no mirrored artifacts",
+          "negative_constraints": "no anime, no smooth skin, no cinematic lighting, no reversed text"
+        },
+        "mood": "Polished, poised, cool confidence, ready-to-go-out"
+      }
+    },
+    "midjourney": {
+      "prompt": "elevator mirror selfie, elegant woman champagne lace dress red lipstick, deep red handbag, stainless steel elevator brushed metal, older Android phone aesthetic slight noise, even overhead lighting --ar 3:4 --style raw --v 6",
+      "notes": "Use --style raw for authentic older phone snapshot"
+    },
+    "ideogram": {
+      "prompt": "Elegant woman in champagne lace fitted dress taking full-body mirror selfie in stainless-steel elevator, bold red lipstick, deep red glossy handbag, gold jewelry, dark wavy hair, brushed silver walls with black button panel, older Android phone camera aesthetic",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "3:4"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Elevator mirror selfie, woman champagne lace dress red lipstick handbag, stainless steel walls button panel, older phone aesthetic"
+    },
+    "luma": {
+      "prompt": "Elevator doors close as elegant woman captures quick mirror selfie, stainless steel walls reflect her champagne dress, confident ready-to-go-out energy",
+      "motion_notes": "Elevator subtle movement, phone raise for photo, confident pose"
+    },
+    "reve": {
+      "prompt": "Urban lifestyle photography in the style of elevator mirror selfies, elegant champagne lace dress bold red lipstick, stainless steel interior, older smartphone aesthetic with authentic imperfections",
+      "art_references": [
+        "Elevator mirror selfies",
+        "Urban elegant lifestyle",
+        "Older phone photography aesthetic"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Elegant woman taking mirror selfie in stainless-steel elevator, champagne ivory lace fitted dress, bold red lipstick, deep red glossy handbag, dark wavy hair, brushed silver walls with black button panel, older Android phone camera aesthetic with slight noise"
+    },
+    "gpt-image-1.5": {
+      "prompt": "An elegant woman in her late 20s to mid 30s takes a full-body mirror selfie in a stainless-steel elevator. She has light to light-medium skin with warm undertones and smooth texture with realistic pores. Her dark brown to black hair falls in shoulder-length loose waves, side-parted with soft sheen, slightly tousled but styled. Her expression is focused and composed with cool confidence, eyes looking toward the phone screen in the mirror, mouth closed with a confident edge. She wears clean base makeup with defined brows and bold red lipstick. She has a slim frame with feminine curves and defined waist. She wears a champagne ivory lace fitted dress with a deep V neckline, delicate floral lace pattern, semi-sheer texture, body-hugging cut with slight wrinkles from movement. Nude pointed-toe high heels, gold earrings, gold bangle bracelet, and a light-colored bangle on the other wrist. She holds an early-generation Android smartphone with a dark patterned case in one hand and a deep red glossy handbag at her side. Her weight is on one leg with the other slightly forward, hips subtly angled, phone raised near face, head turned slightly to side. The elevator interior has brushed silver metal walls, a tall black control panel with many buttons on the left, and a small safety sign on the right. Even overhead elevator lighting creates warm-neutral tones with pronounced reflections on the metal. Slight noise, mild compression, and oversharpening give an older phone aesthetic with deep focus. All text appears correct and not reversed. No watermark. No artificial smoothing. Realistic texture.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Elegant woman late 20s taking full-body mirror selfie in stainless-steel elevator, dark wavy shoulder-length hair, bold red lipstick and defined brows, slim feminine figure in champagne ivory lace fitted dress with V neckline and floral pattern, nude heels gold jewelry, holding deep red glossy handbag and older Android phone, brushed silver elevator walls with black button panel, overhead lighting with metal reflections, slight noise and oversharpening typical of older smartphone cameras, cool confident ready-to-go-out mood, not anime or cartoon-like",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "Elegant woman in her late 20s to mid 30s taking full-body mirror selfie in stainless-steel elevator. Dark brown shoulder-length wavy hair, side-parted with soft sheen. Light skin with warm undertones, focused composed expression, bold red lipstick, defined brows. Slim feminine curves in champagne ivory lace fitted dress with deep V neckline, delicate floral pattern, semi-sheer texture, slight movement wrinkles. Nude pointed-toe heels, gold earrings and bangle bracelet. Holding early Android smartphone with dark case and deep red glossy handbag. Weight on one leg, hips angled, phone near face, head slightly turned. Brushed silver elevator walls, tall black button panel, safety sign. Overhead lighting with metal reflections. Older phone camera aesthetic with slight noise and oversharpening.",
+      "editing_prompt": "Change the champagne lace dress to a navy blue solid dress while keeping the red lipstick and red handbag the same. Preserve the elevator setting with stainless steel walls and the older phone camera aesthetic.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed lace dress (floral pattern, semi-sheer), specific elevator elements (button panel, safety sign), device details",
+    "2_realism_anchors: 'stainless steel reflections', 'older Android noise and oversharpening', 'lace fabric texture', 'red handbag gloss'",
+    "3_technical_camera: 'early Android phone', 'slight noise', 'oversharpening', 'deep focus', 'wide-angle distortion'",
+    "4_negative_hygiene: prevents reversed text, watermarks, cinematic lighting, smooth skin",
+    "5_spatial_consistency: clear full-body pose with weight shift and head turn",
+    "6_lighting_storytelling: 'overhead elevator lighting' = urban confident ready-to-go mood",
+    "7_mirror_rules: explicit text orientation and reflection integrity instructions"
+  ]
+}

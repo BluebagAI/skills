@@ -1,0 +1,260 @@
+{
+  "name": "Xbox Green Bikini Bedroom Mirror Selfie",
+  "description": "East Asian woman with short black bob taking bedroom mirror selfie in kelly green Xbox-branded baseball cap and micro bikini, twilight mixed lighting with warm lamp and cool blue-hour window light, candid domestic aesthetic",
+  "input_prompt": "east asian woman short bob bedroom mirror selfie xbox cap green bikini twilight mixed lighting candid domestic",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "mobile_phone_candid",
+      "aspect_ratio": "9:16",
+      "style": "candid_bedroom_mirror_selfie",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "East Asian woman with short black bob-cut hair taking mirror selfie in kelly green Xbox-branded cap and matching micro bikini, hyper-pronounced hourglass silhouette",
+      "identity": {
+        "ethnicity": "East Asian",
+        "distinguishing_features": [
+          "short black bob",
+          "sharp winged eyeliner",
+          "delicate facial structure",
+          "pronounced hourglass figure"
+        ],
+        "age_range": "young adult",
+        "type": "woman"
+      },
+      "physical_details": {
+        "face": {
+          "features": "delicate facial structure",
+          "expression": "focused, looking into mirror reflection",
+          "makeup": "sharp winged eyeliner",
+          "details": "lips: slightly parted natural"
+        },
+        "hair": {
+          "color": "black",
+          "style": "short bob-cut with soft texture"
+        },
+        "body": {
+          "physique": "hyper-pronounced hourglass silhouette with high waist-to-hip ratio",
+          "details": "anatomy: significant gluteal volume (gluteus maximus and medius curves), extremely narrow and toned waist, lean midsection, athletic yet feminine limb definition, visible iliac crest; skin: smooth texture with realistic anatomical shadows"
+        },
+        "skin": {
+          "tone": "light to medium",
+          "texture": "smooth natural skin texture"
+        }
+      },
+      "expression_mood": "focused, candid, intimate domestic moment"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "bikini top",
+          "details": "triangle style with 'XBOX' text printed in black sans-serif on lateral side of cup"
+        },
+        {
+          "type": "bikini bottom",
+          "details": "high-leg string style emphasizing hip curvature"
+        },
+        {
+          "type": "bikini set",
+          "details": "style: minimalist micro-string bikini, color: kelly green"
+        }
+      ],
+      "accessories": [
+        "type: cotton twill baseball cap",
+        "color: kelly green",
+        "branding: white 'XBOX' logo on front panel"
+      ]
+    },
+    "pose_action": {
+      "description": "mirror selfie from side-profile perspective",
+      "dynamic_elements": "torso: slightly rotated toward mirror to capture side and rear silhouette; arm: one arm raised, holding grey smartphone at eye level; reflection_rules: alignment: perfect geometric alignment between subject and mirror reflection, lighting: consistent lighting angles across both planes, surface: realistic mirror surface imperfections, depth: depth-of-field consistency"
+    },
+    "environment": {
+      "location": "authentic, slightly cluttered bedroom during twilight",
+      "background": [
+        "beige upholstered armchair with dark clothing draped over it",
+        "unmade bed with rumpled grey sheets",
+        "wooden bedside table",
+        "window revealing deep blue dusk sky (color contrast to interior)"
+      ],
+      "atmosphere": "intimate, domestic, realistic candid aesthetic"
+    },
+    "lighting": {
+      "setup": "dual-tone mixed lighting",
+      "shadows": "natural soft-edged shadows emphasizing body contours and fabric folds",
+      "type": "mixed warm lamp and cool blue-hour window light",
+      "quality": "soft mixed lighting with gentle contrast",
+      "effects": [
+        "warm lamp highlights on skin and wardrobe",
+        "cool rim light from blue-hour window"
+      ]
+    },
+    "camera_technical": {
+      "device": "high-end mobile phone camera simulation",
+      "lens": "26mm wide-angle equivalent",
+      "aperture": "f/1.8 for shallow depth of field",
+      "focus": "sharp on subject in mirror reflection",
+      "texture": "slight natural grain to mimic mobile sensor",
+      "noise": "realistic ISO noise in shadow areas",
+      "composition": "vertical 9:16, eye-level shot, subject centered vertically for full body silhouette"
+    },
+    "the_vibe": {
+      "energy": "intimate and candid",
+      "mood": "domestic realism, twilight atmosphere",
+      "aesthetic": "authentic bedroom selfie with gaming culture reference",
+      "authenticity": "slightly cluttered real bedroom",
+      "story": "casual evening selfie in gaming merch"
+    },
+    "realism_anchors": [
+      "dual-tone warm/cool mixed lighting",
+      "rumpled grey bedsheets",
+      "clothing draped on armchair",
+      "blue-hour window light",
+      "Xbox logo cap and bikini detail"
+    ],
+    "negative_prompt": [
+      "logos on background items",
+      "beautify smoothing",
+      "extra limbs",
+      "text on walls",
+      "unnatural skin glow",
+      "distorted mirror reflections",
+      "anime",
+      "illustration",
+      "3d render"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "mobile phone bedroom mirror selfie 9:16, East Asian woman short black bob-cut soft texture, sharp winged eyeliner delicate facial structure slightly parted natural lips focused expression, hyper-pronounced hourglass silhouette high waist-to-hip ratio significant gluteal volume narrow toned waist lean midsection visible iliac crest smooth skin realistic shadows, KELLY GREEN cotton twill baseball cap white XBOX logo front panel, kelly green minimalist MICRO-STRING BIKINI triangle top XBOX text black sans-serif high-leg string bottom emphasizing hip curvature, mirror selfie side-profile torso rotated toward mirror side and rear silhouette arm raised holding grey smartphone eye level, slightly cluttered bedroom twilight beige armchair dark clothing draped unmade bed rumpled grey sheets wooden bedside table window deep blue dusk sky, DUAL-TONE MIXED LIGHTING warm golden 2700K bedside lamp soft skin highlights COOL 6500K blue-hour window rim light on hair silhouette, natural soft shadows body contours, 26mm wide f/1.8 shallow DOF sharp mirror reflection natural grain ISO noise shadow areas, intimate domestic candid aesthetic",
+  "negative_prompt_flat": "logos on background, beautify smoothing, extra limbs, text on walls, unnatural glow, distorted reflections, anime, illustration",
+  "color_palette": {
+    "primary": "kelly green cap and bikini",
+    "secondary": "black bob hair, grey sheets",
+    "accent": "white Xbox logo, warm lamp glow",
+    "lighting": "warm 2700K interior vs cool 6500K blue-hour window"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "mobile phone bedroom mirror selfie, East Asian woman short black bob winged eyeliner, hyper-pronounced hourglass narrow waist significant glutes, KELLY GREEN XBOX baseball cap white logo, kelly green MICRO-STRING BIKINI XBOX text on cup high-leg bottom, side-profile torso rotated arm raised grey smartphone, cluttered bedroom twilight beige armchair rumpled grey sheets wooden table window blue dusk sky, DUAL-TONE LIGHTING warm 2700K lamp COOL 6500K blue-hour window rim light, soft shadows body contours, 26mm f/1.8 shallow DOF natural grain, intimate domestic candid, 9:16",
+      "negative_prompt": "logos on background, beautify smoothing, extra limbs, distorted reflections, anime, illustration"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "ethnicity": "East Asian",
+          "face": {
+            "features": "Delicate facial structure",
+            "makeup": "Sharp winged eyeliner",
+            "lips": "Slightly parted natural",
+            "expression": "Focused, looking into mirror"
+          },
+          "hair": {
+            "color": "Black",
+            "style": "Short bob-cut with soft texture"
+          },
+          "body": {
+            "physique": "Hyper-pronounced hourglass, high waist-to-hip ratio",
+            "anatomy": "Significant gluteal volume, extremely narrow toned waist, lean midsection, athletic feminine definition, visible iliac crest",
+            "skin": "Smooth texture with realistic anatomical shadows"
+          }
+        },
+        "wardrobe": {
+          "headwear": "Kelly green cotton twill baseball cap, white 'XBOX' logo front",
+          "bikini": {
+            "style": "Minimalist micro-string",
+            "color": "Kelly green",
+            "top": "Triangle with 'XBOX' text in black on cup",
+            "bottom": "High-leg string emphasizing hip curvature"
+          }
+        },
+        "pose_action": {
+          "type": "Mirror selfie from side-profile",
+          "torso": "Slightly rotated toward mirror for side/rear silhouette",
+          "arm": "Raised, holding grey smartphone at eye level",
+          "reflection_rules": "Perfect alignment, consistent lighting, realistic mirror surface"
+        },
+        "scene": {
+          "environment": "Slightly cluttered bedroom during twilight",
+          "background": [
+            "Beige armchair with draped clothing",
+            "Unmade bed rumpled grey sheets",
+            "Wooden bedside table",
+            "Window with blue dusk sky"
+          ],
+          "atmosphere": "Intimate, domestic, candid"
+        },
+        "lighting": {
+          "setup": "Dual-tone mixed",
+          "interior": "Warm 2700K bedside lamp, soft skin highlights",
+          "exterior": "Cool 6500K blue-hour window, rim light on hair/silhouette",
+          "shadows": "Soft-edged, emphasizing contours"
+        },
+        "camera": {
+          "device": "High-end mobile phone simulation",
+          "lens": "26mm wide-angle equivalent",
+          "aperture": "f/1.8 shallow DOF",
+          "focus": "Sharp on subject in mirror",
+          "texture": "Natural grain, ISO noise in shadows",
+          "composition": "Vertical 9:16, eye-level, centered",
+          "aspect_ratio": "9:16",
+          "negative_constraints": "no beautify smoothing, no extra limbs, no distorted reflections"
+        },
+        "mood": "Intimate, domestic, twilight candid"
+      }
+    },
+    "midjourney": {
+      "prompt": "bedroom mirror selfie, East Asian woman short black bob, kelly green Xbox cap and micro bikini, side-profile pose grey smartphone, cluttered bedroom twilight, warm lamp light mixed with cool blue-hour window, candid domestic aesthetic --ar 9:16 --style raw --v 6",
+      "notes": "Emphasize dual-tone lighting contrast"
+    },
+    "ideogram": {
+      "prompt": "East Asian woman with short black bob taking bedroom mirror selfie at twilight, wearing kelly green Xbox-branded baseball cap and matching micro-string bikini, side-profile pose holding grey smartphone, slightly cluttered bedroom with unmade bed and window showing blue dusk sky, mixed warm lamp light and cool blue-hour window light",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "9:16"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Bedroom mirror selfie, Asian woman bob cut, green Xbox cap and bikini, twilight mixed lighting warm lamp cool window, candid domestic"
+    },
+    "luma": {
+      "prompt": "Twilight bedroom, woman in green gaming merch raises phone for mirror selfie, warm lamp glow mixes with cool blue light from window, intimate domestic evening moment",
+      "motion_notes": "Phone raise, subtle pose adjustment, mixed light interplay"
+    },
+    "reve": {
+      "prompt": "Candid photography in the style of intimate bedroom mirror selfies, East Asian woman green Xbox cap and bikini, twilight dual-tone lighting warm lamp cool window, cluttered domestic aesthetic, mobile phone realism",
+      "art_references": [
+        "Intimate mirror selfies",
+        "Twilight bedroom photography",
+        "Mixed lighting portraits"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "East Asian woman with short black bob taking bedroom mirror selfie at twilight, wearing kelly green Xbox baseball cap with white logo and matching micro-string bikini, side-profile pose holding grey smartphone, slightly cluttered bedroom with beige armchair unmade bed and window showing blue dusk sky, warm lamp light mixed with cool blue-hour window light"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A slightly cluttered bedroom during twilight with authentic domestic atmosphere. A beige upholstered armchair with dark clothing draped over it, an unmade bed with rumpled grey sheets, a wooden bedside table, and a window revealing deep blue dusk sky.\n\nAn East Asian woman with short black bob-cut hair with soft texture takes a mirror selfie from a side-profile perspective. She has delicate facial structure with sharp winged eyeliner, slightly parted natural lips, and a focused expression looking into the mirror reflection.\n\nHer body has a hyper-pronounced hourglass silhouette with a high waist-to-hip ratio, significant gluteal volume, extremely narrow and toned waist, lean midsection with visible iliac crest, and smooth skin texture with realistic anatomical shadows.\n\nShe wears a kelly green cotton twill baseball cap with a white 'XBOX' logo on the front panel. Her kelly green minimalist micro-string bikini has a triangle top with 'XBOX' text printed in black sans-serif on the lateral side, and high-leg string bottoms emphasizing hip curvature.\n\nHer torso is slightly rotated toward the mirror to capture her side and rear silhouette, with one arm raised holding a grey smartphone at eye level.\n\nDual-tone mixed lighting fills the scene: warm golden 2700K glow from a bedside lamp creates soft highlights on her skin, while cool 6500K blue-hour natural light through the window adds subtle rim light on her hair and silhouette. Natural soft-edged shadows emphasize body contours.\n\nMobile phone camera quality with slight natural grain and realistic ISO noise in shadow areas. No beautify smoothing. No artificial skin glow. Realistic texture.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "An East Asian woman with short black bob-cut hair takes a bedroom mirror selfie at twilight from a side-profile perspective. She has delicate facial features with sharp winged eyeliner and a focused expression, with a hyper-pronounced hourglass silhouette showing narrow toned waist and significant glute development. She wears a kelly green cotton twill baseball cap with white XBOX logo and matching kelly green micro-string bikini with XBOX text on the triangle top and high-leg string bottoms. Her torso is rotated toward the mirror, arm raised holding a grey smartphone. The bedroom shows a beige armchair with draped clothing, unmade bed with grey sheets, and a window with deep blue dusk sky. Dual-tone lighting with warm 2700K lamp glow and cool 6500K blue-hour window rim light creates soft anatomical shadows. Mobile phone candid aesthetic, intimate domestic mood, photorealistic, not smoothed or filtered.",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "An East Asian woman with short black bob-cut hair takes a mirror selfie in a slightly cluttered bedroom at twilight. She has delicate facial structure with sharp winged eyeliner, slightly parted lips, and a focused expression. Her body has a hyper-pronounced hourglass silhouette with narrow toned waist and significant gluteal volume. She wears a kelly green cotton twill baseball cap with white XBOX logo and matching kelly green micro-string bikini with XBOX text printed on the triangle top and high-leg string bottoms. She stands in a side-profile pose with torso rotated toward the mirror, arm raised holding a grey smartphone. The room has a beige armchair with draped clothing, unmade bed with rumpled grey sheets, and a window showing deep blue dusk sky. Dual-tone mixed lighting: warm 2700K lamp glow and cool 6500K blue-hour window light creating rim lighting. Mobile phone candid aesthetic.",
+      "editing_prompt": "Change the Xbox cap and bikini color from kelly green to hot pink while keeping the woman in the exact same side-profile mirror selfie pose. Preserve the XBOX logo branding, her short black bob, winged eyeliner, hourglass silhouette, the cluttered bedroom setting, and the dual-tone warm lamp and cool window lighting.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed branded items (Xbox cap and bikini), precise body anatomy, specific lighting temperatures (2700K vs 6500K)",
+    "2_realism_anchors: 'dual-tone lighting', 'rumpled sheets', 'clothing on armchair', 'blue-hour window', 'Xbox logo detail'",
+    "3_technical_camera: '26mm wide', 'f/1.8', 'mobile phone simulation', 'natural grain', 'ISO noise in shadows'",
+    "4_negative_hygiene: prevents beautify smoothing, extra limbs, distorted reflections",
+    "5_spatial_consistency: clear side-profile mirror pose with reflection alignment rules",
+    "6_lighting_storytelling: 'dual-tone warm/cool' = intimate twilight domestic mood",
+    "7_mirror_rules: explicit reflection integrity (alignment, lighting consistency, surface imperfections)"
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "name": "Elevator Mirror Selfie - Late Night",
+  "description": "Luxury elevator with multiple mirror reflections and iPhone low-light aesthetic",
+  "input_prompt": "mirror selfie in elevator late at night",
+  "target_model": "nano-banana",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "ultra_photorealistic",
+      "aspect_ratio": "9:16",
+      "quality": "ultra_photorealistic",
+      "resolution": "8k",
+      "camera": "iPhone front camera",
+      "lens": "24mm",
+      "style": "raw iPhone mirror realism, zero smoothing, heavy reflections, subtle grain, imperfect exposure",
+      "target_model": "nano-banana"
+    },
+    "subject": {
+      "description": "Young adult woman with a fit-curvy build, dark blonde messy hair, and a soft half-smirk, taking a late-night mirror selfie in a luxury elevator with multiple reflections.",
+      "body": {
+        "physique": "Fit-curvy frame with tight defined waist, round hips, thick thighs, and full natural chest.",
+        "anatomy": "Standing close to the mirror with hips shifted strongly to one side, one knee bent inward, torso angled, shoulders relaxed, phone held low in the right hand.",
+        "details": "Real skin texture with slight sheen, no blur, reflections multiplying curves in the mirrors."
+      },
+      "face": "Neutral expression with a soft half-smirk, eyes focused on the phone screen, minimal makeup with glossy lips catching light.",
+      "hair": "Dark blonde hair, loose and slightly messy with a few strands stuck to lips and cheek.",
+      "skin": "Warm fair tone with realistic texture and slight sheen, no smoothing.",
+      "expression_mood": "young adult, controlled confidence, quietly provocative"
+    },
+    "wardrobe": {
+      "top": "Tight cropped tank top in soft grey, hugging the chest naturally with fine rib texture, no bra.",
+      "bottom": "Ultra-short micro biker shorts in thin matte spandex, painted-on tight with slight ride-up and visible fabric tension at the hips, clean and logo-free.",
+      "accessories": ["clean white sneakers"]
+    },
+    "pose_action": {
+      "description": "Mirror selfie stance with the phone held low, framing from upper thighs to head at arm-length.",
+      "posture": "Hips shifted to one side, one knee bent inward, shoulders relaxed, torso angled, free hand resting lightly on upper thigh."
+    },
+    "scene": {
+      "environment": "Luxury apartment elevator interior with mirrored walls and brushed stainless steel panels, late night.",
+      "background": "Mirror walls on three sides creating multiple reflections, LED ceiling strip lights, red digital floor number glow, slight fingerprints and smudges on the mirror.",
+      "location": "Apartment elevator.",
+      "atmosphere": "Private tension in a public box, quiet, charged, intimate."
+    },
+    "lighting": {
+      "type": "mixed elevator lighting",
+      "quality": "high contrast",
+      "effects": [
+        "cool white overhead LED highlights on hips and thighs",
+        "warm spill from control panel lights",
+        "specular reflections multiplying curves in mirrors",
+        "face partially lit, partially disappearing in reflections",
+        "real iPhone low-light noise in shadows"
+      ],
+      "shadows": "Low-light shadows with visible phone noise."
+    },
+    "camera": {
+      "technical": "iPhone front camera mirror selfie, 24mm, arm-length distance, slightly low and close angle, subtle grain and imperfect exposure, phone edge visible in reflection, minor motion blur from breathing.",
+      "aspect_ratio": "9:16",
+      "negative_constraints": "No perfect centering, no studio lighting, no airbrushed skin, no professional photography look, no smiling widely.",
+      "lens": "24mm",
+      "style": "raw iPhone mirror realism"
+    },
+    "reflection_integrity": {
+      "mirror_count": "three mirrored walls",
+      "reflection_layers": "multiple infinite reflections visible",
+      "phone_in_reflection": "visible, showing back of phone case",
+      "spatial_logic": "reflections must be geometrically consistent",
+      "details_in_reflection": [
+        "back view of subject visible in side mirrors",
+        "phone screen glow reflected",
+        "LED lights repeated infinitely"
+      ]
+    },
+    "mood_keywords": [
+      "mirror multiplication",
+      "late night tension",
+      "quiet confidence",
+      "timeline stopper"
+    ],
+    "negative_prompt": [
+      "no perfect centering",
+      "no studio lighting",
+      "no airbrushed skin",
+      "no professional photography look",
+      "no smiling widely"
+    ]
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "masterpiece, ultra-realistic, 8k, raw iPhone mirror selfie, young woman in luxury elevator with mirrored walls, dark blonde hair loose messy strands on lips, tight grey cropped tank top no bra visible rib texture, ultra-short black micro biker shorts painted-on tight, white sneakers, fit-curvy body hips shifted to side, neutral expression soft half-smirk focused on phone, multiple infinite mirror reflections showing back view, brushed steel panels LED strip lights red floor number, late night low-light iPhone noise, 9:16 vertical",
+      "negative_prompt": "studio lighting, professional photo, airbrushed, smooth skin, perfect centering, bright lighting, wide smile, cartoon, anime"
+    },
+    "midjourney": {
+      "prompt": "raw iPhone mirror selfie in luxury elevator mirrored walls, young woman dark blonde messy hair, grey cropped tank black biker shorts white sneakers, fit curvy hips shifted, neutral half-smirk, multiple infinite mirror reflections, LED strip lights brushed steel, late night moody low-light aesthetic --ar 9:16 --style raw --v 6",
+      "notes": "Use --style raw for authentic phone camera look"
+    },
+    "ideogram": {
+      "prompt": "iPhone mirror selfie in luxury elevator with mirrored walls creating infinite reflections, young woman in grey cropped tank and black biker shorts, dark blonde messy hair, neutral confident expression, late night low-light aesthetic, LED strip lights, brushed steel panels",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "9:16"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Mirror selfie in elevator with multiple reflections, young woman in grey tank and black shorts, dark blonde hair, confident pose hips shifted, late night low-light mood, LED lights"
+    },
+    "luma": {
+      "prompt": "Elevator mirror selfie scene, woman checking phone in mirrored elevator, infinite reflections in glass, LED lights overhead, late night mood, slight phone movement as she adjusts angle",
+      "motion_notes": "Subtle movement of adjusting selfie angle, reflections shift slightly"
+    },
+    "grok-imagine": {
+      "prompt": "Late night elevator mirror selfie, woman in grey tank and black biker shorts, mirrored walls creating infinite reflections, dark blonde messy hair, confident pose, iPhone low-light aesthetic"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A young woman takes a mirror selfie in a luxury apartment elevator late at night. She has dark blonde loose messy hair with a few strands stuck to her lips and cheek. She wears a tight grey cropped tank top with visible fine rib texture hugging her chest naturally with no bra, and ultra-short black micro biker shorts in thin matte spandex that are painted-on tight barely covering upper thighs, with white sneakers. Her fit-curvy body shows a tight defined waist, round hips, and thick thighs. She stands close to the mirror with hips shifted strongly to one side, one knee bent inward, holding the phone low with her free hand resting lightly on her upper thigh. Her expression is neutral with a soft half-smirk, eyes focused on phone screen, minimal makeup with glossy lips catching light. The elevator has mirror walls on three sides creating multiple infinite reflections showing her back view, brushed stainless steel panels, LED ceiling strip lights, and a digital floor number glowing red. The lighting is mixed cool white overhead LEDs with warm panel spill, creating real iPhone low-light noise in shadows. No watermark. No artificial smoothing. Realistic skin texture with slight sheen.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Young woman taking iPhone mirror selfie in luxury elevator with mirrored walls, dark blonde messy hair strands on lips, tight grey cropped tank top no bra visible rib texture, ultra-short black micro biker shorts painted-on tight, white sneakers, fit-curvy body hips shifted to side knee bent, neutral half-smirk focused on phone, multiple infinite mirror reflections showing back view, brushed steel panels LED strip lights red floor number, late night low-light aesthetic subtle grain, 9:16 vertical, not airbrushed, not studio lighting",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A raw iPhone mirror selfie of a young woman in a luxury elevator with mirrored walls on three sides creating infinite reflections. She has dark blonde loose messy hair with strands stuck to her lips. She wears a tight grey cropped tank top with rib texture and ultra-short black micro biker shorts, white sneakers. Fit-curvy body with hips shifted to one side, neutral expression with soft half-smirk. Brushed stainless steel panels, LED ceiling strip lights, red digital floor number. Late night low-light iPhone aesthetic with natural grain and noise in shadows. Multiple reflections show her back view.",
+      "editing_prompt": "Change the tank top color from grey to white while keeping the woman's pose, expression, and body position the same. Preserve the elevator mirror reflections, LED lighting, and late night aesthetic.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Deep nesting for outfit details, reflection layers",
+    "2_realism_anchors: 'iPhone low-light noise', 'fingerprints on mirror', 'strands stuck to lips'",
+    "3_technical_camera: 'iPhone front camera', '24mm', specific imperfections listed",
+    "4_negative_hygiene: explicit list preventing pro photography look",
+    "5_spatial_consistency: reflection_integrity block ensures geometric accuracy",
+    "6_lighting_storytelling: mixed LED lighting creates late-night tension",
+    "7_reflection_integrity: Nano Banana specialty - detailed mirror logic"
+  ]
+}

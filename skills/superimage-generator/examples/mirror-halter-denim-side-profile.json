@@ -1,0 +1,233 @@
+{
+  "name": "Backless Halter Denim Mirror Selfie",
+  "description": "Rear-side mirror selfie with backless chain halter, denim texture fidelity, and ControlNet pose/depth locks",
+  "input_prompt": "curvy woman rear side profile mirror selfie maroon backless halter denim jeans",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "masterpiece",
+      "aspect_ratio": "3:4",
+      "style": "ugc_mirror_selfie_photorealism",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "young woman with curvy athletic physique captured from rear and side profile, neutral focused expression",
+      "identity": {
+        "age_range": "20s",
+        "type": "young woman",
+        "distinguishing_features": [
+          "long dark voluminous curls with ringlets",
+          "rear-side body orientation",
+          "neutral focused expression checking phone screen"
+        ]
+      },
+      "physical_details": {
+        "body_type": "curvy athletic with pronounced hip-to-waist ratio, emphasized glute contour, toned open-back musculature",
+        "skin": {
+          "tone": "tan",
+          "texture": "natural skin texture with visible pores and subtle tonal variation",
+          "realism_markers": [
+            "no smoothing",
+            "natural contour transitions",
+            "clear spine-line shadow definition"
+          ]
+        },
+        "hair": {
+          "color": "dark brown",
+          "style": "long voluminous curls to mid-back with distinct ringlets",
+          "details": "dense curl definition and strand-level separation"
+        },
+        "face": {
+          "features": "side profile with sharp jawline, soft makeup, defined brows",
+          "expression": "neutral and focused",
+          "gaze": "eyes directed to phone screen in reflection"
+        }
+      },
+      "expression_mood": "casual, confident, self-assured"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "backless halter top",
+          "color": "reddish-brown to maroon",
+          "material": "smooth fabric with metallic chain detail",
+          "fit": "body-hugging",
+          "details": "full back exposure with delicate chain strap running down spine and bead-like embellishments"
+        },
+        {
+          "type": "light wash denim jeans",
+          "color": "light blue",
+          "material": "structured denim",
+          "fit": "tight fit accentuating hips and glutes",
+          "details": "distinct back-pocket stitching in an American Eagle-inspired pattern"
+        }
+      ],
+      "accessories": [
+        "thin gold chain necklace with butterfly pendant",
+        "small gold hoop earrings"
+      ]
+    },
+    "pose_action": {
+      "position": "standing with back mostly toward mirror, torso twisted slightly right for side profile visibility, hips shifted to emphasize curve",
+      "camera_relation": "mirror selfie medium shot framed from mid-thigh to top of head",
+      "dynamic_elements": "right arm raised holding white smartphone, left arm relaxed by side, slight lower-back arch, manicured nails with light tips"
+    },
+    "environment": {
+      "location": "indoor bedroom setting",
+      "background": [
+        "wooden door with horizontal panels and silver doorknob on frame left",
+        "white wall on frame right with black-framed botanical artwork",
+        "white shelf surface below artwork with round woven macrame placemat",
+        "mirror lower edge showing electrical outlets and switches below reflection line"
+      ],
+      "atmosphere": "casual home interior with practical decor"
+    },
+    "lighting": {
+      "type": "soft",
+      "direction": "front light from behind mirror with ambient room fill",
+      "quality": "diffused",
+      "effects": [
+        "even illumination on skin and denim",
+        "subtle shadowing along spinal groove and back muscle definition",
+        "balanced detail retention in dark curls and bright white phone"
+      ]
+    },
+    "camera_technical": {
+      "device": "smartphone",
+      "lens": "26mm equivalent wide lens",
+      "aperture": "f/1.8",
+      "resolution": "4k",
+      "style_tags": [
+        "mirror reflection perspective",
+        "ugc social-photo realism",
+        "natural digital grain",
+        "texture-preserving sharpness"
+      ]
+    },
+    "controlnet": {
+      "pose_control": {
+        "model_type": "DWPose",
+        "purpose": "exact skeletal and pose lock",
+        "constraints": [
+          "preserve shoulder width",
+          "preserve hip angle",
+          "preserve spine curvature",
+          "preserve limb placement",
+          "lock arm position holding phone"
+        ],
+        "recommended_weight": 1
+      },
+      "depth_control": {
+        "model_type": "MiDaS",
+        "purpose": "depth and camera-to-body spatial lock",
+        "constraints": [
+          "preserve foreground dominance of subject",
+          "maintain separation between subject and background elements",
+          "prevent flat depth"
+        ],
+        "recommended_weight": 0.8
+      }
+    },
+    "realism_anchors": [
+      "denim weave and pocket stitching clarity",
+      "ringlet-level hair texture",
+      "wood grain detail on door panels",
+      "natural skin pores and tonal micro-variation",
+      "accurate mirror reflection geometry",
+      "phone edge and case detail retained"
+    ],
+    "negative_prompt": [
+      "anatomy normalization",
+      "body proportion averaging",
+      "flattened curves",
+      "reduced hip volume",
+      "slimmed glutes",
+      "aesthetic proportion correction",
+      "beauty standard enforcement",
+      "dataset-average female anatomy",
+      "missing phone",
+      "missing mirror reflection",
+      "facing forward",
+      "direct eye contact with camera lens",
+      "beautification filters",
+      "skin smoothing",
+      "plastic skin",
+      "airbrushed texture",
+      "distorted fingers",
+      "bad hands",
+      "extra limbs",
+      "anime",
+      "cartoon",
+      "3d render",
+      "watermark",
+      "text"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "masterpiece, photorealistic mirror selfie, young woman with curvy athletic silhouette and tan skin, rear-side profile orientation, long dark voluminous ringlet curls to mid-back, maroon backless halter top with metallic spine-chain detail, light wash tight denim jeans with distinct back-pocket stitching, right arm raised holding white smartphone, left arm relaxed, slight lower-back arch and hip shift, indoor bedroom with wood paneled door and botanical framed wall art, white shelf and woven placemat, mirror edge with electrical outlets visible, soft diffused light from mirror side, subtle spine shadows, clear denim texture and hair strands, 26mm mobile lens look, 4k, natural grain, 3:4 vertical",
+  "negative_prompt_flat": "flattened curves, missing reflection, missing phone, skin smoothing, distorted fingers, extra limbs, cartoon, anime, 3d render, watermark",
+  "color_palette": {
+    "primary": "maroon halter and tan skin tones",
+    "secondary": "light denim blue and white walls",
+    "accent": "gold jewelry and warm wood brown",
+    "white_balance": "neutral with slight warmth"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "photoreal mirror selfie, rear-side profile young woman with curvy athletic shape and tan skin, long dark ringlet curls, maroon backless halter with metallic spine chain, light wash tight denim jeans with stitched pockets, right hand holding white smartphone, slight lumbar arch and hip shift, bedroom interior wood panel door black-framed botanical art white shelf woven placemat, mirror edge with outlets visible, soft diffused lighting, 26mm mobile perspective, texture-rich skin denim hair, 3:4",
+      "negative_prompt": "flattened curves, missing phone, missing reflection, facing forward, skin smoothing, bad hands, extra limbs, anime, cartoon"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Young woman with curvy athletic silhouette in rear-side mirror pose",
+          "body": {
+            "physique": "Prominent hip-to-waist ratio, emphasized glute contour, toned back",
+            "anatomy": "Twisted torso profile with preserved shoulder-hip-spine relationships",
+            "details": "Natural pores, soft contour gradients, visible back muscle definition"
+          }
+        },
+        "wardrobe": {
+          "top": "Backless maroon halter top with metallic chain detail running down spine",
+          "bottom": "Light wash fitted denim jeans with distinct stitched back pockets",
+          "accessories": "Thin gold butterfly pendant necklace and small gold hoops"
+        },
+        "pose_action": {
+          "description": "Back toward mirror, torso rotated right, head turned to phone screen, right arm raised holding phone",
+          "posture": "Slight lower-back arch with hips shifted for curve emphasis"
+        },
+        "scene": {
+          "environment": "Bedroom interior with wood paneled door, framed botanical print, white shelf, and woven placemat",
+          "reflection_integrity": "Phone and reflection must both be visible and spatially consistent"
+        },
+        "lighting": {
+          "type": "soft diffused ambient",
+          "effects": "Subtle spinal shadows and balanced highlight rolloff on denim and skin"
+        },
+        "camera": {
+          "technical": "26mm smartphone mirror selfie, high texture fidelity, slight natural grain",
+          "aspect_ratio": "3:4",
+          "negative_constraints": "no missing phone, no missing reflection, no skin smoothing, no hand distortion, no anatomy averaging"
+        },
+        "controlnet": {
+          "pose_control": "DWPose weight 1.0 for skeletal lock and phone-arm placement",
+          "depth_control": "MiDaS weight 0.8 for subject-background separation and depth stability"
+        }
+      }
+    },
+    "gpt-image-1.5": {
+      "prompt": "A photoreal mirror selfie of a young woman with tan skin and a curvy athletic silhouette, shown from a rear and side profile angle. She has long dark voluminous curls with clear ringlets cascading to mid-back. She wears a maroon backless halter top exposing the full back, with a decorative metallic chain strap running vertically down the spine, and light wash fitted denim jeans with visible stitched back pockets. Her right arm is raised holding a white smartphone while her left arm rests by her side. She stands with a subtle twist and slight lumbar arch, hips shifted, and her side profile looking at the phone screen in the reflection. The bedroom background includes a wood-paneled door with silver knob, a black-framed botanical print on a white wall, and a white shelf with a round woven placemat. Include the lower mirror edge and visible wall outlets beneath. Soft diffused lighting, natural skin texture, denim weave detail, ringlet hair detail, and realistic mirror geometry. No smoothing, no beautify filters, no distorted fingers, no missing phone, no missing reflection.",
+      "quality": "high",
+      "notes": "Natural language format with strict reflection and anatomy constraints"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: explicit outfit construction, pose mechanics, and room anchors",
+    "2_realism_anchors: denim weave, ringlets, wood grain, pores, and reflection geometry",
+    "3_technical_camera: mirror selfie perspective with 26mm mobile look and 3:4 output",
+    "4_negative_hygiene: strict exclusions for smoothing, missing reflection, and hand errors",
+    "5_spatial_consistency: DWPose + MiDaS lock preserves body pose and depth ordering",
+    "6_lighting_storytelling: soft ambient light with contour-defining shadows",
+    "7_texture_priority: high-fidelity treatment for denim, curls, and skin"
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "name": "Red Hair Corset Editorial Studio",
+  "description": "Pale-skinned woman with long copper-red wavy hair in black corset bodysuit, leaning forward with gloved hand reaching toward lens, soft directional studio lighting, high-fashion Vogue-style editorial portrait",
+  "input_prompt": "red wavy hair woman black corset bodysuit gloved hand reaching camera studio lighting high fashion editorial vogue",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "high_fashion_studio",
+      "aspect_ratio": "3:4",
+      "style": "vogue_editorial_portrait",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "woman with long copper-red wavy hair in black corset bodysuit, leaning forward with one gloved hand reaching toward the camera lens, creating depth",
+      "identity": {
+        "type": "woman",
+        "distinguishing_features": [
+          "long copper-red wavy hair",
+          "pale flawless skin",
+          "calm confident expression"
+        ],
+        "age_range": "adult"
+      },
+      "physical_details": {
+        "hair": {
+          "color": "copper-red",
+          "style": "long wavy",
+          "details": "texture: rich, flowing, natural movement"
+        },
+        "skin": {
+          "tone": "pale",
+          "texture": "flawless with natural texture",
+          "details": "finish: soft matte with gentle highlights"
+        },
+        "face": {
+          "expression": "calm, confident, neutral",
+          "makeup": "soft neutral makeup, natural lips"
+        }
+      },
+      "expression_mood": "bold, elegant, confident"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "corset-style bodysuit",
+          "color": "black",
+          "fit": "structured, form-fitting"
+        },
+        {
+          "type": "sheer black tights"
+        },
+        {
+          "type": "semi-transparent black gloves",
+          "details": "note: visible on reaching hand"
+        }
+      ]
+    },
+    "pose_action": {
+      "camera_relation": "hand in foreground creates perspective depth",
+      "posture": "confident, controlled, editorial",
+      "action": "hand_action: one gloved hand reaching toward the lens, creating depth",
+      "dynamic_elements": "body_position: leaning slightly forward toward camera"
+    },
+    "environment": {
+      "location": "professional photography studio",
+      "background": [
+        "color: light neutral",
+        "style: clean minimal studio"
+      ],
+      "visible_equipment": "softbox visible at frame edge",
+      "atmosphere": "clean high-fashion studio, controlled editorial mood"
+    },
+    "lighting": {
+      "type": "soft directional studio lighting",
+      "equipment": "softbox visible at edge of frame",
+      "effects": [
+        "gentle highlights on skin",
+        "subtle sculpting shadows",
+        "professional studio quality"
+      ],
+      "quality": "soft, controlled, editorial"
+    },
+    "camera_technical": {
+      "angle": "chest-level",
+      "focus": "face: sharp and in focus, foreground_hand: slightly blurred due to proximity",
+      "depth_of_field": "shallow, creating depth separation",
+      "style": "professional fashion photography",
+      "quality": "high resolution, ultra-realistic"
+    },
+    "the_vibe": {
+      "energy": "bold and elegant",
+      "mood": "confident, powerful",
+      "aesthetic": "editorial, high-fashion, modern, cinematic",
+      "final_look": "Vogue-style editorial fashion portrait with strong depth and clean studio composition",
+      "story": "high-fashion editorial moment, direct engagement with viewer"
+    },
+    "realism_anchors": [
+      "copper-red hair color richness",
+      "semi-transparent glove texture",
+      "corset structure and boning",
+      "softbox reflection visible",
+      "shallow depth of field on reaching hand"
+    ],
+    "negative_prompt": [
+      "harsh lighting",
+      "amateur photography",
+      "cluttered background",
+      "outdoor setting",
+      "casual clothing",
+      "messy hair",
+      "anime",
+      "illustration",
+      "3d render",
+      "low resolution",
+      "blurry face"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "high-fashion Vogue-style editorial studio portrait 3:4, woman with long copper-red wavy hair rich flowing texture, pale flawless skin with natural texture soft matte gentle highlights, calm confident neutral expression soft neutral makeup natural lips, black corset-style bodysuit structured form-fitting, sheer black tights, semi-transparent black gloves, leaning slightly forward toward camera ONE GLOVED HAND REACHING toward lens creating depth, confident controlled editorial posture, professional studio light neutral background clean minimal, SOFT DIRECTIONAL STUDIO LIGHTING softbox visible at frame edge gentle highlights subtle sculpting shadows, chest-level angle SHARP face focus SLIGHTLY BLURRED foreground hand shallow DOF, professional fashion photography ultra-realistic high resolution, bold elegant confident Vogue editorial mood",
+  "negative_prompt_flat": "harsh lighting, amateur photography, cluttered background, outdoor, casual clothing, anime, illustration, low resolution, blurry face",
+  "color_palette": {
+    "primary": "black corset bodysuit, black gloves and tights",
+    "secondary": "copper-red hair",
+    "accent": "pale skin highlights",
+    "background": "light neutral studio"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "high-fashion Vogue editorial studio portrait, woman long copper-red wavy hair rich flowing, pale flawless skin natural texture, calm confident expression neutral makeup, black corset bodysuit structured, sheer black tights, semi-transparent black gloves, leaning forward GLOVED HAND REACHING TOWARD LENS creating depth, professional studio light neutral background clean minimal, soft directional lighting SOFTBOX VISIBLE at edge gentle highlights sculpting shadows, chest-level angle sharp face blurred foreground hand shallow DOF, ultra-realistic fashion photography, bold elegant confident, 3:4",
+      "negative_prompt": "harsh lighting, amateur, cluttered background, outdoor, casual clothing, anime, illustration, blurry face"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Woman with long copper-red wavy hair",
+          "hair": {
+            "color": "Copper-red",
+            "style": "Long wavy, rich flowing texture"
+          },
+          "skin": {
+            "tone": "Pale",
+            "texture": "Flawless with natural texture"
+          },
+          "face": {
+            "expression": "Calm, confident, neutral",
+            "makeup": "Soft neutral, natural lips"
+          }
+        },
+        "wardrobe": {
+          "bodysuit": "Black corset-style, structured, form-fitting",
+          "tights": "Sheer black",
+          "gloves": "Semi-transparent black"
+        },
+        "pose_action": {
+          "body": "Leaning slightly forward toward camera",
+          "hand": "One gloved hand reaching toward lens, creating depth",
+          "posture": "Confident, controlled, editorial"
+        },
+        "scene": {
+          "environment": "Professional photography studio",
+          "background": "Light neutral, clean minimal",
+          "equipment": "Softbox visible at frame edge"
+        },
+        "lighting": {
+          "type": "Soft directional studio lighting",
+          "effects": [
+            "Gentle highlights on skin",
+            "Subtle sculpting shadows"
+          ]
+        },
+        "camera": {
+          "angle": "Chest-level",
+          "focus": {
+            "face": "Sharp and in focus",
+            "foreground_hand": "Slightly blurred"
+          },
+          "depth_of_field": "Shallow",
+          "style": "Professional fashion photography",
+          "quality": "High resolution, ultra-realistic",
+          "aspect_ratio": "3:4",
+          "negative_constraints": "no harsh lighting, no cluttered background, no amateur"
+        },
+        "mood": "Bold, elegant, confident, Vogue-style editorial"
+      }
+    },
+    "midjourney": {
+      "prompt": "high-fashion editorial portrait, woman copper-red wavy hair black corset bodysuit, gloved hand reaching toward camera, studio lighting softbox visible, pale skin confident expression, shallow DOF, Vogue-style clean studio --ar 3:4 --style raw --v 6",
+      "notes": "Use --style raw for authentic editorial feel"
+    },
+    "ideogram": {
+      "prompt": "High-fashion studio portrait of woman with long copper-red wavy hair in black corset bodysuit and semi-transparent gloves, leaning forward with one hand reaching toward camera lens, soft directional studio lighting with visible softbox, light neutral background, Vogue-style editorial, shallow depth of field",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "3:4"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Editorial portrait, red wavy hair woman black corset bodysuit, hand reaching toward camera, studio lighting softbox, pale skin, Vogue style"
+    },
+    "luma": {
+      "prompt": "Fashion studio, woman with flowing copper-red hair leans toward camera, gloved hand reaches forward creating depth, soft studio light sculpts her features, editorial confidence",
+      "motion_notes": "Slow lean forward, hand reach toward lens, hair subtle movement"
+    },
+    "reve": {
+      "prompt": "High-fashion photography in the style of Vogue editorial portraits, copper-red wavy hair woman black corset bodysuit, hand reaching toward lens creating depth, soft directional studio lighting, clean minimal background, bold elegant confidence",
+      "art_references": [
+        "Vogue editorial portraits",
+        "Fashion studio photography",
+        "Dramatic depth compositions"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "High-fashion editorial studio portrait of woman with long copper-red wavy hair in black corset bodysuit and semi-transparent black gloves, leaning forward with one gloved hand reaching toward camera lens, soft directional studio lighting with softbox at frame edge, pale flawless skin, calm confident expression, light neutral background, Vogue-style"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A professional photography studio with a light neutral background and clean minimal setup.\n\nA woman with long copper-red wavy hair with rich flowing texture stands in the studio. She has pale flawless skin with a soft matte finish and gentle highlights. Her expression is calm, confident, and neutral with soft neutral makeup and natural lips.\n\nShe wears a black corset-style bodysuit that is structured and form-fitting, paired with sheer black tights. Semi-transparent black gloves cover her hands.\n\nShe leans slightly forward toward the camera, with one gloved hand reaching toward the lens, creating dramatic depth and perspective. Her posture is confident, controlled, and editorial.\n\nSoft directional studio lighting illuminates the scene, with a softbox visible at the edge of the frame creating gentle highlights on her skin and subtle sculpting shadows. The camera is at chest-level, with sharp focus on her face and the foreground hand slightly blurred due to proximity and shallow depth of field.\n\nVogue-style high-fashion editorial portrait. No watermark. No artificial smoothing. Realistic texture throughout.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "A woman with long copper-red wavy hair in a black corset-style bodysuit leans forward in a professional studio, one semi-transparent gloved hand reaching toward the camera lens creating dramatic depth. She has pale flawless skin with a calm confident expression and soft neutral makeup. The black corset is structured and form-fitting with sheer black tights beneath. Soft directional studio lighting with visible softbox at frame edge creates gentle highlights and subtle sculpting shadows on a light neutral background. High-fashion Vogue-style editorial portrait, chest-level angle, shallow depth of field, professional fashion photography, ultra-realistic, not illustration or 3D render.",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A woman with long copper-red wavy hair in a black corset-style bodysuit and semi-transparent black gloves stands in a professional photography studio. She leans slightly forward with one gloved hand reaching toward the camera lens, creating depth and perspective. Her pale flawless skin has a soft matte finish with gentle highlights. She wears sheer black tights beneath the structured form-fitting corset. Soft directional studio lighting with softbox visible at frame edge illuminates her against a light neutral background. Vogue-style high-fashion editorial portrait with shallow depth of field, sharp face focus, and slightly blurred foreground hand. Calm confident expression, bold elegant mood.",
+      "editing_prompt": "Change the corset color from black to deep burgundy while keeping the woman in the exact same leaning forward pose with her gloved hand reaching toward the lens. Preserve her copper-red wavy hair, pale skin, calm expression, and the soft directional studio lighting setup.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed outfit (corset, tights, gloves), specific hair description, precise pose mechanics",
+    "2_realism_anchors: 'copper-red hair richness', 'glove texture', 'corset boning', 'softbox visible', 'shallow DOF hand blur'",
+    "3_technical_camera: 'chest-level', 'sharp face/blurred hand', 'shallow DOF', 'professional fashion photography'",
+    "4_negative_hygiene: prevents harsh lighting, amateur photography, cluttered background",
+    "5_spatial_consistency: clear forward lean with hand reaching toward lens for depth",
+    "6_lighting_storytelling: 'soft directional studio lighting' = professional editorial mood",
+    "7_editorial_reference: explicit 'Vogue-style' and softbox visibility for authenticity"
+  ]
+}

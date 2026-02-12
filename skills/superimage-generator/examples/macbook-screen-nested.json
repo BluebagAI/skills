@@ -1,0 +1,238 @@
+{
+  "name": "MacBook Screen Nested Photo Booth",
+  "description": "Meta composition showing MacBook screen with Photo Booth window containing bedroom scene - screen-within-screen realism",
+  "input_prompt": "photo of macbook screen showing photo booth app with girl in bedroom",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "hyper_realistic",
+      "aspect_ratio": "3:4",
+      "style": "screen_simulation_photorealism",
+      "target_model": "flux",
+      "composition_type": "nested_meta"
+    },
+    "visual_hierarchy": {
+      "layer_1_physical": {
+        "description": "MacBook screen filling 95% of frame, downward high-angle shot",
+        "surface_details": [
+          "subtle pixel-grid texture",
+          "tiny dust particles on glass",
+          "faint ambient light reflection",
+          "fingerprint smudges"
+        ],
+        "foreground_anchor": "thin strip of physical keyboard visible at lower edge"
+      },
+      "layer_2_interface": {
+        "description": "macOS dark mode desktop with Photo Booth live-preview window",
+        "theme": "dark mode"
+      },
+      "layer_3_nested_content": {
+        "description": "inside Photo Booth window - dim bedroom scene with girl"
+      }
+    },
+    "subject": {
+      "description": "young adult woman with blonde shoulder-length hair, relaxed candid expression with slight smile, lying in dim bedroom",
+      "identity": {
+        "age_range": "early 20s",
+        "type": "young woman",
+        "distinguishing_features": [
+          "blonde hair",
+          "candid expression",
+          "relaxed pose"
+        ]
+      },
+      "physical_details": {
+        "skin": {
+          "tone": "natural",
+          "texture": "realistic with screen glow illumination"
+        },
+        "hair": {
+          "color": "blonde",
+          "style": "shoulder length, slightly short"
+        },
+        "face": {
+          "expression": "relaxed, candid, slight smile",
+          "gaze": "looking at screen"
+        }
+      },
+      "expression_mood": "intimate, candid, nocturnal"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "black top",
+          "fit": "casual"
+        },
+        {
+          "type": "grey bottoms",
+          "fit": "loungewear"
+        }
+      ],
+      "accessories": []
+    },
+    "pose_action": {
+      "position": "reclining pose in bedroom, visible in Photo Booth window",
+      "camera_relation": "downward angle looking at MacBook screen",
+      "dynamic_elements": "holding iPhone 15 Pro in right hand"
+    },
+    "environment": {
+      "outer_environment": {
+        "description": "physical space where MacBook sits",
+        "lighting": "ambient room lighting"
+      },
+      "nested_environment": {
+        "location": "dim bedroom visible in Photo Booth",
+        "background": [
+          "off-white wall",
+          "rumpled bedding"
+        ],
+        "atmosphere": "nocturnal, intimate, low-key"
+      },
+      "location": "MacBook screen photograph in dim room",
+      "background": [
+        "macOS dark mode desktop with Photo Booth window",
+        "thin strip of physical keyboard visible at lower edge"
+      ],
+      "atmosphere": "nocturnal, intimate, screen-within-screen realism"
+    },
+    "lighting": {
+      "type": "ambient room light mixed with screen glow",
+      "quality": "low-key, screen-lit with soft ambient fill",
+      "effects": [
+        "cool blue screen illumination",
+        "deep nocturnal shadows"
+      ]
+    },
+    "camera_technical": {
+      "device": "professional camera",
+      "lens": "50mm",
+      "resolution": "8k",
+      "style_tags": [
+        "screen photography",
+        "nested composition",
+        "meta realism"
+      ]
+    },
+    "realism_anchors": [
+      "visible pixel grid on screen",
+      "dust particles on glass",
+      "fingerprint smudges on screen",
+      "realistic screen reflections",
+      "authentic macOS interface",
+      "Photo Booth window accuracy"
+    ],
+    "negative_prompt": [
+      "vector art",
+      "screenshot",
+      "flat digital image",
+      "clean perfect glass",
+      "daylight",
+      "bright studio lights",
+      "cartoon",
+      "3d render",
+      "painting",
+      "watermark"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "hyper-realistic photograph of MacBook screen, downward high-angle shot, screen filling 95% of frame, visible pixel grid dust particles fingerprint smudges on glass, faint ambient reflections, macOS dark mode desktop, Photo Booth live-preview window dominant, inside window shows young woman blonde shoulder-length hair relaxed candid expression, lying in dim bedroom off-white wall rumpled bedding, wearing black top grey bottoms, holding iPhone 15 Pro, cool screen glow mixed with warm skin tones, deep nocturnal shadows, low-key intimate lighting, thin keyboard strip visible at bottom, 3:4 aspect ratio",
+  "negative_prompt_flat": "vector art, screenshot, flat digital, clean glass, daylight, bright lights, cartoon, 3d render, painting, watermark",
+  "color_palette": {
+    "primary": "dark mode grays and blacks",
+    "secondary": "cool blue screen glow",
+    "accent": "warm skin tones",
+    "atmosphere": "nocturnal deep shadows"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "hyper-realistic photo of MacBook screen, downward high-angle, screen filling frame, visible pixel grid dust fingerprints on glass, macOS dark mode Photo Booth window showing young woman blonde hair relaxed expression lying in dim bedroom off-white wall rumpled bedding, black top grey bottoms holding iPhone, cool screen glow warm skin tones deep shadows, keyboard visible at bottom, 3:4",
+      "negative_prompt": "vector art, screenshot, flat digital, clean glass, daylight, cartoon, 3d render, watermark"
+    },
+    "nano-banana": {
+      "prompt": {
+        "composition": {
+          "type": "Nested meta composition - photograph of screen showing photograph",
+          "outer_layer": "MacBook screen filling 95% of frame, downward high-angle",
+          "inner_layer": "Photo Booth window with bedroom scene"
+        },
+        "screen_details": {
+          "surface": "Visible pixel grid texture, dust particles, fingerprint smudges, ambient reflections",
+          "interface": "macOS dark mode, Photo Booth live-preview window"
+        },
+        "nested_subject": {
+          "description": "Young woman early 20s, blonde shoulder-length hair",
+          "expression": "Relaxed, candid, slight smile, looking at screen",
+          "pose": "Reclining in bedroom, holding iPhone 15 Pro"
+        },
+        "nested_environment": {
+          "location": "Dim bedroom",
+          "background": "Off-white wall, rumpled bedding",
+          "atmosphere": "Nocturnal, intimate, low-key"
+        },
+        "nested_lighting": {
+          "type": "Cool screen glow mixed with warm skin tones",
+          "effects": "Blue-ish screen illumination, deep nocturnal shadows"
+        },
+        "camera": {
+          "angle": "Downward looking at MacBook",
+          "foreground": "Thin keyboard strip visible",
+          "aspect_ratio": "3:4",
+          "negative_constraints": "no vector art, no screenshot look, no flat digital, no clean perfect glass"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "hyper-realistic photograph of MacBook screen with Photo Booth app, dark mode interface, window shows blonde woman in dim bedroom rumpled bedding, screen has dust and fingerprints, cool blue glow warm skin tones, nocturnal intimate mood, nested meta composition --ar 3:4 --style raw --v 6",
+      "notes": "Use --style raw for authentic screen photography look"
+    },
+    "ideogram": {
+      "prompt": "Photograph looking down at MacBook screen displaying Photo Booth application in dark mode, the window shows a young blonde woman lying in a dim bedroom with off-white walls and rumpled bedding, realistic screen with dust particles and fingerprints visible, cool screen glow lighting",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "3:4"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "MacBook screen photograph, Photo Booth window showing blonde woman in dim bedroom, dark mode interface, screen dust and reflections, nocturnal mood"
+    },
+    "luma": {
+      "prompt": "Looking down at MacBook screen, Photo Booth window shows woman shifting slightly in dim bedroom, cool screen glow flickers subtly, ambient room light reflects on glass surface",
+      "motion_notes": "Subtle movement in Photo Booth preview, slight screen flicker, ambient light shifting"
+    },
+    "reve": {
+      "prompt": "Meta photography in the style of screen-within-screen realism, MacBook displaying Photo Booth with young woman in nocturnal bedroom, authentic dark mode interface, dust and fingerprints on screen glass",
+      "art_references": [
+        "Screen photography",
+        "Meta composition",
+        "Digital intimacy aesthetics"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Photo of MacBook screen showing Photo Booth app, blonde woman visible in window lying in dim bedroom, dark mode interface, realistic screen with dust and fingerprints, nocturnal mood"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A hyper-realistic photograph looking down at a MacBook screen from a high angle, with the screen filling 95% of the frame. The screen surface shows subtle pixel-grid texture, tiny dust particles on the glass, faint ambient light reflections, and fingerprint smudges adding authenticity. The macOS interface is in dark mode with a Photo Booth live-preview window as the dominant element. Inside the Photo Booth window, a young woman with blonde shoulder-length hair reclines in a dim bedroom. She has a relaxed candid expression with a slight smile, looking at the screen while holding an iPhone 15 Pro in her right hand. She wears a black top and grey loungewear bottoms. The bedroom shows an off-white wall and rumpled bedding. The lighting combines cool blue-ish screen glow with warm skin tones and deep nocturnal shadows. A thin strip of physical keyboard is visible at the lower edge of the frame. The overall atmosphere is intimate and nocturnal. No watermark. No flat digital look. Realistic screen photography with authentic dust and reflections.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Hyper-realistic photograph of MacBook screen from high downward angle filling frame, visible pixel grid dust particles fingerprint smudges on glass surface, macOS dark mode Photo Booth window showing young blonde woman reclining in dim bedroom, relaxed candid expression holding iPhone, black top grey bottoms, off-white wall rumpled bedding background, cool screen glow mixed with warm skin tones deep nocturnal shadows, keyboard strip visible at bottom edge, screen-within-screen meta photography, not flat screenshot or vector art",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A photograph looking down at a MacBook screen from a high angle, screen filling 95% of frame. The glass surface shows subtle pixel-grid texture, dust particles, fingerprint smudges, and faint ambient reflections. MacOS dark mode desktop with Photo Booth live-preview window dominant. Inside the Photo Booth window, a young woman with blonde shoulder-length hair reclines in a dim bedroom with relaxed candid expression and slight smile. She wears a black top and grey loungewear, holding an iPhone 15 Pro. Background shows off-white wall and rumpled bedding. Cool blue screen glow mixes with warm skin tones and deep nocturnal shadows. Thin keyboard strip visible at bottom edge.",
+      "editing_prompt": "Change the Photo Booth window to show a FaceTime call interface while keeping the same blonde woman in the dim bedroom. Preserve the MacBook screen details, dust particles, fingerprints, and dark mode aesthetic.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Three-layer visual hierarchy (physical/interface/nested content)",
+    "2_realism_anchors: 'pixel grid texture', 'dust particles', 'fingerprint smudges', 'screen reflections'",
+    "3_technical_camera: nested composition with specific angle and framing requirements",
+    "4_negative_hygiene: excludes flat digital look, screenshot aesthetic",
+    "5_spatial_consistency: clear layer separation with foreground keyboard anchor",
+    "6_lighting_storytelling: 'cool screen glow + warm skin' = intimate nocturnal mood",
+    "7_meta_composition: screen-within-screen authenticity requirements"
+  ]
+}

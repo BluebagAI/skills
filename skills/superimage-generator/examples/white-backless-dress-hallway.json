@@ -1,0 +1,251 @@
+{
+  "name": "White Backless Dress Hallway Editorial",
+  "description": "Glamorous brunette woman in fitted white textured backless dress posing in narrow wooden hallway, looking over shoulder, warm cinematic low-key lighting, editorial fashion portrait",
+  "input_prompt": "glamorous brunette woman white backless dress narrow wooden hallway looking over shoulder editorial fashion portrait cinematic",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "ultra_realistic_editorial",
+      "aspect_ratio": "9:16",
+      "style": "editorial_fashion_portrait",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "glamorous woman posing sideways in narrow wooden hallway, turning head over shoulder to look back at camera, confident and sensual expression",
+      "identity": {
+        "age_range": "mid to late 20s",
+        "type": "woman",
+        "distinguishing_features": [
+          "sleek brunette hair",
+          "sculpted feminine silhouette",
+          "soft glam makeup"
+        ]
+      },
+      "physical_details": {
+        "skin": {
+          "tone": "natural warm",
+          "texture": "visible pores, micro-texture, soft peach fuzz",
+          "details": "finish: skin finish with natural imperfections"
+        },
+        "hair": {
+          "color": "brunette",
+          "style": "long, sleek, worn down",
+          "details": "ultra-detailed with natural strand separation, subtle flyaways, soft root shadows, visible scalp detail; texture: smooth and glossy, flowing straight past shoulders"
+        },
+        "face": {
+          "expression": "confident and sensual",
+          "makeup": "base: soft glam and refined, even skin tone with visible texture, color: subtle bronzed warmth, rosy blush, lightly contoured cheeks, lips: soft nude glossy, brows: defined, eyes: neutral eyeshadow, long lashes"
+        },
+        "body": {
+          "details": "silhouette: sculpted, elegant, feminine"
+        }
+      },
+      "expression_mood": "confident, sensual, editorial elegance"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "fitted white textured backless dress",
+          "fit": "hugs the body elegantly, creating sculpted feminine silhouette",
+          "details": "thin spaghetti straps, intricate open-back strap design"
+        }
+      ]
+    },
+    "pose_action": {
+      "position": "posing sideways in hallway, body facing away",
+      "camera_relation": "three-quarter back view with face profile",
+      "posture": "confident and sensual, elegant spine curve",
+      "action": "action: turning head over shoulder to look back at camera",
+      "dynamic_elements": "arms: one_arm: raised and resting against wooden wall, other_arm: relaxed by side"
+    },
+    "environment": {
+      "location": "narrow wooden hallway",
+      "background": [
+        "wooden walls creating intimate corridor",
+        "moody atmosphere",
+        "layered depth with natural shadows"
+      ],
+      "atmosphere": "moody luxury evening, intimate and elegant"
+    },
+    "lighting": {
+      "type": "warm low-key cinematic",
+      "quality": "gentle highlights on skin, soft shadows along body contours",
+      "effects": [
+        "warm tones",
+        "layered depth",
+        "natural shadows",
+        "gentle skin highlights"
+      ]
+    },
+    "camera_technical": {
+      "camera": "Canon EOS 5D Mark IV",
+      "lens": "50mm f/1.8",
+      "settings": {
+        "aperture": "f/2.8",
+        "iso": 400,
+        "shutter_speed": "1/125s"
+      },
+      "focus": "shallow depth of field, cinematic focus",
+      "quality_tags": [
+        "ultra-realistic",
+        "RAW",
+        "photorealistic",
+        "unedited",
+        "high-end fashion editorial vibe"
+      ]
+    },
+    "the_vibe": {
+      "energy": "elegant and powerful",
+      "mood": "moody luxury evening",
+      "aesthetic": "high-end fashion editorial",
+      "authenticity": "ultra-realistic, unedited RAW feel",
+      "story": "glamorous woman in intimate corridor, confident over-the-shoulder glance"
+    },
+    "realism_anchors": [
+      "visible skin pores and peach fuzz",
+      "natural hair strand separation",
+      "wooden wall texture",
+      "backless dress strap detail",
+      "shallow depth of field"
+    ],
+    "negative_prompt": [
+      "plastic skin",
+      "airbrushed",
+      "oversaturated",
+      "HDR look",
+      "anime",
+      "illustration",
+      "3d render",
+      "low resolution",
+      "blurry"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "ultra-realistic editorial fashion portrait 9:16, glamorous woman mid to late 20s posing sideways in narrow wooden hallway turning head over shoulder looking at camera, sleek brunette hair long smooth glossy flowing past shoulders natural strand separation flyaways root shadows, confident sensual expression, soft glam makeup even skin visible texture bronzed warmth rosy blush soft nude glossy lips defined brows neutral eyeshadow long lashes, skin with visible pores micro-texture soft peach fuzz natural imperfections, fitted white textured backless dress thin spaghetti straps intricate open-back strap design hugs body elegantly sculpted silhouette, one arm raised against wooden wall other relaxed by side elegant spine curve, narrow wooden hallway moody luxury evening intimate elegant, warm low-key cinematic lighting gentle highlights soft shadows body contours layered depth, Canon EOS 5D Mark IV 50mm f/1.8 f/2.8 ISO 400 shallow DOF cinematic focus, RAW photorealistic unedited high-end fashion editorial vibe",
+  "negative_prompt_flat": "plastic skin, airbrushed, oversaturated, HDR, anime, illustration, 3d render, low resolution, blurry",
+  "color_palette": {
+    "primary": "white textured dress",
+    "secondary": "brunette hair, warm wood tones",
+    "accent": "bronzed skin warmth, rosy blush",
+    "lighting": "warm low-key cinematic"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "ultra-realistic editorial portrait, glamorous woman posing sideways narrow wooden hallway turning head over shoulder, sleek brunette hair glossy flowing strand separation flyaways, confident sensual expression, soft glam makeup bronzed warmth rosy blush nude glossy lips, skin visible pores peach fuzz, fitted white textured BACKLESS dress spaghetti straps intricate back strap design sculpted silhouette, arm raised against wall other relaxed, moody wooden hallway intimate elegant, warm low-key cinematic lighting soft shadows highlights, Canon 50mm f/2.8 shallow DOF, RAW photorealistic fashion editorial, 9:16",
+      "negative_prompt": "plastic skin, airbrushed, oversaturated, HDR, anime, illustration, low resolution"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Glamorous woman mid to late 20s, elegant feminine silhouette",
+          "skin": {
+            "tone": "Natural warm",
+            "texture": "Visible pores, micro-texture, soft peach fuzz, natural imperfections"
+          },
+          "hair": {
+            "color": "Brunette",
+            "style": "Long, sleek, worn down, smooth and glossy",
+            "details": "Natural strand separation, subtle flyaways, soft root shadows"
+          },
+          "face": {
+            "expression": "Confident and sensual",
+            "makeup": {
+              "base": "Soft glam, even skin with visible texture",
+              "color": "Bronzed warmth, rosy blush, contoured cheeks",
+              "lips": "Soft nude glossy",
+              "eyes": "Neutral eyeshadow, defined brows, long lashes"
+            }
+          }
+        },
+        "wardrobe": {
+          "dress": {
+            "type": "Fitted white textured backless dress",
+            "straps": "Thin spaghetti straps, intricate open-back strap design",
+            "fit": "Hugs body elegantly, sculpted feminine silhouette"
+          }
+        },
+        "pose_action": {
+          "stance": "Posing sideways in hallway",
+          "action": "Turning head over shoulder to look at camera",
+          "arms": {
+            "one": "Raised, resting against wooden wall",
+            "other": "Relaxed by side"
+          },
+          "posture": "Confident, sensual, elegant spine curve"
+        },
+        "scene": {
+          "environment": "Narrow wooden hallway",
+          "atmosphere": "Moody luxury evening, intimate and elegant",
+          "depth": "Layered with natural shadows"
+        },
+        "lighting": {
+          "type": "Warm low-key cinematic",
+          "effects": "Gentle highlights on skin, soft shadows along body contours"
+        },
+        "camera": {
+          "model": "Canon EOS 5D Mark IV",
+          "lens": "50mm f/1.8",
+          "settings": "f/2.8, ISO 400, 1/125s",
+          "focus": "Shallow DOF, cinematic",
+          "quality": "Ultra-realistic, RAW, photorealistic, unedited",
+          "aspect_ratio": "9:16",
+          "negative_constraints": "no plastic skin, no airbrushed, no oversaturated"
+        },
+        "mood": "Elegant, powerful, moody luxury"
+      }
+    },
+    "midjourney": {
+      "prompt": "editorial fashion portrait, glamorous brunette woman white backless dress intricate straps, posing sideways wooden hallway looking over shoulder, warm cinematic lighting soft shadows, Canon 50mm shallow DOF, ultra-realistic RAW photorealistic --ar 9:16 --style raw --v 6",
+      "notes": "Use --style raw for authentic editorial feel"
+    },
+    "ideogram": {
+      "prompt": "Ultra-realistic editorial fashion portrait of glamorous brunette woman in fitted white textured backless dress with intricate strap design, posing sideways in narrow wooden hallway turning head over shoulder, warm low-key cinematic lighting, soft shadows and gentle highlights, Canon 50mm shallow depth of field",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "9:16"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Editorial portrait, glamorous woman white backless dress, wooden hallway looking over shoulder, warm cinematic lighting, shallow DOF"
+    },
+    "luma": {
+      "prompt": "Narrow wooden hallway, glamorous woman in white backless dress turns slowly to look over her shoulder, warm cinematic light plays across her silhouette, intimate luxury atmosphere",
+      "motion_notes": "Slow shoulder turn, hair sway, gentle light shift"
+    },
+    "reve": {
+      "prompt": "High-fashion editorial photography in the style of Vogue portraits, glamorous woman white backless dress intricate straps, narrow wooden hallway, over-the-shoulder look, warm cinematic low-key lighting, ultra-realistic skin detail",
+      "art_references": [
+        "Vogue editorial portraits",
+        "Cinematic fashion photography",
+        "Moody hallway portraits"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Ultra-realistic editorial fashion portrait of glamorous brunette woman in fitted white textured backless dress with spaghetti straps and intricate back design, posing sideways in narrow wooden hallway looking over shoulder at camera, warm low-key cinematic lighting with soft shadows, Canon 50mm shallow depth of field"
+    },
+    "gpt-image-1.5": {
+      "prompt": "An ultra-realistic editorial fashion portrait of a glamorous woman in her mid to late 20s posing sideways in a narrow wooden hallway. She has sleek brunette hair, long and glossy, flowing straight past her shoulders with natural strand separation, subtle flyaways, and soft root shadows. She turns her head over her shoulder to look back at the camera with a confident and sensual expression. Her makeup is soft glam with bronzed warmth, rosy blush, soft nude glossy lips, defined brows, and neutral eyeshadow with long lashes. Her skin shows visible pores, micro-texture, and soft peach fuzz with natural imperfections. She wears a fitted white textured backless dress with thin spaghetti straps and an intricate open-back strap design that hugs her body elegantly creating a sculpted feminine silhouette. One arm is raised and resting against the wooden wall while the other relaxes by her side, creating an elegant spine curve. The narrow wooden hallway creates moody atmosphere with layered depth and natural shadows. Warm low-key cinematic lighting provides gentle highlights on her skin and soft shadows along body contours. Shot with Canon EOS 5D Mark IV, 50mm f/1.8 at f/2.8, ISO 400, shallow depth of field. No plastic skin. No airbrushed texture. Realistic editorial quality.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Glamorous brunette woman posing sideways in narrow wooden hallway turning head over shoulder, sleek glossy hair with strand separation and flyaways, confident sensual expression soft glam makeup bronzed warmth nude glossy lips, fitted white textured backless dress spaghetti straps intricate open-back design, arm raised against wooden wall elegant spine curve, warm low-key cinematic lighting soft shadows, Canon 50mm shallow depth of field, ultra-realistic editorial fashion portrait with visible skin texture, not airbrushed or plastic-looking",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A glamorous brunette woman in her mid to late 20s poses sideways in a narrow wooden hallway, turning her head over her shoulder to look back at the camera. Her sleek glossy brunette hair flows past her shoulders with natural strand separation. She has a confident sensual expression with soft glam makeup, bronzed warmth, and nude glossy lips. She wears a fitted white textured backless dress with thin spaghetti straps and intricate open-back strap design. One arm rests against the wooden wall while the other relaxes by her side. Warm low-key cinematic lighting creates gentle skin highlights and soft shadows. Shot with shallow depth of field, ultra-realistic editorial fashion quality with visible skin texture and natural imperfections.",
+      "editing_prompt": "Change the dress color from white to deep burgundy while keeping the same backless design and intricate strap details. Preserve the warm cinematic lighting, her confident over-shoulder pose, and the wooden hallway setting exactly.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed dress (backless, spaghetti straps, intricate back design), precise makeup breakdown, hair strand details",
+    "2_realism_anchors: 'visible pores and peach fuzz', 'hair strand separation', 'wooden texture', 'strap detail'",
+    "3_technical_camera: 'Canon 5D Mark IV', '50mm f/1.8', 'f/2.8', 'ISO 400', 'shallow DOF'",
+    "4_negative_hygiene: prevents plastic skin, airbrushed, oversaturated, HDR",
+    "5_spatial_consistency: clear sideways pose with over-shoulder look and arm positions",
+    "6_lighting_storytelling: 'warm low-key cinematic' = moody luxury evening editorial mood",
+    "7_editorial_quality: specific camera settings and 'RAW photorealistic unedited' tags"
+  ]
+}

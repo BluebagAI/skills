@@ -1,0 +1,281 @@
+{
+  "name": "Fashion Studio Multi-Pose Collage",
+  "description": "High-fashion studio collage featuring same woman in 6-8 different poses wearing black strapless dress, stockings, heels and blazer",
+  "input_prompt": "fashion studio collage same woman multiple poses black dress stockings heels blazer white background",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "ultra_high_definition",
+      "aspect_ratio": "9:16",
+      "style": "high_end_fashion_editorial",
+      "target_model": "flux"
+    },
+    "composition": {
+      "type": "multi-pose fashion collage",
+      "layout": "vertical collage with 6-8 evenly spaced images",
+      "consistency": "same woman with identical face, body, outfit across all poses",
+      "panels": [
+        {
+          "id": "pose_1",
+          "description": "standing front-facing full body; expression: neutral; blazer: hanging off the arms"
+        },
+        {
+          "id": "pose_2",
+          "description": "standing back-facing with head turned toward camera; blazer: worn on shoulders; legs: straight"
+        },
+        {
+          "id": "pose_3",
+          "description": "squatting or semi-crouching with one leg forward; expression: sharp gaze toward camera"
+        },
+        {
+          "id": "pose_4",
+          "description": "seated on black chair with legs crossed; blazer: off one shoulder; expression: elegant and composed"
+        },
+        {
+          "id": "pose_5",
+          "description": "seated low with knees bent, body leaning slightly forward; blazer: worn on one arm only"
+        },
+        {
+          "id": "pose_6",
+          "description": "half-body portrait facing camera; shoulders: relaxed; style: clean editorial look"
+        }
+      ]
+    },
+    "subject": {
+      "description": "woman with slim elegant body, natural proportions, pale to light skin tone, delicate oval face, soft but sharp features",
+      "identity": {
+        "type": "woman",
+        "body_type": "slim and elegant, natural proportions",
+        "distinguishing_features": [
+          "large expressive eyes",
+          "thin lips",
+          "calm confident expression",
+          "delicate oval face"
+        ]
+      },
+      "physical_details": {
+        "skin": {
+          "tone": "pale to light",
+          "texture": "natural skin texture, realistic detail"
+        },
+        "hair": {
+          "color": "black",
+          "style": "long, styled in messy bun with loose strands falling naturally around face"
+        },
+        "face": {
+          "features": "soft but sharp, large expressive eyes, thin lips",
+          "expression": "calm, confident, editorial"
+        }
+      }
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "tight black strapless mini dress",
+          "fit": "form-fitting"
+        },
+        {
+          "type": "sheer black thigh-high stockings"
+        },
+        {
+          "type": "formal black blazer",
+          "details": "variations: fully worn, draped over one shoulder, hanging off one arm, resting loosely on arms"
+        },
+        {
+          "type": "pointed-toe black stiletto heels",
+          "details": "thin heels"
+        }
+      ],
+      "accessories": [
+        "thin black choker necklace"
+      ]
+    },
+    "environment": {
+      "location": "professional photography studio",
+      "background": [
+        "clean white seamless studio background"
+      ],
+      "props": [
+        {
+          "item": "black chair (for seated poses)"
+        }
+      ],
+      "atmosphere": "high-end fashion editorial"
+    },
+    "lighting": {
+      "type": "soft high-key studio lighting",
+      "setup": "large softbox placed in front and slightly to the side",
+      "quality": "soft shadows beneath body, even illumination",
+      "effects": [
+        "clearly shows fabric texture",
+        "skin detail visible",
+        "shoe shine highlighted"
+      ]
+    },
+    "camera_technical": {
+      "style": "professional studio photography",
+      "resolution": "ultra high-definition",
+      "focus": "sharp focus throughout",
+      "characteristics": [
+        "natural skin texture",
+        "realistic shadows",
+        "no lens distortion",
+        "accurate anatomy and proportions"
+      ],
+      "style_tags": [
+        "high-end fashion editorial",
+        "professional studio",
+        "multi-pose collage"
+      ]
+    },
+    "realism_anchors": [
+      "consistent face across all poses",
+      "identical outfit in every panel",
+      "realistic fabric texture on dress and stockings",
+      "natural skin texture and detail",
+      "accurate anatomy and proportions"
+    ],
+    "negative_prompt": [
+      "inconsistent face between poses",
+      "outfit changes",
+      "harsh shadows",
+      "uneven lighting",
+      "lens distortion",
+      "warped proportions",
+      "cartoon",
+      "3d render",
+      "anime",
+      "blurry",
+      "low quality"
+    ],
+    "prompt_type": "collage"
+  },
+  "flattened_prompt": "high-end fashion editorial studio photo collage 9:16, same woman in 6-8 different poses, slim elegant body pale light skin, delicate oval face large expressive eyes thin lips calm confident expression, long black hair messy bun with loose strands, tight black strapless mini dress sheer black thigh-high stockings pointed-toe black stiletto heels thin black choker, black blazer worn differently in each pose (fully worn, draped shoulder, hanging off arm, on one arm), poses: standing front-facing blazer hanging, back-facing head turned blazer on shoulders, squatting sharp gaze, seated on black chair legs crossed blazer off shoulder, seated low knees bent leaning forward, half-body portrait relaxed shoulders, clean white seamless studio background, soft high-key lighting large softbox soft shadows, ultra HD sharp focus natural skin texture realistic shadows accurate anatomy, vertical fashion collage layout evenly spaced",
+  "negative_prompt_flat": "inconsistent face, outfit changes, harsh shadows, lens distortion, warped proportions, cartoon, 3d render, blurry",
+  "color_palette": {
+    "primary": "black (dress, stockings, heels, blazer, choker)",
+    "secondary": "pale/light skin tones",
+    "background": "clean white",
+    "accent": "black hair"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "high-end fashion editorial collage, same woman 6-8 poses, slim elegant pale skin, oval face large eyes thin lips, black hair messy bun loose strands, black strapless mini dress sheer thigh-high stockings stiletto heels thin black choker, black blazer worn differently each pose, poses: standing front blazer hanging, back-facing head turned, squatting sharp gaze, seated chair legs crossed, seated low leaning forward, half-body portrait, white seamless studio, soft high-key lighting softbox, ultra HD sharp focus natural skin realistic shadows, vertical collage evenly spaced, 9:16",
+      "negative_prompt": "inconsistent face, outfit changes, harsh shadows, lens distortion, cartoon, 3d render, blurry"
+    },
+    "nano-banana": {
+      "prompt": {
+        "composition": {
+          "type": "Multi-pose fashion collage",
+          "layout": "Vertical collage, 6-8 evenly spaced images",
+          "consistency": "Same woman, identical face and outfit across all poses"
+        },
+        "subject": {
+          "description": "Woman with slim elegant body, natural proportions",
+          "skin": "Pale to light tone, natural texture",
+          "face": {
+            "shape": "Delicate oval",
+            "features": "Soft but sharp, large expressive eyes, thin lips",
+            "expression": "Calm, confident, editorial"
+          },
+          "hair": {
+            "color": "Black",
+            "style": "Long, messy bun with loose strands framing face"
+          }
+        },
+        "wardrobe": {
+          "dress": "Tight black strapless mini dress",
+          "stockings": "Sheer black thigh-high",
+          "shoes": "Pointed-toe black stiletto heels, thin heels",
+          "blazer": "Formal black, worn differently in each pose",
+          "accessories": [
+            "Thin black choker necklace"
+          ]
+        },
+        "poses": [
+          "Standing front-facing full body, neutral expression, blazer hanging off arms",
+          "Standing back-facing, head turned toward camera, blazer on shoulders, legs straight",
+          "Squatting/semi-crouching, one leg forward, sharp gaze",
+          "Seated on black chair, legs crossed, blazer off one shoulder, elegant",
+          "Seated low, knees bent, leaning forward, blazer on one arm",
+          "Half-body portrait, shoulders relaxed, clean editorial"
+        ],
+        "scene": {
+          "environment": "Professional photography studio",
+          "background": "Clean white seamless",
+          "props": "Black chair for seated poses"
+        },
+        "lighting": {
+          "type": "Soft high-key studio lighting",
+          "setup": "Large softbox front and slightly to side",
+          "quality": "Soft shadows beneath body, even illumination"
+        },
+        "camera": {
+          "style": "Professional studio photography, ultra HD",
+          "focus": "Sharp throughout",
+          "characteristics": [
+            "Natural skin texture",
+            "Realistic shadows",
+            "No lens distortion",
+            "Accurate anatomy"
+          ],
+          "aspect_ratio": "9:16",
+          "negative_constraints": "no inconsistent faces, no outfit changes, no harsh shadows, no distortion"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "fashion editorial collage, same woman 6-8 poses, slim elegant pale skin black hair bun, black strapless mini dress stockings stilettos choker blazer, various poses standing seated squatting, white seamless studio, soft high-key lighting --ar 9:16 --style raw --v 6",
+      "notes": "Complex multi-pose may require multiple generations for consistency"
+    },
+    "ideogram": {
+      "prompt": "High-fashion studio photo collage featuring same woman in six to eight different poses, slim elegant body with pale skin and black hair in messy bun, wearing tight black strapless mini dress with sheer thigh-high stockings and stiletto heels, black blazer worn differently in each pose, thin black choker, clean white seamless studio background, soft high-key lighting",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "9:16"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Fashion editorial collage, same woman multiple poses, black dress stockings heels blazer, white studio background, soft high-key lighting, professional photography"
+    },
+    "luma": {
+      "prompt": "Fashion studio scene, model moves through various poses, blazer shifts from shoulders to arms, camera captures each elegant position, soft studio lights create gentle shadows, editorial atmosphere",
+      "motion_notes": "Smooth transitions between poses, blazer movement, subtle expression changes"
+    },
+    "reve": {
+      "prompt": "High-fashion editorial photography in the style of studio multi-pose campaigns, same model in black ensemble across multiple poses, white seamless background, soft high-key lighting, clean editorial aesthetic",
+      "art_references": [
+        "Fashion editorial campaigns",
+        "Studio multi-pose photography",
+        "High-end fashion lookbooks"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Fashion studio collage same woman in 6-8 poses, slim pale skin black hair bun, black strapless dress thigh-high stockings stilettos choker, black blazer worn differently each pose, white seamless background, soft studio lighting"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A high-end fashion editorial photo collage featuring the same woman in 6-8 different poses arranged in a vertical layout. She has a slim elegant body with pale to light skin, a delicate oval face with large expressive eyes and thin lips, and long black hair styled in a messy bun with loose strands falling around her face. Her expression is calm and confident throughout. She wears a tight black strapless mini dress, sheer black thigh-high stockings, pointed-toe black stiletto heels with thin heels, and a thin black choker necklace. A formal black blazer is worn differently in each pose: fully worn, draped over one shoulder, hanging off one arm, or resting loosely on arms. The poses include: standing front-facing with blazer hanging off arms, back-facing with head turned toward camera, squatting with sharp gaze, seated on black chair with legs crossed, seated low leaning forward, and half-body portrait with relaxed shoulders. The background is a clean white seamless studio with soft high-key lighting from a large softbox creating soft shadows. No watermark. No artificial smoothing. Consistent face across all poses.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Fashion editorial collage of same woman in 6-8 different poses on white seamless studio background. Slim elegant body, pale skin, black hair in messy bun with loose strands. Wearing tight black strapless mini dress, sheer thigh-high stockings, black stiletto heels, thin black choker. Black blazer worn differently each pose. Poses include standing, seated on chair, squatting, half-body portrait. Soft high-key studio lighting with large softbox. Ultra HD professional fashion photography, consistent identity across all panels. Not distorted, not inconsistent faces.",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A fashion editorial photo collage showing the same woman in 6-8 different poses on a white seamless studio background. She has a slim elegant body with pale skin, a delicate oval face with large expressive eyes, and long black hair in a messy bun with loose strands. She wears a tight black strapless mini dress, sheer black thigh-high stockings, pointed-toe black stiletto heels, and a thin black choker. A black blazer is styled differently in each pose. Poses vary from standing front and back views to seated and squatting positions. Soft high-key lighting creates even illumination with soft shadows. Professional fashion photography with consistent identity across all panels.",
+      "editing_prompt": "Change the outfit color from black to red while keeping the same poses, model identity, and white studio background. Preserve the elegant styling and professional lighting.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed pose descriptions for each panel, specific blazer positions, exact outfit details",
+    "2_realism_anchors: 'consistent face across poses', 'natural skin texture', 'realistic fabric texture', 'accurate anatomy'",
+    "3_technical_camera: 'professional studio photography', 'ultra HD', 'sharp focus', 'no lens distortion'",
+    "4_negative_hygiene: prevents inconsistent faces, outfit changes, distortion",
+    "5_spatial_consistency: clear pose positions and compositions for each panel",
+    "6_lighting_storytelling: 'soft high-key studio' = clean editorial fashion mood",
+    "7_identity_consistency: same woman across all 6-8 poses with identical features"
+  ]
+}

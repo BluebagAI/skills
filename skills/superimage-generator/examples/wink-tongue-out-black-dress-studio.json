@@ -1,0 +1,233 @@
+{
+  "name": "Wink Tongue Out Black Dress Studio",
+  "description": "Brunette woman in off-shoulder fitted black dress, playful winking with tongue out expression, long dangling gold earrings and layered necklaces with heart pendant, soft diffused studio lighting, high fashion lifestyle portrait",
+  "input_prompt": "brunette woman off shoulder black dress wink tongue out gold earrings layered necklaces heart pendant studio portrait",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "ultra_realistic_studio",
+      "aspect_ratio": "3:4",
+      "style": "high_fashion_lifestyle_portrait",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "young adult brunette woman in off-shoulder black dress, playful flirty expression with wink and tongue out, leaning slightly forward toward camera",
+      "identity": {
+        "age_range": "young adult",
+        "type": "female",
+        "distinguishing_features": [
+          "natural freckles",
+          "side-parted long brunette hair",
+          "playful expression"
+        ]
+      },
+      "physical_details": {
+        "skin": {
+          "tone": "fair",
+          "texture": "photorealistic with natural freckles",
+          "details": "finish: soft pink blush"
+        },
+        "hair": {
+          "color": "brunette",
+          "style": "falling naturally over shoulders",
+          "details": "length: long; part: side-parted"
+        },
+        "face": {
+          "expression": "playful and flirty",
+          "makeup": "blush: soft pink, lips: glossy",
+          "details": "wink: true; tongue_out: true; freckles: natural across fair skin"
+        }
+      },
+      "expression_mood": "playful, flirty, fun, confident"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "off-shoulder fitted black dress",
+          "fit": "form-fitting, elegant"
+        }
+      ],
+      "accessories": [
+        "earrings: long dangling gold earrings",
+        "necklaces: layered gold necklaces with small heart pendant"
+      ]
+    },
+    "pose_action": {
+      "posture": "playful, engaged",
+      "action": "expression_action: winking with tongue out",
+      "dynamic_elements": "body_position: leaning slightly forward toward camera"
+    },
+    "environment": {
+      "setting": "professional photography studio",
+      "background": [
+        "clean minimal, light neutral tones"
+      ],
+      "location": "studio setup with neutral backdrop",
+      "atmosphere": "playful studio portrait energy"
+    },
+    "lighting": {
+      "type": "soft diffused studio lighting",
+      "quality": "smooth natural shadows",
+      "effects": [
+        "flattering, even illumination"
+      ]
+    },
+    "camera_technical": {
+      "lens": "50mm",
+      "aperture": "f/1.8",
+      "depth_of_field": "shallow",
+      "resolution": "high resolution",
+      "detail": "ultra-detailed",
+      "skin_texture": "photorealistic",
+      "focus": "sharp focus on subject",
+      "style": "high fashion lifestyle photography"
+    },
+    "the_vibe": {
+      "energy": "fun and playful",
+      "mood": "flirty, confident, lighthearted",
+      "aesthetic": "high fashion lifestyle with personality",
+      "authenticity": "genuine playful moment",
+      "story": "fun studio session capturing personality"
+    },
+    "realism_anchors": [
+      "natural freckles detail",
+      "gold jewelry reflection",
+      "fabric texture on black dress",
+      "hair strand separation",
+      "glossy lip highlight"
+    ],
+    "negative_prompt": [
+      "serious expression",
+      "formal stiff pose",
+      "harsh shadows",
+      "dark moody lighting",
+      "casual clothing",
+      "outdoor setting",
+      "anime",
+      "illustration",
+      "3d render"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "ultra-realistic high fashion studio portrait 3:4, young adult brunette woman fair skin natural freckles soft pink blush, long brunette hair side-parted falling naturally over shoulders, PLAYFUL FLIRTY expression WINKING with TONGUE OUT glossy lips, off-shoulder fitted black dress form-fitting elegant, long dangling gold earrings LAYERED GOLD NECKLACES with small HEART PENDANT, leaning slightly forward toward camera playful engaged posture, professional studio clean minimal light neutral background, SOFT DIFFUSED STUDIO LIGHTING smooth natural shadows flattering even illumination, 50mm f/1.8 shallow DOF high resolution ultra-detailed photorealistic skin texture sharp focus, fun playful flirty confident lighthearted mood",
+  "negative_prompt_flat": "serious expression, stiff pose, harsh shadows, dark lighting, outdoor, anime, illustration",
+  "color_palette": {
+    "primary": "black dress",
+    "secondary": "brunette hair, fair skin with freckles",
+    "accent": "gold earrings and layered necklaces, heart pendant",
+    "background": "light neutral studio tones"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "ultra-realistic studio portrait, brunette woman fair skin natural freckles soft pink blush, long side-parted hair over shoulders, WINKING with TONGUE OUT playful flirty glossy lips, off-shoulder fitted black dress, long dangling gold earrings LAYERED GOLD NECKLACES HEART PENDANT, leaning forward toward camera, clean minimal studio light neutral background, soft diffused lighting smooth shadows, 50mm f/1.8 shallow DOF sharp focus photorealistic skin, fun playful confident, 3:4",
+      "negative_prompt": "serious expression, stiff pose, harsh shadows, dark lighting, outdoor, anime, illustration"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Young adult brunette woman, fair skin",
+          "skin": {
+            "tone": "Fair",
+            "texture": "Photorealistic with natural freckles",
+            "makeup": "Soft pink blush, glossy lips"
+          },
+          "hair": {
+            "color": "Brunette",
+            "length": "Long",
+            "style": "Side-parted, falling naturally over shoulders"
+          },
+          "face": {
+            "expression": "Playful and flirty",
+            "action": "Winking with tongue out",
+            "freckles": "Natural across fair skin"
+          }
+        },
+        "wardrobe": {
+          "dress": "Off-shoulder fitted black dress, form-fitting, elegant",
+          "jewelry": {
+            "earrings": "Long dangling gold earrings",
+            "necklaces": "Layered gold necklaces with small heart pendant"
+          }
+        },
+        "pose_action": {
+          "body": "Leaning slightly forward toward camera",
+          "posture": "Playful, engaged",
+          "expression": "Winking with tongue out"
+        },
+        "scene": {
+          "environment": "Professional photography studio",
+          "background": "Clean minimal, light neutral tones"
+        },
+        "lighting": {
+          "type": "Soft diffused studio lighting",
+          "shadows": "Smooth natural",
+          "effect": "Flattering, even illumination"
+        },
+        "camera": {
+          "lens": "50mm",
+          "aperture": "f/1.8",
+          "depth_of_field": "Shallow",
+          "quality": "High resolution, ultra-detailed",
+          "focus": "Sharp on subject",
+          "style": "High fashion lifestyle photography",
+          "aspect_ratio": "3:4",
+          "negative_constraints": "no serious expression, no stiff pose, no harsh shadows"
+        },
+        "mood": "Fun, playful, flirty, confident, lighthearted"
+      }
+    },
+    "midjourney": {
+      "prompt": "studio portrait, brunette woman winking tongue out, off-shoulder black dress, gold earrings layered necklaces heart pendant, freckles fair skin, soft diffused lighting, clean minimal background, 50mm shallow DOF high fashion lifestyle --ar 3:4 --style raw --v 6",
+      "notes": "Emphasize playful expression and jewelry details"
+    },
+    "ideogram": {
+      "prompt": "Young brunette woman in off-shoulder fitted black dress making playful expression with wink and tongue out, natural freckles on fair skin, long dangling gold earrings and layered gold necklaces with heart pendant, leaning forward, soft diffused studio lighting, clean minimal light background, high fashion lifestyle portrait",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "3:4"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Studio portrait, brunette woman winking tongue out playful, black off-shoulder dress, gold earrings layered necklaces heart pendant, soft studio lighting"
+    },
+    "luma": {
+      "prompt": "Photography studio, brunette woman in black dress breaks into playful expression, winks and sticks tongue out, gold jewelry catches the soft light, fun energetic moment",
+      "motion_notes": "Wink action, tongue out, slight forward lean, playful energy"
+    },
+    "reve": {
+      "prompt": "High fashion lifestyle photography in the style of playful studio portraits, brunette woman winking tongue out, off-shoulder black dress gold jewelry heart pendant, soft diffused lighting, clean minimal studio aesthetic",
+      "art_references": [
+        "Fashion lifestyle portraits",
+        "Playful studio photography",
+        "Personality-driven fashion"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Young brunette woman in off-shoulder fitted black dress making playful expression winking with tongue out, natural freckles on fair skin soft pink blush, long dangling gold earrings and layered gold necklaces with small heart pendant, leaning forward toward camera, clean minimal light studio background, soft diffused lighting, high fashion lifestyle portrait"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A professional photography studio with a clean minimal background in light neutral tones.\n\nA young adult brunette woman stands leaning slightly forward toward the camera with a playful and flirty expression. She is winking with one eye closed and has her tongue playfully sticking out. Her fair skin has natural freckles and a soft pink blush, with glossy lips.\n\nHer long brunette hair is side-parted and falls naturally over her shoulders.\n\nShe wears an off-shoulder fitted black dress that is form-fitting and elegant. Long dangling gold earrings catch the light, and layered gold necklaces with a small heart pendant adorn her neckline.\n\nSoft diffused studio lighting creates smooth natural shadows with flattering even illumination across her features.\n\nThe image is shot with a 50mm lens at f/1.8 creating shallow depth of field, with sharp focus on the subject and photorealistic skin texture.\n\nHigh fashion lifestyle portrait with fun playful confident energy. No watermark. No artificial smoothing. Realistic texture throughout.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "A young adult brunette woman in an off-shoulder fitted black dress makes a playful expression, winking with her tongue out, leaning slightly forward toward the camera in a professional studio. She has fair skin with natural freckles and soft pink blush, glossy lips, and long side-parted brunette hair falling over her shoulders. Long dangling gold earrings and layered gold necklaces with a small heart pendant complete her styling. Clean minimal light neutral studio background with soft diffused lighting creating smooth natural shadows. High fashion lifestyle portrait, 50mm lens f/1.8, shallow depth of field, photorealistic skin texture, fun flirty confident mood, not illustration or cartoon.",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A young adult brunette woman makes a playful expression with a wink and tongue out, leaning slightly forward toward the camera in a professional studio. She has fair skin with natural freckles across her face, soft pink blush, and glossy lips. Her long brunette hair is side-parted and falls naturally over her shoulders. She wears an off-shoulder fitted black dress that is form-fitting and elegant. Long dangling gold earrings and layered gold necklaces with a small heart pendant adorn her. The studio has a clean minimal background in light neutral tones with soft diffused lighting creating smooth shadows. 50mm lens at f/1.8, shallow depth of field, high resolution, high fashion lifestyle portrait aesthetic.",
+      "editing_prompt": "Change the black dress to a deep emerald green while keeping the woman in the exact same playful winking pose with tongue out and leaning forward. Preserve her brunette hair, natural freckles, gold earrings, layered necklaces with heart pendant, and the soft studio lighting.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Specific expression action (wink + tongue out), detailed jewelry (layered necklaces, heart pendant, dangling earrings)",
+    "2_realism_anchors: 'natural freckles', 'gold jewelry reflection', 'fabric texture', 'hair strands', 'glossy lips'",
+    "3_technical_camera: '50mm', 'f/1.8', 'shallow DOF', 'sharp focus', 'photorealistic skin texture'",
+    "4_negative_hygiene: prevents serious expression, stiff pose, harsh shadows",
+    "5_spatial_consistency: clear forward lean with playful posture",
+    "6_lighting_storytelling: 'soft diffused studio' = flattering professional portrait mood",
+    "7_expression_specificity: explicit wink + tongue out combination for playful personality"
+  ]
+}

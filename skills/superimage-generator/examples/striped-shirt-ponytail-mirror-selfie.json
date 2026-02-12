@@ -1,0 +1,284 @@
+{
+  "name": "Striped Shirt Ponytail Mirror Selfie",
+  "description": "Platinum blonde woman with low ponytail taking mirror selfie, unbuttoned blue-and-white striped shirt draped open, pulling shirt wider with left hand, white louvered closet doors background, iPhone 16 Pro unretouched aesthetic",
+  "input_prompt": "platinum blonde low ponytail mirror selfie unbuttoned striped shirt pulling open white closet doors iphone",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "iphone_unretouched",
+      "aspect_ratio": "9:16",
+      "style": "mirror_selfie_intimate",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "adult woman mid-20s with platinum blonde hair in low ponytail, taking mirror selfie while pulling unbuttoned striped shirt wider, calm confident expression with subtle sultry vibe",
+      "identity": {
+        "age_range": "mid-20s",
+        "type": "adult woman",
+        "distinguishing_features": [
+          "platinum blonde hair",
+          "low ponytail with flyaways",
+          "soft curtain bangs",
+          "athletic gym-trained build"
+        ]
+      },
+      "physical_details": {
+        "face": {
+          "expression": "calm confident with subtle sultry vibe",
+          "details": "shape: soft feminine with defined jawline and high cheekbones; eyes: almond-shaped hazel-green with clean catchlights, looking slightly left checking phone screen in mirror; brows: full natural brows with clean arch, slightly darker than hair; nose: straight slim bridge with soft rounded tip; lips: natural full lips, nude-pink tone with light gloss, slightly parted"
+        },
+        "skin": {
+          "texture": "real skin texture with visible pores",
+          "details": "faint freckles across nose and cheeks, subtle warm cheek flush; rule: no smoothing",
+          "tone": "light warm"
+        },
+        "hair": {
+          "color": "platinum blonde",
+          "style": "long hair with soft curtain bangs and face-framing strands",
+          "details": "tie: low ponytail gathered behind shoulders, slightly loose with flyaways"
+        },
+        "body": {
+          "details": "build: athletic, gym-trained silhouette (toned shoulders, subtle abs, strong legs and glutes); proportions: natural realistic anatomy"
+        }
+      },
+      "expression_mood": "calm confident with subtle sultry vibe"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "oversized blue-and-white vertical striped button-down shirt",
+          "fit": "loose, slightly dropped shoulders",
+          "details": "styling: unbuttoned and draped open wider at front, collar relaxed, no bra underneath; opening: shirt edges pulled farther apart to show deeper neckline; sleeves: pushed up with visible wrinkles and cuff buttons; fabric: cotton poplin with crisp stripe texture"
+        }
+      ],
+      "accessories": [
+        "large gold hoop earrings",
+        "thin gold chain necklace with small curved pendant",
+        "silver ring with dark red rectangular stone",
+        "thin band ring",
+        "short-to-medium almond nails with pale pink manicure"
+      ]
+    },
+    "pose_action": {
+      "posture": "slight back arch with shoulders subtly rolled back to emphasize neckline",
+      "gaze": "eyes directed toward phone screen via mirror (side gaze)",
+      "description": "mirror selfie",
+      "dynamic_elements": "torso: upper body angled three-quarter to mirror, left shoulder slightly forward, chest turned subtly toward camera; head: head turned left, chin slightly forward and a touch down (jawline defined); phone_hand: hand: right hand holding phone, position: phone held near right cheek but shifted outward and slightly forward so full face stays visible, height: phone around eye-to-forehead height, grip: fingers spread along back, thumb on side edge (natural selfie grip), rule: phone must not cover eyes, nose, or lips; shirt_hand: hand: left hand, action: pinching shirt edge near lower chest/upper rib and gently pulling outward to widen opening, wrist_angle: wrist slightly flexed inward for soft curved hand line, fingers: relaxed fingers, no tension, natural finger spacing",
+      "hands": "right hand holding phone near right cheek, shifted outward and slightly forward so full face stays visible; phone around eye-to-forehead height; fingers spread along back with thumb on side edge; phone must not cover eyes, nose, or lips"
+    },
+    "environment": {
+      "location": "indoor room (bathroom/bedroom vibe)",
+      "background": [
+        "white louvered closet doors with evenly spaced horizontal slats",
+        "vertical seams between door panels",
+        "small round door knob visible on lower right",
+        "neutral off-white walls and trim"
+      ],
+      "rules": "no readable logos, keep closet slats straight (no warping), no duplicated fingers, natural anatomy",
+      "atmosphere": "intimate indoor mirror selfie, calm confident mood"
+    },
+    "lighting": {
+      "type": "soft indoor lighting",
+      "direction": "even overhead/vanity-style light",
+      "quality": "warm-neutral illumination",
+      "effects": [
+        "gentle shadow under jaw",
+        "shadow along collarbone",
+        "natural skin highlights"
+      ],
+      "rules": "no filters, no stylized grading"
+    },
+    "camera_technical": {
+      "device": "iPhone 16 Pro",
+      "look": "unretouched smartphone photo, low HDR, subtle grain, minimal sharpening",
+      "shot_type": "rear-camera mirror selfie (no portrait-mode cutout blur)",
+      "orientation": "vertical 9:16",
+      "lens": "camera: 1x main camera, focal_length: 24mm equivalent, distortion: controlled (no wide-face warp), straight closet slats",
+      "composition": "framing: tight crop from top of head to mid-chest, phone on right side of frame, face fully visible in three-quarter profile, shirt opening clearly visible, tilt: slight handheld tilt (0-2 degrees), distance: close (about 40-80 cm to mirror)",
+      "focus": "mode: face/eye priority AF, point: nearest eye, detail_rule: eyes, pores, hair strands, and shirt fabric texture sharp; background slightly softer but clear",
+      "exposure": {
+        "metering": "face priority",
+        "iso_hint": "80-250",
+        "white_balance": "indoor warm-neutral (3800-4500K)",
+        "highlight_rule": "avoid blown highlights on cheekbones and white closet doors"
+      }
+    },
+    "the_vibe": {
+      "energy": "calm and confident",
+      "mood": "subtle sultry, intimate mirror moment",
+      "aesthetic": "unretouched iPhone realism",
+      "authenticity": "natural skin texture, no filters",
+      "story": "quick confident selfie at home"
+    },
+    "realism_anchors": [
+      "visible skin pores and faint freckles",
+      "striped shirt fabric texture",
+      "louvered closet door slats",
+      "low ponytail flyaways",
+      "natural hand pose pulling shirt"
+    ],
+    "negative_prompt": [
+      "beauty filter",
+      "skin smoothing",
+      "portrait mode blur",
+      "warped closet slats",
+      "duplicated fingers",
+      "wide-angle face distortion",
+      "blown highlights",
+      "anime",
+      "illustration",
+      "3d render"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "unretouched iPhone 16 Pro mirror selfie 9:16, adult woman mid-20s platinum blonde long hair soft curtain bangs low ponytail behind shoulders slightly loose flyaways, soft feminine face defined jawline high cheekbones, almond-shaped hazel-green eyes looking left at phone screen side gaze, full natural brows clean arch, straight slim nose soft rounded tip, natural full lips nude-pink light gloss slightly parted, real skin texture visible pores faint freckles subtle warm flush no smoothing, athletic gym-trained silhouette toned shoulders subtle abs, oversized blue-and-white vertical striped button-down shirt loose dropped shoulders UNBUTTONED DRAPED OPEN collar relaxed no bra sleeves pushed up wrinkles cuff buttons cotton poplin crisp stripe, LEFT HAND pinching shirt edge pulling outward widening opening relaxed fingers, large gold hoop earrings thin gold chain necklace curved pendant silver ring red stone thin band pale pink almond nails, three-quarter angle to mirror left shoulder forward slight back arch shoulders rolled, head turned left chin forward defined jawline, right hand holding phone near cheek shifted outward face visible phone at eye height natural grip, white louvered closet doors horizontal slats vertical seams door knob off-white walls, soft indoor overhead vanity light warm-neutral gentle jaw shadow collarbone natural highlights, 24mm 1x camera tight crop head to mid-chest slight handheld tilt eye-focus sharp pores hair fabric softer background, calm confident subtle sultry mood",
+  "negative_prompt_flat": "beauty filter, skin smoothing, portrait mode blur, warped slats, duplicated fingers, wide-angle distortion, blown highlights, anime, illustration",
+  "color_palette": {
+    "primary": "blue-and-white striped shirt, platinum blonde hair",
+    "secondary": "off-white closet doors, warm skin tones",
+    "accent": "gold jewelry, dark red ring stone, nude-pink lips",
+    "lighting": "warm-neutral indoor"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "unretouched iPhone mirror selfie, woman mid-20s platinum blonde low ponytail curtain bangs flyaways, hazel-green eyes side gaze at phone, full lips nude-pink gloss parted, real skin pores faint freckles warm flush no smoothing, athletic gym-trained build, blue-and-white vertical striped shirt UNBUTTONED DRAPED OPEN no bra sleeves pushed up cotton poplin, LEFT HAND PULLING SHIRT EDGE OUTWARD widening opening, gold hoop earrings chain necklace pendant rings, three-quarter angle slight back arch shoulders rolled head turned left chin forward, right hand holding phone near cheek face visible natural grip, white louvered closet doors horizontal slats off-white walls, soft overhead vanity light warm-neutral jaw shadow, 24mm tight crop head to mid-chest eye-focus sharp background softer, calm confident sultry, 9:16",
+      "negative_prompt": "beauty filter, skin smoothing, portrait blur, warped slats, duplicated fingers, distortion, blown highlights, anime"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Adult woman mid-20s, platinum blonde hair",
+          "face": {
+            "shape": "Soft feminine with defined jawline and high cheekbones",
+            "eyes": "Almond-shaped hazel-green, looking left at phone screen (side gaze)",
+            "brows": "Full natural with clean arch",
+            "nose": "Straight slim bridge, soft rounded tip",
+            "lips": "Natural full, nude-pink with light gloss, slightly parted",
+            "expression": "Calm confident with subtle sultry vibe"
+          },
+          "skin": {
+            "texture": "Real with visible pores",
+            "details": "Faint freckles across nose/cheeks, subtle warm flush, no smoothing"
+          },
+          "hair": {
+            "color": "Platinum blonde",
+            "style": "Long with soft curtain bangs, face-framing strands, low ponytail behind shoulders with flyaways"
+          },
+          "body": "Athletic gym-trained (toned shoulders, subtle abs, strong legs/glutes)"
+        },
+        "wardrobe": {
+          "shirt": {
+            "type": "Oversized blue-and-white vertical striped button-down",
+            "fit": "Loose, dropped shoulders",
+            "styling": "Unbuttoned, draped open wider, collar relaxed, no bra, sleeves pushed up with wrinkles",
+            "fabric": "Cotton poplin with crisp stripe texture"
+          },
+          "jewelry": [
+            "Large gold hoop earrings",
+            "Thin gold chain necklace with curved pendant"
+          ],
+          "rings": [
+            "Silver ring with dark red rectangular stone",
+            "Thin band ring"
+          ],
+          "nails": "Short-to-medium almond, pale pink manicure"
+        },
+        "pose_action": {
+          "type": "Mirror selfie",
+          "torso": "Three-quarter angle to mirror, left shoulder forward, chest subtly toward camera",
+          "posture": "Slight back arch, shoulders rolled back",
+          "head": "Turned left, chin forward and down (jawline defined)",
+          "gaze": "Eyes toward phone screen via mirror (side gaze)",
+          "phone_hand": {
+            "hand": "Right hand",
+            "position": "Phone near right cheek, shifted outward, face fully visible",
+            "grip": "Natural selfie grip, fingers spread on back"
+          },
+          "shirt_hand": {
+            "hand": "Left hand",
+            "action": "Pinching shirt edge, pulling outward to widen opening",
+            "fingers": "Relaxed, natural spacing"
+          }
+        },
+        "scene": {
+          "environment": "Indoor room (bathroom/bedroom)",
+          "background": [
+            "White louvered closet doors with horizontal slats",
+            "Vertical seams between panels",
+            "Round door knob",
+            "Off-white walls"
+          ]
+        },
+        "lighting": {
+          "type": "Soft indoor overhead/vanity-style",
+          "quality": "Warm-neutral illumination",
+          "effects": "Gentle shadow under jaw and along collarbone, natural skin highlights, no filters"
+        },
+        "camera": {
+          "device": "iPhone 16 Pro",
+          "style": "Unretouched smartphone, low HDR, subtle grain, minimal sharpening",
+          "shot_type": "Rear-camera mirror selfie (no portrait blur)",
+          "lens": "24mm equivalent, 1x main, controlled distortion",
+          "composition": "Tight crop head to mid-chest, phone on right, face in three-quarter profile",
+          "focus": "Face/eye priority, sharp eyes/pores/fabric, softer background",
+          "aspect_ratio": "9:16",
+          "negative_constraints": "no beauty filter, no smoothing, no warped slats, no duplicated fingers"
+        },
+        "mood": "Calm, confident, subtle sultry, intimate mirror moment"
+      }
+    },
+    "midjourney": {
+      "prompt": "mirror selfie, platinum blonde woman low ponytail curtain bangs, unbuttoned blue-white striped shirt draped open pulling wider, gold hoops necklace, white louvered closet doors background, soft indoor lighting, unretouched iPhone aesthetic natural skin pores freckles --ar 9:16 --style raw --v 6",
+      "notes": "Use --style raw for authentic unretouched phone quality"
+    },
+    "ideogram": {
+      "prompt": "Mid-20s woman with platinum blonde hair in low ponytail taking mirror selfie, wearing unbuttoned blue-and-white striped shirt draped open pulling wider with left hand, gold hoop earrings and chain necklace, white louvered closet doors background, soft indoor lighting, unretouched iPhone 16 Pro quality with natural skin texture and pores",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "9:16"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Mirror selfie, platinum blonde low ponytail, unbuttoned striped shirt draped open, gold jewelry, white louvered closet background, soft indoor light, iPhone aesthetic"
+    },
+    "luma": {
+      "prompt": "Bedroom mirror, woman adjusts her unbuttoned striped shirt and raises phone for selfie, soft indoor light illuminates her platinum blonde hair, confident intimate moment",
+      "motion_notes": "Subtle shirt adjustment, phone raise, natural posing"
+    },
+    "reve": {
+      "prompt": "Intimate photography in the style of unretouched iPhone mirror selfies, platinum blonde woman unbuttoned striped shirt, pulling shirt open gesture, louvered closet doors background, soft indoor lighting, natural skin texture aesthetic",
+      "art_references": [
+        "iPhone mirror selfies",
+        "Intimate casual portraits",
+        "Natural lighting photography"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Mid-20s woman with platinum blonde hair in low ponytail taking mirror selfie, unbuttoned blue-and-white striped shirt draped open with left hand pulling it wider, gold hoop earrings and chain necklace, white louvered closet doors background, soft indoor overhead lighting, unretouched iPhone quality with natural skin texture visible pores faint freckles"
+    },
+    "gpt-image-1.5": {
+      "prompt": "An indoor room with white louvered closet doors featuring evenly spaced horizontal slats and neutral off-white walls.\n\nA woman in her mid-20s with platinum blonde long hair takes a mirror selfie. Her hair has soft curtain bangs and face-framing strands, gathered in a low ponytail behind her shoulders that is slightly loose with flyaways. She has a soft feminine face with defined jawline and high cheekbones, almond-shaped hazel-green eyes looking left toward the phone screen, and natural full lips with nude-pink gloss that are slightly parted.\n\nHer skin has real texture with visible pores, faint freckles across her nose and cheeks, and a subtle warm flush. She has an athletic gym-trained build with toned shoulders.\n\nShe wears an oversized blue-and-white vertical striped button-down shirt that is unbuttoned and draped open, with sleeves pushed up showing wrinkles and cuff buttons. Her left hand pinches the shirt edge near her lower chest, gently pulling outward to widen the opening with relaxed fingers.\n\nShe wears large gold hoop earrings, a thin gold chain necklace with a small curved pendant, and rings including a silver one with a dark red rectangular stone. Her nails are short-to-medium almond with pale pink manicure.\n\nShe stands at a three-quarter angle to the mirror with her right hand holding the phone near her cheek, shifted outward so her face stays fully visible.\n\nSoft indoor overhead vanity-style lighting with warm-neutral illumination creates gentle shadows under her jaw and along her collarbone.\n\nUnretouched iPhone 16 Pro quality. No beauty filter. No skin smoothing. Realistic texture.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "A mid-20s woman with platinum blonde hair in a low ponytail with curtain bangs takes a mirror selfie in a room with white louvered closet doors. She has hazel-green eyes looking toward her phone screen, full lips with nude-pink gloss slightly parted, and real skin texture with visible pores and faint freckles. Her athletic build shows toned shoulders as she wears an oversized blue-and-white vertical striped button-down shirt, unbuttoned and draped open with sleeves pushed up. Her left hand pinches the shirt edge, pulling it outward to widen the opening. She wears gold hoop earrings, a chain necklace with pendant, and rings. Standing at a three-quarter angle, she holds her phone in her right hand. Soft indoor overhead lighting, warm-neutral tones, unretouched iPhone quality, 24mm lens, natural skin texture, not filtered or smoothed.",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A mid-20s woman with platinum blonde long hair in a low ponytail with soft curtain bangs takes a mirror selfie. She has almond-shaped hazel-green eyes looking toward her phone, natural full lips with nude-pink gloss slightly parted, and real skin texture with visible pores and faint freckles. Her athletic gym-trained build shows toned shoulders. She wears an oversized blue-and-white vertical striped button-down shirt, unbuttoned and draped open with the collar relaxed and sleeves pushed up. Her left hand pinches the shirt edge near her lower chest, gently pulling outward. She wears gold hoop earrings, a thin chain necklace with curved pendant, and rings. The background shows white louvered closet doors with horizontal slats and off-white walls. Soft indoor overhead vanity-style lighting, unretouched iPhone 16 Pro quality, 24mm equivalent lens.",
+      "editing_prompt": "Change the striped shirt from blue-and-white to pink-and-white while keeping the woman in the exact same mirror selfie pose with her left hand pulling the shirt open. Preserve her platinum blonde ponytail, facial features, jewelry, and the white louvered closet door background.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Extremely detailed face description, precise hand actions, specific background elements",
+    "2_realism_anchors: 'visible pores', 'faint freckles', 'shirt fabric texture', 'louvered slats', 'ponytail flyaways'",
+    "3_technical_camera: 'iPhone 16 Pro', '24mm', 'eye-focus', 'face priority metering', specific ISO/WB ranges",
+    "4_negative_hygiene: prevents beauty filter, smoothing, portrait blur, warped slats, duplicated fingers",
+    "5_spatial_consistency: precise three-quarter angle, specific hand positions and actions",
+    "6_lighting_storytelling: 'soft overhead vanity-style' = intimate confident bedroom mood",
+    "7_pose_detail: explicit shirt-pulling action with finger relaxation and wrist angle"
+  ]
+}

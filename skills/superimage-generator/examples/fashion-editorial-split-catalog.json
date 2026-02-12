@@ -1,0 +1,257 @@
+{
+  "name": "Fashion Editorial Split Layout Catalog",
+  "description": "Split fashion editorial with woman walking in architectural space on right, product breakdown catalog layout on left with price labels",
+  "input_prompt": "fashion editorial split image woman walking right side product catalog left side price labels",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "ultra_high_resolution",
+      "aspect_ratio": "3:2",
+      "style": "fashion_editorial_catalog",
+      "target_model": "flux"
+    },
+    "composition": {
+      "type": "split layout",
+      "layout": "right: fashion editorial photograph, left: product breakdown catalog layout",
+      "panels": [
+        {
+          "id": "right_editorial",
+          "description": "fashionable confident sensual woman walking casually in modern architectural space",
+          "shot_type": "fashion editorial photograph",
+          "pose": "walking casually",
+          "setting": "modern architectural space",
+          "lighting": "natural daylight, soft shadows"
+        },
+        {
+          "id": "left_catalog",
+          "description": "product breakdown catalog layout: individual fashion items displayed separately, neatly arranged with subtle shadows; luxury fashion catalog, e-commerce lookbook, clear spacing, premium presentation, visual balance",
+          "items": [
+            {
+              "item": "Beige deep V-neck knit top",
+              "price": "$180"
+            },
+            {
+              "item": "White high-waisted tailored mini skirt",
+              "price": "$220"
+            },
+            {
+              "item": "Black pointed-toe stiletto heels",
+              "price": "$350"
+            },
+            {
+              "item": "Small structured black handbag",
+              "price": "$480"
+            },
+            {
+              "item": "Black narrow sunglasses",
+              "price": "$160"
+            }
+          ]
+        }
+      ],
+      "consistency": "consistent wardrobe items across editorial and catalog"
+    },
+    "overall_style": {
+      "mood": "quiet luxury, modern elegance, editorial fashion, high-end retail aesthetic",
+      "color_palette": "neutral, warm tones"
+    },
+    "lighting": {
+      "right_side": "soft natural daylight with soft shadows",
+      "left_side": "studio-clean clarity",
+      "overall": "professional fashion photography"
+    },
+    "realism_anchors": [
+      "realistic skin texture",
+      "natural fabric draping",
+      "consistent items between editorial and catalog",
+      "readable price labels",
+      "architectural environment detail"
+    ],
+    "negative_prompt": [
+      "cluttered layout",
+      "oversized text",
+      "flashy logos",
+      "mannequins",
+      "people on left side",
+      "harsh lighting",
+      "low resolution",
+      "cartoon style",
+      "anime"
+    ],
+    "prompt_type": "collage",
+    "subject": {
+      "description": "fashionable confident sensual woman walking casually in modern architectural space",
+      "identity": {
+        "type": "woman",
+        "distinguishing_features": [
+          "small mole on chest",
+          "slicked back hair in low bun",
+          "90-60-90 proportions"
+        ]
+      },
+      "physical_details": {
+        "hair": {
+          "style": "slicked back into clean low bun, emphasizing facial structure"
+        },
+        "skin": {
+          "texture": "realistic, natural"
+        }
+      },
+      "expression_mood": "confident, refined, modern elegance"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "knit top",
+          "color": "beige",
+          "details": "deep V neckline"
+        },
+        {
+          "type": "tailored short skirt",
+          "color": "white",
+          "details": "high-waisted"
+        },
+        {
+          "type": "stiletto heels",
+          "color": "black",
+          "details": "sleek pointed-toe, elegant minimal"
+        }
+      ],
+      "accessories": [
+        "narrow black sunglasses",
+        "subtle statement earrings",
+        "small structured black handbag in one hand"
+      ]
+    },
+    "environment": {
+      "location": "modern architectural space",
+      "background": [
+        "warm wooden walls"
+      ],
+      "atmosphere": "quiet luxury, modern elegance"
+    },
+    "camera_technical": {
+      "angle": "eye-level",
+      "lens": "35mm",
+      "depth_of_field": "shallow",
+      "style": "casual fashion photography, candid stance, editorial high-end feel"
+    }
+  },
+  "flattened_prompt": "fashion editorial split layout 3:2, RIGHT SIDE: fashionable confident woman walking casually in modern architectural space warm wooden walls, 90-60-90 figure small mole on chest, slicked back hair clean low bun, beige deep V-neck knit top, white high-waisted tailored mini skirt, black pointed-toe stiletto heels, small structured black handbag, narrow black sunglasses statement earrings, natural daylight soft shadows, 35mm eye-level candid editorial style shallow DOF, LEFT SIDE: clean minimalist product breakdown catalog layout neutral background, individual items displayed separately with subtle shadows, elegant sans-serif price labels: beige knit top $180, white mini skirt $220, black stilettos $350, black handbag $480, black sunglasses $160, luxury catalog e-commerce lookbook clear spacing premium presentation, quiet luxury modern elegance neutral warm tones",
+  "negative_prompt_flat": "cluttered layout, oversized text, flashy logos, mannequins, people on left side, harsh lighting, low resolution, cartoon",
+  "color_palette": {
+    "primary": "beige, white, black",
+    "secondary": "warm wood tones",
+    "accent": "black accessories",
+    "background": "neutral warm tones"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "fashion editorial split layout 3:2, RIGHT: woman walking modern architectural space wooden walls, slicked back bun, beige V-neck knit top white tailored mini skirt black stilettos handbag sunglasses earrings, natural daylight soft shadows 35mm editorial, LEFT: minimalist product catalog neutral background items displayed separately subtle shadows, price labels sans-serif: knit top $180, skirt $220, heels $350, handbag $480, sunglasses $160, luxury catalog clear spacing premium presentation, quiet luxury modern elegance",
+      "negative_prompt": "cluttered, oversized text, flashy logos, mannequins, people on left, harsh lighting, cartoon"
+    },
+    "nano-banana": {
+      "prompt": {
+        "composition": {
+          "type": "Split layout 3:2 aspect ratio",
+          "right_side": "Fashion editorial photograph",
+          "left_side": "Product breakdown catalog"
+        },
+        "right_side": {
+          "subject": {
+            "description": "Fashionable confident woman walking casually",
+            "figure": "90-60-90 proportions, small mole on chest",
+            "hair": "Slicked back into clean low bun"
+          },
+          "wardrobe": {
+            "top": "Beige deep V-neck knit top",
+            "bottom": "White high-waisted tailored mini skirt",
+            "shoes": "Black pointed-toe stiletto heels",
+            "accessories": [
+              "Narrow black sunglasses",
+              "Statement earrings",
+              "Small structured black handbag"
+            ]
+          },
+          "environment": {
+            "location": "Modern architectural space with warm wooden walls",
+            "lighting": "Natural daylight, soft shadows"
+          },
+          "camera": {
+            "angle": "Eye-level, candid stance",
+            "lens": "35mm",
+            "style": "Editorial fashion, shallow DOF"
+          }
+        },
+        "left_side": {
+          "layout": "Clean minimalist product breakdown",
+          "background": "Neutral",
+          "items_with_prices": [
+            "Beige deep V-neck knit top — $180",
+            "White high-waisted tailored mini skirt — $220",
+            "Black pointed-toe stiletto heels — $350",
+            "Small structured black handbag — $480",
+            "Black narrow sunglasses — $160"
+          ],
+          "typography": "Elegant sans-serif price labels",
+          "style": "Luxury fashion catalog, premium presentation"
+        },
+        "mood": "Quiet luxury, modern elegance, high-end retail aesthetic",
+        "negative_constraints": "no cluttered layout, no people on left side, no flashy logos"
+      }
+    },
+    "midjourney": {
+      "prompt": "fashion editorial split layout, woman in beige top white skirt black heels walking in architectural space on right, product catalog with price labels on neutral background on left, quiet luxury modern elegance --ar 3:2 --style raw --v 6",
+      "notes": "Complex split layout may need careful generation"
+    },
+    "ideogram": {
+      "prompt": "Fashion editorial split image with woman walking in modern wooden architectural space wearing beige knit top white mini skirt black stilettos on right side, clean product catalog layout with individual items and price labels on neutral background on left side, quiet luxury aesthetic",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "3:2"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Split fashion editorial, woman walking architectural space right side, product catalog with prices left side, quiet luxury modern elegance"
+    },
+    "luma": {
+      "prompt": "Fashion showroom transitions, woman strides confidently through wooden architectural space, camera pans to reveal styled product display, elegant retail atmosphere",
+      "motion_notes": "Walking movement, smooth pan between editorial and catalog view"
+    },
+    "reve": {
+      "prompt": "High-end fashion editorial in the style of luxury brand campaigns, split layout with lifestyle shot and product catalog, beige and white outfit against wooden architecture, refined typography",
+      "art_references": [
+        "Luxury fashion campaigns",
+        "E-commerce lookbooks",
+        "Editorial split layouts"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Fashion editorial split layout, woman in beige top white skirt black heels walking through modern wooden space on right, minimalist product catalog with price labels on neutral background left, quiet luxury aesthetic"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A fashion editorial split layout image in 3:2 aspect ratio. On the right side, a fashionable confident woman walks casually through a modern architectural space with warm wooden walls. She has a 90-60-90 figure, a small mole on her chest, and her hair is slicked back into a clean low bun emphasizing her facial structure. She wears a beige deep V-neck knit top, a white high-waisted tailored mini skirt, black sleek pointed-toe stiletto heels, narrow black sunglasses, subtle statement earrings, and carries a small structured black handbag. Natural daylight creates soft shadows with a shallow depth of field 35mm editorial style. On the left side, a clean minimalist product breakdown catalog layout on a neutral background displays the individual fashion items neatly arranged with subtle shadows and elegant sans-serif price labels: Beige deep V-neck knit top $180, White high-waisted tailored mini skirt $220, Black pointed-toe stiletto heels $350, Small structured black handbag $480, Black narrow sunglasses $160. The overall mood is quiet luxury and modern elegance with neutral warm tones. No watermark. No cluttered layout. Readable typography.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Fashion editorial split layout, right side shows confident woman walking in modern architectural space with wooden walls wearing beige V-neck top white mini skirt black stilettos and carrying black handbag with slicked back bun hairstyle, left side shows minimalist product catalog with individual items and price labels on neutral background, natural daylight 35mm editorial photography, quiet luxury modern elegance aesthetic, premium high-end fashion presentation, not cluttered or cartoon-style",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A fashion editorial split layout image. On the right side, a stylish woman with slicked back hair in a low bun walks through a modern architectural space with warm wooden walls. She wears a beige deep V-neck knit top, white high-waisted tailored mini skirt, black pointed-toe stiletto heels, narrow black sunglasses, and carries a small structured black handbag. Natural daylight creates soft shadows with an editorial photography style. On the left side, a clean minimalist product catalog displays the same fashion items individually arranged on a neutral background with elegant sans-serif price labels showing the items and their prices. The overall aesthetic is quiet luxury and modern elegance.",
+      "editing_prompt": "Change the top color from beige to cream white while keeping the split layout, model pose, wooden architectural background, and catalog arrangement the same. Preserve the quiet luxury aesthetic and price label formatting.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed outfit with prices, specific architectural environment, typography style",
+    "2_realism_anchors: 'realistic skin texture', 'natural fabric draping', 'readable price labels', 'consistent items'",
+    "3_technical_camera: '35mm', 'eye-level', 'shallow DOF', 'editorial style'",
+    "4_negative_hygiene: prevents cluttered layout, people on catalog side, flashy logos",
+    "5_spatial_consistency: clear split layout with defined content per side",
+    "6_lighting_storytelling: 'natural daylight soft shadows' + 'studio-clean clarity' for respective sides",
+    "7_typography_integration: specific price labels with refined sans-serif style"
+  ]
+}

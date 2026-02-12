@@ -1,0 +1,249 @@
+{
+  "name": "Lightning McQueen Bathroom Mirror Selfie",
+  "description": "Woman with bangs and berry lipstick taking bathroom mirror selfie in cropped white Cars t-shirt, flash photography with lens flare",
+  "input_prompt": "woman bathroom mirror selfie flash cropped cars tshirt bangs berry lipstick",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "amateur_phone_snapshot",
+      "aspect_ratio": "3:4",
+      "style": "bathroom_mirror_selfie_flash",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "young female with fair skin, dark brunette hair with full straight bangs covering forehead",
+      "identity": {
+        "type": "young woman",
+        "distinguishing_features": [
+          "full bangs",
+          "berry lipstick",
+          "winged eyeliner",
+          "forearm tattoos"
+        ],
+        "age_range": "adult"
+      },
+      "physical_details": {
+        "skin": {
+          "tone": "fair",
+          "texture": "natural, slight sheen from flash, not airbrushed"
+        },
+        "hair": {
+          "color": "dark brunette",
+          "style": "long dark hair falling over shoulders, straight with slight wave, full straight bangs covering forehead, slightly messy texture"
+        },
+        "face": {
+          "expression": "neutral to slight pout, gazing towards side (not at lens)",
+          "makeup": "heavy black winged eyeliner, defined eyebrows, dark matte berry-colored lipstick",
+          "details": "orientation: head turned slightly to right, tilted slightly down"
+        },
+        "body": {
+          "details": "build: curvy, prominent bust, soft skin texture; markings: black line-art tattoos on right outer forearm (outline stars/sparkles)"
+        }
+      },
+      "expression_mood": "playful, cheeky, lighthearted"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "tight-fitting white baby t-shirt (cropped)",
+          "fit": "material stretches tightly across chest creating tension wrinkles and distortion of graphic",
+          "details": "graphic: large centered graphic print of Lightning McQueen (red cartoon race car) from Cars movie; state: sleeves short and tight, hemline visibly rolled/cropped"
+        },
+        {
+          "type": "pants with animal/leopard print",
+          "details": "visibility: only waistband visible at bottom edge"
+        }
+      ],
+      "accessories": [
+        "small gold hoop earrings",
+        "gold ring on left ring finger"
+      ]
+    },
+    "pose_action": {
+      "description": "mirror selfie",
+      "dynamic_elements": "arm_left: raised to chest height, elbow bent acute angle, hand holding smartphone facing mirror; arm_right: hanging loosely by side, slightly away from body, elbow soft; torso: angled slightly to right, slight pelvic tilt indicated by waistline; spine: natural standing curvature, slight slouch in shoulders"
+    },
+    "environment": {
+      "location": "bathroom interior",
+      "background": [
+        "white tiled wall (bottom half)",
+        "grey/white decorative border tiles",
+        "grey door frame visible on left",
+        "mirror reflection glass surface"
+      ],
+      "atmosphere": "playful, casual bathroom selfie"
+    },
+    "lighting": {
+      "ambient": "cool artificial bathroom light, somewhat dim",
+      "artifacts": "significant lens flare/bloom from flash starburst, slight haze, flash glare washout on hand and phone",
+      "type": "bright smartphone camera flash reflected in mirror",
+      "effects": [
+        "harsh highlight flare obscuring phone case, creating hard shadows behind subject"
+      ],
+      "quality": "even, soft bathroom lighting"
+    },
+    "camera_technical": {
+      "style": "amateur phone photography, snapshot aesthetic",
+      "angle": "eye-level reflection, straight on",
+      "quality": "texture: slight digital noise, soft focus, average resolution, imperfections: flash glare washout on hand and phone",
+      "composition": "medium shot, cut off at mid-thigh/waist, subject centered but asymmetrical due to arm position"
+    },
+    "realism_anchors": [
+      "flash lens flare and bloom",
+      "slight digital noise",
+      "graphic print distortion on stretched fabric",
+      "visible tattoo line-art",
+      "bathroom tile detail"
+    ],
+    "negative_prompt": [
+      "3d render",
+      "illustration",
+      "painting",
+      "aesthetic filters",
+      "professional studio lighting",
+      "symmetrical face",
+      "airbrushed skin",
+      "perfect posture",
+      "vector art",
+      "cropped head",
+      "missing tattoos"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "amateur phone bathroom mirror selfie flash photography 3:4, young woman fair skin dark brunette hair with full straight bangs covering forehead slightly messy, heavy black winged eyeliner defined brows dark matte berry lipstick, neutral slight pout gazing to side head turned slightly right, curvy build prominent bust, black line-art star tattoos right forearm, tight-fitting white cropped baby t-shirt with large Lightning McQueen Cars graphic print stretched tight creating fabric tension wrinkles, leopard print pants waistband visible, small gold hoop earrings gold ring, mirror selfie left arm holding phone bent elbow right arm loose by side, slight torso angle natural slouch, bathroom interior white tiled wall grey border tiles grey door frame, BRIGHT SMARTPHONE FLASH reflected in mirror harsh highlight flare obscuring phone hard shadows behind subject, significant lens flare bloom flash starburst slight haze washout on hand, slight digital noise soft focus average resolution snapshot aesthetic",
+  "negative_prompt_flat": "3d render, illustration, professional lighting, airbrushed skin, perfect posture, missing tattoos, cropped head",
+  "color_palette": {
+    "primary": "white t-shirt, red Lightning McQueen graphic",
+    "secondary": "dark brunette hair, berry lipstick",
+    "accent": "gold jewelry, leopard print",
+    "background": "white tiles, grey accents"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "amateur bathroom mirror selfie flash, woman dark brunette full bangs, heavy winged eyeliner berry lipstick, curvy build, star tattoos right forearm, white cropped t-shirt Lightning McQueen Cars graphic stretched tight fabric tension, leopard print pants waistband, gold hoops ring, holding phone bent elbow, bathroom white tiles grey border, BRIGHT FLASH lens flare bloom starburst hard shadows washout on hand, digital noise soft focus snapshot aesthetic, 3:4",
+      "negative_prompt": "3d render, illustration, professional lighting, airbrushed skin, perfect posture, missing tattoos"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Young female, fair skin, dark brunette hair",
+          "hair": {
+            "color": "Dark brunette",
+            "style": "Long falling over shoulders, straight with slight wave, full straight bangs covering forehead, slightly messy"
+          },
+          "face": {
+            "expression": "Neutral to slight pout, gazing to side (not at lens)",
+            "orientation": "Head turned slightly right, tilted down",
+            "makeup": "Heavy black winged eyeliner, defined brows, dark matte berry lipstick"
+          },
+          "body": {
+            "build": "Curvy, prominent bust",
+            "skin": "Natural texture, slight sheen from flash",
+            "tattoos": "Black line-art stars/sparkles on right outer forearm"
+          }
+        },
+        "wardrobe": {
+          "top": {
+            "type": "Tight-fitting white cropped baby t-shirt",
+            "graphic": "Large centered Lightning McQueen (Cars movie) print",
+            "fit": "Stretches tightly across chest, tension wrinkles, distorted graphic, sleeves short and tight, hemline rolled/cropped"
+          },
+          "bottom": "Animal/leopard print pants, only waistband visible",
+          "accessories": [
+            "Small gold hoop earrings",
+            "Gold ring on left ring finger"
+          ]
+        },
+        "pose_action": {
+          "type": "Mirror selfie",
+          "arms": {
+            "left": "Raised chest height, bent elbow, holding smartphone facing mirror",
+            "right": "Hanging loose by side, slightly away from body"
+          },
+          "torso": "Angled slightly right, slight pelvic tilt, natural slouch"
+        },
+        "scene": {
+          "environment": "Bathroom interior",
+          "background": [
+            "White tiled wall (bottom half)",
+            "Grey/white decorative border tiles",
+            "Grey door frame on left",
+            "Mirror surface"
+          ]
+        },
+        "lighting": {
+          "primary": "Bright smartphone flash reflected in mirror",
+          "effects": [
+            "Harsh highlight flare obscuring phone",
+            "Hard shadows behind subject",
+            "Lens flare/bloom starburst",
+            "Slight haze",
+            "Flash washout on hand"
+          ],
+          "ambient": "Cool dim artificial bathroom light"
+        },
+        "camera": {
+          "style": "Amateur phone photography, snapshot aesthetic",
+          "angle": "Eye-level mirror reflection, straight on",
+          "quality": "Slight digital noise, soft focus, average resolution",
+          "composition": "Medium shot, cut at mid-thigh/waist, asymmetrical from arm",
+          "aspect_ratio": "3:4",
+          "negative_constraints": "no professional lighting, no airbrushed skin, no illustration"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "bathroom mirror selfie with flash, woman dark hair bangs berry lipstick, white cropped Lightning McQueen t-shirt stretched tight, star forearm tattoos, harsh flash lens flare bloom, digital noise snapshot aesthetic --ar 3:4 --style raw --v 6",
+      "notes": "Use --style raw for authentic amateur snapshot feel"
+    },
+    "ideogram": {
+      "prompt": "Young woman taking bathroom mirror selfie with bright flash, dark brunette hair with full bangs, heavy winged eyeliner and berry lipstick, wearing tight white cropped t-shirt with Lightning McQueen Cars graphic, star tattoos on forearm, harsh flash creating lens flare and hard shadows, amateur phone snapshot aesthetic",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "3:4"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Bathroom mirror selfie with flash, woman bangs berry lipstick, white Cars t-shirt stretched tight, forearm tattoos, harsh flash lens flare, snapshot aesthetic"
+    },
+    "luma": {
+      "prompt": "Bathroom scene, woman takes quick mirror selfie, flash fires creating bright burst that fades, casual snapshot moment",
+      "motion_notes": "Flash burst effect, subtle pose adjustment"
+    },
+    "reve": {
+      "prompt": "Amateur photography in the style of casual bathroom mirror selfies, harsh flash aesthetic with lens flare, graphic t-shirt fashion, dark makeup berry lips, authentic snapshot quality",
+      "art_references": [
+        "Amateur flash photography",
+        "Y2K fashion selfies",
+        "Casual mirror photos"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Bathroom mirror selfie with harsh flash, woman dark hair full bangs winged eyeliner berry lipstick, tight white cropped Lightning McQueen t-shirt, star forearm tattoos, lens flare bloom from flash, digital noise snapshot quality"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A young woman takes a bathroom mirror selfie with bright smartphone flash. She has fair skin, dark brunette hair with full straight bangs covering her forehead, slightly messy texture. Her makeup features heavy black winged eyeliner, defined eyebrows, and dark matte berry-colored lipstick. Her expression is neutral with a slight pout, gazing to the side with her head turned slightly right. She has a curvy build and black line-art star tattoos on her right outer forearm. She wears a tight-fitting white cropped baby t-shirt with a large centered Lightning McQueen graphic print from Cars movie, the material stretching tightly across her chest creating tension wrinkles and distortion of the graphic. Leopard print pants with only waistband visible. Small gold hoop earrings and a gold ring. Her left arm is raised holding the phone, right arm hanging loosely by her side. The bathroom has white tiled walls with grey decorative border tiles and a grey door frame. The bright flash creates harsh highlight flare obscuring the phone, significant lens flare bloom starburst, and slight haze with flash washout on her hand. Slight digital noise and soft focus give an amateur snapshot aesthetic. No watermark. No artificial smoothing. Realistic texture.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Young woman with dark brunette hair and full straight bangs taking bathroom mirror selfie with flash, heavy winged eyeliner and berry lipstick, curvy build with star tattoos on forearm, wearing tight white cropped t-shirt with Lightning McQueen Cars graphic stretched across chest, leopard print pants waistband visible, gold hoop earrings, white tiled bathroom background, harsh smartphone flash creating bright lens flare bloom and hard shadows, digital noise soft focus amateur snapshot aesthetic, not airbrushed or professional",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "Young woman taking bathroom mirror selfie with bright flash. Dark brunette hair with full straight bangs covering forehead, heavy black winged eyeliner, dark berry lipstick, curvy build. Wearing tight white cropped t-shirt with Lightning McQueen Cars graphic print stretched across chest, material showing tension wrinkles. Black line-art star tattoos on right forearm. Small gold hoop earrings, gold ring. Left arm raised holding phone, right arm loose at side. Bathroom interior with white tiles and grey border, grey door frame visible. Harsh smartphone flash creates lens flare bloom, starburst effect, hard shadows behind subject. Slight digital noise and soft focus for amateur snapshot aesthetic.",
+      "editing_prompt": "Change the berry lipstick to red while keeping the bangs, winged eyeliner, and Lightning McQueen t-shirt the same. Preserve the flash photography effect and bathroom background.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed graphic tee (Lightning McQueen, Cars movie), specific makeup (winged eyeliner, berry lipstick), tattoo description",
+    "2_realism_anchors: 'flash lens flare', 'digital noise', 'graphic distortion on stretched fabric', 'tattoo line-art'",
+    "3_technical_camera: 'amateur phone snapshot', 'flash photography', 'average resolution', 'soft focus'",
+    "4_negative_hygiene: prevents professional lighting, airbrushed skin, illustration",
+    "5_spatial_consistency: precise pose with arm positions and body angle",
+    "6_lighting_storytelling: 'harsh smartphone flash' = casual amateur snapshot mood",
+    "7_imperfection_detail: specific flash artifacts (flare, bloom, washout) add authenticity"
+  ]
+}

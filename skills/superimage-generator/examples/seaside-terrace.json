@@ -1,0 +1,126 @@
+{
+  "name": "Seaside Terrace Portrait",
+  "description": "Mediterranean coastline third-person portrait with high-contrast natural lighting",
+  "input_prompt": "woman in bikini on mediterranean terrace overlooking sea",
+  "target_model": "nano-banana",
+  "superprompt": {
+    "subject": {
+      "description": "Young female adult with bleach-blonde hair and darker roots, curvaceous full hourglass figure, wearing a red fruit-print bikini on a Mediterranean seaside terrace.",
+      "body": {
+        "physique": "Voluptuous and soft with naturally fuller body type, rounded shoulders, defined waist, wide hips, and significantly large heavy bust volume with natural gravity.",
+        "anatomy": "Standing angled 45 degrees to camera, body facing slightly left, head turned sharply right into profile with chin slightly lifted; left arm raised and extended to rest palm flat against a stucco pillar, right arm relaxed with hand lightly grasping bikini bottom; weight shifted into the hip closest to the wall with a natural spine curve.",
+        "details": "Natural soft tissue around midsection, realistic skin folds at armpit and waist, flyaway hairs in the breeze, visible pores and natural tone variations."
+      },
+      "face": "Neutral to slightly contemplative expression with lips parted slightly, gazing toward the sea horizon in profile.",
+      "hair": "Long bleach-blonde hair with slightly darker roots, styled loosely and swept back with flyaway hairs caught in the breeze.",
+      "skin": "Highly detailed skin texture showing pores, natural variations in tone, moles, and fine lines; not plastic or airbrushed.",
+      "expression_mood": "summer vacation, relaxed, candid, scenic"
+    },
+    "wardrobe": {
+      "top": "Triangle-style bikini top with thick straps, red base fabric printed with orange apricots/peaches and green leaves; fabric strains slightly, emphasizing natural bust heaviness.",
+      "bottom": "High-cut bikini bottom with a V-shape waistline in the same red fruit-print fabric.",
+      "accessories": [
+        "small gold hoop earrings",
+        "gold ring on right hand ring finger",
+        "gold ring on left hand ring finger",
+        "manicured fingernails with neutral polish"
+      ]
+    },
+    "pose_action": {
+      "description": "Standing angled 45 degrees relative to the camera, leaning against a textured white stucco pillar with left arm raised and right hand lightly grasping the bikini bottom.",
+      "posture": "Relaxed lean with weight shifted into the hip closest to the wall, natural spine curve, profile head turn and gaze toward the horizon."
+    },
+    "scene": {
+      "environment": "Outdoor seaside terrace or patio with rough white stucco pillar and tan-grey irregular stone tiles.",
+      "background": "Calm deep blue sea stretching to the horizon with a distant coastline of green shrub-covered hills, plus two white plastic lounge chairs on the patio behind the subject.",
+      "location": "Mediterranean seaside terrace.",
+      "atmosphere": "Warm, sunny, breezy coastal vibe."
+    },
+    "lighting": {
+      "type": "natural bright daylight, high sun",
+      "quality": "high contrast hard light",
+      "effects": [
+        "side lighting from upper right casting strong hard shadows",
+        "texture highlights on stucco wall and body contours",
+        "realistic specular highlights on shoulders, chest, and forehead"
+      ],
+      "shadows": "Defined hard shadows on the left side of torso and face, emphasizing depth."
+    },
+    "camera": {
+      "technical": "Eye-level third-person perspective, medium shot (thighs up), 50-85mm portrait lens to avoid distortion, subject off-center right balanced by sea landscape, deep depth of field with background slightly softer, 8K resolution, high sharpness on subject, low ISO with minimal grain, daylight white balance around 5500K.",
+      "aspect_ratio": "3:4",
+      "negative_constraints": "No selfie, no soft-box diffusion, no studio lighting, no plastic skin, no airbrushed or smoothed texture.",
+      "lens": "50-85mm portrait",
+      "resolution": "8K",
+      "style": "raw, candid high-fidelity photography"
+    },
+    "realism_anchors": [
+      "visible pores and natural tone variation",
+      "rough stucco wall texture",
+      "stone tile floor texture",
+      "synthetic swimwear fabric texture",
+      "flyaway hairs in the breeze",
+      "natural skin folding at armpit and waist"
+    ],
+    "negative_prompt": [
+      "selfie",
+      "plastic skin",
+      "airbrushed",
+      "smooth skin",
+      "soft lighting",
+      "studio lighting",
+      "low contrast"
+    ]
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "masterpiece, ultra-realistic, 8k uhd, raw photo, voluptuous young woman with bleach-blonde hair darker roots, standing on mediterranean seaside terrace, leaning against white stucco pillar, fruit print bikini red with orange peaches green leaves, triangle top thick straps high-cut bottom, looking off towards horizon contemplative, gold hoop earrings gold rings, deep blue calm sea background green hills coastline, white lounge chairs, rough textured stone tiles tan grey, bright high sun harsh side lighting strong shadows, high contrast specular highlights on skin, 50-85mm portrait lens, medium shot thighs up, subject off-center right, 3:4 aspect ratio",
+      "negative_prompt": "selfie, plastic skin, airbrushed, smooth skin, soft lighting, studio lighting, cartoon, anime, low contrast"
+    },
+    "midjourney": {
+      "prompt": "voluptuous blonde woman leaning against white stucco pillar on mediterranean terrace, fruit print bikini with peaches, looking at sea horizon, deep blue sea green hills background, harsh bright sunlight strong shadows, high contrast candid vacation photo, raw photography style --ar 3:4 --style raw --v 6",
+      "notes": "Use --style raw for harsh natural lighting"
+    },
+    "ideogram": {
+      "prompt": "Candid vacation photo of blonde woman on seaside terrace overlooking mediterranean, leaning against textured white wall, colorful fruit print bikini, looking contemplatively at ocean horizon, bright harsh sunlight with strong shadows, white lounge chairs in background, deep blue sea and green hillside coastline",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "3:4"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Blonde woman on mediterranean terrace overlooking calm blue sea, leaning on white stucco pillar, fruit print bikini, gazing at horizon, harsh bright sunlight, vacation candid photography"
+    },
+    "luma": {
+      "prompt": "Mediterranean terrace scene, blonde woman in fruit bikini leaning against white pillar, looking at sea, gentle breeze moves hair, high summer sun casting strong shadows, calm blue water sparkles",
+      "motion_notes": "Subtle hair movement in breeze, water shimmer in background"
+    },
+    "grok-imagine": {
+      "prompt": "Vacation photo of blonde woman on mediterranean terrace overlooking the sea, fruit print bikini, leaning against white wall, contemplative gaze at horizon, bright sunny day with strong shadows"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A voluptuous young woman with bleach-blonde hair and slightly darker roots stands on a Mediterranean seaside terrace. She has a naturally fuller hourglass figure with wide hips and a defined waist. She wears a two-piece bikini with a red base featuring orange apricot prints and green leaves, triangle-style top with thick straps and high-cut bottom. She leans against a rough textured white stucco wall, left arm raised with palm flat against the surface, right hand lightly grasping her bikini bottom. Her head is turned to the side in profile, chin slightly lifted, gazing contemplatively at the horizon. Behind her, a calm deep blue sea stretches to green shrub-covered hills. White lounge chairs sit on tan and grey stone tiles. Bright high sun creates harsh side lighting with strong shadows on her torso and face. Gold hoop earrings and gold rings on both hands. Natural skin texture with visible pores and realistic specular highlights. No watermark. No artificial smoothing. Realistic texture.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Voluptuous blonde woman leaning against white stucco pillar on mediterranean seaside terrace, fruit print bikini red with orange peaches green leaves, contemplative profile gaze at sea horizon, deep blue calm sea green hills coastline background, bright high sun harsh side lighting strong shadows, gold hoop earrings gold rings, tan grey stone tile floor, raw candid vacation photography, 3:4 aspect ratio, not airbrushed, not plastic skin",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A voluptuous young woman with bleach-blonde hair stands on a Mediterranean seaside terrace overlooking calm blue water. She wears a red bikini with orange fruit prints and green leaves, triangle top and high-cut bottom. She leans against a rough white stucco pillar, left arm raised against the wall, gazing contemplatively at the sea horizon in profile. Deep blue sea stretches to green hillside coastline. White lounge chairs on tan-grey stone tiles. Bright high sun casts harsh side lighting with strong shadows. Gold hoop earrings and rings visible. Natural skin texture with realistic highlights.",
+      "editing_prompt": "Change the bikini pattern to solid navy blue while keeping the woman's pose, body position, and facial expression the same. Preserve the Mediterranean terrace setting, sea background, and harsh sunlight shadows.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Deeply nested body_proportions, pose arms, setting elements",
+    "2_realism_anchors: 'visible pores', 'natural variations in tone', 'flyaway hairs'",
+    "3_technical_camera: '50mm to 85mm portrait lens', '8K', 'deep depth of field'",
+    "4_negative_hygiene: style_and_realism explicitly states 'NOT plastic, NOT airbrushed'",
+    "5_spatial_consistency: '45 degrees relative to camera', 'off-center right'",
+    "6_lighting_storytelling: 'harsh high sun' for summer vacation mood",
+    "7_texture_detail: skin, environment, fabric textures all specified"
+  ]
+}

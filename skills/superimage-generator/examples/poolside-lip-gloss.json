@@ -1,0 +1,241 @@
+{
+  "name": "Poolside Lip Gloss Application",
+  "description": "Influencer aesthetic poolside portrait applying lip gloss, bikini on lounge chair with detailed accessories",
+  "input_prompt": "woman applying lip gloss on pool lounge chair influencer style",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "high_definition",
+      "aspect_ratio": "4:5",
+      "style": "influencer_aesthetic",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "young woman 20-25 with golden tan sun-kissed skin, honey blonde hair in two braids with lighter highlights and darker roots",
+      "identity": {
+        "age_range": "20-25",
+        "type": "young woman",
+        "distinguishing_features": [
+          "braided hair",
+          "tan skin",
+          "high-fashion yet approachable"
+        ]
+      },
+      "physical_details": {
+        "skin": {
+          "tone": "golden tan, warm undertones",
+          "texture": "smooth, sun-kissed, dewy finish",
+          "realism_markers": [
+            "natural sunlight highlights on shoulders and face"
+          ]
+        },
+        "hair": {
+          "color": "honey blonde with lighter highlights, darker roots",
+          "style": "long hair plaited into two braids, loose strands framing face",
+          "details": "accessory: black hair ties visible on braids"
+        },
+        "face": {
+          "expression": "relaxed, slightly playful, mouth open mid-application",
+          "details": "eyes: hidden behind sunglasses, well-groomed arched light brown eyebrows; nose: small button nose, soft bridge; cheeks: full, high cheekbones, subtle bronzer, glowing highlight; lips: full plump, slightly parted, high-gloss wet look, sheer pink/fuchsia gloss"
+        }
+      },
+      "expression_mood": "relaxed, glamorous, influencer energy"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "bikini",
+          "color": "chocolate brown",
+          "fit": "flattering"
+        }
+      ],
+      "accessories": [
+        "rectangular rimless designer sunglasses with gradient tint",
+        "silver stud earrings with crystal details",
+        "silver chain bracelet on left wrist",
+        "silver ring on left hand",
+        "shape: almond",
+        "design: abstract pink and white nail art"
+      ]
+    },
+    "pose_action": {
+      "position": "lying on stomach on lounge chair, propped up on elbows",
+      "camera_relation": "medium shot, eye level, upper body and partial lower back",
+      "dynamic_elements": "action: applying lip gloss, left_hand: holding pink lip gloss wand applicator near lips, right_hand: holding pink lip gloss tube/bottle, head: looking back over left shoulder toward camera"
+    },
+    "environment": {
+      "location": "outdoor patio or poolside cabana",
+      "background": [
+        "grey slat pergola structure overhead",
+        "green foliage/bushes blurred in background"
+      ],
+      "props": [
+        {
+          "item": "lip gloss",
+          "details": "pink tube and wand with bright bubblegum pink liquid"
+        },
+        {
+          "item": "lounge chair",
+          "details": "grey fabric outdoor lounge chair"
+        }
+      ],
+      "atmosphere": "bright sunny, relaxed luxury"
+    },
+    "lighting": {
+      "type": "natural daylight",
+      "direction": "bright daylight from above",
+      "quality": "dappled shadows from pergola slats",
+      "effects": [
+        "natural sunlight creating soft highlights",
+        "soft shadow patterns"
+      ]
+    },
+    "camera_technical": {
+      "device": "professional camera",
+      "lens": "85mm portrait",
+      "aperture": "f/2.8",
+      "resolution": "high definition",
+      "style_tags": [
+        "influencer aesthetic",
+        "sharp focus on face",
+        "lifestyle portrait"
+      ]
+    },
+    "realism_anchors": [
+      "glossy wet lip texture",
+      "sunlight highlights on tan skin",
+      "visible nail art detail",
+      "dappled pergola shadows",
+      "authentic lip gloss product"
+    ],
+    "negative_prompt": [
+      "studio lighting",
+      "harsh shadows",
+      "flat lighting",
+      "overexposed",
+      "cartoon",
+      "3d render",
+      "anime",
+      "blurry",
+      "low quality"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "high-definition influencer aesthetic portrait, young woman 20-25 golden tan sun-kissed skin dewy finish, honey blonde hair in two braids loose strands framing face, relaxed playful expression mouth open, rimless gradient sunglasses silver crystal earrings bracelet ring, chocolate brown bikini, almond nails pink white abstract art, lying on stomach on grey lounge chair propped on elbows, applying lip gloss left hand holding wand right hand holding pink tube, looking back over left shoulder, poolside patio grey pergola overhead green foliage blurred, bright daylight dappled shadows, 85mm portrait lens sharp focus on face, 4:5 vertical portrait",
+  "negative_prompt_flat": "studio lighting, harsh shadows, flat lighting, overexposed, cartoon, 3d render, anime, blurry, low quality",
+  "color_palette": {
+    "primary": "golden tan skin",
+    "secondary": "chocolate brown bikini",
+    "accent": "pink lip gloss, silver jewelry",
+    "background": "grey pergola, green foliage"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "high-definition influencer portrait, young woman golden tan skin, honey blonde braids loose strands, playful expression applying lip gloss, rimless gradient sunglasses silver jewelry crystal earrings, chocolate brown bikini, almond nails pink white art, lying on grey lounge chair propped on elbows, left hand lip gloss wand right hand pink tube, looking over shoulder, poolside grey pergola green foliage, bright daylight dappled shadows, 85mm sharp focus, 4:5",
+      "negative_prompt": "studio lighting, harsh shadows, overexposed, cartoon, 3d render, blurry"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Young woman 20-25 with golden tan sun-kissed skin, dewy finish",
+          "body": {
+            "skin": "Golden tan, warm undertones, smooth, natural sunlight highlights"
+          },
+          "face": {
+            "expression": "Relaxed, playful, mouth open mid lip gloss application",
+            "eyes": "Hidden behind rimless gradient sunglasses",
+            "cheeks": "Full, high cheekbones, subtle bronzer, glowing highlight",
+            "lips": "Full plump, slightly parted, high-gloss wet sheer pink/fuchsia"
+          },
+          "hair": {
+            "color": "Honey blonde with lighter highlights, darker roots",
+            "style": "Two braids with loose strands framing face, black hair ties"
+          }
+        },
+        "wardrobe": {
+          "bikini": "Chocolate brown",
+          "accessories": [
+            "Rectangular rimless designer sunglasses gradient tint",
+            "Silver stud earrings with crystal details",
+            "Silver chain bracelet on left wrist",
+            "Silver ring on left hand"
+          ],
+          "nails": "Almond shape, abstract pink and white nail art"
+        },
+        "pose_action": {
+          "description": "Lying on stomach on lounge chair, propped up on elbows",
+          "action": "Applying lip gloss - left hand holding wand near lips, right hand holding tube",
+          "head": "Looking back over left shoulder toward camera"
+        },
+        "scene": {
+          "environment": "Outdoor poolside patio or cabana",
+          "background": "Grey slat pergola overhead, green foliage blurred",
+          "props": "Grey fabric lounge chair, pink lip gloss with bubblegum pink liquid"
+        },
+        "lighting": {
+          "type": "Bright natural daylight",
+          "effects": "Dappled shadows from pergola slats, soft highlights on skin"
+        },
+        "camera": {
+          "technical": "85mm portrait lens, sharp focus on face",
+          "framing": "Medium shot, upper body and partial lower back",
+          "aspect_ratio": "4:5",
+          "negative_constraints": "no studio lighting, no harsh shadows, no flat lighting"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "influencer poolside portrait, young woman tan skin blonde braids, applying pink lip gloss, gradient sunglasses silver jewelry, chocolate bikini, lying on lounge chair looking over shoulder, grey pergola dappled shadows green foliage, bright daylight, sharp focus --ar 4:5 --style raw --v 6",
+      "notes": "Use --style raw for authentic influencer aesthetic"
+    },
+    "ideogram": {
+      "prompt": "Young woman with golden tan skin and blonde braids applying lip gloss while lying on poolside lounge chair, wearing chocolate brown bikini and designer sunglasses, looking back over shoulder, grey pergola creating dappled shadows, green foliage in background",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "4:5"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Influencer poolside portrait, tan woman blonde braids applying lip gloss, chocolate bikini sunglasses, lounge chair, pergola shadows, bright daylight"
+    },
+    "luma": {
+      "prompt": "Poolside scene, woman on lounge chair slowly applies lip gloss while looking back, sunlight filters through pergola slats creating shifting shadows, relaxed luxury atmosphere",
+      "motion_notes": "Slow lip gloss application movement, gentle shadow shift from pergola, subtle breathing"
+    },
+    "reve": {
+      "prompt": "Influencer lifestyle photography in the style of high-end beauty content, young woman applying lip gloss poolside, golden tan skin blonde braids, designer accessories, dappled pergola light",
+      "art_references": [
+        "Influencer aesthetic photography",
+        "Beauty lifestyle content",
+        "Poolside glamour editorials"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Influencer style poolside photo, tan woman with blonde braids applying pink lip gloss on lounge chair, chocolate bikini gradient sunglasses, looking over shoulder, pergola shadows, bright sunny day"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A young woman in her early twenties with sun-kissed golden tan skin lies on her stomach on a grey outdoor lounge chair at a poolside patio. She has honey blonde hair styled in two long braids with loose strands framing her face, and darker roots showing naturally. She wears a flattering chocolate brown bikini and rectangular rimless gradient sunglasses. Her expression is relaxed and playful as she applies pink lip gloss, holding the wand near her full, glossy lips with her left hand while her right hand holds the pink tube. She looks back over her left shoulder toward the camera. Her nails are almond-shaped with abstract pink and white nail art. Silver jewelry includes crystal stud earrings, a chain bracelet, and a ring. Above her, a grey slat pergola creates dappled shadows on her skin, with green foliage blurred softly in the background. Bright natural daylight illuminates the scene with warm, flattering highlights on her shoulders and face. No watermark. No artificial smoothing. Realistic skin texture with visible pores.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Young woman with golden tan skin and honey blonde braids applying lip gloss while lying on poolside lounge chair, chocolate brown bikini, rimless gradient sunglasses, silver jewelry, looking over shoulder at camera, grey pergola overhead creating dappled shadows, green foliage background, bright natural daylight, 85mm portrait photography with shallow depth of field, influencer lifestyle aesthetic, not airbrushed or cartoon-like",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A sun-kissed young woman with honey blonde braided hair applies pink lip gloss while lounging poolside. She wears a chocolate brown bikini and rimless gradient sunglasses, with silver jewelry catching the light. Lying on her stomach on a grey lounge chair, she looks back over her shoulder with a playful expression. Dappled shadows from a grey pergola pattern her golden tan skin as bright daylight filters through. Green foliage softens the background. Professional portrait photography with sharp focus on her face and glossy lips.",
+      "editing_prompt": "Change the bikini color to navy blue while keeping the same pose, expression, and poolside setting. Preserve the dappled pergola shadows and honey blonde braids.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed accessories, nail art, lip product color, hair accessory",
+    "2_realism_anchors: 'glossy wet lip texture', 'dappled pergola shadows', 'sunlight highlights'",
+    "3_technical_camera: '85mm portrait', 'f/2.8', 'sharp focus on face'",
+    "4_negative_hygiene: excludes studio lighting, harsh shadows, flat look",
+    "5_spatial_consistency: precise pose with hand positions for lip gloss action",
+    "6_lighting_storytelling: 'dappled pergola shadows' = relaxed luxury mood",
+    "7_action_capture: mid-application moment adds dynamism and authenticity"
+  ]
+}

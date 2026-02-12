@@ -1,0 +1,242 @@
+{
+  "name": "Bedroom Floral Sleepwear Mirror Selfie",
+  "description": "Platinum blonde woman in white sleepwear taking mirror selfie on bed with floral bedding, tattoos visible, soft natural daylight",
+  "input_prompt": "woman bedroom mirror selfie white sleepwear floral bed platinum blonde tattoos",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "ultra_photorealistic",
+      "aspect_ratio": "4:5",
+      "style": "indoor_lifestyle_portrait",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "young adult woman with platinum blonde long straight center-parted hair, fair skin with natural texture",
+      "identity": {
+        "age_range": "young adult",
+        "type": "woman",
+        "distinguishing_features": [
+          "platinum blonde hair",
+          "fair skin",
+          "visible tattoos"
+        ]
+      },
+      "physical_details": {
+        "skin": {
+          "tone": "fair",
+          "texture": "natural with realistic detail"
+        },
+        "hair": {
+          "color": "platinum blonde",
+          "style": "long, straight, center-parted"
+        },
+        "face": {
+          "expression": "soft, contemplative, relaxed",
+          "makeup": "minimal, natural look"
+        },
+        "body": {
+          "details": "build: slim to average; tattoos: floral and illustrative tattoos on arms, small tattoo on thigh"
+        }
+      },
+      "expression_mood": "serene, introspective, warm"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "light delicate sleepwear or lounge dress",
+          "color": "white",
+          "material": "soft semi-sheer fabric",
+          "details": "thin shoulder straps, subtle lace trim"
+        }
+      ],
+      "accessories": [
+        "simple necklace",
+        "small hoop earrings",
+        "natural or lightly manicured"
+      ]
+    },
+    "pose_action": {
+      "position": "seated on bed",
+      "camera_relation": "mirror selfie perspective",
+      "dynamic_elements": "legs: bent and drawn close to body",
+      "hands": "one hand holding phone in front of face, other gently touching lips"
+    },
+    "environment": {
+      "location": "bright bedroom with soft natural daylight",
+      "background": [
+        "bed: white metal-frame bed with delicate floral bedding",
+        "decor: minimalistic with small potted plants and subtle floral accents",
+        "windows: large window with sheer white curtains allowing diffused sunlight"
+      ],
+      "color_palette": "soft whites, creams, light neutrals with subtle floral tones",
+      "atmosphere": "calm, intimate, cozy, airy"
+    },
+    "lighting": {
+      "type": "natural light from window",
+      "source": "window from the side",
+      "quality": "soft, diffused, even illumination",
+      "shadows": "gentle and minimal, enhancing natural contours",
+      "effects": [
+        "soft highlights",
+        "gentle shadow falloff"
+      ]
+    },
+    "camera_technical": {
+      "device": "smartphone camera",
+      "lens": "wide-angle (approx 24-28mm)",
+      "perspective": "mirror selfie",
+      "focus": "sharp on subject with natural depth",
+      "aperture_simulation": "f/1.8-f/2.2 look",
+      "iso_simulation": "low ISO for clean image",
+      "white_balance": "neutral daylight",
+      "style_tags": [
+        "ultra photorealistic",
+        "high skin texture detail",
+        "natural fabric behavior"
+      ]
+    },
+    "rendering_style": "ultra photorealistic with high skin texture, realistic lighting falloff, natural fabric behavior, soft contrast, gentle highlights, and natural color grading",
+    "realism_anchors": [
+      "visible tattoo detail",
+      "natural skin texture",
+      "realistic fabric draping",
+      "soft window light",
+      "floral bedding texture"
+    ],
+    "negative_prompt": [
+      "harsh lighting",
+      "artificial flash",
+      "over-processed",
+      "heavy filters",
+      "cartoon",
+      "3d render",
+      "anime",
+      "plastic skin",
+      "airbrushed"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "ultra photorealistic indoor lifestyle portrait, young adult woman platinum blonde long straight center-parted hair fair skin natural texture, soft contemplative relaxed expression minimal natural makeup, floral illustrative tattoos on arms small thigh tattoo, white light delicate sleepwear lounge dress soft semi-sheer fabric thin straps subtle lace trim, simple necklace small hoop earrings, seated on bed legs bent close to body, one hand holding phone other gently touching lips, mirror selfie facing mirror, bright bedroom white metal-frame bed delicate floral bedding, minimalistic decor potted plants, large window sheer white curtains diffused natural daylight, soft whites creams light neutrals, natural side window light soft even illumination gentle shadows, smartphone 24-28mm wide-angle f/1.8 clean low ISO, high skin texture detail natural fabric behavior, 4:5",
+  "negative_prompt_flat": "harsh lighting, artificial flash, over-processed, heavy filters, cartoon, 3d render, plastic skin, airbrushed",
+  "color_palette": {
+    "primary": "white sleepwear, white bedding",
+    "secondary": "platinum blonde hair, fair skin",
+    "accent": "floral bedding tones, green plants, tattoo colors",
+    "background": "soft whites, creams, light neutrals"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "ultra photorealistic bedroom mirror selfie, woman platinum blonde straight hair fair skin, soft contemplative expression minimal makeup, arm tattoos thigh tattoo, white semi-sheer sleepwear thin straps lace trim, necklace hoop earrings, seated on bed legs bent, hand holding phone other touching lips, white metal bed floral bedding potted plants sheer curtains, soft natural daylight side window, smartphone wide-angle f/1.8, high skin texture natural fabric, 4:5",
+      "negative_prompt": "harsh lighting, flash, over-processed, cartoon, plastic skin, airbrushed"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Young adult woman with platinum blonde long straight center-parted hair",
+          "skin": {
+            "tone": "Fair",
+            "texture": "Natural with realistic detail"
+          },
+          "face": {
+            "expression": "Soft, contemplative, relaxed",
+            "makeup": "Minimal, natural look"
+          },
+          "body": {
+            "build": "Slim to average",
+            "tattoos": [
+              "Floral and illustrative tattoos on arms",
+              "Small tattoo on thigh"
+            ]
+          }
+        },
+        "wardrobe": {
+          "outfit": "White light delicate sleepwear/lounge dress, soft semi-sheer fabric, thin shoulder straps, subtle lace trim",
+          "accessories": [
+            "Simple necklace",
+            "Small hoop earrings"
+          ],
+          "nails": "Natural or lightly manicured"
+        },
+        "pose_action": {
+          "position": "Seated on bed, legs bent close to body",
+          "hands": "One holding phone, other gently touching lips",
+          "orientation": "Facing mirror for selfie composition"
+        },
+        "scene": {
+          "environment": "Bright bedroom with soft natural daylight",
+          "bed": "White metal-frame bed with delicate floral bedding",
+          "decor": "Minimalistic, small potted plants, subtle floral accents",
+          "windows": "Large window with sheer white curtains, diffused sunlight",
+          "atmosphere": "Calm, intimate, cozy, airy"
+        },
+        "lighting": {
+          "type": "Natural light from side window",
+          "quality": "Soft, diffused, even illumination",
+          "shadows": "Gentle and minimal"
+        },
+        "camera": {
+          "device": "Smartphone camera, 24-28mm wide-angle",
+          "perspective": "Mirror selfie",
+          "focus": "Sharp on subject with natural depth",
+          "aperture": "f/1.8-f/2.2 simulation",
+          "aspect_ratio": "4:5",
+          "style": "Ultra photorealistic, high skin texture detail",
+          "negative_constraints": "no harsh lighting, no flash, no over-processed, no plastic skin"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "bedroom mirror selfie, platinum blonde woman in white sleepwear, arm tattoos, seated on floral bed, sheer curtains soft daylight, smartphone wide-angle, natural skin texture --ar 4:5 --style raw --v 6",
+      "notes": "Use --style raw for authentic candid bedroom aesthetic"
+    },
+    "ideogram": {
+      "prompt": "Young woman with platinum blonde hair taking mirror selfie in bright bedroom, wearing white semi-sheer sleepwear with lace trim, visible arm and thigh tattoos, seated on white metal bed with floral bedding, soft natural daylight through sheer curtains, intimate cozy atmosphere",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "4:5"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Bedroom mirror selfie, platinum blonde woman white sleepwear, tattoos, floral bed, soft natural daylight, intimate cozy mood"
+    },
+    "luma": {
+      "prompt": "Bright bedroom scene, woman takes mirror selfie on floral bed, soft daylight filters through sheer curtains, gentle morning atmosphere, intimate quiet moment",
+      "motion_notes": "Subtle breathing, slight phone adjustment, curtain movement from breeze"
+    },
+    "reve": {
+      "prompt": "Intimate lifestyle photography in the style of bedroom mirror selfies, platinum blonde woman in white sleepwear with tattoos, floral bedding, soft natural daylight, cozy aesthetic",
+      "art_references": [
+        "Intimate bedroom photography",
+        "Natural light portraits",
+        "Lifestyle influencer content"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Platinum blonde woman taking mirror selfie in bedroom, white semi-sheer sleepwear, arm and thigh tattoos, seated on white bed with floral bedding, soft natural daylight through sheer curtains, cozy intimate atmosphere"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A young adult woman with platinum blonde long straight center-parted hair and fair skin takes a mirror selfie while seated on a bed with her legs bent close to her body. One hand holds a phone in front of her face while the other gently touches her lips. Her expression is soft, contemplative, and relaxed with minimal natural makeup. She has floral and illustrative tattoos on her arms and a small tattoo on her thigh. She wears a white light delicate sleepwear or lounge dress made of soft semi-sheer fabric with thin shoulder straps and subtle lace trim, along with a simple necklace and small hoop earrings. The bright bedroom features a white metal-frame bed with delicate floral bedding, minimalistic decor with small potted plants, and a large window with sheer white curtains allowing diffused natural daylight from the side. The color palette is soft whites, creams, and light neutrals. The lighting is natural, soft, and even with gentle shadows. The atmosphere is calm, intimate, cozy, and airy. No watermark. No artificial smoothing. Realistic skin texture and natural fabric draping.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Young woman with platinum blonde straight hair taking bedroom mirror selfie, fair skin with visible arm and thigh tattoos, wearing white semi-sheer sleepwear with lace trim, seated on white metal bed with floral bedding, legs bent and one hand touching lips, soft natural daylight through sheer curtains, intimate cozy bedroom atmosphere, ultra photorealistic lifestyle photography, natural skin texture, not airbrushed or over-processed",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A young woman with platinum blonde long straight hair takes a mirror selfie while seated on a white metal-frame bed with delicate floral bedding. She has fair skin with visible floral tattoos on her arms and a small thigh tattoo. She wears a white semi-sheer sleepwear dress with thin straps and subtle lace trim, along with a simple necklace and small hoop earrings. One hand holds a phone while the other gently touches her lips. The bright bedroom has minimalistic decor with potted plants and large windows with sheer white curtains allowing soft diffused natural daylight. The mood is calm, intimate, and cozy.",
+      "editing_prompt": "Change the sleepwear color to light pink while keeping the platinum blonde hair, tattoos, bedroom setting, and floral bedding the same. Preserve the soft natural lighting and intimate atmosphere.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed fabric description (semi-sheer, lace trim), specific tattoo placements, bedding details",
+    "2_realism_anchors: 'visible tattoo detail', 'natural skin texture', 'realistic fabric draping', 'soft window light'",
+    "3_technical_camera: 'smartphone 24-28mm', 'f/1.8-f/2.2', 'low ISO', 'mirror selfie perspective'",
+    "4_negative_hygiene: prevents harsh lighting, flash, over-processed, plastic skin",
+    "5_spatial_consistency: clear pose (seated, legs bent, hand positions)",
+    "6_lighting_storytelling: 'soft natural daylight from side window' = calm intimate cozy mood",
+    "7_environment_detail: specific decor (metal bed frame, floral bedding, potted plants, sheer curtains)"
+  ]
+}

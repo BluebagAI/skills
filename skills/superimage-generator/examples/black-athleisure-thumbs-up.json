@@ -1,0 +1,227 @@
+{
+  "name": "Black Athleisure Thumbs Up Back View",
+  "description": "Fit blonde woman with back to camera giving double thumbs up, looking over shoulder with playful duck face, black long-sleeve crop top and spanish pants, home gym background, candid smartphone aesthetic",
+  "input_prompt": "fit blonde woman back to camera double thumbs up looking over shoulder duck face black crop top spanish pants home gym candid",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "candid_smartphone",
+      "aspect_ratio": "4:5",
+      "style": "fitness_influencer_candid",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "fit young woman with back turned to camera, looking over shoulder with playful expression, giving double thumbs-up gesture with both hands raised",
+      "identity": {
+        "age_range": "early to mid 20s",
+        "type": "woman",
+        "distinguishing_features": [
+          "fit athletic build",
+          "short straight blonde hair",
+          "playful confidence"
+        ]
+      },
+      "physical_details": {
+        "hair": {
+          "color": "blonde",
+          "style": "short, straight with subtle highlights",
+          "details": "position: falling over the back"
+        },
+        "skin": {
+          "tone": "natural warm skin tone",
+          "texture": "realistic natural texture"
+        },
+        "face": {
+          "expression": "playful pouting duck face"
+        },
+        "body": {
+          "details": "fit, athletic build"
+        }
+      },
+      "expression_mood": "playful, confident, fun fitness energy"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "long-sleeved tight athletic crop top",
+          "color": "black",
+          "fit": "form-fitting, shows midriff from back"
+        },
+        {
+          "type": "spanish pants",
+          "color": "black",
+          "style": "athleisure"
+        }
+      ],
+      "styling": "athleisure, gym wear, workout outfit"
+    },
+    "pose_action": {
+      "position": "standing with back turned to camera",
+      "expression": "playful pouty duck face",
+      "action": "gesture: double thumbs-up with both hands raised",
+      "dynamic_elements": "torso: twisting slightly to look over shoulder; head: looking over shoulder at camera"
+    },
+    "environment": {
+      "location": "indoor room, home gym or bedroom",
+      "background": [
+        "grey shelving unit with open compartments",
+        "miscellaneous items on shelves including blue yoga ball, pink and black boxes",
+        "black foam roller standing vertically",
+        "grey cabinet with drawers"
+      ],
+      "atmosphere": "casual home fitness space"
+    },
+    "lighting": {
+      "type": "soft natural indoor lighting",
+      "quality": "daylight, even illumination",
+      "effects": [
+        "natural skin tone, no harsh shadows"
+      ]
+    },
+    "camera_technical": {
+      "style": "candid smartphone photography, influencer aesthetic",
+      "angle": "medium full shot, slightly low angle behind subject",
+      "focus": "realistic, high definition",
+      "quality": "casual snapshot, natural smartphone quality"
+    },
+    "the_vibe": {
+      "energy": "fun, playful, confident",
+      "mood": "casual fitness influencer content",
+      "aesthetic": "candid gym selfie / friend taking photo",
+      "authenticity": "unposed feeling despite intentional pose",
+      "story": "quick fun photo during workout"
+    },
+    "realism_anchors": [
+      "home gym equipment visible",
+      "yoga ball and foam roller props",
+      "natural indoor lighting",
+      "athleisure fabric texture",
+      "over-shoulder twist pose"
+    ],
+    "negative_prompt": [
+      "professional studio",
+      "artificial lighting",
+      "formal clothing",
+      "facing camera directly",
+      "anime",
+      "illustration",
+      "3d render",
+      "outdoor setting",
+      "gym equipment not visible"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "candid smartphone fitness photo 4:5, fit young blonde woman back turned to camera looking over shoulder playful pouty duck face expression, short straight blonde hair with highlights falling over back, fit athletic build, DOUBLE THUMBS UP gesture both hands raised, black long-sleeved tight athletic crop top form-fitting shows midriff, black spanish pants athleisure style, standing twisting torso to look back, indoor home gym room grey shelving unit blue yoga ball pink black boxes black foam roller grey cabinet, soft natural indoor daylight even illumination, medium full shot slightly low angle behind subject, casual smartphone influencer aesthetic realistic high definition, fun playful confident fitness energy",
+  "negative_prompt_flat": "professional studio, artificial lighting, formal clothing, facing camera, anime, illustration, outdoor setting",
+  "color_palette": {
+    "primary": "black athleisure outfit",
+    "secondary": "blonde hair, grey shelving",
+    "accent": "blue yoga ball, pink boxes",
+    "skin": "natural warm tones"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "candid smartphone fitness photo, fit blonde woman BACK TO CAMERA looking over shoulder playful duck face, short straight blonde hair, athletic build, DOUBLE THUMBS UP both hands raised, black long-sleeve crop top black spanish pants athleisure, torso twisted looking back, home gym room grey shelving blue yoga ball foam roller boxes cabinet, soft natural indoor daylight, medium full shot low angle behind subject, influencer aesthetic smartphone quality, fun playful confident, 4:5",
+      "negative_prompt": "professional studio, artificial lighting, formal clothing, facing camera, anime, illustration"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Fit young woman, back to camera, looking over shoulder",
+          "hair": {
+            "color": "Blonde",
+            "style": "Short, straight with subtle highlights"
+          },
+          "build": "Fit, athletic",
+          "expression": "Playful pouting duck face, looking at camera over shoulder"
+        },
+        "wardrobe": {
+          "top": "Black long-sleeved tight athletic crop top, form-fitting, shows midriff",
+          "bottom": "Black spanish pants, athleisure style"
+        },
+        "pose_action": {
+          "orientation": "Back turned to camera",
+          "torso": "Twisting slightly to look over shoulder",
+          "gesture": "Double thumbs-up, both hands raised",
+          "head": "Looking over shoulder at camera"
+        },
+        "scene": {
+          "environment": "Indoor home gym or bedroom",
+          "background": [
+            "Grey shelving unit",
+            "Blue yoga ball",
+            "Pink and black boxes",
+            "Black foam roller",
+            "Grey cabinet"
+          ],
+          "atmosphere": "Casual home fitness space"
+        },
+        "lighting": {
+          "type": "Soft natural indoor lighting",
+          "quality": "Daylight, even illumination"
+        },
+        "camera": {
+          "style": "Candid smartphone photography, influencer aesthetic",
+          "angle": "Medium full shot, slightly low angle behind subject",
+          "quality": "Realistic, high definition, casual snapshot",
+          "aspect_ratio": "4:5",
+          "negative_constraints": "no professional studio, no artificial lighting, no facing camera"
+        },
+        "mood": "Fun, playful, confident fitness energy"
+      }
+    },
+    "midjourney": {
+      "prompt": "candid fitness photo, fit blonde woman back to camera thumbs up, looking over shoulder duck face, black crop top spanish pants, home gym shelving yoga ball, natural indoor light, smartphone influencer aesthetic --ar 4:5 --style raw --v 6",
+      "notes": "Use --style raw for authentic candid feel"
+    },
+    "ideogram": {
+      "prompt": "Fit blonde woman standing with back to camera giving double thumbs-up, looking over shoulder with playful duck face expression, wearing black long-sleeve crop top and black spanish pants, indoor home gym with grey shelving unit, blue yoga ball, foam roller, soft natural daylight, candid smartphone photography style",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "4:5"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Candid fitness photo, blonde woman back to camera thumbs up, looking over shoulder, black athleisure, home gym background, smartphone aesthetic"
+    },
+    "luma": {
+      "prompt": "Home gym, fit woman turns her back and raises thumbs up, looks over shoulder with playful expression, friend captures the fun moment, casual workout energy",
+      "motion_notes": "Turn away, raise thumbs, look back with smile/pout"
+    },
+    "reve": {
+      "prompt": "Fitness influencer photography in the style of candid gym content, back-to-camera pose with thumbs up, blonde woman black athleisure, home gym setting, playful duck face over shoulder, smartphone snapshot aesthetic",
+      "art_references": [
+        "Fitness influencer content",
+        "Candid gym photos",
+        "Playful pose photography"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Fit blonde woman standing with back to camera giving double thumbs-up gesture, looking over shoulder with playful duck face expression, wearing black long-sleeve athletic crop top and black spanish pants, indoor home gym with grey shelving, blue yoga ball, foam roller, soft natural daylight, candid smartphone photography"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A fit young woman in her early to mid 20s stands with her back turned to the camera in an indoor home gym space. She has short straight blonde hair with subtle highlights falling over her back and an athletic fit build. She looks over her shoulder directly at the camera with a playful pouting duck face expression while giving a double thumbs-up gesture with both hands raised. She wears a black long-sleeved tight athletic crop top that is form-fitting and shows her midriff from behind, paired with black spanish pants in an athleisure style. The background shows a grey shelving unit with open compartments containing miscellaneous items including a blue yoga ball, pink and black boxes, a black foam roller standing vertically, and a grey cabinet with drawers. Soft natural indoor lighting provides even daylight illumination with natural skin tones and no harsh shadows. The shot is a medium full frame from a slightly low angle behind the subject, capturing candid smartphone photography with influencer aesthetic and realistic high definition quality. No professional studio lighting. No formal clothing. Fun playful confident fitness energy.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Fit blonde woman back to camera looking over shoulder with playful duck face, double thumbs up gesture both hands raised, short straight blonde hair with highlights, athletic build, black long-sleeve crop top form-fitting shows midriff, black spanish pants athleisure, indoor home gym grey shelving blue yoga ball pink boxes foam roller, soft natural indoor daylight even illumination, candid smartphone fitness photography influencer aesthetic, not professional studio or artificial lighting",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A fit young blonde woman stands with her back to the camera in a home gym, looking over her shoulder with a playful duck face expression. She gives a double thumbs-up gesture with both hands raised. She has short straight blonde hair and an athletic build. She wears a black long-sleeved tight athletic crop top and black spanish pants. The background shows grey shelving with a blue yoga ball, pink and black boxes, and a foam roller. Soft natural indoor daylight provides even illumination. Candid smartphone photography style with fitness influencer aesthetic.",
+      "editing_prompt": "Change the crop top and pants from black to bright neon green while keeping the same athletic style and fit. Preserve the thumbs-up pose, over-shoulder duck face expression, and the home gym background exactly as they appear.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed pose mechanics (back to camera, twist, thumbs up), specific background props",
+    "2_realism_anchors: 'home gym equipment', 'yoga ball and foam roller', 'natural lighting', 'athleisure texture'",
+    "3_technical_camera: 'candid smartphone', 'slightly low angle behind', 'influencer aesthetic'",
+    "4_negative_hygiene: prevents professional studio, artificial lighting, facing camera",
+    "5_spatial_consistency: clear back-to-camera orientation with over-shoulder look",
+    "6_lighting_storytelling: 'soft natural indoor daylight' = casual home fitness mood",
+    "7_gesture_specificity: explicit double thumbs-up with raised hands"
+  ]
+}

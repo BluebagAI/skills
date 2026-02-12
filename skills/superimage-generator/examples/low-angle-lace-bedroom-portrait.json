@@ -1,0 +1,211 @@
+{
+  "name": "Low-Angle Lace Bedroom Portrait",
+  "description": "Photoreal indoor portrait with low-angle foreshortening and ControlNet pose/depth locks",
+  "input_prompt": "woman low-angle bedroom portrait navy lace bra ponytail arms raised",
+  "target_model": "nano-banana",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "masterpiece",
+      "aspect_ratio": "3:4",
+      "style": "photorealistic",
+      "target_model": "nano-banana"
+    },
+    "subject": {
+      "description": "Adult woman mid-20s with tanned glowing skin and dark brown hair in a high slightly messy ponytail, confident pouty expression.",
+      "body": {
+        "physique": "Curvy frame with pronounced chest volume and natural soft-tissue projection.",
+        "anatomy": "Raised-arm posture with hands reaching back to adjust ponytail, elbows bent outward, back slightly arched, chin lifted and tilted slightly left.",
+        "details": "Visible pores and dewy highlights on forehead, cheekbones, nose tip, collarbones, and upper chest; specular highlights vary by facial plane; natural body physics from low-angle perspective."
+      },
+      "face": "Fresh makeup with glossy lips, soft contour, highlighter on cheekbones and nose tip; sultry, confident, slightly pouty expression with gaze looking down toward the lens.",
+      "hair": "Dark brown hair in a high slightly messy ponytail, pulled back tightly with loose strands near temples and crown.",
+      "skin": "Warm tan with golden undertones, visible pores and dewy highlights, no smoothing.",
+      "expression_mood": "alluring, direct, confident"
+    },
+    "wardrobe": {
+      "top": "Sheer dark navy floral lace underwire bra with scalloped edges, supportive underwire with natural drape, and small ribbon bows on straps.",
+      "bottom": "Not visible in frame (mid-abdomen to head crop); do not introduce additional bottoms.",
+      "accessories": ["thin gold chain necklace with small butterfly pendant", "small gold hoop earrings"]
+    },
+    "pose_action": {
+      "description": "Both arms raised with hands reaching back to adjust ponytail, elbows bent outward, low-angle shot framed from mid-abdomen to top of head.",
+      "posture": "Back slightly arched, chin lifted and tilted slightly left, chest pushed forward by raised-arm posture."
+    },
+    "scene": {
+      "environment": "Indoor bedroom or hotel suite.",
+      "background": "Brass chandelier with three illuminated frosted white globes, bed with rattan headboard and white linens on frame right, dark-framed frosted glass door or partition on frame left, off-white to cream painted walls.",
+      "atmosphere": "Warm, intimate, polished lifestyle setting.",
+      "location": "Bedroom or hotel suite interior."
+    },
+    "lighting": {
+      "type": "soft ambient room fill with practical chandelier contribution",
+      "quality": "mixed",
+      "effects": [
+        "dimensional highlights on facial high points",
+        "gentle shadow falloff along neck and torso",
+        "warm golden cast balanced with neutral interior tones"
+      ]
+    },
+    "camera": {
+      "technical": "High-end smartphone rear camera simulation, 26mm equivalent, f/1.8, 4k, HDR, low-angle foreshortening with sharp face and torso detail and natural depth separation.",
+      "aspect_ratio": "3:4",
+      "negative_constraints": "No anatomy normalization, no body proportion averaging, no smaller bust than reference intent, no reduced chest volume, no flattened or compressed torso depth, no tightened anatomy beyond natural physics, no slimmed torso correction, no beauty standard enforcement, no dataset-average anatomy, no camera angles that reduce foreground volume, no wide-angle distortion not in brief, no lens compression not in brief, no cropping that removes torso emphasis, no mirror selfie, no phone in hand, no reflections of photographer, no beautification filters, no skin smoothing, no plastic skin, no airbrushed texture, no cartoon, no anime, no 3d render, no watermark, no text, no signature.",
+      "lens": "26mm equivalent",
+      "resolution": "4k",
+      "style": "low-angle foreshortening"
+    },
+    "controlnet": {
+      "pose_control": {
+        "model_type": "OpenPose",
+        "purpose": "exact skeletal and pose lock",
+        "constraints": [
+          "preserve shoulder width",
+          "preserve hip angle",
+          "preserve spine curvature",
+          "preserve limb placement"
+        ],
+        "recommended_weight": 1
+      },
+      "depth_control": {
+        "model_type": "ZoeDepth",
+        "purpose": "depth, volume, and camera-to-body spatial lock",
+        "constraints": [
+          "preserve chest foreground dominance",
+          "prevent flat or compressed depth",
+          "maintain clear torso-to-background separation"
+        ],
+        "recommended_weight": 0.8
+      }
+    },
+    "realism_anchors": [
+      "visible skin pores on forehead and cheeks",
+      "lace weave and scalloped edge fidelity",
+      "individual hair strands near ponytail base",
+      "realistic jewelry metal reflections",
+      "rattan headboard texture",
+      "natural soft-tissue behavior in low-angle pose",
+      "no plastic skin finish"
+    ],
+    "negative_prompt": [
+      "anatomy normalization",
+      "body proportion averaging",
+      "smaller bust than reference intent",
+      "reduced chest volume",
+      "flattened or compressed torso depth",
+      "tightened or lifted anatomy beyond natural physics",
+      "slimmed torso correction",
+      "beauty standard enforcement",
+      "dataset-average female anatomy",
+      "camera angles that reduce foreground volume",
+      "wide-angle distortion not in brief",
+      "lens compression not in brief",
+      "cropping that removes torso emphasis",
+      "mirror selfie",
+      "phone in hand",
+      "reflections of photographer",
+      "beautification filters",
+      "skin smoothing",
+      "plastic skin",
+      "airbrushed texture",
+      "cartoon",
+      "anime",
+      "3d render",
+      "watermark",
+      "text",
+      "signature"
+    ]
+  },
+  "flattened_prompt": "masterpiece, photorealistic indoor portrait, adult woman mid-20s with warm tan glowing skin, dark brown hair in high slightly messy ponytail, both arms raised adjusting ponytail, elbows out, chin lifted and tilted left, confident pouty downward gaze, sheer dark navy lace underwire bra with scalloped edges and ribbon bows, gold butterfly pendant necklace and small hoop earrings, low-angle medium close-up from mid-abdomen to head with torso foreshortening, bedroom hotel-suite interior with brass chandelier three frosted globes, rattan headboard bed and white linens, dark-framed frosted glass door, soft ambient mixed practical lighting with dewy facial highlights, 26mm f/1.8, 4k HDR detail, natural skin pores, lace texture, jewelry reflections, 3:4 vertical",
+  "negative_prompt_flat": "anatomy normalization, body proportion averaging, flattened depth, mirror selfie, phone in hand, beautification filters, skin smoothing, plastic skin, airbrushed texture, cartoon, anime, 3d render, watermark, text, signature",
+  "color_palette": {
+    "primary": "warm tanned skin tones",
+    "secondary": "cream and off-white interior neutrals",
+    "accent": "dark navy lace",
+    "metallic": "soft gold jewelry and chandelier brass"
+  },
+  "model_adaptations": {
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Adult woman mid-20s with warm tan skin, dark brown high ponytail, confident pouty expression",
+          "body": {
+            "physique": "curvy frame with natural foreground projection in low-angle perspective",
+            "anatomy": "raised-arm posture with arched back, chest-forward perspective preserved",
+            "details": "visible pores, dewy highlights, realistic soft-tissue behavior"
+          },
+          "face": {
+            "expression": "sultry and direct",
+            "gaze": "downward into lens",
+            "makeup": "fresh glossy lips, defined brows, subtle highlight on cheekbones and nose tip"
+          },
+          "hair": {
+            "color": "dark brown",
+            "style": "high slightly messy ponytail",
+            "details": "loose strands at temples"
+          }
+        },
+        "wardrobe": {
+          "top": "Sheer dark navy lace underwire bra with scalloped trim and ribbon bows",
+          "accessories": [
+            "thin gold butterfly pendant necklace",
+            "small gold hoop earrings"
+          ]
+        },
+        "pose_action": {
+          "description": "Both arms raised, hands behind head adjusting ponytail, elbows out, chin lifted left",
+          "posture": "Back gently arched with chest-forward emphasis from low camera placement"
+        },
+        "scene": {
+          "environment": "Bedroom or hotel suite interior",
+          "background": "Brass chandelier with three frosted globes, rattan headboard bed with white linens, dark-framed frosted partition",
+          "atmosphere": "warm intimate modern"
+        },
+        "lighting": {
+          "type": "soft ambient mixed with practical fixture light",
+          "effects": "dimensional facial highlights, gentle torso shadows, warm golden cast"
+        },
+        "camera": {
+          "technical": "26mm equivalent, f/1.8, 4k, HDR",
+          "angle": "Low-angle looking upward, medium close-up from mid-abdomen to top of head",
+          "aspect_ratio": "3:4",
+          "negative_constraints": "no mirror selfie, no phone-in-hand, no skin smoothing, no anatomy averaging, no flattened depth"
+        },
+        "controlnet": {
+          "pose_control": "OpenPose weight 1.0 for exact skeletal lock",
+          "depth_control": "ZoeDepth weight 0.8 for foreground volume and torso-background separation"
+        }
+      }
+    },
+    "flux": {
+      "prompt": "masterpiece, photorealistic indoor portrait, adult woman tan glowing skin dark brown high ponytail, arms raised adjusting ponytail elbows out, chin lifted left, pouty downward gaze, sheer dark navy lace underwire bra scalloped edges ribbon bows, gold butterfly pendant and hoop earrings, low-angle medium close-up mid-abdomen to head, warm bedroom hotel suite with brass chandelier frosted globes rattan headboard white linens frosted glass partition, soft ambient practical lighting dewy highlights, 26mm f/1.8, 4k HDR, natural pores lace texture realistic depth, 3:4",
+      "negative_prompt": "mirror selfie, phone in hand, anatomy normalization, flattened depth, skin smoothing, plastic skin, cartoon, anime, 3d render, watermark"
+    },
+    "midjourney": {
+      "prompt": "photoreal indoor low-angle portrait, adult woman with tan glowing skin and dark brown messy high ponytail, arms raised adjusting ponytail, pouty downward gaze, sheer dark navy lace underwire bra, gold butterfly pendant, warm bedroom suite with brass chandelier and rattan headboard, dewy highlights, natural skin pores, sharp lace texture --ar 3:4 --style raw --v 6",
+      "notes": "Use --style raw for realistic skin and texture"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A photoreal indoor portrait of an adult woman in her mid-20s with warm tanned glowing skin and dark brown hair tied in a high slightly messy ponytail. She raises both arms and reaches back to adjust the ponytail, elbows bent outward, with her chin lifted and tilted slightly left. The camera is low-angle looking up, framed from mid-abdomen to top of head, creating natural torso foreshortening and clear foreground depth. She wears a sheer dark navy lace underwire bra with scalloped edges and small ribbon bows on the straps, a thin gold chain necklace with a butterfly pendant, and small gold hoop earrings. Her expression is sultry and confident with slightly parted glossy lips, defined brows, and a downward gaze into the lens. Set the scene in a warm bedroom or hotel suite with a brass chandelier holding three illuminated frosted globes, a bed with rattan headboard and white linens on the right, and a dark-framed frosted glass partition on the left. Use soft diffused ambient light with practical fixture contribution and strong but natural specular highlights on forehead, cheekbones, nose tip, collarbones, and upper chest. Keep visible skin pores, realistic lace texture, individual hair strands, and natural skin physics. No mirror selfie, no phone in hand, no beautify filters, no skin smoothing, no watermark.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, preservation constraints, and explicit negatives"
+    },
+    "seedream-4.5": {
+      "prompt": "Adult woman mid-20s with tan glowing skin and dark brown high messy ponytail, arms raised adjusting ponytail elbows out, chin lifted left and gaze down to camera with pouty confident expression, sheer dark navy lace underwire bra scalloped edges ribbon bows, thin gold butterfly pendant and small hoops, low-angle medium close-up from mid-abdomen to head with foreground volume preserved, bedroom hotel suite interior brass chandelier three frosted globes, rattan headboard bed white linens, frosted glass partition, soft ambient practical lighting with dewy highlights, visible pores lace texture hair strands, 3:4, not mirror selfie, not phone-in-hand, not skin smoothing, not flattened depth",
+      "notes": "Subject-first natural language with inline realism and negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "Low-angle photoreal indoor portrait of an adult woman with warm tan skin and dark brown high ponytail, both arms raised to adjust hair, chin lifted slightly left, confident pouty expression looking downward. She wears a sheer dark navy lace underwire bra with scalloped edges and ribbon bows, gold butterfly pendant necklace, and small hoop earrings. Bedroom or hotel suite background with brass chandelier, rattan headboard bed, white linens, and frosted glass partition. Soft ambient and practical warm lighting with visible skin pores and lace detail.",
+      "editing_prompt": "Change the bra color from dark navy to deep emerald while preserving lace structure, pose, camera angle, lighting, and all background elements.",
+      "notes": "Natural language with preserve clauses for edit mode"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: explicit subject, pose, set dressing, and jewelry layers",
+    "2_realism_anchors: pores, lace weave fidelity, hair strands, metal reflections, rattan texture",
+    "3_technical_camera: low-angle 26mm framing with foreshortening and 3:4 output",
+    "4_negative_hygiene: strict exclusions for smoothing, anatomy averaging, and style leaks",
+    "5_spatial_consistency: pose lock + depth lock preserve foreground dominance and body-background separation",
+    "6_lighting_storytelling: soft ambient plus practical highlights for warm intimate mood",
+    "7_controlnet_locking: OpenPose and ZoeDepth weights for reproducible structure"
+  ]
+}

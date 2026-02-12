@@ -1,0 +1,256 @@
+{
+  "name": "Outdoor Café Athletic Set Collage",
+  "description": "2x2 grid collage of blonde woman in white athletic set (crop sports bra, high-waisted shorts) at outdoor café with pergola, holding green iced drink, four lifestyle poses, fresh healthy summer aesthetic",
+  "input_prompt": "2x2 grid collage blonde woman white athletic set crop sports bra shorts outdoor cafe pergola green drink lifestyle poses summer",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "lifestyle_fashion_photography",
+      "aspect_ratio": "1:1",
+      "style": "2x2_grid_collage",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "blonde woman in white athletic set at outdoor café, fresh healthy summer lifestyle aesthetic",
+      "count": 1,
+      "identity": {
+        "hair": {
+          "color": "blonde",
+          "style": "long, loose, natural movement"
+        },
+        "appearance": "fit, athletic build, healthy glow"
+      },
+      "expression_range": [
+        "relaxed",
+        "confident",
+        "smiling",
+        "neutral"
+      ],
+      "consistency_note": "same person in all four panels"
+    },
+    "wardrobe": {
+      "accessories": [
+        "black shoulder bag",
+        "minimal jewelry"
+      ],
+      "clothing": [
+        {
+          "type": "cropped sports bra",
+          "color": "white"
+        },
+        {
+          "type": "high-waisted shorts",
+          "color": "white"
+        },
+        {
+          "type": "white athletic set"
+        },
+        {
+          "type": "white sneakers with crew socks"
+        }
+      ]
+    },
+    "environment": {
+      "location": "outdoor café walkway",
+      "background": [
+        "architecture: white modern building with pergola",
+        "surroundings: lush green plants and vines",
+        "ground: stone tile flooring",
+        "lighting: natural daylight with soft shadows"
+      ],
+      "props": [
+        {
+          "item": "green iced drink in clear cup with straw",
+          "details": "action: holding and drinking at various moments"
+        }
+      ],
+      "atmosphere": "fresh, healthy, summer outdoor café vibe"
+    },
+    "lighting": {
+      "type": "natural daylight",
+      "quality": "soft shadows, bright and airy",
+      "effects": [
+        "healthy summer glow"
+      ]
+    },
+    "camera_technical": {
+      "style": "lifestyle fashion photography, clean and aesthetic",
+      "focus": "subject centered in each frame",
+      "depth": "clear subject separation from background",
+      "balance": "consistent framing across all four images"
+    },
+    "composition": {
+      "grid_structure": "2x2 equal panels",
+      "visual_flow": "cohesive color palette and styling",
+      "subject_placement": "centered in each frame with balanced spacing",
+      "type": "2x2 grid collage",
+      "layout": "portrait images combined into square",
+      "consistency": "same subject, same outfit, same location across all four frames",
+      "panels": [
+        {
+          "id": "panel_1",
+          "description": "standing casually"
+        },
+        {
+          "id": "panel_2",
+          "description": "leaning against planter"
+        },
+        {
+          "id": "panel_3",
+          "description": "smiling while standing"
+        },
+        {
+          "id": "panel_4",
+          "description": "crouching with drink"
+        }
+      ]
+    },
+    "the_vibe": {
+      "energy": "fresh, healthy, active",
+      "mood": "stylish summer lifestyle",
+      "aesthetic": "clean, bright, aspirational wellness",
+      "story": "post-workout refreshment at trendy café"
+    },
+    "color_palette": {
+      "dominant": "white, green, beige",
+      "accent": "black (bag), natural skin tones",
+      "overall_tone": "fresh, healthy, summer"
+    },
+    "realism_anchors": [
+      "green drink condensation",
+      "plant texture detail",
+      "stone tile pattern",
+      "fabric stretch on athletic wear",
+      "natural hair movement across poses"
+    ],
+    "negative_prompt": [
+      "inconsistent subject",
+      "different faces across panels",
+      "indoor setting",
+      "artificial lighting",
+      "formal clothing",
+      "winter aesthetic",
+      "anime",
+      "illustration",
+      "3d render"
+    ],
+    "prompt_type": "collage"
+  },
+  "flattened_prompt": "2x2 grid collage lifestyle fashion photography 1:1, blonde woman same subject all four panels white athletic set cropped sports bra high-waisted shorts white sneakers crew socks black shoulder bag minimal jewelry, outdoor café walkway white modern building with pergola lush green plants vines stone tile flooring, holding green iced drink clear cup with straw, four poses: standing casually | leaning against planter | smiling while standing | crouching with drink, expression range relaxed confident smiling neutral, natural daylight soft shadows bright airy healthy summer glow, clean aesthetic subject centered each frame clear separation consistent framing, fresh healthy stylish summer lifestyle post-workout refreshment mood",
+  "negative_prompt_flat": "inconsistent subject, different faces, indoor, artificial lighting, formal clothing, winter, anime, illustration",
+  "model_adaptations": {
+    "flux": {
+      "prompt": "2x2 GRID COLLAGE lifestyle photography, blonde woman SAME SUBJECT all four panels, white athletic set crop sports bra high-waisted shorts white sneakers black bag, outdoor café walkway white pergola green plants vines stone tiles, holding green iced drink clear cup, four poses: standing casual | leaning planter | smiling standing | crouching drink, natural daylight soft shadows healthy summer glow, subject centered each frame consistent framing, fresh stylish summer lifestyle, 1:1",
+      "negative_prompt": "inconsistent subject, different faces across panels, indoor, artificial lighting, anime, illustration"
+    },
+    "nano-banana": {
+      "prompt": {
+        "layout": {
+          "format": "2x2 grid collage",
+          "consistency": "Same subject, same outfit, same location all four frames"
+        },
+        "subject": {
+          "description": "Blonde woman, fit athletic build, healthy glow",
+          "hair": {
+            "color": "Blonde",
+            "style": "Long, loose, natural movement"
+          },
+          "expressions": [
+            "Relaxed",
+            "Confident",
+            "Smiling",
+            "Neutral"
+          ]
+        },
+        "wardrobe": {
+          "outfit": "White athletic set",
+          "top": "Cropped white sports bra",
+          "bottom": "White high-waisted shorts",
+          "shoes": "White sneakers with crew socks",
+          "accessories": [
+            "Black shoulder bag",
+            "Minimal jewelry"
+          ]
+        },
+        "poses": {
+          "panel_1": "Standing casually",
+          "panel_2": "Leaning against planter",
+          "panel_3": "Smiling while standing",
+          "panel_4": "Crouching with drink"
+        },
+        "props": "Green iced drink in clear cup with straw",
+        "scene": {
+          "environment": "Outdoor café walkway",
+          "architecture": "White modern building with pergola",
+          "surroundings": "Lush green plants and vines",
+          "ground": "Stone tile flooring"
+        },
+        "lighting": {
+          "type": "Natural daylight",
+          "quality": "Soft shadows, bright and airy",
+          "effect": "Healthy summer glow"
+        },
+        "camera": {
+          "style": "Lifestyle fashion photography, clean aesthetic",
+          "composition": "Subject centered each frame, consistent framing",
+          "aspect_ratio": "1:1 (combined)",
+          "negative_constraints": "no inconsistent subject, no different faces, no indoor"
+        },
+        "mood": "Fresh, healthy, stylish summer lifestyle"
+      }
+    },
+    "midjourney": {
+      "prompt": "2x2 grid collage, blonde woman white athletic outfit, outdoor café pergola green plants, holding green drink, four lifestyle poses, natural daylight soft shadows, fresh healthy summer aesthetic --ar 1:1 --v 6",
+      "notes": "Emphasize same subject consistency across panels"
+    },
+    "ideogram": {
+      "prompt": "2x2 grid collage of blonde woman in white athletic set (crop sports bra, high-waisted shorts) at outdoor café with white pergola and green plants, holding green iced drink, four different poses: standing, leaning, smiling, crouching, same subject all panels, natural daylight, fresh healthy summer lifestyle photography",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "1:1"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "2x2 grid collage, blonde woman white athletic set, outdoor café pergola plants, green drink, four poses, natural light summer lifestyle"
+    },
+    "luma": {
+      "prompt": "Outdoor café with pergola, blonde woman in white athletic wear enjoys green drink, moves between poses - standing, leaning, smiling, crouching - summer daylight filters through plants, fresh healthy lifestyle moment",
+      "motion_notes": "Pose transitions, drink sipping, natural movements, plant shadows shifting"
+    },
+    "reve": {
+      "prompt": "Lifestyle fashion photography in the style of wellness brand campaigns, 2x2 grid collage, blonde woman white athletic set, outdoor café pergola setting, green drink prop, natural daylight, fresh healthy summer aesthetic",
+      "art_references": [
+        "Wellness brand photography",
+        "Lifestyle collage layouts",
+        "Summer athletic campaigns"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "2x2 grid collage of blonde woman in white athletic set (crop sports bra, high-waisted shorts, white sneakers) at outdoor café with white pergola and green plants, holding green iced drink in clear cup, four lifestyle poses: standing casually, leaning against planter, smiling, crouching, natural daylight, fresh healthy summer aesthetic"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A 2x2 grid collage of lifestyle fashion photography featuring the same blonde woman across all four panels. She has long loose blonde hair with natural movement and a fit athletic build with a healthy glow. She wears a white athletic set consisting of a cropped white sports bra and white high-waisted shorts, paired with white sneakers and crew socks, a black shoulder bag, and minimal jewelry. The setting is an outdoor café walkway with a white modern building featuring a pergola overhead, lush green plants and vines, and stone tile flooring. She holds a green iced drink in a clear cup with straw throughout. The four panels show different poses: Panel 1 - standing casually, Panel 2 - leaning against a planter, Panel 3 - smiling while standing, Panel 4 - crouching with the drink. Natural daylight with soft shadows creates a bright airy healthy summer glow. Each frame has the subject centered with consistent framing. Same person with consistent features across all panels. No inconsistent faces. No indoor setting. Fresh healthy summer lifestyle aesthetic.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "2x2 grid collage same blonde woman all four panels, fit athletic build long loose hair, white athletic set crop sports bra high-waisted shorts white sneakers black shoulder bag, outdoor café walkway white pergola lush green plants stone tiles, holding green iced drink clear cup, four poses standing casual leaning planter smiling crouching, natural daylight soft shadows healthy summer glow, lifestyle fashion photography clean aesthetic, not different faces across panels or inconsistent subject",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A 2x2 grid collage showing the same blonde woman in all four panels at an outdoor café. She has long loose blonde hair and a fit athletic build. She wears a white athletic set with cropped sports bra, high-waisted shorts, white sneakers, and black shoulder bag. The setting features a white modern building with pergola, lush green plants, and stone tile flooring. She holds a green iced drink throughout. Four poses: standing casually, leaning against planter, smiling while standing, crouching with drink. Natural daylight creates soft shadows and healthy summer glow. Consistent subject identity and styling across all panels.",
+      "editing_prompt": "Change the athletic set color from white to coral pink while keeping the same crop top and shorts style. Preserve the 2x2 grid layout, all four poses, the café setting, and ensure the same woman appears consistently across all panels.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed outfit breakdown, specific pose descriptions per panel, environment details",
+    "2_realism_anchors: 'drink condensation', 'plant texture', 'stone tiles', 'fabric stretch', 'hair movement'",
+    "3_technical_camera: 'lifestyle fashion photography', 'centered framing', 'consistent across panels'",
+    "4_negative_hygiene: prevents inconsistent subject, different faces, wrong setting",
+    "5_spatial_consistency: clear 2x2 grid structure with pose variations",
+    "6_lighting_storytelling: 'natural daylight soft shadows' = fresh healthy summer mood",
+    "7_collage_structure: explicit grid layout with subject consistency requirement"
+  ]
+}

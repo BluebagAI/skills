@@ -1,0 +1,286 @@
+{
+  "name": "White Bikini Mediterranean Terrace",
+  "description": "Honey blonde woman in white ruched bikini with tie-front at Mediterranean beach club terrace, pergola with bamboo roof creating dappled shadows, rocky cliff and blue sea background, vibrant travel aesthetic",
+  "input_prompt": "honey blonde woman white ruched bikini tie front mediterranean terrace pergola bamboo dappled shadows cliff sea travel aesthetic",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "vibrant_travel_photography",
+      "aspect_ratio": "4:5",
+      "style": "mediterranean_lifestyle",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "young woman with golden tan skin and honey blonde balayage hair in white two-piece bikini, standing at Mediterranean beach club terrace with direct eye contact",
+      "identity": {
+        "age_range": "early to mid 20s",
+        "type": "young female",
+        "distinguishing_features": [
+          "honey blonde balayage",
+          "golden tan",
+          "light greenish-blue eyes",
+          "slim fit hourglass"
+        ]
+      },
+      "physical_details": {
+        "skin": {
+          "tone": "golden tan with warm sun-kissed undertones",
+          "texture": "smooth, slight sheen on shoulders and thighs",
+          "details": "complexion: radiant and healthy"
+        },
+        "hair": {
+          "color": "honey blonde with darker shadow root (balayage)",
+          "style": "long extending past shoulders, loose soft waves, middle part",
+          "details": "texture: silky, voluminous, catching sunlight"
+        },
+        "face": {
+          "details": "shape: oval with softly defined jawline; eyes: color: light greenish-blue (hazel-teal), shape: almond, slightly upturned, makeup: minimal, defined lashes (mascara), subtle tight-lining, gaze: direct eye contact, soft and alluring intensity; eyebrows: natural arch, medium thickness, soft brown; nose: straight bridge, small button tip, refined structure; lips: shape: full and plump, well-defined cupid's bow, color: natural rosy-nude, finish: soft matte with slight hydration/gloss, expression: relaxed, slightly parted, neutral to soft pout; cheeks: softly contoured with hint of peach/bronze blush",
+          "expression": "relaxed, soft pout"
+        },
+        "body": {
+          "physique": "slim, fit, hourglass silhouette",
+          "details": "pose_details: weight shifted to one hip"
+        }
+      },
+      "expression_mood": "relaxed, confident, soft allure"
+    },
+    "wardrobe": {
+      "accessories": [
+        "dainty silver/gold chain necklace with small pendant",
+        "stack of beaded bracelets on right wrist (white pearls and colorful beads)",
+        "single beaded bracelet on left wrist",
+        "gold rings on fingers"
+      ],
+      "clothing": [
+        {
+          "type": "bikini top",
+          "details": "style: ruched bandeau with thin spaghetti straps, details: center front tie-knot with dangling strings, keyhole cutout detail"
+        },
+        {
+          "type": "bikini bottom",
+          "details": "style: matching white bottoms, cut: high-cut leg, gathered fabric"
+        },
+        {
+          "type": "bikini set",
+          "details": "color: white"
+        }
+      ]
+    },
+    "pose_action": {
+      "position": "standing three-quarter turn to camera",
+      "dynamic_elements": "weight: shifted to one hip; fingers: relaxed, manicured nails visible",
+      "hands": "resting on/adjusting side straps of bikini bottoms"
+    },
+    "environment": {
+      "location": "Mediterranean-style outdoor beach club or terrace",
+      "structure": {
+        "overhead": "wooden pergola beams with bamboo/reed slat roofing",
+        "flooring": "light gray concrete or stone patio",
+        "walls": "rough-textured white stucco/stone wall on left"
+      },
+      "props": [
+        {
+          "item": "large black planter pots"
+        },
+        {
+          "item": "tall dried/brown palm fronds framing subject on left and right"
+        }
+      ],
+      "background": [
+        "scenery: steep rocky cliff face with green scrub vegetation, glimpses of blue sea",
+        "objects: beige patio umbrellas/parasols in mid-distance, lounge chairs",
+        "sky: vibrant clear azure blue"
+      ],
+      "atmosphere": "sunny Mediterranean terrace, relaxed beach club vibe"
+    },
+    "lighting": {
+      "type": "bright natural daylight (noon sun)",
+      "quality": "high contrast",
+      "shadows": "dappled shadows cast by bamboo roof on ground behind subject",
+      "effects": [
+        "sun-kissed skin glow"
+      ]
+    },
+    "camera_technical": {
+      "color_grading": "vibrant, high saturation, warm travel aesthetic",
+      "focus": "sharp focus on subject",
+      "depth_of_field": "deep, keeping background distinguishable",
+      "style": "travel lifestyle photography"
+    },
+    "the_vibe": {
+      "energy": "relaxed luxury",
+      "mood": "confident, sun-soaked, vacation bliss",
+      "aesthetic": "Mediterranean travel influencer",
+      "authenticity": "high-end beach club lifestyle",
+      "story": "perfect vacation moment at exclusive terrace"
+    },
+    "realism_anchors": [
+      "bamboo roof dappled shadows",
+      "rocky cliff texture",
+      "white stucco wall texture",
+      "bikini tie-knot detail",
+      "beaded bracelet stack"
+    ],
+    "negative_prompt": [
+      "overcast sky",
+      "flat lighting",
+      "indoor setting",
+      "winter aesthetic",
+      "pale skin",
+      "dull colors",
+      "anime",
+      "illustration",
+      "3d render"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "vibrant travel photography Mediterranean terrace 4:5, young woman early to mid 20s golden tan skin sun-kissed warm undertones smooth slight sheen radiant healthy, honey blonde hair darker shadow root balayage long past shoulders loose soft waves middle part silky voluminous catching sunlight, oval face softly defined jawline, light greenish-blue hazel-teal almond eyes slightly upturned minimal makeup defined lashes direct eye contact soft alluring intensity, natural arch brows medium soft brown, straight nose small button tip, full plump lips rosy-nude soft matte slight gloss relaxed slightly parted, softly contoured cheeks peach bronze blush, slim fit hourglass silhouette, white two-piece bikini RUCHED BANDEAU thin spaghetti straps CENTER FRONT TIE-KNOT dangling strings keyhole cutout, matching white bottoms high-cut leg gathered fabric, dainty chain necklace pendant beaded bracelet stack white pearls colorful beads gold rings manicured nails, standing three-quarter turn weight shifted hip hands adjusting bikini straps, Mediterranean beach club terrace wooden pergola beams bamboo reed slat roofing light gray stone patio white stucco wall black planters dried palm fronds, steep rocky cliff green scrub blue sea beige umbrellas lounge chairs azure sky, BRIGHT NOON SUN high contrast DAPPLED SHADOWS from bamboo roof, vibrant high saturation warm travel aesthetic sharp focus deep DOF",
+  "negative_prompt_flat": "overcast, flat lighting, indoor, winter, pale skin, dull colors, anime, illustration",
+  "color_palette": {
+    "primary": "white bikini, golden tan skin",
+    "secondary": "honey blonde hair, azure blue sky/sea",
+    "accent": "colorful beaded bracelets, gold jewelry",
+    "environment": "beige/white stucco, gray stone, green vegetation"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "vibrant Mediterranean travel portrait, woman early 20s golden tan sun-kissed skin, honey blonde balayage long soft waves, hazel-teal eyes direct gaze soft allure, full lips rosy-nude slightly parted, slim fit hourglass, WHITE RUCHED BANDEAU BIKINI spaghetti straps CENTER TIE-KNOT dangling strings keyhole, matching high-cut bottoms, chain necklace beaded bracelets gold rings, standing three-quarter turn hands on bikini straps, beach club terrace wooden PERGOLA BAMBOO ROOF DAPPLED SHADOWS, white stucco wall black planters dried palms, rocky cliff blue sea azure sky beige umbrellas, BRIGHT NOON SUN high contrast, vibrant saturated warm travel aesthetic, 4:5",
+      "negative_prompt": "overcast, flat lighting, indoor, winter, pale skin, dull colors, anime, illustration"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Young woman early to mid 20s",
+          "skin": {
+            "tone": "Golden tan with warm sun-kissed undertones",
+            "texture": "Smooth, slight sheen on shoulders and thighs",
+            "complexion": "Radiant and healthy"
+          },
+          "hair": {
+            "color": "Honey blonde with darker shadow root (balayage)",
+            "style": "Long past shoulders, loose soft waves, middle part",
+            "texture": "Silky, voluminous, catching sunlight"
+          },
+          "face": {
+            "shape": "Oval with softly defined jawline",
+            "eyes": {
+              "color": "Light greenish-blue (hazel-teal)",
+              "shape": "Almond, slightly upturned",
+              "makeup": "Minimal, defined lashes, subtle tight-lining",
+              "gaze": "Direct eye contact, soft alluring intensity"
+            },
+            "brows": "Natural arch, medium thickness, soft brown",
+            "nose": "Straight bridge, small button tip",
+            "lips": "Full plump, rosy-nude, soft matte with slight gloss, slightly parted",
+            "cheeks": "Softly contoured with peach/bronze blush"
+          },
+          "body": "Slim, fit, hourglass silhouette"
+        },
+        "wardrobe": {
+          "bikini": {
+            "color": "White",
+            "top": "Ruched bandeau, thin spaghetti straps, center front tie-knot with dangling strings, keyhole cutout",
+            "bottom": "Matching white, high-cut leg, gathered fabric"
+          },
+          "accessories": [
+            "Dainty chain necklace with pendant",
+            "Beaded bracelet stack (pearls and colorful)",
+            "Gold rings"
+          ],
+          "nails": "Manicured"
+        },
+        "pose_action": {
+          "stance": "Standing three-quarter turn to camera",
+          "weight": "Shifted to one hip",
+          "hands": "Resting on/adjusting bikini bottom straps",
+          "fingers": "Relaxed"
+        },
+        "scene": {
+          "environment": "Mediterranean-style outdoor beach club terrace",
+          "structure": {
+            "overhead": "Wooden pergola beams with bamboo/reed slat roofing",
+            "flooring": "Light gray concrete or stone patio",
+            "walls": "Rough-textured white stucco on left"
+          },
+          "props": [
+            "Large black planter pots",
+            "Dried brown palm fronds framing subject"
+          ],
+          "background": [
+            "Steep rocky cliff with green scrub",
+            "Blue sea glimpses",
+            "Beige umbrellas",
+            "Lounge chairs",
+            "Azure blue sky"
+          ]
+        },
+        "lighting": {
+          "type": "Bright natural daylight (noon sun)",
+          "contrast": "High",
+          "shadows": "Dappled shadows cast by bamboo roof on ground"
+        },
+        "camera": {
+          "color_grading": "Vibrant, high saturation, warm travel aesthetic",
+          "focus": "Sharp on subject",
+          "depth_of_field": "Deep, background distinguishable",
+          "aspect_ratio": "4:5",
+          "negative_constraints": "no overcast, no flat lighting, no indoor, no dull colors"
+        },
+        "mood": "Relaxed luxury, confident, sun-soaked vacation bliss"
+      }
+    },
+    "midjourney": {
+      "prompt": "Mediterranean beach club portrait, woman golden tan honey blonde balayage, white ruched bikini tie-front keyhole, pergola with bamboo roof dappled shadows, rocky cliff blue sea azure sky, bright noon sun high contrast, vibrant travel aesthetic --ar 4:5 --style raw --v 6",
+      "notes": "Emphasize vibrant saturation and dappled shadow pattern"
+    },
+    "ideogram": {
+      "prompt": "Young woman with golden tan skin and honey blonde balayage hair standing at Mediterranean beach club terrace, wearing white ruched bandeau bikini with center tie-knot and keyhole detail, wooden pergola with bamboo roof creating dappled shadows, rocky cliff and blue sea in background, bright noon sunlight, vibrant warm travel photography aesthetic",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "4:5"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Mediterranean terrace portrait, woman golden tan white bikini tie-front, pergola bamboo roof dappled shadows, rocky cliff blue sea, noon sun vibrant travel aesthetic"
+    },
+    "luma": {
+      "prompt": "Mediterranean beach club terrace, woman in white bikini adjusts her straps in the bright sun, dappled shadows from bamboo roof dance across the stone patio, sea sparkles in the distance",
+      "motion_notes": "Subtle pose adjustment, dappled shadow movement, hair catching breeze"
+    },
+    "reve": {
+      "prompt": "Travel lifestyle photography in the style of Mediterranean vacation content, golden tan woman white ruched bikini, beach club terrace pergola bamboo roof, dappled shadows rocky cliff blue sea, vibrant saturated warm aesthetic",
+      "art_references": [
+        "Mediterranean travel photography",
+        "Beach club lifestyle",
+        "Vibrant vacation portraits"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Young woman with golden tan skin and honey blonde balayage hair at Mediterranean beach club terrace, wearing white ruched bandeau bikini with center tie-knot and keyhole cutout, standing under wooden pergola with bamboo roof creating dappled shadows, rocky cliff with green scrub and blue sea in background, bright noon sunlight, vibrant warm travel aesthetic"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A Mediterranean-style outdoor beach club terrace with wooden pergola beams and bamboo reed slat roofing overhead. Light gray stone patio flooring with a rough-textured white stucco wall on the left. Large black planter pots with tall dried brown palm fronds frame the scene.\n\nA young woman in her early to mid 20s stands in a three-quarter turn to the camera with her weight shifted to one hip. She has golden tan skin with warm sun-kissed undertones and a smooth slight sheen on her shoulders. Her honey blonde hair with darker shadow root balayage extends past her shoulders in loose soft waves with a middle part, silky and catching the sunlight.\n\nShe has an oval face with a softly defined jawline, light greenish-blue hazel-teal almond-shaped eyes with direct eye contact and soft alluring intensity, natural arch brows, a straight nose with small button tip, and full plump lips in rosy-nude with a soft matte finish slightly parted.\n\nShe wears a white ruched bandeau bikini top with thin spaghetti straps, a center front tie-knot with dangling strings, and a keyhole cutout detail. Matching white bikini bottoms with high-cut leg and gathered fabric. Her hands rest on the side straps of her bikini bottoms.\n\nA dainty chain necklace with small pendant, stacked beaded bracelets with white pearls and colorful beads on her right wrist, and gold rings complete her styling.\n\nIn the background, a steep rocky cliff with green scrub vegetation, glimpses of blue sea, beige patio umbrellas, and a vibrant clear azure blue sky.\n\nBright natural noon sunlight creates high contrast with dappled shadows from the bamboo roof on the ground. Vibrant saturated warm travel photography aesthetic.\n\nNo watermark. No artificial smoothing. Realistic texture throughout.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "A young woman in her early 20s with golden tan sun-kissed skin and honey blonde balayage hair in loose soft waves stands at a Mediterranean beach club terrace. She has light greenish-blue hazel-teal eyes with direct eye contact and full plump rosy-nude lips slightly parted, wearing a white ruched bandeau bikini with center tie-knot and keyhole cutout and matching high-cut bottoms. Her hands rest on her bikini straps as she stands in a three-quarter turn with weight on one hip. A wooden pergola with bamboo roof creates dappled shadows overhead, with a rocky cliff, blue sea, and azure sky in the background. Dainty chain necklace and stacked beaded bracelets complete her look. Bright noon sunlight, high contrast, vibrant saturated warm travel lifestyle photography, photorealistic, not illustration.",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A young woman in her early to mid 20s with golden tan skin and honey blonde balayage hair stands at a Mediterranean beach club terrace. She has loose soft waves past her shoulders, light greenish-blue hazel-teal eyes with direct eye contact and soft allure, and full plump rosy-nude lips slightly parted. She wears a white ruched bandeau bikini with thin spaghetti straps, center front tie-knot with dangling strings, keyhole cutout, and matching high-cut bottoms. Her hands rest on her bikini bottom straps in a three-quarter turn pose with weight shifted to one hip. The terrace features a wooden pergola with bamboo roof creating dappled shadows, white stucco wall, dried palm fronds, with a rocky cliff, blue sea, and azure sky beyond. Bright noon sunlight, vibrant warm travel photography aesthetic.",
+      "editing_prompt": "Change the bikini color from white to coral pink while keeping the woman in the exact same three-quarter turn pose with her hands on her bikini straps. Preserve her golden tan skin, honey blonde balayage hair, jewelry, and the Mediterranean terrace setting with pergola and sea view.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed bikini construction (ruched, tie-knot, keyhole), precise environment elements (pergola, bamboo, stucco)",
+    "2_realism_anchors: 'dappled shadows from bamboo', 'rocky cliff texture', 'stucco wall', 'tie-knot detail', 'bracelet stack'",
+    "3_technical_camera: 'vibrant high saturation', 'sharp focus', 'deep DOF', 'warm travel aesthetic'",
+    "4_negative_hygiene: prevents overcast, flat lighting, indoor, dull colors",
+    "5_spatial_consistency: clear three-quarter turn with hand position on bikini straps",
+    "6_lighting_storytelling: 'bright noon sun dappled shadows' = vibrant Mediterranean vacation mood",
+    "7_environment_detail: specific Mediterranean architecture (pergola, bamboo, stucco, planters, dried palms)"
+  ]
+}

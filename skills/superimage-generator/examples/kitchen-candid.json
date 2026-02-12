@@ -1,0 +1,248 @@
+{
+  "name": "Kitchen Candid Evening",
+  "description": "Intimate candid apartment kitchen shot with rainy evening atmosphere and mixed lighting",
+  "input_prompt": "candid photo of woman in kitchen city apartment evening after rain",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "ultra_photorealistic",
+      "aspect_ratio": "9:16",
+      "style": "raw_high_end_social_media_realism",
+      "target_model": "flux",
+      "camera": "iPhone 15 Pro Max"
+    },
+    "subject": {
+      "description": "young woman early 20s mixed Mediterranean-Asian ethnicity, slim-curvy figure, dark blonde long messy waves",
+      "identity": {
+        "age_range": "early 20s",
+        "type": "young woman",
+        "ethnicity": "mixed Mediterranean-Asian",
+        "distinguishing_features": [
+          "dark blonde messy waves",
+          "effortlessly attractive",
+          "calm confidence"
+        ]
+      },
+      "physical_details": {
+        "body_type": "slim-curvy with small defined waist, round full hips, smooth thick thighs",
+        "skin": {
+          "tone": "light warm",
+          "texture": "realistic natural glow from indoor lighting",
+          "realism_markers": [
+            "subtle warmth from lights",
+            "natural texture"
+          ]
+        },
+        "hair": {
+          "color": "dark blonde",
+          "style": "long loose messy waves",
+          "details": "few strands falling forward naturally"
+        },
+        "face": {
+          "features": "attractive mixed features",
+          "expression": "calm confident gaze with teasing softness",
+          "gaze": "half-lidded looking toward camera",
+          "makeup": "minimal glam, glossy lips"
+        }
+      },
+      "expression_mood": "calm confidence, intimate spontaneous moment"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "thin cropped tank top",
+          "color": "soft grey",
+          "material": "slightly translucent cotton",
+          "fit": "tight, no bra"
+        },
+        {
+          "type": "low-rise lounge shorts",
+          "color": "white",
+          "material": "soft fabric",
+          "fit": "tight around hips and thighs"
+        }
+      ],
+      "accessories": []
+    },
+    "pose_action": {
+      "position": "standing sideways at counter, torso twisted toward camera",
+      "camera_relation": "third-person candid shot, slightly low and close, mid-thigh to head",
+      "dynamic_elements": "hips slightly pushed back, one knee bent, weight shifted, one hand on counter, other holding phone"
+    },
+    "environment": {
+      "location": "modern city apartment kitchen near large window",
+      "background": [
+        "marble countertop",
+        "rainy city visible through glass",
+        "soft reflections on surfaces",
+        "coffee cup on counter"
+      ],
+      "props": [],
+      "atmosphere": "intimate, spontaneous, real-life moment",
+      "time_of_day": "early evening after rain"
+    },
+    "lighting": {
+      "type": "mixed natural + artificial light",
+      "direction": "soft cool daylight from window, warm kitchen lights",
+      "quality": "balanced contrast",
+      "effects": [
+        "gentle highlights on skin",
+        "realistic shadows",
+        "cinematic but natural"
+      ]
+    },
+    "camera_technical": {
+      "device": "iPhone 15 Pro Max",
+      "lens": "26mm equivalent",
+      "resolution": "8k",
+      "style_tags": [
+        "raw realism",
+        "natural skin texture",
+        "subtle grain",
+        "handheld feel"
+      ]
+    },
+    "realism_anchors": [
+      "slight motion blur",
+      "natural asymmetry",
+      "non-centered framing",
+      "handheld camera feel",
+      "authentic apartment setting",
+      "no plastic look"
+    ],
+    "negative_prompt": [
+      "studio lighting",
+      "professional photography",
+      "perfect composition",
+      "centered framing",
+      "plastic skin",
+      "airbrushed",
+      "oversaturated",
+      "heavy filters",
+      "cartoon",
+      "3d render",
+      "anime"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "ultra-photorealistic, raw high-end social media realism, iPhone 15 Pro Max, young woman early 20s mixed Mediterranean-Asian, slim-curvy defined waist round hips, dark blonde long loose messy waves strands falling forward, calm confident gaze half-lidded glossy lips minimal glam, soft grey cropped tank top tight no bra slightly translucent, white low-rise lounge shorts tight on hips, standing sideways at kitchen counter torso twisted toward camera, hips pushed back knee bent hand on counter holding phone, modern apartment kitchen marble countertop, rainy city through window, mixed cool window light warm kitchen lights, gentle highlights realistic shadows, third-person candid shot slightly low mid-thigh to head, slight motion blur non-centered handheld feel, 9:16 vertical",
+  "negative_prompt_flat": "studio lighting, professional photography, perfect composition, centered, plastic skin, airbrushed, oversaturated, heavy filters, cartoon, 3d render",
+  "color_palette": {
+    "primary": "light warm skin",
+    "secondary": "soft grey and white clothing",
+    "accent": "warm kitchen lights",
+    "background": "cool rainy city tones, marble surfaces"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "ultra-photorealistic, raw iPhone photo, young woman early 20s mixed Mediterranean-Asian slim-curvy dark blonde messy waves, calm confident gaze glossy lips, soft grey cropped tank tight no bra, white low-rise lounge shorts tight on hips, standing sideways at kitchen counter twisted toward camera hips back, modern apartment marble countertop rainy city through window, mixed cool daylight warm kitchen lights, third-person candid shot slightly low mid-thigh to head, handheld feel natural grain, 9:16",
+      "negative_prompt": "studio lighting, professional photo, centered, plastic skin, airbrushed, oversaturated, cartoon, 3d render"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Young woman early 20s mixed Mediterranean-Asian ethnicity, slim-curvy figure",
+          "body": {
+            "type": "Slim-curvy with small defined waist, round full hips, smooth thick thighs",
+            "skin": "Light warm tone, natural glow from mixed lighting"
+          },
+          "face": {
+            "expression": "Calm confident gaze with teasing softness",
+            "eyes": "Half-lidded, looking toward camera",
+            "makeup": "Minimal glam, glossy lips"
+          },
+          "hair": {
+            "color": "Dark blonde",
+            "style": "Long loose messy waves",
+            "details": "Few strands falling forward naturally"
+          }
+        },
+        "wardrobe": {
+          "top": "Thin soft grey cropped tank top, tight fit, no bra, slightly translucent cotton",
+          "bottom": "White low-rise lounge shorts, tight around hips and thighs"
+        },
+        "pose_action": {
+          "description": "Standing sideways at counter, torso twisted toward camera",
+          "posture": "Hips slightly pushed back, one knee bent, weight shifted, one hand on counter, other holding phone"
+        },
+        "scene": {
+          "environment": "Modern city apartment kitchen near large window",
+          "props": "Marble countertop, coffee cup, soft reflections",
+          "background": "Rainy city visible through glass",
+          "time": "Early evening after rain"
+        },
+        "lighting": {
+          "type": "Mixed natural + artificial",
+          "key": "Soft cool daylight from window",
+          "fill": "Warm kitchen lights",
+          "effects": "Gentle highlights, realistic shadows, cinematic but natural"
+        },
+        "camera": {
+          "technical": "iPhone 15 Pro Max, 26mm, 8k",
+          "pov": "Third-person candid, slightly low and close",
+          "framing": "Mid-thigh to head, about 1.5 meters distance",
+          "aspect_ratio": "9:16",
+          "imperfections": [
+            "Slight motion blur",
+            "Natural asymmetry",
+            "Non-centered framing"
+          ],
+          "negative_constraints": "no studio lighting, no centered composition, no plastic skin, no airbrushing"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "candid kitchen photo, young woman mixed ethnicity dark blonde messy waves, grey tank top white shorts, standing at marble counter twisted toward camera, modern apartment rainy evening through window, mixed warm and cool lighting, iPhone candid aesthetic handheld feel --ar 9:16 --style raw --v 6",
+      "notes": "Use --style raw for authentic candid look"
+    },
+    "ideogram": {
+      "prompt": "Candid photograph of young woman in modern apartment kitchen, dark blonde messy hair, grey tank top and white shorts, standing at marble counter twisted toward camera, rainy city evening visible through window, mixed natural and warm lighting",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "9:16"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Candid kitchen photo, young woman dark blonde hair grey tank white shorts, modern apartment marble counter, rainy evening window, mixed lighting, iPhone snapshot aesthetic"
+    },
+    "luma": {
+      "prompt": "Modern apartment kitchen, young woman pauses by counter as rain streaks window behind, soft warm kitchen lights mix with cool evening glow, intimate spontaneous moment captured mid-motion",
+      "motion_notes": "Subtle body movement, rain running down window, soft light flickering"
+    },
+    "reve": {
+      "prompt": "Raw candid photography in the style of authentic lifestyle moments, young woman in kitchen during rainy evening, mixed Mediterranean-Asian beauty, grey tank top white shorts, modern apartment aesthetic, cinematic mixed lighting",
+      "art_references": [
+        "Candid lifestyle photography",
+        "Modern domestic realism",
+        "Cinematic natural light"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Candid kitchen moment, young woman dark blonde messy hair in grey tank and white shorts, modern apartment marble counter, rainy evening outside window, mixed warm cool lighting, iPhone photo vibes"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A candid photograph captures a young woman in her early 20s with mixed Mediterranean-Asian features standing in a modern city apartment kitchen during a rainy evening. She has a slim-curvy figure with a defined waist and round hips, dark blonde hair in long loose messy waves with strands falling naturally forward. Her expression is calm and confident with half-lidded eyes looking toward the camera and glossy lips. She wears a thin soft grey cropped tank top that fits tight with no bra underneath, and white low-rise lounge shorts tight around her hips and thighs. Standing sideways at the marble countertop with her torso twisted toward the camera, hips slightly pushed back, one knee bent, one hand on the counter and the other holding a phone. Through the large window, the rainy city is visible with soft reflections on surfaces. A coffee cup sits on the counter. The lighting mixes soft cool daylight from the window with warm kitchen lights, creating gentle highlights on her skin and realistic shadows. The shot feels spontaneous and intimate, captured from a third-person perspective slightly low and close, framing mid-thigh to head. No watermark. No artificial smoothing. Realistic natural skin texture.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Young woman early 20s mixed Mediterranean-Asian features standing sideways in modern apartment kitchen, dark blonde long messy waves, slim-curvy figure, calm confident expression half-lidded eyes glossy lips, soft grey cropped tank top tight fit no bra, white low-rise lounge shorts, torso twisted toward camera hips pushed back knee bent, marble countertop coffee cup, rainy evening city visible through large window, mixed cool window daylight and warm kitchen lights, third-person candid shot mid-thigh to head, iPhone aesthetic handheld feel natural grain, not studio lighting or airbrushed",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A candid moment in a modern city apartment kitchen during a rainy evening. Young woman early 20s with mixed Mediterranean-Asian features stands sideways at marble counter, torso twisted toward camera. She has dark blonde long messy waves, slim-curvy figure with defined waist and round hips. Wearing a soft grey cropped tank top tight fit and white low-rise lounge shorts. Her expression is calm and confident with half-lidded eyes. One hand rests on counter, other holds phone. Through the large window, rainy city is visible. Mixed lighting of cool daylight from window and warm kitchen lights creates gentle highlights and realistic shadows. Coffee cup on counter. Shot has iPhone candid aesthetic with slight handheld feel.",
+      "editing_prompt": "Change the time of day to sunny afternoon while keeping the same kitchen setting, her pose at the counter, and outfit the same. Preserve her features and expression.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed ethnicity, body type, lighting sources all specified",
+    "2_realism_anchors: 'slight motion blur', 'non-centered framing', 'handheld feel'",
+    "3_technical_camera: 'iPhone 15 Pro Max', '26mm', specific distance and angle",
+    "4_negative_hygiene: excludes studio, centered, perfect composition aesthetics",
+    "5_spatial_consistency: precise pose with hip/knee positions, camera relation defined",
+    "6_lighting_storytelling: 'mixed cool daylight warm kitchen' = intimate evening mood",
+    "7_candid_authenticity: imperfections list ensures spontaneous real-life feel"
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "name": "Morning Bed Selfie Oversized Tee",
+  "description": "Curvy woman lying on side in bed taking iPhone selfie, oversized white sleep t-shirt falling off shoulder, messy morning hair, soft natural daylight, just-woke-up intimacy",
+  "input_prompt": "woman bed selfie lying on side oversized white tshirt messy morning hair soft sunlight intimate",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "iphone_raw_realism",
+      "aspect_ratio": "9:16",
+      "style": "morning_bed_selfie",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "young woman lying on her side in bed taking morning selfie with iPhone, sleepy intimate expression, messy just-woke-up hair",
+      "identity": {
+        "age_range": "early to mid 20s",
+        "type": "woman",
+        "distinguishing_features": [
+          "messy morning hair",
+          "fine-line rib tattoo",
+          "curvy hourglass figure"
+        ]
+      },
+      "physical_details": {
+        "skin": {
+          "tone": "natural warm",
+          "texture": "real pores, natural warmth, soft morning glow, zero smoothing",
+          "details": "tattoos: {'style': 'fine-line minimal', 'placement': 'side rib'}"
+        },
+        "hair": {
+          "color": "soft brunette",
+          "style": "messy morning hair, slightly flattened on one side from sleeping",
+          "details": "effect: natural bed-head texture"
+        },
+        "face": {
+          "expression": "sleepy bedroom eyes, lips slightly parted, calm and intimate",
+          "details": "eyes: light hazel, looking directly into front camera; mouth: lips slightly parted, relaxed"
+        },
+        "body": {
+          "frame": "curvy hourglass",
+          "details": "chest: full, natural; hips: round and feminine; waist: small and soft"
+        }
+      },
+      "expression_mood": "sleepy, intimate, calm, just-woke-up vulnerability"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "oversized sleep t-shirt",
+          "color": "white",
+          "fit": "loose, falling off one shoulder",
+          "details": "fabric draped naturally, collar slightly stretched, soft from many washes; fabric: very thin worn cotton"
+        },
+        {
+          "type": "none visible, lower body mostly covered by sheets"
+        }
+      ]
+    },
+    "pose_action": {
+      "position": "lying on side on bed",
+      "dynamic_elements": "body_alignment: natural relaxed arch; back: softly curved from side-lying posture; hips: slightly rolled back toward camera; legs: upper_leg: bent forward, lower_leg: extended under sheets; upper_body: chest: gently pressed forward by side angle, shoulders: relaxed, one exposed from fallen shirt; arms: phone_arm: holding phone close to face for selfie, free_arm: tucked under pillow or resting on waist; head: angle: slight tilt into pillow, gaze: looking directly into front camera"
+    },
+    "environment": {
+      "location": "bedroom, on the bed",
+      "time": "early morning",
+      "background": [
+        "unmade bed sheets",
+        "pillow close to camera",
+        "soft daylight entering from window",
+        "neutral bedroom wall"
+      ],
+      "atmosphere": "quiet, warm sunlight, just-woke-up intimacy"
+    },
+    "lighting": {
+      "type": "natural morning sunlight",
+      "quality": "soft and warm",
+      "effects": [
+        "soft highlights on skin",
+        "gentle shadows",
+        "realistic smartphone exposure",
+        "morning glow"
+      ]
+    },
+    "camera_technical": {
+      "device": "iPhone 15 Pro",
+      "lens": "24mm wide",
+      "style": "raw iphone selfie realism, soft morning light, natural skin texture, slight grain",
+      "angle": "selfie angle, close to face",
+      "shot_type": "intimate close-up selfie from bed",
+      "texture": "natural grain, real skin texture, no beauty filter",
+      "depth_of_field": "natural smartphone DOF"
+    },
+    "the_vibe": {
+      "energy": "soft, intimate, vulnerable",
+      "mood": "just-woke-up intimacy",
+      "aesthetic": "raw iphone morning selfie",
+      "authenticity": "unfiltered, real morning moment",
+      "story": "quiet morning selfie before getting out of bed"
+    },
+    "realism_anchors": [
+      "messy morning hair texture",
+      "worn cotton t-shirt drape",
+      "natural skin pores",
+      "unmade bed sheets",
+      "soft morning light"
+    ],
+    "negative_prompt": [
+      "beauty filter",
+      "skin smoothing",
+      "perfect hair",
+      "studio lighting",
+      "posed portrait",
+      "heavy makeup",
+      "airbrushed skin",
+      "anime",
+      "illustration",
+      "3d render"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "raw iPhone 15 Pro morning bed selfie 9:16, young woman early 20s lying on side in bed, curvy hourglass figure full natural chest round hips small waist, soft brunette messy morning hair flattened on one side from sleeping, light hazel eyes looking at camera, sleepy bedroom eyes lips slightly parted calm intimate expression, natural warm skin real pores soft morning glow zero smoothing, fine-line minimal rib tattoo, oversized white sleep t-shirt very thin worn cotton loose falling off one shoulder collar stretched, lower body under sheets, lying on side natural relaxed arch hips rolled back upper leg bent, phone arm holding iPhone close to face free arm under pillow, head tilted into pillow, unmade bed sheets pillow close soft daylight entering window neutral wall, natural morning sunlight soft warm highlights gentle shadows, slight grain no beauty filter real skin texture, just-woke-up intimacy mood",
+  "negative_prompt_flat": "beauty filter, skin smoothing, perfect hair, studio lighting, heavy makeup, airbrushed, anime, illustration",
+  "color_palette": {
+    "primary": "white oversized tee, neutral sheets",
+    "secondary": "soft brunette hair, warm skin tones",
+    "accent": "morning sunlight warmth",
+    "lighting": "soft warm daylight"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "raw iPhone morning bed selfie, woman early 20s lying on side curvy hourglass, messy brunette morning hair flattened one side, light hazel eyes sleepy bedroom gaze lips parted, natural skin real pores morning glow, fine-line rib tattoo, oversized white sleep t-shirt thin worn cotton falling off shoulder, under sheets, natural side-lying arch hips rolled back, holding phone close to face head tilted into pillow, unmade bed sheets soft daylight window, morning sunlight soft highlights, slight grain no filter, just-woke-up intimacy, 9:16",
+      "negative_prompt": "beauty filter, skin smoothing, perfect hair, studio lighting, heavy makeup, airbrushed, anime"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Young woman early to mid 20s lying on side in bed taking morning selfie",
+          "body": {
+            "frame": "Curvy hourglass",
+            "chest": "Full, natural",
+            "hips": "Round and feminine",
+            "waist": "Small and soft"
+          },
+          "skin": {
+            "tone": "Natural warm",
+            "texture": "Real pores, natural warmth, soft morning glow, zero smoothing"
+          },
+          "hair": {
+            "color": "Soft brunette",
+            "style": "Messy morning hair, flattened on one side from sleeping"
+          },
+          "face": {
+            "expression": "Sleepy bedroom eyes, lips slightly parted, calm intimate",
+            "eyes": "Light hazel, looking at front camera",
+            "makeup": "None, natural morning face"
+          },
+          "tattoos": "Fine-line minimal on side rib"
+        },
+        "wardrobe": {
+          "top": "Oversized white sleep t-shirt, very thin worn cotton, loose, falling off one shoulder, collar stretched",
+          "bottom": "None visible, under sheets"
+        },
+        "pose_action": {
+          "position": "Lying on side on bed",
+          "body": "Natural relaxed arch, hips rolled back toward camera",
+          "legs": "Upper bent forward, lower under sheets",
+          "arms": "Phone arm holding iPhone close to face, free arm under pillow",
+          "head": "Slight tilt into pillow, gaze at camera"
+        },
+        "scene": {
+          "environment": "Bedroom, on the bed",
+          "time": "Early morning",
+          "background": [
+            "Unmade bed sheets",
+            "Pillow close to camera",
+            "Soft daylight from window",
+            "Neutral wall"
+          ],
+          "atmosphere": "Quiet, warm sunlight, just-woke-up intimacy"
+        },
+        "lighting": {
+          "type": "Natural morning sunlight",
+          "quality": "Soft and warm",
+          "effects": "Soft highlights, gentle shadows, morning glow"
+        },
+        "camera": {
+          "device": "iPhone 15 Pro, 24mm wide",
+          "style": "Raw selfie realism, soft morning light, natural skin texture, slight grain",
+          "angle": "Selfie angle close to face",
+          "aspect_ratio": "9:16",
+          "negative_constraints": "no beauty filter, no skin smoothing, no studio lighting"
+        },
+        "mood": "Soft, intimate, vulnerable, just-woke-up"
+      }
+    },
+    "midjourney": {
+      "prompt": "morning bed selfie, woman lying on side messy hair, oversized white t-shirt falling off shoulder, sleepy intimate expression, soft morning sunlight through window, unmade sheets, raw iphone realism natural skin --ar 9:16 --style raw --v 6",
+      "notes": "Use --style raw for authentic morning selfie feel"
+    },
+    "ideogram": {
+      "prompt": "Young woman lying on her side in bed taking morning iPhone selfie, messy brunette hair flattened from sleep, sleepy bedroom eyes lips parted, wearing oversized white cotton sleep t-shirt falling off shoulder, unmade bed sheets, soft morning sunlight through window, raw natural skin texture no filter",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "9:16"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Morning bed selfie, woman lying on side messy hair, oversized white tee off shoulder, sleepy expression, soft morning light, unmade sheets, raw iphone aesthetic"
+    },
+    "luma": {
+      "prompt": "Early morning bedroom, woman stirs awake and reaches for phone, takes sleepy selfie in soft sunlight, messy hair on pillow, intimate quiet moment",
+      "motion_notes": "Slow waking movement, phone raise for selfie, soft breathing"
+    },
+    "reve": {
+      "prompt": "Intimate morning photography in the style of candid bed selfies, messy morning hair oversized sleep shirt, soft natural daylight, raw unfiltered smartphone aesthetic, just-woke-up vulnerability",
+      "art_references": [
+        "Morning intimacy photography",
+        "Raw selfie aesthetic",
+        "Bedroom candid moments"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Young woman lying on side in bed taking morning selfie, messy brunette hair from sleeping, sleepy bedroom eyes, oversized white t-shirt falling off shoulder, unmade bed sheets, soft morning sunlight from window, raw iPhone photo natural skin texture no filter"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A young woman in her early to mid 20s lies on her side in bed taking a morning selfie with an iPhone. She has a curvy hourglass figure with full natural chest, round feminine hips, and small soft waist. Her skin has a natural warm tone with real pores, natural warmth, and soft morning glow with zero smoothing. Her soft brunette hair is messy from sleeping, slightly flattened on one side with natural bed-head texture. Her light hazel eyes look directly into the front camera with sleepy bedroom eyes, lips slightly parted in a calm intimate expression. A fine-line minimal tattoo is visible on her side rib. She wears an oversized white sleep t-shirt made of very thin worn cotton, loose and falling off one shoulder with a slightly stretched collar soft from many washes. Her lower body is mostly covered by sheets. She lies in a natural relaxed arch with hips slightly rolled back toward camera, upper leg bent forward, lower leg extended under sheets. Her phone arm holds the iPhone close to her face while her free arm is tucked under the pillow. Her head tilts slightly into the pillow. The background shows unmade bed sheets, a pillow close to camera, soft natural daylight entering from a window, and a neutral bedroom wall. Soft warm morning sunlight creates gentle highlights on her skin and soft shadows. Slight grain and natural skin texture with no beauty filter. No watermark. No artificial smoothing. Realistic texture.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Young woman early 20s lying on side in bed taking morning iPhone selfie, curvy hourglass figure, messy brunette hair flattened on one side from sleeping, light hazel sleepy bedroom eyes looking at camera, lips slightly parted calm intimate expression, wearing oversized white sleep t-shirt thin worn cotton falling off one shoulder, fine-line rib tattoo visible, unmade bed sheets and pillow, soft natural morning sunlight from window creating warm glow and gentle shadows, raw smartphone realism with slight grain and natural skin texture, just-woke-up intimate mood, not beauty filtered or airbrushed",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "Young woman in her early 20s lying on her side in bed taking a morning iPhone selfie. Curvy hourglass figure with natural warm skin tone and real pores with morning glow. Soft brunette hair messy from sleeping, flattened on one side. Light hazel eyes with sleepy bedroom gaze looking directly at camera, lips slightly parted, calm intimate expression. Fine-line minimal tattoo on side rib. Wearing oversized white sleep t-shirt made of thin worn cotton, loose and falling off one shoulder, collar stretched. Lower body under sheets. Natural side-lying pose with hips rolled back, head tilted into pillow. Phone held close to face. Unmade bed sheets with pillow close to camera, soft daylight from window, neutral wall. Natural morning sunlight with soft warm highlights and gentle shadows. Slight grain, no beauty filter, raw iPhone selfie aesthetic.",
+      "editing_prompt": "Change the white sleep t-shirt to light grey while keeping the messy morning hair and sleepy expression the same. Preserve the soft morning sunlight and intimate bedroom atmosphere.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed hair state (flattened one side), specific fabric (thin worn cotton), precise pose mechanics",
+    "2_realism_anchors: 'messy morning hair', 'worn cotton drape', 'natural skin pores', 'unmade sheets'",
+    "3_technical_camera: 'iPhone 15 Pro 24mm', 'slight grain', 'no beauty filter', 'raw selfie realism'",
+    "4_negative_hygiene: prevents beauty filter, skin smoothing, perfect hair, studio lighting",
+    "5_spatial_consistency: clear side-lying pose with arm positions and body alignment",
+    "6_lighting_storytelling: 'natural morning sunlight' = intimate just-woke-up mood",
+    "7_authenticity: specific just-woke-up details (hair flattened, stretched collar, sleepy eyes)"
+  ]
+}

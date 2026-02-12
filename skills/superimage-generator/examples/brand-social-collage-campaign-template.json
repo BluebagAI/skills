@@ -1,0 +1,221 @@
+{
+  "template_type": "BRAND_SOCIAL_COLLAGE_CAMPAIGN_V1",
+  "template_instructions": {
+    "replace_all_tokens": true,
+    "token_prefix": "REPLACE_ME_",
+    "fail_if_unreplaced_tokens_exist": true,
+    "output_one_final_prompt_only": true
+  },
+  "replacement_guide": {
+    "REPLACE_ME_BRAND_NAME": "Acme Street",
+    "REPLACE_ME_HERO_PRODUCT": "signature sneakers",
+    "REPLACE_ME_BRAND_SLOGAN": "MOVE LOUD",
+    "REPLACE_ME_ASPECT_RATIO": "4:5"
+  },
+  "name": "Brand Social Collage Campaign",
+  "description": "Youth-oriented anti-polished Instagram campaign collage blending fashion cutout photography with graphic design chaos",
+  "input_prompt": "REPLACE_ME_BRAND_NAME social collage campaign",
+  "target_model": "gpt-image-1.5",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "professional",
+      "aspect_ratio": "4:5",
+      "style": "artistic",
+      "target_model": "gpt-image-1.5"
+    },
+    "creative_direction": {
+      "role": "social media art director and digital collage artist",
+      "core_aesthetic": "controlled rebellion with spontaneous energy and brand coherence",
+      "style_keywords": [
+        "anti-polished",
+        "torn edges",
+        "layered textures",
+        "hand-drawn marks",
+        "bold color blocking",
+        "confident movement"
+      ]
+    },
+    "subject": {
+      "description": "one diverse model age 18-30 in dynamic high-attitude pose with clear REPLACE_ME_HERO_PRODUCT visibility",
+      "physical_details": {
+        "pose_energy_ratio": "80% attitude, 20% natural",
+        "pose_types_allowed": [
+          "jumping",
+          "power stance",
+          "seated action pose",
+          "mid-motion step"
+        ],
+        "pose_types_forbidden": [
+          "static straight stand",
+          "limp posture"
+        ],
+        "wardrobe_direction": "street style or athleisure aligned with REPLACE_ME_BRAND_NAME"
+      }
+    },
+    "environment": {
+      "location": "digital collage canvas",
+      "background": [
+        "off-white to light-gray textured base layer (not pure white)",
+        "near-white warm RGB 245-250 tone",
+        "texture felt but subtle, not dominant"
+      ],
+      "atmosphere": "energetic, youthful, authentic chaos"
+    },
+    "photography_source": {
+      "capture_style": "editorial fashion cutout with clean extraction edges",
+      "camera_angle": "slight low angle for hero perspective",
+      "crop": "full-body or 3/4 body preserving hero product",
+      "camera_technical": "85mm lens, f/2.8, shallow depth on original shoot"
+    },
+    "collage_layers": {
+      "layer_order": [
+        "background texture",
+        "primary color blob",
+        "abstract graphic elements",
+        "model cutout",
+        "typography top layer"
+      ],
+      "primary_color_blob": {
+        "coverage": "40-60% of composition",
+        "shape_style": "irregular hand-painted or torn-paper, never geometric",
+        "texture": "brush strokes, grain, or subtle noise at 15-25% opacity",
+        "placement_rule": "frame model without obscuring hero product"
+      },
+      "graphic_elements": {
+        "count": "3-5",
+        "placement": "asymmetric scatter, favor top-left and bottom-right zones",
+        "scale_mix": "small 5% and medium 15% of canvas",
+        "style": "analog handmade imperfections with rough edges",
+        "color_rule": "2-3 total accent colors from REPLACE_ME_BRAND_NAME palette"
+      }
+    },
+    "typography": {
+      "logo": {
+        "content": "REPLACE_ME_BRAND_NAME",
+        "placement": "upper-left or upper-right quadrant",
+        "size_rule": "10-15% of canvas width"
+      },
+      "slogan": {
+        "content": "REPLACE_ME_BRAND_SLOGAN",
+        "style": "bold sans-serif with slight angle for momentum",
+        "rotation_range_degrees": "2-5"
+      },
+      "supporting_copy": {
+        "content": "A MOMENT OF YOUR STYLE",
+        "style": "small uppercase sans-serif",
+        "optional": true
+      },
+      "hierarchy": "logo largest, slogan medium, supporting copy smallest"
+    },
+    "composition_rules": {
+      "layout": "asymmetric balance, model off-center with graphic counter-balance",
+      "negative_space": "15-20% visible breathing room",
+      "focal_weight": "model + hero product 60%, graphics + type 40%",
+      "movement_flow": "strong diagonal energy across frame"
+    },
+    "brand_intelligence": {
+      "autonomous_adaptation": true,
+      "persona_modes": {
+        "streetwear_sportswear": "high contrast, punchy color, raw motion",
+        "luxury_streetwear": "muted boldness, oversized type, premium grain",
+        "beauty_lifestyle": "softer palette, clean glow accents, curated chaos",
+        "tech_modern": "clean geometry with controlled glitch motifs"
+      }
+    },
+    "social_footer": {
+      "enabled": true,
+      "height": "8-10% of frame",
+      "background": "clean white or light gray bar",
+      "content": "three-column social handles with minimalist icons/text",
+      "aesthetic": "professional and minimal, secondary to collage"
+    },
+    "lighting": {
+      "type": "studio",
+      "direction": "hero-lit source image with collage overlays preserving subject legibility",
+      "quality": "mixed",
+      "effects": [
+        "subject remains the highest-clarity element",
+        "graphics do not flatten product detail",
+        "texture depth preserved across layers"
+      ]
+    },
+    "camera_technical": {
+      "device": "digital campaign composition",
+      "resolution": "4k",
+      "style_tags": [
+        "instagram-optimized",
+        "digital collage with analog feel",
+        "high saturation control",
+        "youth campaign energy"
+      ]
+    },
+    "realism_anchors": [
+      "clean model cutout edge quality",
+      "visible grain and tactile paper/brush texture",
+      "brand product remains unmistakable focal anchor",
+      "balanced color harmony despite chaotic layering",
+      "typographic hierarchy remains readable at feed size"
+    ],
+    "negative_prompt": [
+      "flat corporate layout",
+      "center-crowded composition",
+      "static standing pose",
+      "over-polished render",
+      "perfect geometric blobs",
+      "muted low-energy palette",
+      "typography overlap on face",
+      "hidden hero product",
+      "visual clutter with no breathing room",
+      "watermark",
+      "blurry",
+      "low quality"
+    ],
+    "prompt_type": "collage",
+    "composition": {
+      "type": "single-canvas social collage",
+      "layout": "asymmetric layered collage with typography overlays",
+      "panels": [
+        {
+          "id": "primary_canvas",
+          "description": "one diverse model age 18-30 in dynamic high-attitude pose with clear REPLACE_ME_HERO_PRODUCT visibility",
+          "shot_type": "editorial fashion cutout with clean extraction edges",
+          "pose": "dynamic high-attitude pose",
+          "setting": "digital collage canvas"
+        }
+      ],
+      "consistency": "single subject with clear hero product visibility"
+    }
+  },
+  "flattened_prompt": "Create a youth-driven REPLACE_ME_BRAND_NAME Instagram campaign collage with one dynamic model and clear REPLACE_ME_HERO_PRODUCT focus, anti-polished controlled-chaos aesthetic, clean model cutout from editorial low-angle 85mm f/2.8 source image, off-white textured base background, large irregular color blob covering 40-60%, 3-5 abstract handmade elements asymmetrically scattered top-left/bottom-right, bold brand logo in upper quadrant, REPLACE_ME_BRAND_SLOGAN typography with slight rotation, optional small supporting copy, asymmetric composition with 15-20% breathing room, strong diagonal movement, layered order from texture to typography, optional minimal social footer bar, REPLACE_ME_ASPECT_RATIO social format, high-resolution vibrant sRGB output",
+  "negative_prompt_flat": "flat layout, static pose, geometric blobs, hidden hero product, typography clutter, over-polished look, blurry, watermark",
+  "color_palette": {
+    "primary": "brand hero color block",
+    "secondary": "two accent tones from brand palette",
+    "neutral_base": "warm near-white background",
+    "contrast_strategy": "high focal contrast around model and hero product"
+  },
+  "model_adaptations": {
+    "gpt-image-1.5": {
+      "prompt": "Act as a social media art director for REPLACE_ME_BRAND_NAME. Design a bold Instagram campaign collage with one model (18-30) in a dynamic confident pose and clear REPLACE_ME_HERO_PRODUCT visibility. Keep anti-polished controlled-chaos style: torn edges, layered textures, hand-drawn marks, and organic color blocking. Use an off-white textured base, then a large irregular saturated blob (40-60%), add 3-5 asymmetrically scattered abstract elements, place clean cutout model above graphics, and keep typography on top. Include REPLACE_ME_BRAND_NAME logo in upper corner, REPLACE_ME_BRAND_SLOGAN as secondary type with slight rotation, and optional small uppercase supporting line. Keep model/product as main focal point, preserve breathing room, and maintain diagonal visual flow. Add optional minimal social footer strip. Output REPLACE_ME_ASPECT_RATIO, social-ready, high-resolution, vibrant sRGB.",
+      "quality": "high",
+      "notes": "Best for multi-step composition directives and typographic hierarchy"
+    },
+    "midjourney": {
+      "prompt": "REPLACE_ME_BRAND_NAME digital collage campaign, one dynamic model cutout with visible REPLACE_ME_HERO_PRODUCT, anti-polished youth aesthetic, torn textures, hand-drawn marks, large organic color blob, asymmetric composition, bold logo and slogan typography, Instagram-ready, energetic diagonal flow --ar 4:5 --style raw --v 6",
+      "notes": "Use --style raw plus iterative variations for layout tuning"
+    },
+    "flux": {
+      "prompt": "bold youth social collage for REPLACE_ME_BRAND_NAME, model cutout with hero product, irregular color blocking, textured near-white background, hand-made graphic elements, asymmetric layout, logo and slogan hierarchy, high-energy diagonal flow, 4:5",
+      "negative_prompt": "static pose, flat design, geometric perfect shapes, hidden product, clutter, blurry, watermark"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: explicit phased layer order and composition rules for reproducible collage outputs",
+    "2_realism_anchors: cutout edge fidelity, texture tactility, and feed-scale readability checks",
+    "3_technical_camera: source-photo constraints (85mm f/2.8) and social output specs",
+    "4_negative_hygiene: blocks static/corporate layouts and cluttered typography failure modes",
+    "5_spatial_consistency: asymmetry, breathing room, and visual-weight ratio constraints",
+    "6_brand_intelligence: autonomous style adaptation by brand personality cluster",
+    "7_small_model_readability: REPLACE_ME token system with fail-fast substitution rules"
+  ]
+}

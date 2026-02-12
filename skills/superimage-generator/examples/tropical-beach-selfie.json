@@ -1,0 +1,234 @@
+{
+  "name": "Tropical Beach Selfie POV",
+  "description": "White sand beach selfie from phone POV perspective with straw hat and natural summer glow",
+  "input_prompt": "beach selfie woman in bikini with straw hat tropical paradise",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "ultra_photorealistic",
+      "aspect_ratio": "9:16",
+      "style": "high_end_social_media_realism",
+      "target_model": "flux",
+      "pov": "selfie_phone_camera"
+    },
+    "subject": {
+      "description": "young woman early 20s with light brown loose beach wave hair, bright green eyes, visible freckles, soft confident smile",
+      "identity": {
+        "age_range": "early 20s",
+        "type": "young woman",
+        "ethnicity": "european/mediterranean blend",
+        "distinguishing_features": [
+          "green eyes",
+          "freckles on cheeks and nose",
+          "natural beach beauty"
+        ]
+      },
+      "physical_details": {
+        "body_type": "slim-curvy with defined waist and round hips",
+        "skin": {
+          "tone": "sun-kissed natural",
+          "texture": "natural with subtle glow, no over-smoothing",
+          "realism_markers": [
+            "natural texture",
+            "soft summer glow"
+          ]
+        },
+        "hair": {
+          "color": "light brown",
+          "style": "loose beach waves",
+          "details": "slightly wind-blown, natural movement"
+        },
+        "face": {
+          "features": "bright green eyes, visible freckles",
+          "expression": "soft confident smile, relaxed seductive energy",
+          "gaze": "looking at phone/camera"
+        }
+      },
+      "expression_mood": "effortless confidence, natural, Instagram-model energy"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "thin bikini top",
+          "color": "patterned pastel tones",
+          "material": "light fabric",
+          "fit": "slightly stretched"
+        }
+      ],
+      "accessories": [
+        "type: straw beach hat, position: worn loosely on head"
+      ]
+    },
+    "pose_action": {
+      "position": "selfie pose, head slightly tilted, shoulders relaxed",
+      "camera_relation": "arm-length selfie angle, slightly high, head to mid-torso framing",
+      "dynamic_elements": "leaning subtly toward camera, natural body positioning"
+    },
+    "environment": {
+      "location": "white sand tropical beach",
+      "background": [
+        "turquoise ocean water",
+        "soft rolling waves",
+        "clear blue sky",
+        "horizon line visible"
+      ],
+      "props": [],
+      "atmosphere": "warm sun, salty breeze, summer heat",
+      "time_of_day": "midday"
+    },
+    "lighting": {
+      "type": "natural sunlight",
+      "direction": "direct sun from above-left",
+      "quality": "bright natural",
+      "effects": [
+        "natural highlights on skin",
+        "subtle glow",
+        "realistic contrast",
+        "soft ocean reflection fill"
+      ]
+    },
+    "camera_technical": {
+      "device": "smartphone front camera",
+      "lens": "24mm wide equivalent",
+      "resolution": "high quality",
+      "style_tags": [
+        "selfie POV",
+        "natural phone aesthetic",
+        "social media ready"
+      ]
+    },
+    "realism_anchors": [
+      "natural skin texture",
+      "visible freckles",
+      "slightly wind-blown hair",
+      "authentic beach setting",
+      "phone selfie perspective",
+      "no over-processing"
+    ],
+    "negative_prompt": [
+      "studio lighting",
+      "professional photography",
+      "over-processed",
+      "heavy filters",
+      "plastic skin",
+      "airbrushed",
+      "cartoon",
+      "3d render",
+      "anime"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "ultra-photorealistic, high-end social media photo, 8k, selfie POV, young woman early 20s light brown beach wave hair bright green eyes visible freckles, soft confident smile, sun-kissed skin natural texture, patterned pastel bikini top slightly stretched, straw beach hat worn loosely, selfie pose head tilted shoulders relaxed, white sand tropical beach turquoise ocean waves clear blue sky, natural sunlight from above-left, highlights on skin subtle glow realistic contrast, smartphone front camera 24mm, arm-length selfie angle head to mid-torso, effortless beach confidence, 9:16 vertical",
+  "negative_prompt_flat": "studio lighting, professional photography, over-processed, heavy filters, plastic skin, airbrushed, cartoon, 3d render, anime",
+  "color_palette": {
+    "primary": "sun-kissed skin tones",
+    "secondary": "pastel bikini tones",
+    "accent": "bright green eyes",
+    "background": "turquoise ocean, white sand, blue sky"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "ultra-photorealistic, high-end social media selfie, young woman early 20s light brown beach wave hair bright green eyes visible freckles, soft confident smile, sun-kissed natural skin, patterned pastel bikini top, straw beach hat loosely worn, selfie pose head tilted, white sand tropical beach turquoise ocean clear sky, natural sunlight from above-left soft glow, smartphone front camera 24mm arm-length angle, effortless beach hotness, 9:16",
+      "negative_prompt": "studio lighting, professional photo, over-processed, plastic skin, airbrushed, cartoon, 3d render"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Young woman early 20s with slim-curvy figure, defined waist, round hips",
+          "body": {
+            "type": "Slim-curvy",
+            "skin": "Sun-kissed natural texture with subtle glow, no over-smoothing"
+          },
+          "face": {
+            "eyes": "Bright green",
+            "details": "Visible freckles on cheeks and nose",
+            "expression": "Soft confident smile, relaxed seductive energy"
+          },
+          "hair": {
+            "color": "Light brown",
+            "style": "Loose beach waves, slightly wind-blown"
+          }
+        },
+        "wardrobe": {
+          "bikini": "Thin bikini top in patterned pastel tones, slightly stretched fabric",
+          "accessories": [
+            "Straw beach hat worn loosely on head"
+          ]
+        },
+        "pose_action": {
+          "description": "Selfie pose, arm-length distance",
+          "posture": "Head slightly tilted, shoulders relaxed, leaning toward camera"
+        },
+        "scene": {
+          "environment": "White sand tropical beach at midday",
+          "background": "Turquoise ocean, soft waves, clear blue sky, horizon visible",
+          "atmosphere": "Warm sun, salty breeze, summer heat"
+        },
+        "lighting": {
+          "type": "Natural sunlight from above-left",
+          "effects": "Natural highlights, subtle glow, soft ocean reflection fill"
+        },
+        "camera": {
+          "technical": "Smartphone front camera 24mm wide equivalent",
+          "pov": "WE ARE the phone - selfie perspective",
+          "framing": "Head to mid-torso",
+          "aspect_ratio": "9:16",
+          "negative_constraints": "no studio lighting, no professional look, no over-processing, no airbrushing"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "tropical beach selfie, young woman light brown hair green eyes freckles, soft smile, pastel bikini top straw hat, white sand turquoise ocean blue sky, natural sunlight glow, smartphone selfie POV arm-length angle, Instagram-ready summer vibes --ar 9:16 --style raw --v 6",
+      "notes": "Use --style raw for authentic social media look"
+    },
+    "ideogram": {
+      "prompt": "Beach selfie of young woman with light brown hair, green eyes, and freckles wearing pastel bikini and straw hat on white sand tropical beach, turquoise ocean and blue sky in background, natural sunlight, smartphone selfie perspective",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "9:16"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Tropical beach selfie, young woman with beach waves green eyes freckles, pastel bikini straw hat, white sand turquoise water, natural sunlight, phone camera aesthetic"
+    },
+    "luma": {
+      "prompt": "Tropical beach moment, young woman takes selfie with phone, hair gently blowing in ocean breeze, waves softly rolling on white sand behind, warm sunlight, relaxed summer energy",
+      "motion_notes": "Gentle hair movement in breeze, soft wave motion in background, natural breathing"
+    },
+    "reve": {
+      "prompt": "High-end social media beach photography in the style of Instagram influencer content, young woman selfie with straw hat on tropical white sand beach, natural summer glow, effortless beauty",
+      "art_references": [
+        "Instagram influencer aesthetic",
+        "Beach lifestyle photography",
+        "Natural beauty selfies"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Beach selfie on tropical white sand, young woman with green eyes freckles and beach waves, pastel bikini straw hat, turquoise ocean behind, natural sunny glow, phone camera selfie angle"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A high-end social media selfie photograph of a young woman in her early 20s on a tropical white sand beach. She has light brown loose beach wave hair that is slightly wind-blown, bright green eyes, and visible freckles on her cheeks and nose. Her expression is a soft confident smile with relaxed seductive energy as she looks directly at the phone camera. She has a slim-curvy figure with a defined waist and round hips, and sun-kissed natural skin with a subtle glow. She wears a thin bikini top in patterned pastel tones that is slightly stretched, and a straw beach hat worn loosely on her head. She takes the selfie at arm's length with her head slightly tilted and shoulders relaxed, leaning subtly toward the camera. The background shows turquoise ocean water with soft rolling waves, clear blue sky, and the visible horizon line. Natural sunlight from above-left creates natural highlights on her skin with a subtle glow and soft ocean reflection fill. Shot on smartphone front camera with 24mm wide equivalent lens. No watermark. No artificial smoothing. No over-processing. Natural skin texture preserved.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Young woman early 20s taking selfie on white sand tropical beach, light brown beach wave hair slightly wind-blown, bright green eyes visible freckles on cheeks and nose, soft confident smile, slim-curvy figure sun-kissed natural skin subtle glow, patterned pastel bikini top slightly stretched, straw beach hat worn loosely, selfie pose head tilted arm-length angle, turquoise ocean soft waves clear blue sky horizon behind, natural sunlight from above-left creating highlights and subtle glow, smartphone front camera 24mm aesthetic, effortless beach confidence, not over-processed",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A young woman in her early 20s takes a selfie on a white sand tropical beach. She has light brown loose beach wave hair that is slightly wind-blown with natural movement. Her bright green eyes and visible freckles on her cheeks and nose stand out. She has a soft confident smile with relaxed energy. She has a slim-curvy figure with sun-kissed natural skin showing a subtle glow without over-smoothing. She wears a thin bikini top in patterned pastel tones and a straw beach hat worn loosely. She holds the phone at arm's length with her head slightly tilted. Behind her, turquoise ocean water with soft rolling waves meets a clear blue sky at the horizon. Natural sunlight from above-left creates highlights and a subtle natural glow on her skin. Smartphone front camera selfie perspective.",
+      "editing_prompt": "Change the straw hat to a white baseball cap while keeping it worn at a relaxed angle. Preserve the beach waves hairstyle, green eyes, freckles, bikini, and tropical beach background.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed face with eye color, freckles, expression specifics",
+    "2_realism_anchors: 'visible freckles', 'natural skin texture', 'wind-blown hair'",
+    "3_technical_camera: 'smartphone front camera', '24mm wide', selfie POV defined",
+    "4_negative_hygiene: excludes studio look, over-processing, airbrushing",
+    "5_spatial_consistency: 'arm-length selfie angle', 'head to mid-torso framing'",
+    "6_lighting_storytelling: 'natural sunlight from above-left' = effortless summer mood",
+    "7_pov_definition: camera IS the phone for authentic selfie perspective"
+  ]
+}

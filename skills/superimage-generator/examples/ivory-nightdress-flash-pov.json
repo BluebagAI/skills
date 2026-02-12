@@ -1,0 +1,253 @@
+{
+  "name": "Ivory Nightdress Flash POV",
+  "description": "Blonde woman in ivory cotton nightdress on patterned bedsheets, high-angle POV with direct flash, late 2000s digital compact camera aesthetic with CCD grain and date stamp",
+  "input_prompt": "blonde woman ivory nightdress bed flash high angle pov 2000s digital camera grain date stamp",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "late_2000s_digital_compact",
+      "aspect_ratio": "9:16",
+      "style": "intimate_flash_snapshot",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "young blonde woman in ivory cotton nightdress lying diagonally across patterned bedsheets, soft unfocused gaze at lens, captured in intimate high-angle POV with direct flash",
+      "identity": {
+        "age_range": "23",
+        "type": "woman",
+        "ethnicity": "American Caucasian",
+        "distinguishing_features": [
+          "blonde natural texture hair",
+          "curvaceous enhanced feminine silhouette"
+        ]
+      },
+      "physical_details": {
+        "skin": {
+          "tone": "natural with warm blush undertones",
+          "texture": "natural, visible texture, not airbrushed"
+        },
+        "hair": {
+          "color": "blonde",
+          "details": "texture: natural",
+          "style": "long, soft waves"
+        },
+        "face": {
+          "expression": "soft, unfocused gaze",
+          "details": "eye_contact: direct to lens but soft; lips: subtle glossy",
+          "makeup": "minimalist makeup with subtle glossy lips and natural skin glow"
+        },
+        "body": {
+          "physique": "enhanced feminine silhouette, curvaceous"
+        }
+      },
+      "expression_mood": "intimate, raw, imperfect snapshot energy"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "cotton nightdress",
+          "color": "ivory",
+          "fit": "relaxed, draped naturally",
+          "details": "delicate lace trim, ultra-thin straps; neckline: deep V-neck"
+        }
+      ]
+    },
+    "pose_action": {
+      "position": "diagonal body alignment across frame",
+      "camera_relation": "lying down, camera above looking down",
+      "dynamic_elements": "angle: high-angle POV (point of view); framing: close-up candid snapshot"
+    },
+    "environment": {
+      "location": "bedroom",
+      "surface": "patterned cotton bedsheets",
+      "background": [
+        "underexposed room, darkened edges from vignetting"
+      ],
+      "atmosphere": "intimate nighttime indoor moment"
+    },
+    "lighting": {
+      "effects": [
+        "hard shadows",
+        "slight highlight blowout",
+        "vignetting at edges"
+      ],
+      "quality": "harsh direct flash typical of compact cameras",
+      "type": "direct on-camera flash"
+    },
+    "camera_technical": {
+      "era": "late 2000s digital compact camera",
+      "sensor_artifacts": [
+        "noticeable CCD grain",
+        "luminance noise"
+      ],
+      "optics": [
+        "slight motion blur",
+        "fixed-lens distortion"
+      ],
+      "style": "intimate raw imperfect snapshot",
+      "post_processing": {
+        "aesthetic": "intimate, raw, imperfect snapshot",
+        "overlay": "amber digital date stamp in corner"
+      }
+    },
+    "the_vibe": {
+      "energy": "intimate and raw",
+      "mood": "imperfect candid snapshot",
+      "aesthetic": "late 2000s digital camera nostalgia",
+      "authenticity": "unpolished, direct flash realism",
+      "story": "private moment captured on old digital camera"
+    },
+    "realism_anchors": [
+      "direct flash hard shadows",
+      "CCD grain noise",
+      "amber date stamp overlay",
+      "fixed-lens distortion",
+      "patterned bedsheet texture"
+    ],
+    "negative_prompt": [
+      "professional lighting",
+      "studio setup",
+      "modern smartphone quality",
+      "sharp high resolution",
+      "skin smoothing",
+      "beauty filter",
+      "anime",
+      "illustration",
+      "3d render"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "late 2000s digital compact camera snapshot 9:16, young blonde woman 23 American Caucasian lying on patterned cotton bedsheets, natural visible skin texture warm blush undertones, blonde natural texture hair, soft unfocused gaze direct at lens, subtle glossy lips minimalist makeup natural glow, enhanced feminine curvaceous silhouette, ivory cotton nightdress deep V-neck delicate lace trim ultra-thin straps relaxed draped, high-angle POV looking down diagonal body alignment close-up candid, underexposed room darkened edges, DIRECT ON-CAMERA FLASH hard shadows slight highlight blowout vignetting, CCD grain luminance noise slight motion blur fixed-lens distortion, AMBER DIGITAL DATE STAMP in corner, intimate raw imperfect snapshot aesthetic",
+  "negative_prompt_flat": "professional lighting, studio setup, modern smartphone, sharp high resolution, skin smoothing, beauty filter, anime, illustration",
+  "color_palette": {
+    "primary": "ivory nightdress, blonde hair",
+    "secondary": "patterned bedsheets, warm skin tones",
+    "accent": "amber date stamp",
+    "lighting": "harsh flash with hard shadows"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "late 2000s digital camera snapshot, blonde woman 23 lying on patterned bedsheets, natural skin texture warm undertones, soft unfocused gaze at lens glossy lips, curvaceous feminine figure, ivory cotton nightdress deep V-neck lace trim thin straps draped, high-angle POV diagonal body alignment close-up, DIRECT ON-CAMERA FLASH hard shadows highlight blowout vignetting, CCD GRAIN luminance noise motion blur fixed-lens distortion, AMBER DATE STAMP corner, intimate raw imperfect snapshot, 9:16",
+      "negative_prompt": "professional lighting, studio, modern smartphone, skin smoothing, beauty filter, anime"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Young blonde woman 23, American Caucasian",
+          "skin": {
+            "tone": "Natural with warm blush undertones",
+            "texture": "Natural, visible texture, not airbrushed"
+          },
+          "hair": {
+            "color": "Blonde",
+            "texture": "Natural"
+          },
+          "face": {
+            "expression": "Soft, unfocused gaze",
+            "eye_contact": "Direct to lens but soft",
+            "lips": "Subtle glossy",
+            "makeup": "Minimalist, natural skin glow"
+          },
+          "body": "Enhanced feminine silhouette, curvaceous"
+        },
+        "wardrobe": {
+          "nightdress": {
+            "type": "Cotton nightdress",
+            "color": "Ivory",
+            "neckline": "Deep V-neck",
+            "details": [
+              "Delicate lace trim",
+              "Ultra-thin straps"
+            ],
+            "fit": "Relaxed, draped"
+          }
+        },
+        "pose_action": {
+          "angle": "High-angle POV (point of view)",
+          "positioning": "Diagonal body alignment across frame",
+          "framing": "Close-up candid snapshot",
+          "surface": "Lying on patterned cotton bedsheets"
+        },
+        "scene": {
+          "environment": "Bedroom",
+          "surface": "Patterned cotton bedsheets",
+          "background": "Underexposed room, darkened edges"
+        },
+        "lighting": {
+          "primary": "Direct on-camera flash",
+          "effects": [
+            "Hard shadows",
+            "Slight highlight blowout",
+            "Vignetting"
+          ]
+        },
+        "camera": {
+          "era": "Late 2000s digital compact camera",
+          "artifacts": [
+            "CCD grain",
+            "Luminance noise",
+            "Motion blur",
+            "Fixed-lens distortion"
+          ],
+          "overlay": "Amber digital date stamp in corner",
+          "aspect_ratio": "9:16",
+          "negative_constraints": "no professional lighting, no modern quality, no skin smoothing"
+        },
+        "mood": "Intimate, raw, imperfect snapshot"
+      }
+    },
+    "midjourney": {
+      "prompt": "late 2000s digital camera snapshot, blonde woman ivory nightdress on bed, high angle POV, direct flash hard shadows vignetting, CCD grain noise motion blur, amber date stamp overlay, intimate raw imperfect --ar 9:16 --style raw --v 6",
+      "notes": "Use --style raw for authentic compact camera feel"
+    },
+    "ideogram": {
+      "prompt": "Young blonde woman in ivory cotton nightdress lying on patterned bedsheets, high-angle point of view looking down, direct on-camera flash creating hard shadows and highlight blowout, late 2000s digital compact camera aesthetic with visible CCD grain and noise, amber date stamp in corner",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "9:16"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "2000s digital camera snapshot, woman ivory nightdress on bed, high angle flash POV, hard shadows grain noise, date stamp overlay"
+    },
+    "luma": {
+      "prompt": "Late night bedroom, flash fires as camera captures intimate moment from above, woman in nightdress on bed, old digital camera quality, grainy nostalgic snapshot",
+      "motion_notes": "Flash burst effect, subtle movement, intimate frozen moment"
+    },
+    "reve": {
+      "prompt": "Nostalgic photography in the style of late 2000s digital compact cameras, intimate flash snapshot, blonde woman ivory nightdress, high-angle POV, CCD grain and date stamp aesthetic, raw imperfect quality",
+      "art_references": [
+        "2000s digital photography",
+        "Flash snapshot aesthetic",
+        "Intimate candid moments"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Young blonde woman in ivory cotton nightdress lying on patterned bedsheets, high-angle POV looking down, direct on-camera flash with hard shadows and vignetting, late 2000s digital compact camera quality with CCD grain and noise, amber date stamp in corner"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A 23-year-old blonde American woman lies diagonally across patterned cotton bedsheets, photographed from a high-angle point of view looking down. She has natural texture blonde hair, natural skin with warm blush undertones and visible texture, and a soft unfocused gaze directed at the lens with subtle glossy lips. Her curvaceous enhanced feminine silhouette is visible as she wears an ivory cotton nightdress with a deep V-neck, delicate lace trim, and ultra-thin straps, draped naturally and relaxed. The image is lit by direct on-camera flash creating hard shadows, slight highlight blowout, and vignetting at the edges. The aesthetic captures late 2000s digital compact camera quality with noticeable CCD grain, luminance noise, slight motion blur, and fixed-lens distortion. An amber digital date stamp appears in the corner of the frame. The bedroom background is underexposed with darkened edges. No professional lighting. No modern smartphone quality. Authentic imperfect snapshot aesthetic.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Young blonde woman 23 lying on patterned bedsheets, ivory cotton nightdress with deep V-neck lace trim and thin straps, soft unfocused gaze at camera glossy lips, high-angle POV looking down diagonal body alignment, direct on-camera flash with hard shadows and highlight blowout, late 2000s digital compact camera aesthetic with CCD grain luminance noise motion blur, amber date stamp in corner, intimate raw imperfect snapshot, not professionally lit or modern quality",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A 23-year-old blonde woman lies diagonally on patterned cotton bedsheets, photographed from a high-angle POV looking down. She wears an ivory cotton nightdress with deep V-neck, delicate lace trim, and ultra-thin straps. Her expression is soft with an unfocused gaze at the lens and subtle glossy lips. Direct on-camera flash creates hard shadows, slight highlight blowout, and vignetting. Late 2000s digital compact camera quality with visible CCD grain, luminance noise, and motion blur. Amber digital date stamp in corner. Intimate raw imperfect snapshot aesthetic.",
+      "editing_prompt": "Change the nightdress color from ivory to pale pink while keeping the same lace trim and V-neck design. Preserve the flash lighting, CCD grain, date stamp, and her soft unfocused expression exactly as they appear.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed nightdress (deep V, lace trim, thin straps), specific camera era artifacts",
+    "2_realism_anchors: 'direct flash hard shadows', 'CCD grain', 'amber date stamp', 'fixed-lens distortion'",
+    "3_technical_camera: 'late 2000s digital compact', 'CCD sensor artifacts', 'luminance noise', 'motion blur'",
+    "4_negative_hygiene: prevents professional lighting, modern quality, skin smoothing",
+    "5_spatial_consistency: clear high-angle POV with diagonal body alignment",
+    "6_lighting_storytelling: 'direct on-camera flash' = intimate imperfect snapshot mood",
+    "7_era_authenticity: specific 2000s camera artifacts (CCD grain, date stamp, vignetting)"
+  ]
+}

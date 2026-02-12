@@ -1,0 +1,258 @@
+{
+  "name": "Hawaiian Tropic Loungewear Living Room",
+  "description": "Influencer lifestyle portrait on sofa wearing branded yellow loungewear with KAWS artwork in background",
+  "input_prompt": "woman lounging on sofa in yellow Hawaiian Tropic outfit with modern art background",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "ultra_photorealistic",
+      "aspect_ratio": "4:5",
+      "style": "influencer_lifestyle_photography",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "young woman with long wavy blonde hair and light fair skin, natural relaxed beauty",
+      "identity": {
+        "age_range": "early-mid 20s",
+        "type": "young woman",
+        "distinguishing_features": [
+          "wavy blonde hair",
+          "fair skin with tan lines",
+          "light freckles",
+          "navel piercing"
+        ]
+      },
+      "physical_details": {
+        "skin": {
+          "tone": "light fair with natural texture",
+          "texture": "natural, realistic pores",
+          "details": "visible tan lines on chest, slight flush on cheeks"
+        },
+        "hair": {
+          "color": "long wavy blonde",
+          "style": "loose, natural waves"
+        },
+        "face": {
+          "features": "soft smile, natural makeup",
+          "expression": "friendly, relaxed, engaging eye contact"
+        }
+      },
+      "expression_mood": "chill, playful, confident, comfortable"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "yellow strapless tube top",
+          "details": "featuring text 'HAWAIIAN TROPIC' in brown serif font with hibiscus flower and palm graphic"
+        },
+        {
+          "type": "matching yellow shorts",
+          "details": "visible at waist and thigh area"
+        }
+      ],
+      "accessories": [
+        "gold pendant necklace",
+        "small gold hoop earrings",
+        "small tattoo on left inner forearm"
+      ],
+      "styling": "navel piercing visible"
+    },
+    "pose_action": {
+      "position": "reclining and lounging comfortably on grey textured sofa",
+      "camera_relation": "eye-level, slightly angled from side",
+      "body_language": "relaxed and casual, leaning back against cushions",
+      "dynamic_elements": "arm_positions: one_arm: extended to support weight, other_hand: resting gently near waist; legs: angled toward camera",
+      "hands": "one arm extended to support weight, other hand resting gently near waist"
+    },
+    "environment": {
+      "location": "modern living room interior",
+      "furniture": {
+        "main": "dark grey fabric sofa with textured weave"
+      },
+      "background": [
+        "grey walls with decorative panel molding (wainscoting)",
+        "large vertical art piece with red background featuring KAWS-style figures in blue and black",
+        "second framed abstract art piece with gold and black tones",
+        "modern linear wall sconce light"
+      ],
+      "atmosphere": "stylish home comfort, influencer aesthetic"
+    },
+    "lighting": {
+      "type": "soft diffused indoor mix",
+      "quality": "warm ambient highlighting skin tone, creating soft shadows",
+      "sources": [
+        "natural window light",
+        "warm glow from wall sconce"
+      ],
+      "effects": [
+        "cozy atmosphere",
+        "flattering on skin"
+      ]
+    },
+    "camera_technical": {
+      "lens": "35mm or 50mm portrait lens",
+      "focus": "sharp on face and torso, slight depth of field blur on background",
+      "film_grain": "low to medium ISO, clean but slightly organic digital look",
+      "style_tags": [
+        "influencer lifestyle",
+        "2000s digital camera vibe",
+        "casual home comfort"
+      ]
+    },
+    "technical_modifiers": [
+      "ultra photorealistic",
+      "8k resolution",
+      "raw photo",
+      "hyper-detailed skin texture",
+      "subsurface scattering",
+      "volumetric lighting"
+    ],
+    "realism_anchors": [
+      "visible tan lines",
+      "natural skin texture with pores",
+      "realistic fabric texture on sofa",
+      "authentic branded clothing graphics",
+      "recognizable art style in background"
+    ],
+    "negative_prompt": [
+      "drawing",
+      "cartoon",
+      "anime",
+      "illustration",
+      "low quality",
+      "blurry",
+      "noise",
+      "oversaturated",
+      "overexposed",
+      "plastic skin",
+      "airbrushed"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "ultra photorealistic influencer lifestyle portrait, young woman long wavy blonde hair fair skin, relaxed friendly expression eye contact, yellow strapless tube top with 'HAWAIIAN TROPIC' text brown serif hibiscus palm graphic, matching yellow shorts, gold pendant necklace hoop earrings navel piercing small forearm tattoo, reclining on dark grey textured sofa, one arm supporting weight other hand near waist legs angled toward camera, modern living room grey walls wainscoting, large KAWS-style art piece red background blue black figures, abstract gold black art, modern wall sconce, soft diffused warm ambient lighting, 35-50mm portrait lens sharp focus shallow depth of field, 2000s digital camera aesthetic, 8k raw photo hyper-detailed skin, 4:5",
+  "negative_prompt_flat": "drawing, cartoon, anime, low quality, blurry, oversaturated, plastic skin, airbrushed",
+  "color_palette": {
+    "primary": "yellow loungewear",
+    "secondary": "grey sofa and walls",
+    "accent": "red KAWS art, gold jewelry, gold/black abstract art",
+    "skin": "fair with warm undertones, tan lines"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "ultra photorealistic influencer portrait, woman wavy blonde hair fair skin tan lines, yellow Hawaiian Tropic tube top shorts, gold necklace earrings navel piercing, reclining on grey textured sofa, modern living room KAWS art red background blue figures, abstract gold art wall sconce, warm diffused lighting, 50mm sharp focus shallow DOF, 2000s digital aesthetic, 8k raw, 4:5",
+      "negative_prompt": "cartoon, anime, blurry, plastic skin, airbrushed, oversaturated"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Young woman with long wavy blonde hair, light fair skin",
+          "features": "Natural skin texture, visible tan lines on chest, slight cheek flush, navel piercing, light freckles",
+          "face": {
+            "expression": "Friendly, relaxed, engaging eye contact, soft smile",
+            "makeup": "Natural, minimal"
+          },
+          "hair": {
+            "color": "Long wavy blonde",
+            "style": "Loose natural waves"
+          }
+        },
+        "wardrobe": {
+          "top": "Yellow strapless tube top with 'HAWAIIAN TROPIC' in brown serif font, hibiscus and palm graphic",
+          "bottom": "Matching yellow shorts",
+          "accessories": [
+            "Gold pendant necklace",
+            "Small gold hoop earrings",
+            "Small tattoo on left inner forearm"
+          ]
+        },
+        "pose_action": {
+          "posture": "Reclining comfortably on grey textured sofa",
+          "body_language": "Relaxed, casual, leaning back against cushions",
+          "arms": "One extended supporting weight, other hand near waist",
+          "legs": "Angled toward camera"
+        },
+        "scene": {
+          "environment": "Modern living room interior",
+          "furniture": "Dark grey fabric sofa with textured weave",
+          "background": [
+            "Grey walls with wainscoting panel molding",
+            "Large vertical KAWS-style art (red background, blue and black figures)",
+            "Abstract art piece with gold and black tones",
+            "Modern linear wall sconce"
+          ]
+        },
+        "lighting": {
+          "type": "Soft diffused indoor mix",
+          "quality": "Warm ambient, soft shadows, cozy atmosphere",
+          "sources": "Natural window light mixed with wall sconce glow"
+        },
+        "camera": {
+          "technical": "35-50mm portrait lens, low-medium ISO",
+          "focus": "Sharp on face and torso, background with depth blur",
+          "style": "Influencer lifestyle, 2000s digital camera aesthetic",
+          "aspect_ratio": "4:5",
+          "modifiers": [
+            "Ultra photorealistic",
+            "8k",
+            "Raw photo",
+            "Hyper-detailed skin"
+          ],
+          "negative_constraints": "no cartoon, no anime, no blurry, no plastic skin"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "influencer lifestyle photo, woman wavy blonde hair, yellow Hawaiian Tropic tube top and shorts, reclining on grey sofa, modern living room with KAWS-style art, warm ambient lighting, 2000s digital camera aesthetic, natural skin texture --ar 4:5 --style raw --v 6",
+      "notes": "Use --style raw for authentic casual home photography feel"
+    },
+    "ideogram": {
+      "prompt": "Young woman with wavy blonde hair lounging on grey sofa wearing yellow Hawaiian Tropic branded tube top and shorts, modern living room with KAWS-style artwork on wall, gold jewelry, warm ambient lighting, relaxed influencer lifestyle aesthetic",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "4:5"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Influencer home portrait, blonde woman in yellow branded loungewear on grey sofa, modern art background, warm cozy lighting"
+    },
+    "luma": {
+      "prompt": "Modern living room scene, woman lounges comfortably on sofa, adjusts position slightly, warm light from wall sconce casts soft glow, KAWS artwork creates colorful backdrop, relaxed afternoon vibes",
+      "motion_notes": "Subtle body adjustment, gentle breathing, slight hair movement, ambient light flicker"
+    },
+    "reve": {
+      "prompt": "Lifestyle photography in the style of influencer home content, blonde woman in yellow branded loungewear, grey textured sofa, KAWS contemporary art, warm diffused lighting, casual comfort aesthetic",
+      "art_references": [
+        "Influencer lifestyle photography",
+        "Contemporary home interiors",
+        "2000s digital camera aesthetic"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Woman with wavy blonde hair lounging on grey sofa in yellow Hawaiian Tropic tube top and shorts, modern living room with KAWS-style art on wall, gold jewelry, warm ambient lighting, relaxed influencer vibes"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A young woman with long wavy blonde hair is reclining comfortably on a dark grey textured sofa in a modern living room. She wears a yellow strapless tube top with 'HAWAIIAN TROPIC' printed in brown serif font alongside a hibiscus flower and palm tree graphic, paired with matching yellow shorts. Her accessories include a gold pendant necklace, small gold hoop earrings, and she has a navel piercing visible. Her fair skin shows natural tan lines on her chest and a slight rosy flush on her cheeks. She has a friendly, relaxed expression with engaging eye contact. Behind her, the grey walls feature wainscoting panel molding and two pieces of art: a large vertical piece with red background featuring KAWS-style figures in blue and black, and an abstract piece with gold and black tones. A modern linear wall sconce provides warm ambient lighting that creates a cozy atmosphere. The image has a 2000s digital camera aesthetic with natural skin texture visible. No watermark. No artificial smoothing. Realistic texture.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Young woman with wavy blonde hair lounging on grey textured sofa wearing yellow Hawaiian Tropic branded tube top and shorts. Fair skin with visible tan lines, gold pendant necklace and hoop earrings. Modern living room with KAWS-style art on red background behind her. Warm diffused lighting creates cozy atmosphere. Influencer lifestyle photography, 35mm portrait lens, shallow depth of field, natural skin texture. Not airbrushed, not cartoon-like.",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A young woman with long wavy blonde hair reclines on a dark grey fabric sofa in a modern living room. She wears a yellow strapless Hawaiian Tropic tube top with hibiscus graphics and matching yellow shorts. Gold pendant necklace and hoop earrings accent her relaxed look. Behind her, grey walls with wainscoting display KAWS-style artwork with red background and blue-black figures. Warm ambient lighting from a wall sconce creates soft shadows. Natural skin texture with visible tan lines. Influencer lifestyle portrait with 2000s digital camera aesthetic.",
+      "editing_prompt": "Change the wall art to a different style while keeping the woman's pose and outfit the same. Preserve the warm lighting and cozy atmosphere.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed branded clothing (specific text, font, graphics), named art style (KAWS)",
+    "2_realism_anchors: 'visible tan lines', 'natural skin texture with pores', 'fabric texture', 'branded graphics'",
+    "3_technical_camera: '35-50mm portrait lens', 'shallow DOF', '2000s digital camera aesthetic'",
+    "4_negative_hygiene: prevents cartoon, airbrushed, plastic skin looks",
+    "5_spatial_consistency: clear pose description with arm and leg positions",
+    "6_lighting_storytelling: 'warm diffused indoor mix' = cozy home comfort mood",
+    "7_brand_integration: specific Hawaiian Tropic branding adds authenticity"
+  ]
+}

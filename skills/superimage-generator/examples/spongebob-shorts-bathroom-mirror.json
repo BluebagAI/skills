@@ -1,0 +1,274 @@
+{
+  "name": "SpongeBob Shorts Bathroom Mirror Selfie",
+  "description": "Athletic blonde woman with high braid taking three-quarter rear-view bathroom mirror selfie, olive green compression top and SpongeBob character shorts, looking over shoulder with bright smile, detailed muscular definition",
+  "input_prompt": "athletic blonde high braid bathroom mirror selfie olive compression top spongebob shorts looking over shoulder smile muscular",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "professional_mirror_photography",
+      "aspect_ratio": "9:16",
+      "style": "fitness_mirror_selfie",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "young athletic woman with mesomorphic build and pronounced hourglass silhouette, taking three-quarter rear-view bathroom mirror selfie, looking over shoulder with bright natural smile",
+      "identity": {
+        "age_range": "mid to late 20s",
+        "type": "woman",
+        "distinguishing_features": [
+          "athletic mesomorphic build",
+          "high tight braid",
+          "bright smile",
+          "defined musculature"
+        ]
+      },
+      "physical_details": {
+        "body": {
+          "physique": "high waist-to-hip ratio with narrow, toned waistline",
+          "details": "glutes: significant development of gluteus maximus and medius, firm and rounded; legs: strong muscular quadriceps, well-defined hamstrings and calves; upper_body: broad shoulders relative to waist, V-taper"
+        },
+        "skin": {
+          "tone": "fair with realistic texture",
+          "details": "finish: no artificial smoothing",
+          "texture": "natural skin texture with visible pores"
+        },
+        "hair": {
+          "color": "blonde",
+          "style": "high, tight, single braid hanging down the back"
+        },
+        "face": {
+          "expression": "bright natural smile with visible teeth",
+          "details": "direction: looking over right shoulder directly at mirror reflection"
+        }
+      },
+      "expression_mood": "happy, confident, athletic energy"
+    },
+    "wardrobe": {
+      "accessories": [
+        "modern black smartphone held in right hand",
+        "thin gold wedding-style band on ring finger"
+      ],
+      "clothing": [
+        {
+          "type": "long-sleeved athletic compression shirt",
+          "color": "olive green",
+          "details": "mock-neck collar with quarter-zip detail; fabric: realistic tension lines and ribbed textures along arms"
+        },
+        {
+          "type": "low-rise tight-fitting booty shorts",
+          "fit": "tight, emphasizing athletic build",
+          "pattern": "vibrant multicolored SpongeBob SquarePants character collage",
+          "details": "colors: yellow, pink, and blue character motifs"
+        }
+      ]
+    },
+    "pose_action": {
+      "position": "three-quarter rear-view mirror selfie stance",
+      "dynamic_elements": "torso: rotated approximately 45 degrees toward mirror; twist: dynamic twist highlighting abdominal-oblique transition and hip curvature; head: looking over right shoulder directly into mirror reflection; phone: held at chest level to capture reflection"
+    },
+    "environment": {
+      "location": "brightly lit contemporary bathroom",
+      "background": [
+        "white door frame",
+        "white walls providing clean minimalist background",
+        "neutral-toned shower curtain in blurred background"
+      ],
+      "flooring": "weathered grey wood-plank flooring with detailed grain and matte finish",
+      "atmosphere": "playful, casual bathroom selfie"
+    },
+    "lighting": {
+      "setup": "bright diffused indoor ambient lighting from overhead source",
+      "effects": [
+        "soft shadows accentuating anatomical definition of lower back (lumbar dimples)",
+        "separation between glutes and upper thighs",
+        "no harsh flash artifacts",
+        "natural skin highlights",
+        "realistic fabric sheen"
+      ],
+      "type": "indoor bathroom lighting",
+      "quality": "even, soft bathroom light"
+    },
+    "camera_technical": {
+      "style": "professional mirror-reflex photography",
+      "lens": "35mm",
+      "aperture": "f/2.8 for sharp subject with soft-focus background",
+      "resolution": "high-resolution textures, 8k detail",
+      "shot_type": "medium-full shot from mid-calf upwards",
+      "reflection_rules": {
+        "integrity": "mirror reflection must perfectly align with subject's physical orientation and phone placement"
+      },
+      "constraints": [
+        "no logos on background",
+        "no beautify smoothing",
+        "no extra limbs",
+        "no text visible"
+      ]
+    },
+    "the_vibe": {
+      "energy": "athletic and confident",
+      "mood": "happy, playful, fitness lifestyle",
+      "aesthetic": "professional fitness photography with fun personality",
+      "authenticity": "genuine smile, athletic pride",
+      "story": "post-workout mirror selfie showing off gains"
+    },
+    "realism_anchors": [
+      "compression shirt tension lines",
+      "SpongeBob character print detail",
+      "lumbar dimples definition",
+      "weathered wood floor grain",
+      "braid texture and flyaways"
+    ],
+    "negative_prompt": [
+      "logos on background items",
+      "beautify smoothing",
+      "extra limbs",
+      "text on walls",
+      "distorted mirror reflections",
+      "harsh flash",
+      "anime",
+      "illustration",
+      "3d render"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "professional bathroom mirror selfie 9:16, young athletic woman mesomorphic build pronounced hourglass silhouette high waist-to-hip ratio narrow toned waistline, significant gluteus maximus medius development firm rounded, strong muscular quadriceps well-defined hamstrings calves broad shoulders V-taper visible abdominal-oblique transition hip curvature, fair skin realistic texture no smoothing, blonde hair HIGH TIGHT SINGLE BRAID hanging down back, BRIGHT NATURAL SMILE visible teeth looking over right shoulder at mirror, olive green long-sleeved athletic compression shirt mock-neck quarter-zip realistic tension lines ribbed texture arms, LOW-RISE tight BOOTY SHORTS vibrant multicolored SPONGEBOB SQUAREPANTS character collage pattern yellow pink blue motifs, black smartphone right hand thin gold wedding band ring finger, THREE-QUARTER REAR-VIEW torso rotated 45 degrees dynamic twist highlighting hip curvature phone at chest level, bright contemporary bathroom white door frame white walls neutral shower curtain blurred, WEATHERED GREY WOOD-PLANK flooring detailed grain matte, bright diffused overhead ambient lighting soft shadows accentuating lumbar dimples glute separation natural skin highlights fabric sheen, 35mm f/2.8 sharp subject soft background 8k detail medium-full shot mid-calf up, mirror reflection aligned, happy confident athletic energy",
+  "negative_prompt_flat": "logos on background, beautify smoothing, extra limbs, text on walls, distorted reflections, harsh flash, anime, illustration",
+  "color_palette": {
+    "primary": "olive green compression top",
+    "secondary": "multicolored SpongeBob shorts (yellow, pink, blue)",
+    "accent": "blonde braid, gold ring",
+    "background": "white walls, grey wood floor"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "professional bathroom mirror selfie, athletic woman mesomorphic hourglass narrow waist developed glutes strong quads V-taper, fair skin no smoothing, blonde HIGH TIGHT BRAID, BRIGHT SMILE looking over right shoulder, olive green compression shirt mock-neck quarter-zip tension lines ribbed, LOW-RISE SPONGEBOB SQUAREPANTS CHARACTER SHORTS yellow pink blue collage pattern, black phone gold wedding band, THREE-QUARTER REAR-VIEW torso rotated 45 degrees hip curvature, bright bathroom white walls WEATHERED GREY WOOD FLOOR grain, bright diffused overhead lighting soft shadows lumbar dimples, 35mm f/2.8 8k sharp subject soft background, happy athletic confident, 9:16",
+      "negative_prompt": "logos on background, beautify smoothing, extra limbs, distorted reflections, anime, illustration"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Young athletic woman with mesomorphic build and pronounced hourglass",
+          "body": {
+            "physique": "High waist-to-hip ratio, narrow toned waistline",
+            "glutes": "Significant gluteus maximus/medius development, firm rounded",
+            "legs": "Strong muscular quadriceps, defined hamstrings and calves",
+            "upper_body": "Broad shoulders, V-taper",
+            "details": "Visible abdominal-oblique transition, hip curvature, lumbar dimples"
+          },
+          "skin": {
+            "tone": "Fair",
+            "texture": "Realistic, no artificial smoothing"
+          },
+          "hair": {
+            "color": "Blonde",
+            "style": "High, tight, single braid hanging down back"
+          },
+          "face": {
+            "expression": "Bright natural smile with visible teeth",
+            "direction": "Looking over right shoulder at mirror"
+          }
+        },
+        "wardrobe": {
+          "top": {
+            "type": "Long-sleeved athletic compression shirt",
+            "color": "Olive green",
+            "details": "Mock-neck collar, quarter-zip, tension lines, ribbed texture"
+          },
+          "bottom": {
+            "type": "Low-rise tight booty shorts",
+            "pattern": "Vibrant SpongeBob SquarePants character collage",
+            "colors": "Yellow, pink, blue motifs"
+          },
+          "accessories": [
+            "Black smartphone in right hand",
+            "Thin gold wedding band on ring finger"
+          ]
+        },
+        "pose_action": {
+          "orientation": "Three-quarter rear-view mirror selfie",
+          "torso": "Rotated 45 degrees toward mirror",
+          "twist": "Dynamic, highlighting abdominal-oblique and hip curvature",
+          "head": "Looking over right shoulder into mirror",
+          "phone": "Held at chest level"
+        },
+        "scene": {
+          "environment": "Bright contemporary bathroom",
+          "background": [
+            "White door frame",
+            "White walls",
+            "Neutral shower curtain (blurred)"
+          ],
+          "flooring": "Weathered grey wood-plank with detailed grain"
+        },
+        "lighting": {
+          "setup": "Bright diffused indoor ambient from overhead",
+          "effects": "Soft shadows on lumbar dimples and glute separation, natural skin highlights, fabric sheen"
+        },
+        "camera": {
+          "style": "Professional mirror photography",
+          "lens": "35mm",
+          "aperture": "f/2.8",
+          "resolution": "8k detail",
+          "shot_type": "Medium-full, mid-calf upwards",
+          "reflection_rules": "Mirror aligned with subject orientation and phone",
+          "aspect_ratio": "9:16",
+          "negative_constraints": "no logos, no smoothing, no extra limbs, no distorted reflections"
+        },
+        "mood": "Happy, confident, athletic, playful fitness lifestyle"
+      }
+    },
+    "midjourney": {
+      "prompt": "bathroom mirror selfie, athletic blonde woman high braid bright smile, olive compression top quarter-zip, SpongeBob character shorts colorful pattern, three-quarter rear view looking over shoulder, white bathroom grey wood floor, bright ambient lighting soft shadows, 35mm f/2.8 professional quality --ar 9:16 --style raw --v 6",
+      "notes": "Emphasize athletic physique and playful shorts pattern"
+    },
+    "ideogram": {
+      "prompt": "Athletic blonde woman with high braid taking bathroom mirror selfie, bright smile looking over shoulder, olive green compression top with mock-neck and quarter-zip, colorful SpongeBob SquarePants character pattern booty shorts, three-quarter rear-view pose showing athletic build, bright contemporary bathroom with white walls and grey wood floor, diffused overhead lighting",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "9:16"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Bathroom mirror selfie, athletic blonde braid smile, olive compression top, SpongeBob shorts, rear-view pose, white bathroom grey floor, bright ambient light"
+    },
+    "luma": {
+      "prompt": "Bright bathroom, athletic woman turns to look over her shoulder and smiles while taking mirror selfie, olive top and colorful cartoon shorts, confident post-workout energy",
+      "motion_notes": "Shoulder turn, smile, phone adjustment"
+    },
+    "reve": {
+      "prompt": "Fitness photography in the style of athletic mirror selfies, blonde woman high braid looking over shoulder, olive compression top SpongeBob character shorts, three-quarter rear view, contemporary bathroom, bright diffused lighting",
+      "art_references": [
+        "Athletic mirror selfies",
+        "Fitness lifestyle photography",
+        "Playful workout fashion"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Athletic blonde woman with high tight braid taking three-quarter rear-view bathroom mirror selfie, bright smile looking over shoulder, olive green compression top with mock-neck and quarter-zip, colorful SpongeBob SquarePants character booty shorts, bright contemporary bathroom with white walls and weathered grey wood floor, diffused overhead lighting"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A bright contemporary bathroom with white walls and weathered grey wood-plank flooring.\n\nA young athletic woman with a mesomorphic build takes a three-quarter rear-view mirror selfie. She has blonde hair styled in a high, tight single braid hanging down her back. She looks over her right shoulder with a bright natural smile, showing visible teeth.\n\nShe wears an olive green long-sleeved athletic compression shirt with a mock-neck collar and quarter-zip detail, showing realistic fabric tension lines. Her tight-fitting booty shorts feature a vibrant SpongeBob SquarePants character collage pattern in yellow, pink, and blue.\n\nShe holds a black smartphone at chest level. Her athletic physique shows defined shoulders, narrow waist, developed glutes, and visible lumbar dimples.\n\nBright diffused overhead ambient lighting creates soft shadows that accentuate anatomical definition. The image has smartphone photo quality with sharp focus on the mirror reflection.\n\nNo logos on background items. No artificial skin smoothing. Realistic texture throughout.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "A young athletic woman with a mesomorphic build and blonde hair in a high tight braid takes a three-quarter rear-view mirror selfie in a bright contemporary bathroom. She looks over her right shoulder with a bright natural smile showing visible teeth, her athletic physique displaying defined shoulders, narrow waist, and developed glutes with visible lumbar dimples. She wears an olive green long-sleeved compression top with mock-neck collar and quarter-zip detail showing realistic tension lines, paired with tight-fitting booty shorts featuring a vibrant SpongeBob SquarePants character collage pattern in yellow, pink, and blue. The bathroom has white walls and weathered grey wood-plank flooring with detailed grain. Bright diffused overhead ambient lighting creates soft shadows accentuating muscle definition. Fitness lifestyle photography, smartphone mirror selfie aesthetic, 35mm lens f/2.8, photorealistic skin texture, not cartoon-like.",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A young athletic woman with a mesomorphic build and blonde hair styled in a high tight braid takes a three-quarter rear-view mirror selfie. She looks over her right shoulder with a bright natural smile, showing defined musculature with narrow waist and developed glutes. She wears an olive green long-sleeved compression top with mock-neck collar and quarter-zip detail, with tight-fitting shorts featuring a vibrant SpongeBob SquarePants character collage pattern in yellow, pink, and blue. Contemporary bathroom setting with white walls and weathered grey wood-plank flooring. Bright diffused ambient lighting from overhead creates soft shadows accentuating lumbar dimples. Fitness lifestyle photography aesthetic, 35mm lens at f/2.8. Realistic skin texture and natural highlights.",
+      "editing_prompt": "Change the bathroom background to a gym locker room while keeping the woman in the exact same three-quarter rear-view pose, maintaining her blonde braid, bright smile, olive compression top, and SpongeBob shorts. Preserve the same camera angle, body position, and soft lighting quality.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed athletic anatomy (glutes, quads, lumbar dimples), specific clothing (mock-neck, quarter-zip, SpongeBob collage)",
+    "2_realism_anchors: 'compression shirt tension lines', 'SpongeBob print detail', 'lumbar dimples', 'wood floor grain', 'braid texture'",
+    "3_technical_camera: '35mm', 'f/2.8', '8k detail', 'medium-full shot', 'mirror alignment rules'",
+    "4_negative_hygiene: prevents logos, beautify smoothing, extra limbs, distorted reflections",
+    "5_spatial_consistency: clear three-quarter rear-view with 45-degree torso rotation",
+    "6_lighting_storytelling: 'bright diffused overhead' = confident athletic post-workout mood",
+    "7_mirror_rules: explicit reflection alignment with subject orientation"
+  ]
+}

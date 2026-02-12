@@ -1,0 +1,193 @@
+{
+  "name": "Backyard Patio Lounger",
+  "description": "Harsh sunlight outdoor portrait on patio chair with emphasis on anatomical fidelity and natural skin texture",
+  "input_prompt": "woman in black bikini relaxing on patio lounger in backyard",
+  "target_model": "nano-banana",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "hyper_realistic",
+      "aspect_ratio": "3:4",
+      "style": "raw_unpolished_photography",
+      "target_model": "nano-banana",
+      "fidelity": "1:1 photorealism"
+    },
+    "subject": {
+      "description": "Young woman with tanned sun-kissed complexion, long wavy dirty blonde hair with highlights and darker roots, fit toned physique relaxing on a backyard patio lounger.",
+      "body": {
+        "physique": "Fit and toned with a defined waistline and athletic proportions.",
+        "anatomy": "Seated on the lounger with relaxed shoulders and natural torso posture, legs extended with one knee bent, muscle definition visible.",
+        "details": "Visible pores, slight imperfections, natural oil sheen from sunscreen, micro shadowing, no smoothing."
+      },
+      "face": "Oval face with full lips and straight nose, neutral to slightly serious expression, direct gaze, natural glowing makeup.",
+      "hair": "Long wavy dirty blonde hair with lighter highlights and darker roots, parted in the middle and falling over shoulders naturally.",
+      "skin": "Tanned sun-kissed tone with realistic pores, slight imperfections, and high-specular sunscreen sheen.",
+      "expression_mood": "relaxed, confident, summery, intense"
+    },
+    "wardrobe": {
+      "top": "Black textured crinkle fabric triangle bikini top with gold O-ring center and thin straps with gold ring hardware at the shoulders.",
+      "bottom": "Matching black textured crinkle fabric bikini bottoms with standard cut and gold O-rings at the hips.",
+      "accessories": ["thin gold chain necklace", "silver belly button piercing"]
+    },
+    "pose_action": {
+      "description": "Seated on a mesh lounge chair, body angled slightly with head facing forward, arm-length framing from slightly above eye level.",
+      "posture": "Torso leaning back, left arm extended behind gripping the chair edge, right leg extended, left leg bent at the knee."
+    },
+    "scene": {
+      "environment": "Outdoor residential patio with grey interlocking paver stone flooring.",
+      "background": "White vinyl privacy fence with green leafy bushes between the chair and fence.",
+      "location": "Backyard patio.",
+      "atmosphere": "Bright sunny daytime backyard.",
+      "props": ["Grey mesh sun lounger with dark metal frame and mesh seating."]
+    },
+    "lighting": {
+      "type": "direct hard natural sunlight from upper right",
+      "quality": "high contrast",
+      "effects": [
+        "strong specular highlights on skin",
+        "sharp dark shadows",
+        "muscle definition emphasized",
+        "daylight balanced 5500K"
+      ],
+      "shadows": "Distinct shadows fall to the left."
+    },
+    "camera": {
+      "technical": "Professional DSLR, 50-85mm portrait lens, f/4, 8k resolution, sharp subject focus with slightly soft background, centered composition, raw output.",
+      "aspect_ratio": "3:4",
+      "negative_constraints": "No anatomy normalization, no body proportion averaging, no skin smoothing, no plastic skin, no airbrushed texture, no beautification filters, no stylized realism, no studio lighting, no editorial fashion proportions, no mirror selfie, no phone in hand.",
+      "lens": "50-85mm portrait",
+      "style": "raw output",
+      "resolution": "8k",
+      "composition": "centered composition"
+    },
+    "realism_anchors": [
+      "visible skin pores",
+      "natural oil sheen from sunscreen",
+      "high specular skin finish",
+      "authentic fabric texture crinkle weave",
+      "sharp shadow definition",
+      "no airbrushing or smoothing"
+    ],
+    "negative_prompt": [
+      "anatomy normalization",
+      "body proportion averaging",
+      "skin smoothing",
+      "plastic skin",
+      "airbrushed texture",
+      "beautification filters",
+      "stylized realism",
+      "studio lighting",
+      "editorial fashion proportions",
+      "mirror selfie",
+      "phone in hand"
+    ]
+  },
+  "flattened_prompt": "hyper-realistic photography, 8k, raw unpolished, young woman early 20s tanned sun-kissed complexion, fit toned physique defined waistline, long wavy dirty blonde hair lighter highlights darker roots, oval face neutral expression direct gaze, black crinkle fabric triangle bikini gold O-ring center gold hardware, thin gold chain necklace silver belly piercing, seated on grey mesh lounger leaning back left arm gripping chair edge, grey paver patio white privacy fence green bushes background, bright sunny day direct hard sunlight from upper right, high contrast sharp shadows specular highlights on skin, 50-85mm portrait lens centered composition, natural skin texture visible pores oil sheen, 3:4 aspect ratio",
+  "negative_prompt_flat": "anatomy normalization, skin smoothing, plastic skin, airbrushed, beautification filter, studio lighting, stylized realism, mirror selfie, phone in hand, oversaturated",
+  "color_palette": {
+    "primary": "tan bronze skin",
+    "secondary": "matte black bikini",
+    "accent": "gold hardware",
+    "background": "neutral grey stone, white fence, green foliage"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "hyper-realistic photography, 8k raw, young woman early 20s tanned fit physique, long wavy dirty blonde hair highlights and dark roots, neutral expression direct gaze, black crinkle fabric triangle bikini gold O-rings and hardware, gold necklace silver belly piercing, seated on grey mesh lounger leaning back arm gripping edge, grey paver patio white fence green bushes, bright sunny day direct hard sunlight high contrast sharp shadows, specular highlights visible skin pores natural oil sheen, 50-85mm portrait lens, 3:4",
+      "negative_prompt": "skin smoothing, plastic skin, airbrushed, beautification, studio lighting, stylized, mirror selfie, oversaturated"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Young woman early 20s with tanned sun-kissed complexion, fit and toned physique with defined waistline",
+          "body": {
+            "physique": "Fit and toned with natural proportions",
+            "skin": "Tanned, visible pores, high-specular shiny finish from sunscreen, natural oil sheen"
+          },
+          "face": {
+            "shape": "Oval",
+            "expression": "Neutral to slightly serious, direct gaze at viewer",
+            "features": "Full lips, straight nose, natural glowing skin"
+          },
+          "hair": {
+            "color": "Dirty blonde with lighter highlights and darker roots",
+            "style": "Long wavy, parted in middle, falling over shoulders"
+          }
+        },
+        "wardrobe": {
+          "bikini_top": "Black crinkle fabric triangle style, gold O-ring center, thin straps with gold ring hardware",
+          "bikini_bottom": "Matching black crinkle fabric, gold O-rings at hips",
+          "accessories": ["Thin gold chain necklace", "Silver belly button piercing"]
+        },
+        "pose_action": {
+          "description": "Seated on lounge chair, body angled slightly to viewer's left, head facing forward",
+          "posture": "Torso leaning back, left arm extended gripping chair edge, right leg extended, left leg bent"
+        },
+        "scene": {
+          "environment": "Outdoor residential patio, bright sunny daytime",
+          "props": "Grey mesh sun lounger with dark metal frame",
+          "background": "White vinyl privacy fence, green leafy bushes",
+          "ground": "Grey interlocking paver stone"
+        },
+        "lighting": {
+          "type": "Direct hard natural sunlight from upper right",
+          "effects": "High contrast, sharp shadows to left, specular highlights defining muscle tone",
+          "color_temp": "Daylight 5500K"
+        },
+        "camera": {
+          "technical": "50-85mm portrait lens, 8k resolution, sharp focus subject",
+          "angle": "Eye-level to slightly high angle",
+          "aspect_ratio": "3:4",
+          "negative_constraints": "no skin smoothing, no airbrushing, no beautification, no studio lighting"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "hyper-realistic photo, young woman tanned fit physique on patio lounger, dirty blonde wavy hair, black crinkle bikini with gold hardware, direct gaze neutral expression, grey mesh chair white fence green bushes, harsh direct sunlight high contrast sharp shadows, natural skin texture visible pores, raw unpolished --ar 3:4 --style raw --v 6",
+      "notes": "Use --style raw for unprocessed look"
+    },
+    "ideogram": {
+      "prompt": "Hyper-realistic photograph of young tanned woman in black textured bikini with gold hardware sitting on grey mesh patio lounger, direct sunlight creating sharp shadows, white privacy fence and green bushes in background, natural skin texture, centered composition",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "3:4"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Young woman in black bikini on patio lounger, tanned skin harsh sunlight, dirty blonde hair, white fence green bushes background, natural skin texture high contrast"
+    },
+    "luma": {
+      "prompt": "Sunny backyard patio scene, young woman relaxes on mesh lounger, warm sunlight shifts across skin, leaves rustle gently on bushes behind fence, peaceful summer afternoon moment",
+      "motion_notes": "Subtle breathing movement, gentle leaf movement in background, light shifting"
+    },
+    "reve": {
+      "prompt": "Hyper-realistic lifestyle photography in the style of candid summer portraits, young woman in black bikini on patio lounger, harsh direct sunlight, high contrast shadows, natural unretouched skin texture",
+      "art_references": ["Candid lifestyle photography", "High-contrast summer portraits", "Unretouched beauty photography"]
+    },
+    "grok-imagine": {
+      "prompt": "Young woman in black bikini relaxing on patio lounger, tanned skin dirty blonde hair, sunny backyard with white fence, harsh sunlight sharp shadows, natural unfiltered photo look"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A hyper-realistic photograph of a young woman in her early 20s relaxing on a grey mesh sun lounger in her backyard patio. She has a tanned sun-kissed complexion with a fit and toned physique featuring a defined waistline. Her long wavy dirty blonde hair has lighter highlights and darker roots, parted in the middle and falling naturally over her shoulders. She has an oval face with full lips and a straight nose, with a neutral to slightly serious expression and direct gaze at the viewer. She wears a black textured crinkle fabric triangle bikini top with a gold O-ring center and thin straps with gold ring hardware at the shoulders, paired with matching black crinkle fabric bikini bottoms with gold O-rings at the hips. She accessorizes with a thin gold chain necklace and silver belly button piercing. She is seated with her torso leaning back, left arm extended behind gripping the chair edge, right leg extended and left leg bent at the knee. The setting features a grey interlocking paver stone patio floor, white vinyl privacy fence, and green leafy bushes. Direct hard natural sunlight from the upper right creates high contrast with sharp shadows to the left and strong specular highlights on her skin emphasizing muscle definition. Her skin shows natural visible pores and a high-specular shiny finish from sunscreen. Shot on 50-85mm portrait lens at f/4. No skin smoothing. No airbrushing. No beautification filters.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Young woman early 20s tanned fit physique seated on grey mesh patio lounger, long wavy dirty blonde hair with highlights and dark roots, neutral direct gaze, black crinkle fabric triangle bikini with gold O-ring center and hardware, gold chain necklace silver belly piercing, leaning back left arm gripping chair edge, grey paver patio white privacy fence green bushes background, bright sunny day direct hard sunlight from upper right creating high contrast sharp shadows, specular highlights on skin visible pores natural oil sheen from sunscreen, 50-85mm portrait lens raw unpolished, not airbrushed",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A hyper-realistic photograph of a young woman in her early 20s relaxing on a grey mesh sun lounger on a residential patio. She has a tanned sun-kissed complexion with a fit toned physique and defined waistline. Her long wavy dirty blonde hair has lighter highlights and darker roots. She has a neutral to slightly serious expression with direct gaze at the viewer. She wears a black crinkle fabric triangle bikini with gold O-ring center and gold hardware, a thin gold chain necklace, and silver belly piercing. She is seated leaning back with her left arm gripping the chair edge. The backyard features grey paver stones, a white vinyl privacy fence, and green bushes. Direct hard sunlight from the upper right creates high contrast with sharp shadows and specular highlights. Natural skin texture with visible pores and shiny oil sheen from sunscreen.",
+      "editing_prompt": "Change the bikini from black to bright coral orange while keeping the same crinkle fabric texture and gold O-ring hardware details. Preserve the pose, lighting, background, and natural skin texture.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed bikini with material, hardware, fit descriptions",
+    "2_realism_anchors: 'visible pores', 'oil sheen from sunscreen', 'high specular finish'",
+    "3_technical_camera: '50-85mm portrait', 'f/4', '8k', specific color temperature",
+    "4_negative_hygiene: extensive list preventing beautification and normalization",
+    "5_spatial_consistency: precise pose description with arm/leg positions",
+    "6_lighting_storytelling: 'hard direct sunlight' = intense summery confidence",
+    "7_anatomical_fidelity: emphasis on preserving natural body proportions"
+  ]
+}

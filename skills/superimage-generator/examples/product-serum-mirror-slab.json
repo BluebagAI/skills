@@ -1,0 +1,145 @@
+{
+  "name": "Luxury Serum Product Showcase",
+  "description": "High-end editorial studio product shot with mirror base, travertine slab, oil droplets, botanicals, and warm filtered daylight",
+  "input_prompt": "luxury skincare serum product showcase",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "masterpiece",
+      "aspect_ratio": "1:1",
+      "style": "editorial",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "premium frosted glass serum bottle in warm amber tone with matte black dropper cap and minimalist ivory label",
+      "identity": {
+        "type": "product object",
+        "distinguishing_features": [
+          "cylindrical frosted glass body",
+          "matte black dropper cap",
+          "minimal ivory label with clean typography"
+        ]
+      },
+      "physical_details": {
+        "skin": {
+          "texture": "material-accurate surface roughness and subtle micro-scratches",
+          "realism_markers": [
+            "realistic glass refraction",
+            "accurate specular response on cap",
+            "clean label edge definition"
+          ]
+        }
+      },
+      "expression_mood": "minimalist, organic, premium"
+    },
+    "environment": {
+      "location": "editorial studio tabletop setup",
+      "background": [
+        "round mirror laid on warm beige surface",
+        "textured light travertine slab centered on mirror",
+        "clean studio backdrop in soft neutral gradient"
+      ],
+      "props": [
+        {
+          "item": "facial oil droplets",
+          "details": "scattered around product on mirror and slab",
+          "physics": "realistic meniscus edges, reflections, and refraction"
+        },
+        {
+          "item": "eucalyptus sprigs",
+          "details": "placed gently across slab and mirror to connect both surfaces",
+          "physics": "natural contact shadows and slight stem curvature"
+        }
+      ],
+      "atmosphere": "warm golden-hour premium editorial still life"
+    },
+    "lighting": {
+      "type": "golden-hour",
+      "direction": "strong warm sunlight from top-left",
+      "quality": "soft",
+      "effects": [
+        "soft diagonal leaf shadows",
+        "warm rim highlights on bottle edges",
+        "controlled shadow falloff preserving texture detail"
+      ]
+    },
+    "camera_technical": {
+      "device": "professional camera",
+      "lens": "85mm macro",
+      "aperture": "f/2.8",
+      "resolution": "8k",
+      "style_tags": [
+        "luxury product photography",
+        "shallow depth of field",
+        "ultra-detailed texture",
+        "3d realism"
+      ]
+    },
+    "realism_anchors": [
+      "frosted glass micro-texture fidelity",
+      "accurate droplet contact spread and highlight behavior",
+      "travertine pore detail with natural roughness",
+      "mirror reflection alignment with object geometry",
+      "botanical fiber detail and natural contact shadows"
+    ],
+    "negative_prompt": [
+      "people",
+      "hands",
+      "warped label text",
+      "floating droplets",
+      "distorted reflections",
+      "plastic look",
+      "over-saturated",
+      "blurry",
+      "low quality",
+      "cartoon",
+      "anime",
+      "watermark",
+      "logo overlay"
+    ],
+    "prompt_type": "product"
+  },
+  "flattened_prompt": "masterpiece, editorial luxury skincare product photo, amber frosted glass serum bottle with matte black dropper cap and minimal ivory label, centered on light travertine slab placed over round mirror on warm beige surface, facial oil droplets with realistic reflections and refraction scattered on slab and mirror, eucalyptus sprigs bridging both surfaces naturally, strong warm top-left sunlight with soft diagonal leaf shadows, shallow depth of field, 85mm macro f/2.8, ultra-detailed textures, 1:1",
+  "negative_prompt_flat": "people, hands, warped label text, floating droplets, distorted reflections, blurry, low quality, cartoon, anime, watermark",
+  "color_palette": {
+    "primary": "warm amber and matte black",
+    "secondary": "beige and light travertine neutrals",
+    "accent": "eucalyptus green",
+    "contrast": "soft warm highlights against grounded natural tones"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "editorial luxury product photo, amber frosted glass serum bottle matte black dropper cap ivory label, on travertine slab over round mirror on warm beige surface, facial oil droplets realistic reflections, eucalyptus sprigs, warm top-left sunlight with soft diagonal leaf shadows, 85mm macro f/2.8 shallow depth of field, ultra-detailed, 1:1",
+      "negative_prompt": "people, hands, warped text, floating droplets, distorted reflections, blurry, cartoon, anime, watermark"
+    },
+    "midjourney": {
+      "prompt": "luxury skincare product editorial, amber frosted serum bottle with matte black dropper cap on travertine slab over round mirror, oil droplets, eucalyptus sprigs, warm filtered top-left sunlight, diagonal leaf shadows, shallow depth of field, high texture realism --ar 1:1 --style raw --v 6",
+      "notes": "Use --style raw for realistic material fidelity"
+    },
+    "ideogram": {
+      "prompt": "High-end studio product photograph of amber frosted glass serum bottle with matte black dropper cap and minimal ivory label, on travertine slab over round mirror, facial oil droplets and eucalyptus sprigs, warm top-left sunlight with leaf shadows, premium minimalist aesthetic",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "1:1"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Luxury skincare product shot, amber frosted serum bottle on travertine slab and round mirror, oil droplets, eucalyptus accents, warm sunlight"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A high-end editorial studio photograph of a premium frosted glass serum bottle in warm amber with a matte black dropper cap and minimalist ivory label. The bottle is centered on a textured light travertine slab resting on a round mirror placed on a warm beige surface. Scattered facial oil droplets appear around the bottle on both slab and mirror with realistic reflections and refraction. A few eucalyptus sprigs lie naturally across the slab and mirror, visually connecting both surfaces. Strong warm sunlight enters from the top left and casts soft diagonal leaf shadows. The style is minimalist, organic, and premium, with realistic material rendering, shallow depth of field, and ultra-detailed texture. No people, no hands, no watermark, no warped text.",
+      "quality": "high",
+      "notes": "Natural language with explicit material and lighting constraints"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: product, set dressing, surface stack, and prop physics are explicitly layered",
+    "2_realism_anchors: glass roughness, travertine pores, droplet optics, and contact shadows",
+    "3_technical_camera: 85mm macro, f/2.8, shallow depth, and 1:1 commercial framing",
+    "4_negative_hygiene: prevents human elements, text warping, reflection errors, and style leakage",
+    "5_spatial_consistency: mirror-slab-product ordering and prop overlap are spatially constrained",
+    "6_lighting_storytelling: warm top-left directional light plus leaf shadows drives premium mood",
+    "7_material_priority: texture-first rendering for packaging and surfaces"
+  ]
+}

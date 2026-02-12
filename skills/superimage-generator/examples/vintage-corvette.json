@@ -1,0 +1,243 @@
+{
+  "name": "Vintage 70s Corvette Coastal",
+  "description": "Nostalgic analog film aesthetic with vintage C3 Corvette, coastal sunset, Kodachrome look",
+  "input_prompt": "woman in bikini standing in vintage corvette door at sunset beach",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "best_quality",
+      "aspect_ratio": "4:5",
+      "style": "analog_film_photography",
+      "target_model": "flux",
+      "film_stock": "Kodachrome",
+      "era": "late_1970s"
+    },
+    "subject": {
+      "description": "young woman early 20s with sun-kissed tan skin, fit physique, blonde hair with beachy texture",
+      "identity": {
+        "age_range": "early 20s",
+        "type": "young woman",
+        "distinguishing_features": [
+          "wind-swept hair",
+          "natural beach beauty",
+          "relaxed expression"
+        ]
+      },
+      "physical_details": {
+        "skin": {
+          "tone": "sun-kissed tan",
+          "texture": "natural with film grain overlay",
+          "realism_markers": [
+            "glowing from sunset light",
+            "authentic texture"
+          ]
+        },
+        "hair": {
+          "color": "blonde",
+          "style": "long wavy beach texture",
+          "details": "wind-swept, past shoulders, soft sunset glow catching highlights"
+        },
+        "face": {
+          "features": "soft natural features",
+          "expression": "contemplative, serene",
+          "gaze": "looking off to the side toward horizon, avoiding camera",
+          "makeup": "minimal fresh-faced beach look, natural nude/pink lips"
+        }
+      },
+      "expression_mood": "serene confidence, nostalgic, dreamy"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "white triangle bikini top",
+          "material": "classic swimwear fabric",
+          "fit": "traditional triangle cut"
+        },
+        {
+          "type": "white bikini bottoms",
+          "material": "matching fabric",
+          "fit": "classic cut"
+        }
+      ],
+      "accessories": []
+    },
+    "pose_action": {
+      "position": "standing inside open car door frame, elevated on door sill",
+      "camera_relation": "eye-level to slightly low angle, medium shot knees up",
+      "dynamic_elements": "hands resting on car roof frame for support, head turned to profile, body frontal"
+    },
+    "environment": {
+      "location": "coastal road or beachside parking overlooking ocean",
+      "background": [
+        "deep ocean blues",
+        "purple-pink sky gradient",
+        "soft focus horizon"
+      ],
+      "props": [
+        {
+          "item": "vintage white C3 Corvette",
+          "details": "shark body style, open driver door, T-top removed",
+          "physics": "BFGoodrich Radial T/A white letter tires visible, retro wheel rims"
+        }
+      ],
+      "atmosphere": "calm breezy evening, nostalgic summer",
+      "time_of_day": "dusk, blue hour transition, late golden hour"
+    },
+    "lighting": {
+      "type": "natural soft light",
+      "direction": "side lighting from sunset",
+      "quality": "soft diffused",
+      "effects": [
+        "warm highlights on skin",
+        "cool ambient shadows",
+        "romantic nostalgic tone"
+      ]
+    },
+    "camera_technical": {
+      "device": "35mm analog film camera",
+      "lens": "50mm prime",
+      "aperture": "f/2.8",
+      "resolution": "film grain texture",
+      "style_tags": [
+        "Kodachrome color",
+        "vintage grain",
+        "soft focus",
+        "slight vignette",
+        "scanned photo border"
+      ]
+    },
+    "realism_anchors": [
+      "authentic film grain texture",
+      "Kodachrome color shift",
+      "soft analog sharpness",
+      "white rough photo border",
+      "fade in blacks",
+      "period-accurate details"
+    ],
+    "negative_prompt": [
+      "digital",
+      "polished",
+      "3d render",
+      "cartoon",
+      "plastic",
+      "over-saturated",
+      "hdr",
+      "modern car",
+      "closed door",
+      "direct eye contact",
+      "crowded background"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "best quality, ultra-detailed, analog film photography, Kodachrome, 35mm film grain, young woman early 20s sun-kissed tan fit physique, blonde wavy wind-swept beach hair, contemplative expression looking toward horizon, white triangle bikini classic cut, standing in open door frame of vintage white C3 Corvette shark body, T-top removed, hands on roof frame, BFGoodrich Radial T/A white letter tires visible, coastal road overlooking ocean at dusk, deep blue water purple-pink sky gradient, soft sunset side lighting warm highlights cool shadows, 50mm lens moderate depth of field, vintage grain soft focus slight vignette, scanned photo border white frame, late 70s aesthetic, 4:5 vertical",
+  "negative_prompt_flat": "digital, polished, 3d render, cartoon, plastic, over-saturated, hdr, modern car, closed door, direct eye contact, crowded background, sharp digital look",
+  "color_palette": {
+    "primary": "warm tan skin tones",
+    "secondary": "white (car and bikini)",
+    "accent": "deep ocean blue",
+    "atmosphere": "soft pink-purple sky"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "best quality, ultra-detailed, analog film photography, Kodachrome 35mm film grain, young woman early 20s sun-kissed tan blonde wavy wind-swept hair, contemplative expression looking toward horizon, white triangle bikini, standing in open door of vintage white C3 Corvette T-top removed, BFGoodrich white letter tires, coastal road overlooking ocean at dusk, deep blue water purple-pink sky, soft sunset side lighting, 50mm lens vintage grain soft focus vignette, scanned photo border, late 70s aesthetic, 4:5",
+      "negative_prompt": "digital, polished, 3d render, cartoon, plastic, over-saturated, hdr, modern car, direct eye contact, sharp digital"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Young woman early 20s with sun-kissed tan skin, fit physique, blonde wavy beach hair",
+          "body": {
+            "skin": "Sun-kissed tan with natural glow, film grain texture overlay"
+          },
+          "face": {
+            "expression": "Contemplative, serene, looking toward horizon",
+            "gaze": "Avoiding camera, profile view",
+            "makeup": "Minimal fresh-faced beach look"
+          },
+          "hair": {
+            "color": "Blonde",
+            "style": "Long wavy beach texture, wind-swept",
+            "details": "Soft sunset highlights catching strands"
+          }
+        },
+        "wardrobe": {
+          "bikini": "White classic triangle bikini top and bottoms"
+        },
+        "pose_action": {
+          "description": "Standing inside open car door frame, elevated position",
+          "posture": "Hands on roof frame, head turned to profile, body frontal"
+        },
+        "scene": {
+          "environment": "Coastal road overlooking ocean at dusk",
+          "props": {
+            "car": "Vintage white C3 Corvette shark body, open door, T-top removed, BFGoodrich Radial T/A white letter tires"
+          }
+        },
+        "lighting": {
+          "type": "Natural soft sunset side lighting",
+          "effects": "Warm highlights on skin, cool ambient shadows"
+        },
+        "camera": {
+          "technical": "35mm analog film, 50mm prime, Kodachrome color",
+          "aspect_ratio": "4:5",
+          "film_effects": "Heavy grain, soft focus, vignette, white photo border",
+          "negative_constraints": "no digital look, no modern elements, no hdr, no sharp edges"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "vintage 70s analog photograph, young blonde woman in white bikini standing in open door of white C3 Corvette, coastal sunset overlooking ocean, contemplative expression looking at horizon, Kodachrome film grain, warm golden hour light, soft focus dreamy, scanned photo with white border --ar 4:5 --style raw --v 6",
+      "notes": "Use --style raw for authentic film aesthetic"
+    },
+    "ideogram": {
+      "prompt": "Vintage 1970s analog film photograph of young blonde woman in white bikini standing in open door of classic white Corvette C3, coastal road overlooking ocean at sunset, contemplative expression, Kodachrome color palette with film grain, soft focus, white photo border frame",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "4:5"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Vintage 70s film photograph, blonde woman in white bikini in Corvette door frame, ocean sunset background, Kodachrome colors, film grain, nostalgic summer aesthetic"
+    },
+    "luma": {
+      "prompt": "Coastal sunset scene, blonde woman stands in vintage white Corvette door frame, hair gently blowing in ocean breeze, warm golden light fading to dusk, waves softly rolling in background, nostalgic summer moment",
+      "motion_notes": "Gentle hair movement in breeze, subtle ocean wave motion, warm light slowly shifting"
+    },
+    "reve": {
+      "prompt": "Analog film photography in the style of 1970s Kodachrome summer editorials, young woman in white bikini with vintage C3 Corvette, coastal sunset overlook, nostalgic Americana, film grain and warm color palette",
+      "art_references": [
+        "1970s Kodachrome photography",
+        "Vintage Americana",
+        "Classic car culture",
+        "Summer nostalgia editorials"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Vintage 70s film photo, blonde woman in white bikini standing in classic Corvette door at beach sunset, looking toward ocean horizon, Kodachrome colors with film grain, nostalgic summer vibes"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A vintage late 1970s analog film photograph of a young woman in her early 20s standing in the open driver's door of a classic white C3 Corvette with shark body styling. She has sun-kissed tan skin, a fit physique, and long wavy blonde beach-textured hair that is wind-swept past her shoulders with soft sunset highlights. Her expression is contemplative and serene as she gazes toward the ocean horizon in profile, avoiding the camera. She wears a classic white triangle bikini. The T-top is removed from the Corvette, and BFGoodrich Radial T/A white letter tires with retro wheel rims are visible. The scene is set on a coastal road overlooking deep blue ocean water against a purple-pink sky gradient at dusk during the blue hour transition. Soft diffused sunset side lighting creates warm highlights on her skin and cool ambient shadows. Shot on 35mm Kodachrome film with a 50mm prime lens at f/2.8. Heavy authentic film grain texture, soft analog focus, slight vignette, and a white rough scanned photo border frame. No digital sharpness. No modern elements. Nostalgic 70s Americana aesthetic.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Young woman early 20s sun-kissed tan blonde wavy hair standing in open door of vintage white C3 Corvette, white triangle bikini, contemplative expression looking toward ocean horizon in profile, coastal road overlooking deep blue water purple-pink sunset sky at dusk, BFGoodrich white letter tires visible T-top removed, soft sunset side lighting warm highlights cool shadows, 35mm Kodachrome film grain soft focus vignette white photo border, late 70s nostalgic summer aesthetic, not digital or modern",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A vintage 1970s analog film photograph of a young woman standing in the open driver's door of a classic white C3 Corvette with shark body styling on a coastal road at dusk. She has sun-kissed tan skin, a fit physique, and long wavy blonde wind-swept beach hair catching soft sunset highlights. Her expression is contemplative as she gazes toward the ocean horizon in profile. She wears a classic white triangle bikini. The T-top is removed and BFGoodrich Radial T/A white letter tires are visible. Deep blue ocean water meets a purple-pink gradient sky. Soft diffused sunset side lighting creates warm highlights and cool ambient shadows. Shot on 35mm Kodachrome film with authentic heavy grain, soft analog focus, vignette, and white scanned photo border. Nostalgic late 70s summer aesthetic.",
+      "editing_prompt": "Change the Corvette color from white to cherry red while keeping the same C3 shark body style, T-top removed, and BFGoodrich tires. Preserve the woman's pose, bikini, sunset lighting, and vintage Kodachrome film aesthetic.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed props with car model, tire brand, era-specific details",
+    "2_realism_anchors: 'film grain texture', 'Kodachrome color shift', 'scanned photo border'",
+    "3_technical_camera: '35mm analog', '50mm prime', film-specific style tags",
+    "4_negative_hygiene: excludes digital, modern, HDR aesthetic leaks",
+    "5_spatial_consistency: 'standing in door frame', 'hands on roof', clear positioning",
+    "6_lighting_storytelling: 'soft sunset side lighting' = nostalgic romantic mood",
+    "7_era_authenticity: period-accurate car, styling, and film aesthetic"
+  ]
+}

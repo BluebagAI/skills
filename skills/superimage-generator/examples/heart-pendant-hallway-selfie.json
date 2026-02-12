@@ -1,0 +1,232 @@
+{
+  "name": "Heart Pendant Hallway Selfie",
+  "description": "Influencer selfie with sleek ponytail, white tank top, gold heart necklace and stacked jewelry, vintage bicycle wallpaper background",
+  "input_prompt": "woman selfie ponytail white tank top gold heart necklace bracelets hallway wallpaper",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "4k_ultra_hd",
+      "aspect_ratio": "4:5",
+      "style": "influencer_selfie_lifestyle",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "young woman with fit slender build, dark brown to black hair in sleek tight ponytail with middle part, light green or hazel eyes",
+      "identity": {
+        "age_range": "20s",
+        "type": "young woman",
+        "distinguishing_features": [
+          "striking light eyes",
+          "sleek ponytail",
+          "stacked jewelry"
+        ]
+      },
+      "physical_details": {
+        "skin": {
+          "tone": "light complexion",
+          "texture": "radiant dewy finish"
+        },
+        "hair": {
+          "color": "dark brown to black",
+          "style": "sleek tight ponytail with middle part"
+        },
+        "face": {
+          "expression": "neutral to slight pout, soft and alluring gaze directly at camera",
+          "details": "eyes: light green or hazel, striking and clear"
+        }
+      },
+      "expression_mood": "confident, alluring, clean girl aesthetic"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "tight-fitting spaghetti strap tank top",
+          "color": "white",
+          "style": "casual loungewear, clean aesthetic"
+        }
+      ],
+      "accessories": [
+        "neck: gold chain necklace with medium-sized heart pendant",
+        "ears: multiple ear piercings with small gold hoops and pink/purple huggie hoop earrings",
+        "wrists: stacked bracelets on left wrist including gold screw-motif bangle (Cartier style), diamond tennis bracelet, delicate gold chains",
+        "fingers: multiple gold rings stacked on left hand",
+        "style: natural glam / clean girl aesthetic",
+        "details: defined eyebrows, highlighter on cheekbones and nose tip, glossy nude-pink lips, subtle mascara"
+      ]
+    },
+    "pose_action": {
+      "position": "selfie pose",
+      "camera_relation": "eye-level selfie perspective",
+      "dynamic_elements": "arms: one: extended holding camera, other: raised with hand touching back of head/neck area; aesthetic: candid influencer selfie"
+    },
+    "environment": {
+      "location": "indoor hallway or bedroom",
+      "background": [
+        "wallpaper with repeating pattern of vintage bicycles",
+        "white door frame",
+        "cream-colored walls",
+        "glimpse of wooden flooring"
+      ],
+      "atmosphere": "warm, lifestyle, influencer aesthetic"
+    },
+    "lighting": {
+      "type": "soft warm artificial indoor lighting",
+      "quality": "golden hour glow effect on skin",
+      "effects": [
+        "warm tones",
+        "flattering skin illumination"
+      ]
+    },
+    "camera_technical": {
+      "resolution": "4K Ultra HD",
+      "quality": "photorealistic, highly detailed textures, sharp focus",
+      "angle": "eye-level selfie perspective",
+      "style_tags": [
+        "influencer selfie",
+        "candid",
+        "high-end lifestyle photography"
+      ]
+    },
+    "realism_anchors": [
+      "detailed jewelry textures",
+      "realistic skin with dewy finish",
+      "visible wallpaper pattern",
+      "natural hair shine",
+      "multiple piercing details"
+    ],
+    "negative_prompt": [
+      "studio lighting",
+      "professional backdrop",
+      "heavy makeup",
+      "glamour photography",
+      "cartoon",
+      "3d render",
+      "anime",
+      "blurry",
+      "low quality"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "4K Ultra HD influencer selfie lifestyle photo, young woman fit slender build, dark brown black hair sleek tight ponytail middle part, light green hazel eyes striking clear, light complexion radiant dewy finish, neutral slight pout soft alluring gaze at camera, white tight-fitting spaghetti strap tank top, gold chain necklace medium heart pendant, multiple ear piercings small gold hoops pink purple huggie earrings, stacked bracelets left wrist gold screw-motif bangle Cartier style diamond tennis bracelet gold chains, multiple gold rings left hand, natural glam clean girl makeup defined brows highlighter glossy nude-pink lips, selfie pose one arm extended other hand touching back of head, indoor hallway bedroom vintage bicycle wallpaper pattern white door frame cream walls wooden floor glimpse, soft warm artificial lighting golden hour glow on skin, eye-level selfie perspective candid high-end lifestyle, 4:5",
+  "negative_prompt_flat": "studio lighting, professional backdrop, heavy makeup, glamour, cartoon, 3d render, blurry",
+  "color_palette": {
+    "primary": "white tank top, gold jewelry",
+    "secondary": "dark hair, cream walls",
+    "accent": "pink/purple earrings, heart pendant",
+    "background": "cream, vintage bicycle pattern"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "4K influencer selfie, woman dark hair sleek ponytail middle part, light green eyes dewy skin, slight pout alluring gaze, white spaghetti strap tank top, gold heart pendant necklace, multiple ear piercings gold hoops pink huggie earrings, stacked bracelets Cartier bangle tennis bracelet, gold rings, natural glam makeup highlighter glossy lips, selfie pose arm extended other hand on neck, hallway vintage bicycle wallpaper cream walls, warm golden indoor lighting, eye-level candid lifestyle, 4:5",
+      "negative_prompt": "studio lighting, heavy makeup, glamour, cartoon, 3d render, blurry"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Young woman with fit slender build",
+          "hair": {
+            "color": "Dark brown to black",
+            "style": "Sleek tight ponytail with middle part"
+          },
+          "eyes": "Light green or hazel, striking and clear",
+          "skin": {
+            "tone": "Light complexion",
+            "texture": "Radiant dewy finish"
+          },
+          "expression": "Neutral to slight pout, soft alluring gaze at camera"
+        },
+        "wardrobe": {
+          "top": "White tight-fitting spaghetti strap tank top",
+          "jewelry": {
+            "neck": "Gold chain necklace with medium heart pendant",
+            "ears": "Multiple piercings: small gold hoops, pink/purple huggie earrings",
+            "wrists": "Stacked bracelets: gold screw-motif bangle (Cartier style), diamond tennis bracelet, delicate gold chains",
+            "fingers": "Multiple gold rings stacked on left hand"
+          }
+        },
+        "makeup": {
+          "style": "Natural glam / clean girl aesthetic",
+          "details": "Defined brows, highlighter on cheekbones and nose, glossy nude-pink lips, subtle mascara"
+        },
+        "pose_action": {
+          "position": "Selfie pose",
+          "arms": "One extended holding camera, other raised with hand on back of head/neck"
+        },
+        "scene": {
+          "environment": "Indoor hallway or bedroom",
+          "background": [
+            "Vintage bicycle pattern wallpaper",
+            "White door frame",
+            "Cream walls",
+            "Wooden flooring glimpse"
+          ],
+          "atmosphere": "Warm, lifestyle, influencer aesthetic"
+        },
+        "lighting": {
+          "type": "Soft warm artificial indoor lighting",
+          "quality": "Golden hour glow effect on skin"
+        },
+        "camera": {
+          "resolution": "4K Ultra HD",
+          "angle": "Eye-level selfie perspective",
+          "style": "Influencer selfie, candid, high-end lifestyle",
+          "aspect_ratio": "4:5",
+          "negative_constraints": "no studio lighting, no heavy makeup, no professional backdrop"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "influencer selfie, woman dark ponytail green eyes, white tank top gold heart necklace stacked bracelets rings, hand on neck pose, vintage bicycle wallpaper hallway, warm golden indoor lighting --ar 4:5 --style raw --v 6",
+      "notes": "Use --style raw for authentic influencer selfie aesthetic"
+    },
+    "ideogram": {
+      "prompt": "Young woman taking selfie in hallway with vintage bicycle wallpaper, dark hair in sleek ponytail, light green eyes, wearing white tank top and gold heart pendant necklace with stacked bracelets and rings, one hand touching back of head, warm indoor lighting with golden glow",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "4:5"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Influencer hallway selfie, woman ponytail white tank top gold heart necklace stacked jewelry, vintage wallpaper background, warm golden lighting"
+    },
+    "luma": {
+      "prompt": "Cozy hallway moment, woman takes quick selfie adjusting pose, warm light creates golden glow on skin, vintage wallpaper adds character to the scene",
+      "motion_notes": "Subtle pose adjustment, slight head tilt, natural breathing"
+    },
+    "reve": {
+      "prompt": "Influencer lifestyle photography in the style of clean girl aesthetic selfies, ponytail white tank top layered gold jewelry, vintage wallpaper hallway, warm golden indoor lighting",
+      "art_references": [
+        "Influencer selfie aesthetic",
+        "Clean girl beauty",
+        "Lifestyle photography"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Influencer selfie woman with dark ponytail green eyes, white spaghetti strap tank top, gold heart pendant necklace stacked bracelets and rings, hand on neck pose, vintage bicycle wallpaper hallway background, warm golden indoor lighting"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A young woman with fit slender build takes a selfie in a hallway. She has dark brown to black hair pulled back in a sleek tight ponytail with a middle part, and striking light green or hazel eyes. Her skin has a radiant dewy finish with a light complexion. She wears a tight-fitting white spaghetti strap tank top, a gold chain necklace with a medium-sized heart pendant, multiple ear piercings with small gold hoops and pink-purple huggie earrings, stacked bracelets on her left wrist including a gold screw-motif bangle, diamond tennis bracelet and delicate gold chains, plus multiple gold rings on her left hand. Her expression is neutral with a slight pout and soft alluring gaze at the camera. One arm is extended holding the camera while the other is raised with her hand touching the back of her head. The background shows vintage bicycle pattern wallpaper, a white door frame, and cream-colored walls. Soft warm artificial indoor lighting creates a golden hour glow on her skin. No watermark. No artificial smoothing. Realistic texture.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Young woman with sleek dark ponytail and striking green eyes takes influencer selfie, wearing white spaghetti strap tank top with gold heart pendant necklace and stacked bracelets, one hand touching back of head, hallway with vintage bicycle wallpaper and cream walls, warm golden indoor lighting creating dewy skin glow, candid lifestyle photography aesthetic, photorealistic with natural skin texture, not cartoon-like",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "Young woman with dark ponytail and light green eyes taking a selfie in a hallway with vintage bicycle wallpaper. She has a fit slender build and radiant dewy skin, wearing a white spaghetti strap tank top, gold heart pendant necklace, multiple ear piercings with gold hoops and pink huggie earrings, stacked gold bracelets including a Cartier-style bangle and tennis bracelet, and gold rings. Her expression is a soft alluring gaze with slight pout. One arm extended for selfie, other hand touching back of head. Warm golden indoor lighting creates flattering skin illumination. Clean girl aesthetic with natural glam makeup.",
+      "editing_prompt": "Change the tank top color to black while keeping the gold jewelry and heart pendant the same. Preserve the hallway background with bicycle wallpaper and warm lighting.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed jewelry (Cartier-style bangle, tennis bracelet), specific wallpaper pattern, makeup details",
+    "2_realism_anchors: 'detailed jewelry textures', 'dewy skin finish', 'visible wallpaper pattern', 'multiple piercing details'",
+    "3_technical_camera: '4K Ultra HD', 'eye-level selfie perspective', 'photorealistic sharp focus'",
+    "4_negative_hygiene: prevents studio lighting, professional backdrop, heavy makeup",
+    "5_spatial_consistency: clear selfie pose with arm positions",
+    "6_lighting_storytelling: 'warm golden indoor lighting' = cozy influencer lifestyle mood",
+    "7_accessory_detail: extensive jewelry description with brand references"
+  ]
+}

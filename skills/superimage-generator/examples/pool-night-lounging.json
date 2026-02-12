@@ -1,0 +1,242 @@
+{
+  "name": "Pool Night Lounging Portrait",
+  "description": "Woman lying on stomach by pool or hot tub at night, pink bikini with orange accents, relaxed intimate low-light ambiance",
+  "input_prompt": "woman lounging by pool at night pink bikini lying on stomach low light",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "high_quality",
+      "aspect_ratio": "16:9",
+      "style": "lifestyle_photography_low_light",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "young adult woman with light brown to dark blonde long hair, light skin tone, lying on stomach with upper body propped on forearms",
+      "identity": {
+        "age_range": "young adult",
+        "type": "woman",
+        "gender_presentation": "feminine",
+        "distinguishing_features": [
+          "wet hair",
+          "relaxed night-time expression",
+          "poolside glow"
+        ]
+      },
+      "physical_details": {
+        "skin": {
+          "tone": "light",
+          "texture": "natural, soft in low light"
+        },
+        "hair": {
+          "color": "light brown to dark blonde",
+          "style": "loose, slightly damp or sleek, parted near center",
+          "details": "length: long"
+        },
+        "face": {
+          "features": "soft facial features, relaxed eyes, natural lips",
+          "expression": "relaxed, soft neutral gaze toward camera",
+          "makeup": "subtle makeup with visible blush and defined eyelashes"
+        }
+      },
+      "expression_mood": "calm, relaxed, intimate"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "triangle bikini top",
+          "color": "pink with orange accents",
+          "details": "thin straps"
+        },
+        {
+          "type": "tie-side bikini bottoms",
+          "color": "pink with orange side ties"
+        }
+      ],
+      "accessories": [
+        "small wrist tattoo on left arm",
+        "manicured nails with light pink polish"
+      ]
+    },
+    "pose_action": {
+      "position": "lying on stomach with upper body propped on forearms",
+      "camera_relation": "slightly elevated and angled from side, medium-full body shot",
+      "dynamic_elements": "body_position: upper body resting on tiled edge, lower body near or partially over water; legs: extended behind; aesthetic: relaxed lounging pose"
+    },
+    "environment": {
+      "location": "outdoor or semi-outdoor pool or hot tub area at night",
+      "background": [
+        "dark wall or fence",
+        "soft light sources reflected in background",
+        "water surface with gentle ripples",
+        "dark tiled pool or hot tub edge"
+      ],
+      "atmosphere": "calm, relaxed, intimate, low-light ambiance"
+    },
+    "materials_textures": {
+      "tiles": "small square dark tiles with glossy finish",
+      "water": "clear water with subtle reflections",
+      "fabric": "smooth stretchy swimwear material"
+    },
+    "lighting": {
+      "type": "low ambient lighting",
+      "quality": "soft warm highlights, dim shadows",
+      "effects": [
+        "warm highlights on skin",
+        "partially shadowed background",
+        "water reflections"
+      ]
+    },
+    "camera_technical": {
+      "angle": "slightly elevated and angled from side",
+      "framing": "medium-full body shot, horizontal orientation",
+      "style_tags": [
+        "lifestyle photography",
+        "low-light ambiance",
+        "intimate portrait"
+      ]
+    },
+    "color_palette": {
+      "primary": "warm skin tones",
+      "secondary": "pink and orange accents (bikini)",
+      "background": "dark neutrals from tiles and background"
+    },
+    "realism_anchors": [
+      "natural skin texture in low light",
+      "glossy tile reflections",
+      "water ripples and reflections",
+      "visible tattoo detail",
+      "damp hair texture"
+    ],
+    "negative_prompt": [
+      "bright daylight",
+      "harsh lighting",
+      "studio setup",
+      "overexposed",
+      "cartoon",
+      "3d render",
+      "anime",
+      "blurry",
+      "low quality"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "lifestyle photography low-light ambiance, young adult woman light skin light brown dark blonde long hair loose slightly damp parted center, relaxed soft neutral gaze subtle makeup blush defined lashes, pink triangle bikini top orange accents thin straps, pink tie-side bikini bottoms orange ties, small wrist tattoo left arm light pink manicured nails, lying on stomach upper body propped on forearms on tiled edge, legs extended behind lower body near water, outdoor pool hot tub area at night, dark wall fence soft light reflections water ripples dark glossy tiles, low ambient lighting soft warm highlights dim shadows, slightly elevated angle from side medium-full body horizontal, warm skin tones pink orange accents dark neutral background, calm relaxed intimate mood, 16:9",
+  "negative_prompt_flat": "bright daylight, harsh lighting, studio setup, overexposed, cartoon, 3d render, blurry",
+  "model_adaptations": {
+    "flux": {
+      "prompt": "lifestyle photography low-light, woman light skin long brown-blonde hair damp, relaxed gaze subtle makeup, pink orange triangle bikini top tie-side bottoms, wrist tattoo pink nails, lying on stomach propped on forearms on dark glossy tiles, pool hot tub edge at night, water ripples soft light reflections dark background, low ambient lighting warm highlights, slightly elevated side angle medium-full body, calm intimate mood, 16:9",
+      "negative_prompt": "bright daylight, harsh lighting, studio, overexposed, cartoon, 3d render"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Young adult woman with light skin tone",
+          "hair": {
+            "color": "Light brown to dark blonde",
+            "length": "Long",
+            "style": "Loose, slightly damp or sleek, parted near center"
+          },
+          "face": {
+            "expression": "Relaxed, soft neutral gaze toward camera",
+            "features": "Soft facial features, relaxed eyes, natural lips",
+            "makeup": "Subtle makeup, visible blush, defined eyelashes"
+          }
+        },
+        "wardrobe": {
+          "top": "Pink triangle bikini top with orange accents, thin straps",
+          "bottom": "Pink tie-side bikini bottoms with orange side ties",
+          "accessories": [
+            "Small wrist tattoo on left arm",
+            "Manicured nails with light pink polish"
+          ]
+        },
+        "pose_action": {
+          "position": "Lying on stomach with upper body propped on forearms",
+          "body": "Upper body on tiled edge, lower body near or over water",
+          "legs": "Extended behind",
+          "expression": "Relaxed, soft, gazing at camera"
+        },
+        "scene": {
+          "environment": "Outdoor/semi-outdoor pool or hot tub area at night",
+          "background": [
+            "Dark wall or fence",
+            "Soft light reflections",
+            "Water ripples",
+            "Dark tiled edge"
+          ],
+          "atmosphere": "Calm, relaxed, intimate"
+        },
+        "materials": {
+          "tiles": "Small square dark tiles, glossy finish",
+          "water": "Clear with subtle reflections",
+          "fabric": "Smooth stretchy swimwear"
+        },
+        "lighting": {
+          "type": "Low ambient lighting",
+          "quality": "Soft warm highlights, dim shadows",
+          "effects": "Water reflections, partially shadowed background"
+        },
+        "camera": {
+          "angle": "Slightly elevated and angled from side",
+          "framing": "Medium-full body shot, horizontal",
+          "style": "Lifestyle photography, low-light ambiance",
+          "aspect_ratio": "16:9",
+          "negative_constraints": "no bright daylight, no harsh lighting, no overexposed"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "lifestyle portrait, woman lounging by pool at night, pink orange bikini, lying on stomach on dark tiles, low ambient lighting warm highlights, water reflections, intimate mood --ar 16:9 --style raw --v 6",
+      "notes": "Use --style raw for authentic low-light atmosphere"
+    },
+    "ideogram": {
+      "prompt": "Young woman with long light brown hair lounging by pool at night, wearing pink bikini with orange accents, lying on stomach propped on forearms on dark glossy tiles, soft low ambient lighting with warm highlights, water reflections, relaxed intimate atmosphere",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "16:9"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Woman lounging by pool at night, pink orange bikini, lying on dark tiles, low ambient lighting, water reflections, intimate mood"
+    },
+    "luma": {
+      "prompt": "Nighttime pool scene, woman lounges peacefully on tile edge, warm lights reflect off water creating gentle ripples, soft ambient glow, tranquil evening atmosphere",
+      "motion_notes": "Subtle water ripples, soft breathing movement, ambient light flicker"
+    },
+    "reve": {
+      "prompt": "Intimate lifestyle photography in the style of low-light pool portraits, woman in pink bikini lounging at night, dark tiles water reflections, soft warm ambient lighting",
+      "art_references": [
+        "Low-light lifestyle photography",
+        "Pool at night aesthetic",
+        "Intimate portrait mood"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Woman with long brown hair lounging by pool at night, pink bikini with orange accents, lying on stomach on dark glossy tiles, low ambient lighting warm highlights, water reflections, relaxed intimate mood"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A young woman with light brown to dark blonde long hair lies on her stomach by a pool or hot tub at night, propped on her forearms on dark glossy tiles. She wears a pink triangle bikini top with orange accents and thin straps, paired with pink tie-side bikini bottoms with orange side ties. Her hair is loose, slightly damp, and parted near the center. She has a small wrist tattoo on her left arm and light pink manicured nails. Her expression is relaxed with a soft neutral gaze toward the camera, with subtle makeup showing blush and defined lashes. The setting is an outdoor or semi-outdoor pool area at night with a dark wall or fence in the background, soft light sources reflected, and gentle water ripples. The lighting is low and ambient with soft warm highlights on her skin and dim shadows. The mood is calm, relaxed, and intimate. No watermark. No artificial smoothing. Realistic skin texture with natural low-light appearance.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Young woman lying on stomach by nighttime pool, propped on forearms on dark glossy tiles, wearing pink bikini with orange accents, long light brown hair slightly damp, relaxed soft gaze at camera, low ambient lighting with warm highlights on skin, water ripples and reflections visible, intimate poolside atmosphere, lifestyle photography, natural skin texture, not overly smoothed or cartoon-like",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A young woman with long light brown hair lounges by a pool at night, lying on her stomach with upper body propped on forearms on dark glossy tiles. She wears a pink triangle bikini with orange accents. The scene has low ambient lighting with soft warm highlights on her skin, water ripples creating gentle reflections in the background. Her expression is calm and relaxed with a soft neutral gaze. The atmosphere is intimate and peaceful with a dark wall or fence visible behind her.",
+      "editing_prompt": "Change the bikini color to blue while keeping the pose, lighting, and poolside setting the same. Preserve the nighttime atmosphere and warm skin highlights.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed bikini colors (pink with orange accents, orange ties), specific accessories (wrist tattoo, pink nails)",
+    "2_realism_anchors: 'glossy tile reflections', 'water ripples', 'damp hair texture', 'visible tattoo detail'",
+    "3_technical_camera: 'slightly elevated angle from side', 'medium-full body horizontal', 'low-light ambiance'",
+    "4_negative_hygiene: prevents bright daylight, harsh lighting, overexposed",
+    "5_spatial_consistency: clear pose (stomach, forearms, legs extended, near water edge)",
+    "6_lighting_storytelling: 'low ambient soft warm highlights' = calm intimate nighttime mood",
+    "7_material_specificity: tile finish (glossy), water quality (clear with reflections), fabric (stretchy)"
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "name": "Jet Ski Ocean Lookback",
+  "description": "Golden hour ocean scene with torso twist lookback pose on jet ski, wet skin and hair details",
+  "input_prompt": "woman on jet ski looking back over shoulder ocean golden hour",
+  "target_model": "nano-banana",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "photorealistic",
+      "aspect_ratio": "3:4",
+      "style": "candid_lifestyle_photography",
+      "target_model": "nano-banana",
+      "rendering": "high-fidelity phone camera aesthetic"
+    },
+    "subject": {
+      "description": "Young woman with tan golden skin and wet slicked-back dark blonde hair, seated straddle on a jet ski with a sharp torso twist looking back over her shoulder.",
+      "body": {
+        "physique": "Fit curvy frame with natural proportions and athletic tone.",
+        "anatomy": "Seated straddle pose with torso twisted sharply left, back arched, arms extended to handlebars, legs straddling the seat with knees bent.",
+        "details": "Realistic pores and wet sheen with water droplets on skin, natural shadows on the back, wet glistening texture."
+      },
+      "face": "Neutral to slightly pouty expression with calm confidence, direct eye contact with camera in a 3/4 face view.",
+      "hair": "Dark blonde roots transitioning to lighter ends, wet textured and slicked back, resting on upper back with visible water droplets.",
+      "skin": "Tan golden undertone with realistic texture and wet sheen.",
+      "expression_mood": "summer leisure, confident, alluring"
+    },
+    "wardrobe": {
+      "top": "Ribbed royal blue bikini bralette top with thin spaghetti straps.",
+      "bottom": "Matching ribbed royal blue bikini bottoms with high-cut cheeky coverage, pulled up high on the hips.",
+      "accessories": ["small thick gold hoop earrings"]
+    },
+    "pose_action": {
+      "description": "Seated straddle on jet ski facing away from camera, torso twisted sharply left looking back over left shoulder, medium shot from behind at slightly low to eye-level framing hips to head.",
+      "posture": "Back arched accentuating spine curve, arms extended forward holding handlebars, legs straddling the seat with knees bent."
+    },
+    "scene": {
+      "environment": "Ocean or bay area on a clear day during golden hour, seated on a grey/silver jet ski.",
+      "background": "Calm deep blue water with gentle ripples to the horizon, coastline with tall palm trees in the distance, stone breakwater/jetty structure, clear gradient blue sky lighter near the horizon.",
+      "location": "Ocean or bay.",
+      "atmosphere": "Summer leisure with ocean breeze.",
+      "props": ["Grey/silver jet ski (Yamaha style) with black textured grip mats, handle details, rear and seat visible."]
+    },
+    "lighting": {
+      "type": "natural golden hour sunlight from left/front (west)",
+      "quality": "warm direct hard sunlight",
+      "effects": ["specular highlights on wet skin", "distinct shadows on right side", "golden warm glow on fiberglass"]
+    },
+    "camera": {
+      "technical": "High-quality smartphone camera, 35-50mm equivalent, high-resolution sharp textures, candid lifestyle look, unprocessed raw aesthetic, subtle digital noise.",
+      "aspect_ratio": "3:4",
+      "negative_constraints": "No anatomy normalization, no body proportion averaging, no skin smoothing, no plastic skin, no airbrushed texture, no studio lighting, no stylized realism, no beautification filters, no editorial fashion proportions, no mirror selfie, no phone in hand.",
+      "lens": "35-50mm equivalent",
+      "style": "candid lifestyle"
+    },
+    "realism_anchors": [
+      "water droplets on skin and jet ski seat",
+      "wet hair texture",
+      "specular wet skin highlights",
+      "natural crease where thigh meets glute",
+      "soft tissue behaving with gravity",
+      "authentic jet ski details"
+    ],
+    "negative_prompt": [
+      "anatomy normalization",
+      "body proportion averaging",
+      "skin smoothing",
+      "plastic skin",
+      "airbrushed texture",
+      "studio lighting",
+      "stylized realism",
+      "beautification filters",
+      "editorial fashion proportions",
+      "mirror selfie",
+      "phone in hand"
+    ]
+  },
+  "flattened_prompt": "photorealistic, candid lifestyle photography, high-fidelity, young woman early 20s tan golden skin wet slicked-back dark blonde hair, direct confident gaze 3/4 face looking over left shoulder, neutral to pouty expression, royal blue ribbed bikini bralette thin straps high-cut cheeky bottoms pulled high on hips, thick gold hoop earrings, seated straddle on grey silver jet ski facing away torso twisted sharply left, arched back arms on handlebars legs straddling, water droplets on wet skin jet ski seat, calm deep blue ocean gentle ripples palm trees coastline in distance, golden hour sunlight from left warm highlights specular wet skin distinct shadows, 35-50mm smartphone camera unprocessed raw look, 3:4 aspect ratio",
+  "negative_prompt_flat": "anatomy normalization, skin smoothing, plastic skin, airbrushed, studio lighting, stylized realism, beautification, mirror selfie, phone in hand",
+  "color_palette": {
+    "primary": "tan golden skin",
+    "secondary": "royal blue bikini",
+    "accent": "gold earrings, warm sunlight",
+    "background": "deep ocean blue, grey silver jet ski, green palm trees"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "photorealistic, candid lifestyle, young woman tan golden skin wet slicked dark blonde hair, looking back over shoulder direct gaze, royal blue ribbed bikini high-cut bottoms gold hoop earrings, seated straddle on grey jet ski torso twisted back arched, water droplets wet skin and seat, calm blue ocean palm trees coastline, golden hour sunlight from left specular wet highlights shadows, 35-50mm smartphone raw look, 3:4",
+      "negative_prompt": "skin smoothing, plastic skin, airbrushed, studio lighting, stylized, beautification, mirror selfie"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Young woman early 20s with tan golden skin, fit curvy natural proportions",
+          "body": {
+            "physique": "Fit curvy with natural proportions",
+            "skin": "Tan golden undertone, realistic pores, wet sheen with water droplets, natural shadows on back"
+          },
+          "face": {
+            "expression": "Neutral to slightly pouty, calm confident",
+            "gaze": "Direct eye contact, 3/4 face view looking over left shoulder"
+          },
+          "hair": {
+            "color": "Dark blonde roots to lighter ends",
+            "style": "Wet textured slicked back, resting on upper back",
+            "details": "Water droplets visible in hair"
+          }
+        },
+        "wardrobe": {
+          "bikini_top": "Royal blue ribbed bralette with thin spaghetti straps",
+          "bikini_bottom": "Royal blue ribbed high-cut cheeky, pulled high on hips",
+          "accessories": ["Small thick gold hoop earrings"]
+        },
+        "pose_action": {
+          "type": "Seated straddle with torso twist",
+          "description": "Facing away from camera, torso twisted sharply left looking back over left shoulder",
+          "posture": "Back arched accentuating spine curve, arms extended forward on handlebars, legs straddling seat knees bent",
+          "head": "Turned left, face 3/4 view"
+        },
+        "scene": {
+          "environment": "Ocean or bay area, clear day, golden hour",
+          "foreground": "Grey/silver jet ski (Yamaha style) with black textured grip mats",
+          "background": "Calm deep blue water with ripples, palm tree coastline, stone jetty, gradient blue sky"
+        },
+        "lighting": {
+          "type": "Natural golden hour sunlight from left/front (west)",
+          "effects": "Warm direct hard light, specular highlights on wet skin and fiberglass, distinct shadows on right side"
+        },
+        "camera": {
+          "technical": "35-50mm equivalent, high resolution sharp textures",
+          "perspective": "Medium shot slightly low to eye-level, hips to head",
+          "style": "Candid lifestyle, unprocessed raw look",
+          "aspect_ratio": "3:4",
+          "negative_constraints": "no anatomy normalization, no skin smoothing, no airbrushing, no studio lighting"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "candid lifestyle photo, young woman tan skin wet hair looking back over shoulder on jet ski, royal blue bikini gold earrings, torso twist pose arched back, calm ocean palm trees coastline, golden hour sunlight wet skin highlights, smartphone raw aesthetic --ar 3:4 --style raw --v 6",
+      "notes": "Use --style raw for unprocessed candid look"
+    },
+    "ideogram": {
+      "prompt": "Young woman on jet ski looking back over shoulder at camera, wet dark blonde hair tan skin, royal blue bikini gold hoop earrings, torso twisted pose, calm blue ocean with palm tree coastline in background, golden hour sunlight creating highlights on wet skin",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "3:4"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Woman on jet ski looking back over shoulder, wet hair tan skin royal blue bikini, ocean with palm trees background, golden hour sunlight, candid lifestyle photography"
+    },
+    "luma": {
+      "prompt": "Ocean golden hour scene, woman on jet ski turns to look back at camera, wet hair glistens in warm sunlight, gentle waves ripple past, palm trees sway on distant shore, water droplets catch the light",
+      "motion_notes": "Gentle jet ski bobbing on water, hair dripping, subtle wave motion, warm light shifting"
+    },
+    "reve": {
+      "prompt": "Candid summer lifestyle photography in the style of authentic ocean adventures, woman on jet ski looking back with torso twist, wet skin golden hour glow, royal blue bikini against deep ocean blues",
+      "art_references": ["Summer lifestyle photography", "Ocean sports candids", "Golden hour water photography"]
+    },
+    "grok-imagine": {
+      "prompt": "Woman on jet ski looking back over shoulder, wet dark blonde hair tan skin, royal blue bikini, calm ocean palm trees background, golden hour sunlight wet skin highlights, candid summer vibes"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A young woman with tan golden skin sits straddle on a grey silver jet ski in calm deep blue ocean water during golden hour. She has wet slicked-back dark blonde hair transitioning to lighter ends, with water droplets visible on her skin and hair. Looking back over her left shoulder with a direct confident gaze and neutral to slightly pouty expression, her torso twisted sharply while her arms extend forward holding the handlebars. She wears a royal blue ribbed bikini bralette top with thin spaghetti straps and matching high-cut cheeky bottoms pulled up high on her hips, plus small thick gold hoop earrings. Her back is arched accentuating her spine curve, legs straddling the seat with knees bent. The background shows a coastline with tall palm trees, a stone breakwater structure, and clear gradient blue sky lighter near the horizon. Golden hour sunlight from the left illuminates her face and left side, creating specular highlights on her wet skin and distinct shadows on her right side. Water droplets glisten on the jet ski seat. The shot frames from hips to head at a slightly low angle. No watermark. No artificial smoothing. Realistic wet skin texture with natural pores.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Young woman tan golden skin seated straddle on grey jet ski looking back over left shoulder, wet slicked dark blonde hair water droplets on skin, direct confident gaze pouty expression, royal blue ribbed bikini high-cut bottoms gold hoop earrings, torso twisted sharply back arched arms on handlebars, calm deep blue ocean palm tree coastline stone jetty background, golden hour sunlight from left specular wet skin highlights distinct shadows, candid lifestyle photography medium shot from behind, smartphone raw unprocessed look, not airbrushed or skin smoothed",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "Young woman with tan golden skin sits on grey silver jet ski in calm deep blue ocean during golden hour. Wet slicked-back dark blonde hair with water droplets, looking back over left shoulder with confident direct gaze. Wearing royal blue ribbed bikini bralette and high-cut cheeky bottoms pulled high on hips, small thick gold hoop earrings. Torso twisted sharply left, back arched, arms extended forward on handlebars, legs straddling seat. Background shows palm tree coastline, stone jetty, gradient blue sky. Golden hour sunlight from left creates specular highlights on wet skin and distinct shadows. Water droplets on skin and jet ski seat. Medium shot from behind at slightly low angle.",
+      "editing_prompt": "Change the bikini color from royal blue to coral orange while keeping the same ribbed texture and high-cut style. Preserve her tan skin, wet hair, pose on the jet ski, and golden hour ocean setting.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed pose with twist direction, arm/leg positions, bikini cut details",
+    "2_realism_anchors: 'water droplets', 'wet sheen', 'specular highlights', 'soft tissue with gravity'",
+    "3_technical_camera: '35-50mm equivalent', specific lighting direction and quality",
+    "4_negative_hygiene: extensive list preventing normalization and beautification",
+    "5_spatial_consistency: 'torso twisted sharply left', '3/4 face view', precise positioning",
+    "6_lighting_storytelling: 'golden hour from left' = warm confident summer mood",
+    "7_anatomical_fidelity: emphasis on natural proportions and wet texture realism"
+  ]
+}

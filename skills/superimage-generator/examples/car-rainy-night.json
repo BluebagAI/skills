@@ -1,0 +1,228 @@
+{
+  "name": "Car Rainy Night Portrait",
+  "description": "Candid portrait of woman in car passenger seat at night with rain on window and city bokeh background",
+  "input_prompt": "asian woman in car at night with rain on window city lights bokeh",
+  "target_model": "flux",
+  "superprompt": {
+    "meta": {
+      "quality_tier": "8k_photorealistic",
+      "aspect_ratio": "9:16",
+      "style": "candid_portrait_smartphone_aesthetic",
+      "target_model": "flux"
+    },
+    "subject": {
+      "description": "young Asian woman with long straight dark hair, calm neutral expression, looking directly at camera",
+      "identity": {
+        "age_range": "20s",
+        "type": "young Asian woman",
+        "distinguishing_features": [
+          "long straight dark hair",
+          "calm expression",
+          "soft makeup"
+        ]
+      },
+      "physical_details": {
+        "hair": {
+          "color": "dark/black",
+          "style": "long, straight"
+        },
+        "face": {
+          "expression": "calm, neutral, soft gaze",
+          "makeup": "soft, natural"
+        },
+        "skin": {
+          "tone": "light warm",
+          "texture": "natural skin texture"
+        }
+      },
+      "pose": {
+        "position": "sitting in passenger seat of car",
+        "body_angle": "body angled slightly to the side",
+        "gaze": "looking directly at camera"
+      },
+      "expression_mood": "calm, moody, intimate night-time moment"
+    },
+    "wardrobe": {
+      "clothing": [
+        {
+          "type": "black spaghetti-strap top or dress"
+        }
+      ],
+      "accessories": [
+        "delicate gold necklace"
+      ]
+    },
+    "pose_action": {
+      "position": "sitting in passenger seat",
+      "camera_relation": "direct eye contact with camera",
+      "body_language": "relaxed, angled slightly to side",
+      "dynamic_elements": "aesthetic: candid car portrait"
+    },
+    "environment": {
+      "location": "inside a car interior, passenger seat",
+      "time": "night time",
+      "weather": {
+        "condition": "heavy rain",
+        "details": "raindrops clearly visible clinging to side window glass"
+      },
+      "background": [
+        "blurred city street lights through wet window",
+        "traffic bokeh",
+        "rainy night atmosphere"
+      ],
+      "atmosphere": "moody, urban, intimate"
+    },
+    "lighting": {
+      "type": "soft artificial interior light",
+      "quality": "dome light or flash style illuminating subject",
+      "contrast": "subject lit against dark rainy exterior",
+      "effects": [
+        "flash photography style",
+        "dramatic interior/exterior contrast"
+      ]
+    },
+    "camera_technical": {
+      "style": "smartphone photography aesthetic",
+      "resolution": "8k, high detail",
+      "depth_of_field": "cinematic, subject sharp, background bokeh through wet window",
+      "style_tags": [
+        "candid portrait",
+        "flash photography",
+        "car interior",
+        "rainy night"
+      ]
+    },
+    "realism_anchors": [
+      "visible raindrops on window glass",
+      "realistic city light bokeh through wet window",
+      "authentic car interior details",
+      "flash photography lighting on subject",
+      "natural skin texture"
+    ],
+    "negative_prompt": [
+      "drawing",
+      "cartoon",
+      "anime",
+      "illustration",
+      "low quality",
+      "blurry",
+      "noise",
+      "distorted features",
+      "daylight",
+      "dry weather",
+      "sunglasses"
+    ],
+    "prompt_type": "portrait"
+  },
+  "flattened_prompt": "hyper-realistic candid portrait 8k, young Asian woman sitting in car passenger seat at night, long straight dark hair, black spaghetti strap top, delicate gold necklace, calm neutral expression looking at camera, body angled slightly to side, heavy rain visible raindrops clinging to side window glass, blurred city street lights bokeh through wet window, traffic lights in background, soft artificial dome light or flash illuminating subject, contrast with dark rainy exterior, smartphone photography aesthetic, cinematic depth of field, 9:16",
+  "negative_prompt_flat": "drawing, cartoon, anime, illustration, low quality, blurry, distorted, daylight, dry weather, sunglasses",
+  "color_palette": {
+    "primary": "black clothing, dark hair",
+    "secondary": "warm skin tones from flash",
+    "accent": "gold necklace, colored city light bokeh",
+    "background": "dark night, blurred colored lights through rain"
+  },
+  "model_adaptations": {
+    "flux": {
+      "prompt": "hyper-realistic candid portrait 8k, young Asian woman long dark hair, black spaghetti strap top gold necklace, calm expression looking at camera, sitting in car passenger seat angled to side, night time heavy rain raindrops on window glass, blurred city lights traffic bokeh through wet window, flash photography dome light illuminating subject, dark rainy exterior contrast, smartphone aesthetic cinematic DOF, 9:16",
+      "negative_prompt": "cartoon, anime, blurry, daylight, dry weather, sunglasses, distorted"
+    },
+    "nano-banana": {
+      "prompt": {
+        "subject": {
+          "description": "Young Asian woman with long straight dark hair",
+          "face": {
+            "expression": "Calm, neutral, soft gaze at camera",
+            "makeup": "Soft, natural"
+          },
+          "hair": {
+            "color": "Dark/black",
+            "style": "Long, straight"
+          },
+          "pose": {
+            "position": "Sitting in passenger seat of car",
+            "body": "Angled slightly to the side",
+            "gaze": "Looking directly at camera"
+          }
+        },
+        "wardrobe": {
+          "top": "Black spaghetti-strap top or dress",
+          "accessories": [
+            "Delicate gold necklace"
+          ]
+        },
+        "scene": {
+          "environment": "Inside car interior, passenger seat, night time",
+          "weather": "Heavy rain, raindrops clearly visible clinging to side window glass",
+          "background": "Blurred city street lights and traffic bokeh seen through wet window",
+          "atmosphere": "Moody, urban, intimate"
+        },
+        "lighting": {
+          "type": "Soft artificial interior light (dome light or flash style)",
+          "quality": "Illuminating subject, contrasting with dark rainy exterior",
+          "style": "Flash photography aesthetic"
+        },
+        "camera": {
+          "style": "Photorealistic, candid portrait, smartphone photography aesthetic",
+          "resolution": "8k, high detail",
+          "depth_of_field": "Cinematic, subject sharp, background bokeh through wet window",
+          "aspect_ratio": "9:16",
+          "negative_constraints": "no cartoon, no anime, no daylight, no dry weather"
+        }
+      }
+    },
+    "midjourney": {
+      "prompt": "candid car portrait, Asian woman long dark hair, black strap top gold necklace, sitting in passenger seat at night, rain on window glass, city lights bokeh through wet window, flash photography lighting --ar 9:16 --style raw --v 6",
+      "notes": "Use --style raw for authentic flash photography aesthetic"
+    },
+    "ideogram": {
+      "prompt": "Candid portrait of young Asian woman sitting in car at night, long dark hair, wearing black spaghetti strap top and gold necklace, calm expression looking at camera, raindrops visible on window glass, blurred city lights bokeh through wet window, flash photography lighting",
+      "settings": {
+        "magic_prompt": false,
+        "aspect_ratio": "9:16"
+      }
+    },
+    "recraft": {
+      "style_preset": "realistic_photo",
+      "prompt": "Car portrait at night, Asian woman in passenger seat, black top gold necklace, rain on window, city lights bokeh, flash lighting"
+    },
+    "luma": {
+      "prompt": "Rainy night car scene, woman in passenger seat illuminated by soft interior light, raindrops streak down window as city lights blur past, intimate urban moment, quiet atmosphere",
+      "motion_notes": "Raindrops slowly sliding down window, distant car lights moving through bokeh, subtle breathing"
+    },
+    "reve": {
+      "prompt": "Moody portrait photography in the style of rainy night urban scenes, Asian woman in car passenger seat, flash photography against rain-streaked window, city bokeh, intimate candid aesthetic",
+      "art_references": [
+        "Rainy night photography",
+        "Urban portrait aesthetic",
+        "Flash photography portraits"
+      ]
+    },
+    "grok-imagine": {
+      "prompt": "Asian woman with long dark hair sitting in car passenger seat at night, black strap top gold necklace, calm expression, rain on window with city lights bokeh, flash photography style, 8k photorealistic"
+    },
+    "gpt-image-1.5": {
+      "prompt": "A young Asian woman with long straight dark hair sits in the passenger seat of a car at night. She wears a black spaghetti-strap top and a delicate gold necklace, with soft natural makeup. Her expression is calm and neutral as she looks directly at the camera with a soft gaze. Her body is angled slightly to the side. Heavy rain falls outside, with clearly visible raindrops clinging to the side window glass. Through the wet window, blurred city street lights and traffic create colorful bokeh against the dark night. Soft artificial interior light, like a dome light or camera flash, illuminates her face and upper body, creating dramatic contrast with the dark rainy exterior. The image has a smartphone photography aesthetic with cinematic depth of field. No watermark. No artificial smoothing. Realistic skin texture and authentic raindrops on glass.",
+      "quality": "high",
+      "notes": "Natural language paragraphs, explicit preservation constraints, no quality tags"
+    },
+    "seedream-4.5": {
+      "prompt": "Young Asian woman with long straight dark hair sitting in car passenger seat at night. Black spaghetti strap top, delicate gold necklace, calm neutral expression looking at camera. Heavy rain with visible raindrops on window glass, blurred city lights bokeh through wet window. Flash photography lighting illuminates subject against dark rainy exterior. Candid portrait, smartphone aesthetic, cinematic depth of field. Not cartoon, not anime style.",
+      "notes": "Coherent natural language, subject first, concise photography terms, inline style negation"
+    },
+    "flux-kontext-max": {
+      "prompt": "A young Asian woman with long straight dark hair sits in a car passenger seat at night, her body angled slightly to the side as she looks at the camera. She wears a black spaghetti-strap top and a delicate gold necklace, with a calm neutral expression and soft natural makeup. Raindrops cling to the side window glass, with heavy rain visible outside. Blurred city street lights create colorful bokeh through the wet window. Soft interior light or flash illuminates her face against the dark rainy exterior. Smartphone photography aesthetic with natural skin texture.",
+      "editing_prompt": "Change the weather from rainy to snowy while keeping the woman, her outfit, and the interior lighting the same. Preserve the moody night atmosphere and bokeh effect.",
+      "notes": "Natural language with preservation clauses for editing mode, 512 token limit"
+    }
+  },
+  "playbook_principles_applied": [
+    "1_hierarchical_specificity: Detailed weather (heavy rain, raindrops clinging to glass), specific lighting (dome light/flash style)",
+    "2_realism_anchors: 'visible raindrops on window', 'city light bokeh through wet window', 'flash photography lighting'",
+    "3_technical_camera: '8k', 'smartphone aesthetic', 'cinematic DOF', 'flash photography'",
+    "4_negative_hygiene: prevents daylight, dry weather, cartoon/anime styles",
+    "5_spatial_consistency: clear position (passenger seat, angled to side, looking at camera)",
+    "6_lighting_storytelling: 'flash against dark rainy exterior' = moody urban intimate mood",
+    "7_environmental_storytelling: rain on window + city bokeh creates specific atmosphere"
+  ]
+}
