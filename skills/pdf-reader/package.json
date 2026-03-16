@@ -1,0 +1,10 @@
+{
+  "name": "pdf-reader-scripts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "pdfjs-dist": "^4.7.76",
+    "pngjs": "^7.0.0"
+  }
+}
