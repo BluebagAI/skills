@@ -1,72 +1,54 @@
 ---
 name: brand-guidelines
-description: Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.
+description: "Apply Anthropic's official brand colors, typography, and visual identity to artifacts such as presentations, documents, HTML pages, and charts. Use when brand colors, style guidelines, visual formatting, company design standards, or Anthropic's look-and-feel need to be applied."
 ---
 
-# Anthropic Brand Styling
+# Anthropic Brand Guidelines
 
-## Overview
+Apply Anthropic's official brand identity to any artifact — presentations, documents, web pages, charts, or other visual content.
 
-To access Anthropic's official brand identity and style resources, use this skill.
+## Brand Palette
 
-**Keywords**: branding, corporate identity, visual identity, post-processing, styling, brand colors, typography, Anthropic brand, visual formatting, visual design
+**Main colors:**
+- Dark `#141413` — primary text and dark backgrounds
+- Light `#faf9f5` — light backgrounds and text on dark
+- Mid Gray `#b0aea5` — secondary elements
+- Light Gray `#e8e6dc` — subtle backgrounds
 
-## Brand Guidelines
+**Accent colors:**
+- Orange `#d97757` — primary accent
+- Blue `#6a9bcc` — secondary accent
+- Green `#788c5d` — tertiary accent
 
-### Colors
+## Typography
 
-**Main Colors:**
+| Role | Font | Fallback |
+|------|------|----------|
+| Headings (24pt+) | Poppins | Arial |
+| Body text | Lora | Georgia |
 
-- Dark: `#141413` - Primary text and dark backgrounds
-- Light: `#faf9f5` - Light backgrounds and text on dark
-- Mid Gray: `#b0aea5` - Secondary elements
-- Light Gray: `#e8e6dc` - Subtle backgrounds
+## Workflow
 
-**Accent Colors:**
+1. **Identify artifact type** — determine what is being styled (presentation, HTML page, document, chart).
+2. **Apply typography** — set headings to Poppins (or Arial fallback) and body text to Lora (or Georgia fallback). Preserve text hierarchy.
+3. **Apply color palette** — set backgrounds, text, and borders using the main colors above. Use accent colors for shapes, highlights, and data visualization (cycling orange → blue → green).
+4. **Validate output:**
+   - Verify text contrast meets readability standards (dark text on light backgrounds, light text on dark backgrounds)
+   - Confirm fonts render correctly; apply fallbacks if custom fonts are unavailable
+   - Check accent colors are used consistently for non-text elements
 
-- Orange: `#d97757` - Primary accent
-- Blue: `#6a9bcc` - Secondary accent
-- Green: `#788c5d` - Tertiary accent
+## Example: HTML Styling
 
-### Typography
-
-- **Headings**: Poppins (with Arial fallback)
-- **Body Text**: Lora (with Georgia fallback)
-- **Note**: Fonts should be pre-installed in your environment for best results
-
-## Features
-
-### Smart Font Application
-
-- Applies Poppins font to headings (24pt and larger)
-- Applies Lora font to body text
-- Automatically falls back to Arial/Georgia if custom fonts unavailable
-- Preserves readability across all systems
-
-### Text Styling
-
-- Headings (24pt+): Poppins font
-- Body text: Lora font
-- Smart color selection based on background
-- Preserves text hierarchy and formatting
-
-### Shape and Accent Colors
-
-- Non-text shapes use accent colors
-- Cycles through orange, blue, and green accents
-- Maintains visual interest while staying on-brand
-
-## Technical Details
-
-### Font Management
-
-- Uses system-installed Poppins and Lora fonts when available
-- Provides automatic fallback to Arial (headings) and Georgia (body)
-- No font installation required - works with existing system fonts
-- For best results, pre-install Poppins and Lora fonts in your environment
-
-### Color Application
-
-- Uses RGB color values for precise brand matching
-- Applied via python-pptx's RGBColor class
-- Maintains color fidelity across different systems
+```css
+:root {
+  --brand-dark: #141413;
+  --brand-light: #faf9f5;
+  --brand-gray: #b0aea5;
+  --brand-light-gray: #e8e6dc;
+  --accent-orange: #d97757;
+  --accent-blue: #6a9bcc;
+  --accent-green: #788c5d;
+}
+h1, h2, h3 { font-family: 'Poppins', Arial, sans-serif; color: var(--brand-dark); }
+body { font-family: 'Lora', Georgia, serif; color: var(--brand-dark); background: var(--brand-light); }
+```
